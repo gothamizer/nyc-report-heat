@@ -1,0 +1,39 @@
+name: Daily NYC Report Heat
+
+on:
+  schedule:
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Refresh report heat data
+        run: uv run nyc-report-heat daily --config config/default.yml
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: nyc-report-heat
+          path: |
+            data/candidates.jsonl
+            outputs/
+            site/data/dashboard.json
+
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Update daily NYC report heat data"
+          file_pattern: "data/candidates.jsonl outputs/*.jsonl outputs/*.csv outputs/*.md site/data/dashboard.json"

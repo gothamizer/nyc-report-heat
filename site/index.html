@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Hot 100 — NYC Government Report Attention Index</title>
+  <meta name="description" content="A countdown of the New York City government reports, rules, and publications drawing the most public attention." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23241307'/%3E%3Crect x='6' y='18' width='4' height='8' fill='%23F4A613'/%3E%3Crect x='12' y='12' width='4' height='14' fill='%23FF5E1A'/%3E%3Crect x='18' y='7' width='4' height='19' fill='%23E81E63'/%3E%3Crect x='24' y='14' width='3' height='12' fill='%23119DA4'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <main class="wrap" id="app">
+    <!-- ───────────────────────── SLIM HEADER ───────────────────────── -->
+    <header class="topbar">
+      <div class="wordmark">
+        <span class="wm-the">The</span><span class="wm-hot">Hot</span><span class="wm-100">100</span>
+      </div>
+      <div class="topbar-meta">
+        <span class="tb-sub">NYC government report attention index</span>
+        <span class="tb-updated"><span class="live-dot" aria-hidden="true"></span>Updated <span id="meta-generated">—</span></span>
+      </div>
+    </header>
+
+    <!-- ───────────────────────── CONTROLS ───────────────────────── -->
+    <section class="controls" aria-label="Filters">
+      <div class="control search">
+        <svg viewBox="0 0 24 24" class="search-icon" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        <input type="search" id="search" placeholder="Search documents, agencies, sources…" autocomplete="off" spellcheck="false" />
+      </div>
+
+      <div class="control-group" role="group" aria-label="Document type">
+        <button class="chip is-active" data-filter="kind" data-value="all">All</button>
+        <button class="chip" data-filter="kind" data-value="report">Reports</button>
+        <button class="chip" data-filter="kind" data-value="rule">Rules</button>
+        <button class="chip" data-filter="kind" data-value="publication">Publications</button>
+      </div>
+
+      <label class="toggle">
+        <input type="checkbox" id="only-heat" />
+        <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+        <span class="toggle-label">With heat only</span>
+      </label>
+
+      <div class="control select-wrap">
+        <label for="source-select" class="select-label">Source</label>
+        <select id="source-select">
+          <option value="all">All sources</option>
+        </select>
+      </div>
+
+      <div class="control select-wrap">
+        <label for="window-select" class="select-label">Window</label>
+        <select id="window-select"></select>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── THE CHART ───────────────────────── -->
+    <section class="board" aria-label="The chart">
+      <div class="board-head">
+        <span class="bh bh-rank">#</span>
+        <span class="bh bh-doc">Document</span>
+        <span class="bh bh-meter">Heat · today / 7d / 30d</span>
+        <span class="bh bh-score">Score</span>
+      </div>
+      <div id="board-list" class="board-list"></div>
+      <div id="board-empty" class="board-empty" hidden>
+        <p>No documents match these filters.</p>
+      </div>
+      <div id="board-status" class="board-status">Loading the chart…</div>
+      <div id="result-count" class="result-count"></div>
+    </section>
+  </main>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-col">
+        <h3 class="footer-title">How heat is scored</h3>
+        <p>
+          A deliberately narrow, objective signal — no topic keywords and no
+          editorial priority. It measures only whether the <em>exact</em>
+          document is being surfaced publicly.
+        </p>
+        <ul class="weights">
+          <li><span class="w">6×</span> exact-URL mentions</li>
+          <li><span class="w">3×</span> canonical-URL variants</li>
+          <li><span class="w">2×</span> filename mentions <em>(capped at 5)</em></li>
+          <li><span class="w">2×</span> social exact mentions</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">Windows</h3>
+        <p>
+          Three rolling windows are recomputed every run —
+          <span class="mono">today</span>, <span class="mono">7d</span>, and
+          <span class="mono">30d</span> — across the whole inventory. A document
+          is never dropped just because it scrolled off a source's recent page.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">Sources</h3>
+        <p id="footer-sources" class="footer-sources">—</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>The Hot 100 · NYC Government Report Attention Index</span>
+      <span id="footer-generated" class="mono">—</span>
+    </div>
+  </footer>
+
+  <!-- ───────────────────────── CHART ROW TEMPLATE ───────────────────────── -->
+  <template id="row-template">
+    <article class="row" tabindex="0" role="button" aria-expanded="false">
+      <div class="row-main">
+        <span class="row-rank">
+          <span class="rank-num"></span>
+          <span class="rank-bullet" aria-hidden="true"></span>
+        </span>
+        <div class="row-doc">
+          <div class="row-tags"></div>
+          <h3 class="row-title"></h3>
+          <div class="row-meta mono"></div>
+        </div>
+        <div class="row-meter"></div>
+        <div class="row-score">
+          <span class="row-score-value mono"></span>
+          <span class="row-score-chevron" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="row-detail" hidden></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

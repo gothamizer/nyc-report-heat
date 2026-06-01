@@ -1,0 +1,22 @@
+per_source: 250
+discovery_lookback_days: 90
+daily_discovery_lookback_days: 14
+windows:
+  - 1
+  - 7
+  - 30
+rank_window: 7d
+request_timeout_seconds: 15
+request_sleep_seconds: 1.0
+max_workers: 2
+providers:
+  - gdelt
+source_ids:
+  - doi
+  - nyc_comptroller
+  - nys_comptroller
+  - ibo
+  - rules_proposed
+  - rules_adopted
+  - gpp
+expanded_gdelt_variants: false
