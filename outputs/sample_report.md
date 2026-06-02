@@ -11,7 +11,7 @@
 - Rank window: 7d
 - Heat score (7d): 30.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 41 news articles referencing the report by title
+- Rationale: 36 news articles referencing the report by title
 
 Evidence:
 - gdelt: 5 of the best London bus routes for sunny day sightseeing
@@ -20,27 +20,87 @@ Evidence:
 - gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | KASH Country 107 . 5
 - gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | 94 . 7 WDSD
 
-## 2. Understanding the Budget: A Guide to the Capital Budget
+## 2. Amendment of Rules Relating to Vital Records
+
+- Source: NYC Rules - Adopted
+- Agency: DOHMH
+- Date: 2026-06-26
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-vital-records
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 30.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 42 news articles referencing the report by title
+
+Evidence:
+- gdelt: Lawmakers pass bill to shield abortion information from digital medical records
+- gdelt: Belinda Valentine : Grandmother shares vital child safety warning | Merimbula News Weekly
+- gdelt: Belinda Valentine : Grandmother shares vital child safety warning | Namoi Valley Independent
+- gdelt: Belinda Valentine : Grandmother shares vital child safety warning | Bendigo Advertiser
+- gdelt: Belinda Valentine : Grandmother shares vital child safety warning | The Inverell Times
+
+## 3. Amendment to Rules relating to Flood Hazard Areas
+
+- Source: NYC Rules - Adopted
+- Agency: DOB
+- Date: 2026-03-21
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/amendment-to-rules-relating-to-flood-hazard-areas
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 30.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 30 news articles referencing the report by title
+
+Evidence:
+- gdelt: The Most Effective Flood Protection Upgrades for Any Home Type
+- gdelt: Federal flood insurance carries two moral hazards – which you face depends on how wealthy you are
+- gdelt: Federal Flood Insurance Two Moral Hazards
+- gdelt: Hurricane season is here : Federal flood insurance carries 2 moral hazards – which you face depends largely on how wealthy you are
+- gdelt: Where the Motueka River floods and the towns in harm way
+
+## 4. About Those Services You Prioritized
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
 - Date: unknown
-- Format: pdf
-- URL: https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf
-- Document URL: https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf
+- Format: html
+- URL: https://ibo.nyc.ny.us/cgi-park?p=42
+- Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 21.0
+- Heat score (7d): 23.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 21 news articles referencing the report by title
+- Rationale: 23 news articles referencing the report by title
 
 Evidence:
-- gdelt: New book by former Finance Secretary explains , analyses Union Budget 2026 - 27 for people of India , investors , media and policymakers
-- gdelt: New book by former Finance Secretary explains , analyses Union Budget 2026 - 27 for people of India , investors , media and policymakers
-- gdelt: New book by former Finance Secretary explains , analyses Union Budget 2026 - 27 for people of India , investors , media and policymakers
-- gdelt: New book by former Finance Secretary explains , analyses Union Budget 2026 - 27 for people of India , investors , media and policymakers
-- gdelt: New book by former Finance Secretary explains , analyses Union Budget 2026 - 27 for people of India , investors , media and policymakers
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
 
-## 3. Personal Injury Insurance Coverage
+## 5. Analysis of the 2025 Executive Budget and Financial Plan by the Independent Budget Office
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: 2024-05-15
+- Format: html
+- URL: https://ibo.nyc.ny.us/iboreports/executive-budget-may-2024.html
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 19.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 19 news articles referencing the report by title
+
+Evidence:
+- gdelt: UPSC Key - 1st June 2026 : Dust storms , Financialisation and Scheduled tribe status
+- gdelt: The glaring problems with Labor dreadful , appalling , terrible 2026 Budget
+- gdelt: Mayor budget needs more balance and customer service focus
+- gdelt: Mayor budget needs more balance and customer service focus
+- gdelt: Companies join a deep - sea mining rush after Trump executive order
+
+## 6. Personal Injury Insurance Coverage
 
 - Source: NYC Rules - Adopted
 - Agency: TLC
@@ -49,38 +109,58 @@ Evidence:
 - URL: https://rules.cityofnewyork.us/rule/personal-injury-insurance-coverage
 - Document URL: n/a
 - Rank window: 7d
+- Heat score (7d): 18.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 18 news articles referencing the report by title
+
+Evidence:
+- gdelt: What Compensation Can You Claim After an Injury in Hamilton
+- gdelt: The upcoming World Cup and injury risk | Kennedys
+- gdelt: Non - Attorney Repped Bodily Injury Adjuster at Allstate / Insurance Journal Jobs
+- gdelt: Tesla top rival launches self - driving with full crash coverage at a fraction of the cost
+- gdelt: BYD offers smart driving with full liability coverage at one - fifth the cost of Tesla FSD
+
+## 7. Testimony of Louisa Chafee, Director, New York City Independent Budget Office on IBO’s Analysis of the January 2025 Financial Plan for 2025-2029"
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: 2025-03-05
+- Format: pdf
+- URL: https://www.ibo.nyc.ny.us/iboreports/ibo-preliminary-budget-testimony-march-2025.pdf
+- Document URL: https://www.ibo.nyc.ny.us/iboreports/ibo-preliminary-budget-testimony-march-2025.pdf
+- Rank window: 7d
 - Heat score (7d): 16.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
 - Rationale: 16 news articles referencing the report by title
 
 Evidence:
-- gdelt: Non - Attorney Repped Bodily Injury Adjuster at Allstate / Insurance Journal Jobs
-- gdelt: Tesla top rival launches self - driving with full crash coverage at a fraction of the cost
-- gdelt: BYD offers smart driving with full liability coverage at one - fifth the cost of Tesla FSD
-- gdelt: Why Travel Insurance Is Essential Even for Short International Trips
-- gdelt: Do You Really Need Event Insurance ? 
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
 
-## 4. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department?
+## 8. Current State of Rent Stabilized Housing
 
-- Source: NYC Independent Budget Office
+- Source: NYC Government Publications Portal
 - Agency: n/a
-- Date: 2020-08-18
+- Date: 2026-05-20
 - Format: html
-- URL: https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/3t945x34h?locale=en
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 15.0
+- Heat score (7d): 16.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 15 news articles referencing the report by title
+- Rationale: 16 news articles referencing the report by title
 
 Evidence:
-- gdelt: Illinois $55B budget deal draws closer as Bears stadium talks slow
-- gdelt: Around the horn with Ruais : Mayor offers updates on budget talks
-- gdelt: Auckland . Scoop » Minister Of Finance Budget 2026 Speech
-- gdelt: Minister Of Finance Budget 2026 Speech
-- gdelt:   It is time that we quit eating steak on a bologna budget : Clarksville council on budget , tax hike
+- gdelt: Landlords , Tenant Groups Push Mamdani on Housing Vouchers
+- gdelt: Cómo cobrar el dividendo del valor más rentable de la Bolsa española
+- gdelt: The Red Apple : Mamdani Announces Possible Transfer of Housing to Tenants
+- gdelt: NYC landlord pleads for help as  9 - year - squatter  nightmare costs him hundreds of thousands in unpaid rent , fees
+- gdelt: The Red Apple : Mamdani Announces Possible Transfer of Housing to Tenants
 
-## 5. Review of the Financial Plan of the City of New York, March 2026
+## 9. Review of the Financial Plan of the City of New York, March 2026
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -94,13 +174,13 @@ Evidence:
 - Rationale: 14 news articles referencing the report by title
 
 Evidence:
-- gdelt: SKYLINE Announces Q1 2026 Financial Results
-- gdelt: Yalla ( YALA ) Q1 2026 Earnings Call Transcript
-- gdelt: Financial Literacy in America Has Declined to Its Lowest Level in a Decade , New TIAA Institute - GFLEC Report Finds
-- gdelt: Financial Literacy in America Has Declined to Its Lowest Level in a Decade , New TIAA Institute - GFLEC Report Finds
-- gdelt: Kenon Holdings Reports Q1 2026 Results and Additional Updates
+- gdelt: BUT demands clear plan on education reform
+- gdelt: KB ( KB ) Q1 2026 Earnings Call Transcript
+- gdelt: Polar Power Highlights Sharply Improved First Quarter 2026 Performance and Recent Operational Progress
+- gdelt: Renewable Tuesday : An Action Plan on AI
+- gdelt: Northern Graphite Corporation : Northern Graphite Announces First Quarter 2026 Results and Provides Corporate Update
 
-## 6. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
+## 10. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -109,9 +189,9 @@ Evidence:
 - URL: https://ibo.nyc.ny.us/iboreports/executive-budget-testimony-may-2024.pdf
 - Document URL: https://ibo.nyc.ny.us/iboreports/executive-budget-testimony-may-2024.pdf
 - Rank window: 7d
-- Heat score (7d): 14.0
+- Heat score (7d): 13.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
+- Rationale: 13 news articles referencing the report by title
 
 Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
@@ -120,87 +200,27 @@ Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 
-## 7. The City Record, May 21, 2026
-
-- Source: NYC Government Publications Portal
-- Agency: n/a
-- Date: 2026-05-21
-- Format: html
-- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 14.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
-
-Evidence:
-- gdelt: Ani ( ANIP ) Q1 2026 Earnings Call Transcript
-- gdelt: Southeast Real Estate Awards Presented May 7 in Greenville - Greenville Business Magazine
-- gdelt: It a hot one ! May heatwave sees England and Wales have their warmest spring on record
-- gdelt: Century Pacific Food , Inc . to hold 2026 Annual Stockholder Meeting on June 30
-- gdelt: 2026 class of LA priests ready to  go to work  after ordination
-
-## 8. The City Record, May 20, 2026
-
-- Source: NYC Government Publications Portal
-- Agency: n/a
-- Date: 2026-05-20
-- Format: html
-- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 14.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
-
-Evidence:
-- gdelt: Ani ( ANIP ) Q1 2026 Earnings Call Transcript
-- gdelt: Southeast Real Estate Awards Presented May 7 in Greenville - Greenville Business Magazine
-- gdelt: It a hot one ! May heatwave sees England and Wales have their warmest spring on record
-- gdelt: Century Pacific Food , Inc . to hold 2026 Annual Stockholder Meeting on June 30
-- gdelt: 2026 class of LA priests ready to  go to work  after ordination
-
-## 9. Back to Work Program Spending and Performance
+## 11. How Have City Costs for Homeless Shelters Changed With Shifts in State and Federal Support?
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.ibo.nyc.ny.us/iboreports/backtowork42309.pdf
-- Document URL: https://www.ibo.nyc.ny.us/iboreports/backtowork42309.pdf
-- Rank window: 7d
-- Heat score (7d): 14.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
-
-Evidence:
-- gdelt: WATCH : Experts Say Increased Spending Doesnt Mean Better Students – Arizona Daily Independent
-- gdelt: WATCH : Experts say increased spending doesnt mean better students
-- gdelt: WATCH : Experts say increased spending doesnt mean better students
-- gdelt: WATCH : Experts say increased spending doesnt mean better students
-- gdelt: WATCH : Experts say increased spending doesnt mean better students
-
-## 10. Annual Report on Local Governments for Fiscal Year End 2024
-
-- Source: NYS Comptroller
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.osc.ny.gov/files/local-government/publications/pdf/fye2024-annualreport.pdf
-- Document URL: https://www.osc.ny.gov/files/local-government/publications/pdf/fye2024-annualreport.pdf
+- Date: 2023-03-10
+- Format: html
+- URL: https://www.ibo.nyc.ny.us/iboreports/how-have-city-costs-changed-with-shifts-in-state-and-federal-support-for-homeless-shelters-march-2023.html
+- Document URL: n/a
 - Rank window: 7d
 - Heat score (7d): 13.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
 - Rationale: 13 news articles referencing the report by title
 
 Evidence:
-- gdelt: Haddad defende a  taxa das blusinha mesmo após recuo de Lula :  Eu não mudei de opinião  
-- gdelt: Haddad defende a  taxa das blusinha mesmo após recuo de Lula :  Eu não mudei de opinião  
-- gdelt: Ahmed Aliyu smart development agenda - The Nation Newspaper
-- gdelt: African Liberation Day 2026 :  Haiti and Cuba : Defending African Peoples and African Unity Against Imperialism  
-- gdelt: Three Years After : A Critical Evaluation of Tinubu Economic Reforms
+- gdelt: Homelessness is down across the country , says new federal report - Las Vegas Sun News
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
 
-## 11. Another Hole in the Budget Plan
+## 12. Another Hole in the Budget Plan
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -219,26 +239,6 @@ Evidence:
 - gdelt: More SAPD officers but with what money ? Council members want more cops amid budget crunch
 - gdelt: Quick take : New York state budget winners and losers
 - gdelt: Montana hurries to adopt Trump Medicaid Work Rules amid budget woes
-
-## 12. Investigation Concerning New York City Police Department Security Details for City Elected Officials
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-01-08
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/01SecurityDetailRpt.Release01.08.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/01SecurityDetailRpt.Release01.08.2025.pdf
-- Rank window: 7d
-- Heat score (7d): 12.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 12 news articles referencing the report by title
-
-Evidence:
-- gdelt: Newark mayor enacts curfew around Delaney Hall after clashes between protesters and police
-- gdelt: Bulletproof vests , security cameras , guns : The ways women in elected office protect themselves from abuse
-- gdelt: Bulletproof vests , security cameras , guns : The ways women in elected office protect themselves from abuse
-- gdelt: Police investigating  active shooter  report at Islamic Center of San Diego
-- gdelt: Police investigating  active shooter  report at Islamic Center of San Diego
 
 ## 13. The Independent Budget Office’s Estimates for City Expenditures for The January 2025 Financial Plan
 
@@ -260,7 +260,107 @@ Evidence:
 - gdelt: INTEGRA REPORTS FIRST QUARTER 2026 RESULTS ; RECORD TOTAL TONNES MINED , AND STRENGTHENED FINANCIAL POSITION
 - gdelt: INTEGRA REPORTS FIRST QUARTER 2026 RESULTS ; RECORD TOTAL TONNES MINED , AND STRENGTHENED FINANCIAL POSITION
 
-## 14. Fire Safety and Prevention in Public Housing
+## 14. Emergency Food Assistance Program
+
+- Source: NYC Rules - Proposed
+- Agency: HRA
+- Date: 2022-08-12
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/emergency-food-assistance-program
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 12.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 12 news articles referencing the report by title
+
+Evidence:
+- gdelt: Barr Refrigeration : Expands national  Coolers for a Cause  Program to support nonprofits , schools , government agencies , and civic organizations
+- gdelt: Barr Refrigeration Expands National  Coolers for a Cause  Program to Support Nonprofits , Schools , Government Agencies , and Civic Organizations
+- gdelt: UN food agency supports Congo Ebola response with cooked food
+- gdelt: Community , health programs face cuts in proposed budget | San Francisco News
+- gdelt: Intendencia de Tacuarembó iniciará hoy una nueva edición del programa  Plato caliente  – Diario NORTE
+
+## 15. The City Record, May 22, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-22
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 12.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 12 news articles referencing the report by title
+
+Evidence:
+- gdelt: Israel weapons exports reach a record high with sales
+- gdelt: Chery Group May Sales Rise Over 20 % 
+- gdelt: SUBARU OF AMERICA REPORTS MAY 2026 SALES UP 10 . 4 PERCENT
+- gdelt: May NEV Sales in China : One Clear Leader Emerges Among Startups as Chinese Brands Gain Momentum
+- gdelt: Inside Finance Bill 2026 : New tax proposals , exemptions , and the truth and myths
+
+## 16. The City Record, May 21, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-21
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 12.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 12 news articles referencing the report by title
+
+Evidence:
+- gdelt: Israel weapons exports reach a record high with sales
+- gdelt: Chery Group May Sales Rise Over 20 % 
+- gdelt: SUBARU OF AMERICA REPORTS MAY 2026 SALES UP 10 . 4 PERCENT
+- gdelt: May NEV Sales in China : One Clear Leader Emerges Among Startups as Chinese Brands Gain Momentum
+- gdelt: Inside Finance Bill 2026 : New tax proposals , exemptions , and the truth and myths
+
+## 17. The City Record, May 20, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-20
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 12.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 12 news articles referencing the report by title
+
+Evidence:
+- gdelt: Israel weapons exports reach a record high with sales
+- gdelt: Chery Group May Sales Rise Over 20 % 
+- gdelt: SUBARU OF AMERICA REPORTS MAY 2026 SALES UP 10 . 4 PERCENT
+- gdelt: May NEV Sales in China : One Clear Leader Emerges Among Startups as Chinese Brands Gain Momentum
+- gdelt: Inside Finance Bill 2026 : New tax proposals , exemptions , and the truth and myths
+
+## 18. Summary of the New York City Financial Plan
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.ibo.nyc.ny.us/iboreports/financialplansummary.pdf
+- Document URL: https://www.ibo.nyc.ny.us/iboreports/financialplansummary.pdf
+- Rank window: 7d
+- Heat score (7d): 12.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 12 news articles referencing the report by title
+
+Evidence:
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Harvey Colchado sobre nuevo plan de gobierno de Juntos Por el Perú :  Son herramientas para devolverle seguridad al Perú  | hnews | Política
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+- gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
+
+## 19. Fire Safety and Prevention in Public Housing
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -274,13 +374,13 @@ Evidence:
 - Rationale: 11 news articles referencing the report by title
 
 Evidence:
+- gdelt: THIS WEEK IN SUPES : Flock Safety Automated License Plate - Reading Cameras Are Back on the Agenda , Amid Surge in Opposition to Surveillance Technology | Lost Coast Outpost
 - gdelt: LA County Board of Supervisor District 3 race issues : Board reform , homeless , fire response – San Gabriel Valley Tribune
 - gdelt: LA County Board of Supervisor District 3 race issues : Board reform , homeless , fire response – Pasadena Star News
 - gdelt: LA County Board of Supervisor District 3 race issues : Board reform , homeless , fire response – Daily Breeze
 - gdelt: LA County Board of Supervisor District 3 race issues : Board reform , homeless , fire response – Daily News
-- gdelt: Anchorage police say public safety efforts have led to hundreds of shoplifting charges
 
-## 15. New York City Government Services: Services for the Unsheltered
+## 20. New York City Government Services: Services for the Unsheltered
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -299,103 +399,3 @@ Evidence:
 - gdelt: Charlotte - Mecklenburg Homelessness Count Reveals 12 % Increase in Unsheltered Individuals
 - gdelt: Charlotte - Mecklenburg Homelessness Count Reveals 12 % Increase in Unsheltered Individuals
 - gdelt: State and local governments gave failed Californians on homelessness funding
-
-## 16. Testimony to the New York City Council on the Mayor's Executive Budget for Fiscal Year 2023
-
-- Source: NYC Independent Budget Office
-- Agency: n/a
-- Date: 2022-05-24
-- Format: pdf
-- URL: https://ibo.nyc.ny.us/iboreports/executive-budget-testimony-may-2022.pdf
-- Document URL: https://ibo.nyc.ny.us/iboreports/executive-budget-testimony-may-2022.pdf
-- Rank window: 7d
-- Heat score (7d): 11.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 11 news articles referencing the report by title
-
-Evidence:
-- gdelt: Incumbent Councilman Challenged in Torrance Election
-- gdelt: Hastings County council supports Campbellford hospital redevelopment
-- gdelt: Hastings County council supports Campbellford hospital redevelopment | Cornwall Standard - Freeholder
-- gdelt: Hastings County council supports Campbellford hospital redevelopment
-- gdelt: Hastings County council supports Campbellford hospital redevelopment
-
-## 17. Mental Health and Health Care Standards in NYC Correctional Facilities
-
-- Source: NYC Rules - Proposed
-- Agency: BOC
-- Date: 2026-02-10
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/mental-health-and-health-care-standards-in-nyc-correctional-facilities
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 11.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 11 news articles referencing the report by title
-
-Evidence:
-- gdelt: Deportations Led to Overcrowding , Strained Resources at ICE Facilities
-- gdelt: Deportation campaign led to overcrowding , strained resources at California ICE facilities , report says
-- gdelt: Deportation campaign led to overcrowding , strained resources at California ICE facilities , report says
-- gdelt: Mississippi jail administrators form association to improve detention facilities
-- gdelt: Deportation campaign led to overcrowding , strained resources at California ICE facilities , report says
-
-## 18. Car Wash Records
-
-- Source: NYC Rules - Adopted
-- Agency: DCWP
-- Date: 2026-04-04
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/car-wash-records
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 11.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 11 news articles referencing the report by title
-
-Evidence:
-- gdelt: Neta de Carlos Alberto de Nóbrega faz festa após encerrar sessões de quimioterapia
-- gdelt: Pastor morre ao cair de moto após desviar de carro na contramão no ES
-- gdelt: Homem é morto a tiros dentro de carro e pedestre é baleado em ataque
-- gdelt: PF retoma negociao de delao com Daniel Vorcaro
-- gdelt: Benefits fraud investigators to turn to spy camera cars
-
-## 19. How Much Did He Say in Pension Savings?
-
-- Source: NYC Independent Budget Office
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://ibo.nyc.ny.us/cgi-park?p=39
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 11.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 11 news articles referencing the report by title
-
-Evidence:
-- gdelt: DWP confirms extra £44 a month for state pensioners - but it means - tested
-- gdelt: WATCH : Larry Fink Demands Access to American Savings , Pension Funds to Bankroll AI< !-- -- >
-- gdelt: NPS Vatsalya explained : Who can open it , how returns work and what you get on taxes
-- gdelt: Resistance Meets Reaction , Pope , Pension Funds , Data Centers Edition
-- gdelt: How much does Auckland earn ? - Lifestyle News
-
-## 20. DOE Needs Additional City Funding to Continue Programs Funded with Covid Aid, For Carter Cases, & More
-
-- Source: NYC Independent Budget Office
-- Agency: n/a
-- Date: 2023-03-15
-- Format: html
-- URL: https://www.ibo.nyc.ny.us/iboreports/doe-needs-additional-city-funding-to-continue-programs-funded-with-covid-aid-for-carter-cases-and-more-slide-march-2023.html
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 10.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 10 news articles referencing the report by title
-
-Evidence:
-- gdelt: MSAD 58 board signals support for a two ‑ campus model as consolidation discussions continue
-- gdelt: Northampton City Council hears concerns over unfunded school positions
-- gdelt: Province suddenly slashes funding to rural women shelters
-- gdelt: NOVA MINERALS LIMITED : Nova Commences Fully Funded 2026 Estelle Exploration and Project Development Programs
-- gdelt: How FIU is becoming a taxpayer - funded base for the Latin American right
