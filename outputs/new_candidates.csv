@@ -1,2 +1,5 @@
 source_name,kind,agency,title,published_date,url,document_url,format,source_page
-NYS Comptroller,report,,MWBE Report 2025-2026 Fiscal Year,,https://www.osc.ny.gov/files/reports/special-topics/pdf/mwbe-fiscal-2025-26.pdf,https://www.osc.ny.gov/files/reports/special-topics/pdf/mwbe-fiscal-2025-26.pdf,pdf,https://www.osc.ny.gov/reports
+NYC Comptroller,report,,New York City Cash Balance Projection,2026-06-01,https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-12026,,html,https://comptroller.nyc.gov/reports/
+NYC Comptroller,report,,A Framework for Structural NYPD Overtime Reform,2026-06-05,https://comptroller.nyc.gov/reports/a-framework-for-structural-nypd-overtime-reform,,html,https://comptroller.nyc.gov/reports/
+NYC Comptroller,report,,New York City Quarterly Cash Report,2026-06-05,https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report,,html,https://comptroller.nyc.gov/reports/
+NYC Rules - Proposed,rule,DOF,Rule Relating to Surcharge on Certain Non-Primary Residences,2026-07-09,https://rules.cityofnewyork.us/rule/rule-relating-to-surcharge-on-certain-non-primary-residences,,html,https://rules.cityofnewyork.us/proposed-rules/
