@@ -20,7 +20,27 @@ Evidence:
 - gdelt: Federal Budget : Investors eye regional yields over tax breaks | Glen Innes Examiner
 - gdelt: Federal Budget : Investors eye regional yields over tax breaks | Wellington Times
 
-## 2. Sightseeing Buses
+## 2. Performance of Industrial Development Agencies in New York State – 2026 Annual Report
+
+- Source: NYS Comptroller
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
+- Document URL: https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
+- Rank window: 7d
+- Heat score (7d): 27.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 27 news articles referencing the report by title
+
+Evidence:
+- gdelt: PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
+- gdelt: AM Edition : Top 10 Politics Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
+- gdelt: Orca Energy Group Inc . Announces Completion of Q1 2026 Interim Filings
+- gdelt: PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 6 , 2026 – Full Text – LiveNews . co . nz
+- gdelt: Statement on the Cabinet meeting of Wednesday , 3 June 2026 | Government Communication and Information System ( GCIS ) 
+
+## 3. Sightseeing Buses
 
 - Source: NYC Rules - Proposed
 - Agency: DCWP
@@ -29,9 +49,9 @@ Evidence:
 - URL: https://rules.cityofnewyork.us/rule/sightseeing-buses
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 28.0
+- Heat score (7d): 26.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 28 news articles referencing the report by title
+- Rationale: 26 news articles referencing the report by title
 
 Evidence:
 - gdelt: Hamleys has launched its own London sightseeing bus tour
@@ -40,7 +60,7 @@ Evidence:
 - gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | 92 . 5 WPAP
 - gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | KASH Country 107 . 5
 
-## 3. Two Paramedics on an Ambulance—Only in New York
+## 4. Two Paramedics on an Ambulance—Only in New York
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -60,47 +80,7 @@ Evidence:
 - gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
 - gdelt: Groom - to - be left in coma after horror 20ft fall two hours into Lanzarote stag do
 
-## 4. Back to Work Program Spending and Performance
-
-- Source: NYC Independent Budget Office
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.ibo.nyc.ny.us/iboreports/backtowork42309.pdf
-- Document URL: https://www.ibo.nyc.ny.us/iboreports/backtowork42309.pdf
-- Rank window: 7d
-- Heat score (7d): 25.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 25 news articles referencing the report by title
-
-Evidence:
-- gdelt: What Are Company Loyalty Schemes and How Do They Work ? 
-- gdelt: Wife , 52 , Says Husband Told Her It Would Be  Wrong  To Retire Before Him , Even After 30 Years  If He Still Has to Work … I Should Still Have To Work  
-- gdelt: Trump strips job protections from 8 , 000 federal workers
-- gdelt: Trump strips job protections from 8 , 000 federal workers
-- gdelt: Trump strips job protections from 8 , 000 federal workers
-
-## 5. Performance of Industrial Development Agencies in New York State – 2026 Annual Report
-
-- Source: NYS Comptroller
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
-- Document URL: https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
-- Rank window: 7d
-- Heat score (7d): 25.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 25 news articles referencing the report by title
-
-Evidence:
-- gdelt: Orca Energy Group Inc . Announces Completion of Q1 2026 Interim Filings
-- gdelt: PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 6 , 2026 – Full Text – LiveNews . co . nz
-- gdelt: Statement on the Cabinet meeting of Wednesday , 3 June 2026 | Government Communication and Information System ( GCIS ) 
-- gdelt: Inogen Alliance : Global EHS Regulatory Updates : Q2 2026 Compliance Trends to Watch
-- gdelt: Emerging Indian Changemakers and Entrepreneurs Making an Impact in 2026
-
-## 6. Amendment to Rules relating to Flood Hazard Areas
+## 5. Amendment to Rules relating to Flood Hazard Areas
 
 - Source: NYC Rules - Adopted
 - Agency: DOB
@@ -120,25 +100,45 @@ Evidence:
 - gdelt: Flash flood warning for Fremont , Montgomery , Page counties until 9 : 30 p . m . 
 - gdelt: New Jersey Delays Flood Construction Rules by One Year for Public Review
 
-## 7. About Those Services You Prioritized
+## 6. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department?
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
-- Date: unknown
+- Date: 2020-08-18
 - Format: html
-- URL: https://ibo.nyc.ny.us/cgi-park?p=42
+- URL: https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 23.0
+- Heat score (7d): 22.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 23 news articles referencing the report by title
+- Rationale: 22 news articles referencing the report by title
 
 Evidence:
-- gdelt: These Common US Driving Habits Could Get You A Ticket In Europe
-- gdelt: How the government spends your tax dollars to manipulate votes
-- gdelt: How the government spends your tax dollars to manipulate votes
-- gdelt: How the government spends your tax dollars to manipulate votes
-- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: San Diego is wrapping up a uniquely tough budget season . What will it cut , and what will it save ? 
+- gdelt: National City adopts $89 . 1M budget , shrinks deficit amid ongoing reserve concerns
+- gdelt: Layoffs hit Massachusetts cities and towns in tough budget year
+- gdelt: Public safety takes center stage in Northampton budget hearings
+- gdelt: 5 takeaways from Pittsfield proposed $16 . 4 million police budget
+
+## 7. Review of the Financial Plan of the City of New York, March 2026
+
+- Source: NYS Comptroller
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
+- Document URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
+- Rank window: 7d
+- Heat score (7d): 21.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 21 news articles referencing the report by title
+
+Evidence:
+- gdelt: Longboat Key & Sarasota Letters to the Editor week of June 5 , 2026
+- gdelt: AM Edition : Top 10 Politics Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
+- gdelt: Chain restaurants are closing hundreds of locations across the US in 2026 . See the list . 
+- gdelt: Australia - New Zealand Leader Meeting 2026
+- gdelt: Key birthdates confirmed as 2026 state pension age change  underway  | Personal Finance | Finance
 
 ## 8. Current State of Rent Stabilized Housing
 
@@ -149,9 +149,9 @@ Evidence:
 - URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/3t945x34h?locale=en
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 22.0
+- Heat score (7d): 21.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 22 news articles referencing the report by title
+- Rationale: 21 news articles referencing the report by title
 
 Evidence:
 - gdelt: A New York rent freeze is imminent . Bondholders still expect to be paid . 
@@ -180,47 +180,27 @@ Evidence:
 - gdelt: Manufacturing as the Engine of Inclusive Growth : Why Zimbabwe Economic Future Depends on Industrial Revival - The Zimbabwe Mail Manufacturing as the Engine of Inclusive Growth : Why Zimbabwe Economic Future Depends on Industrial Revival | Zimbabwe N...
 - gdelt: NEC focused on identifying growth drivers for each Northeastern state : Nagaland CM
 
-## 10. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department?
+## 10. State Parks a Growing Attraction
 
-- Source: NYC Independent Budget Office
+- Source: NYS Comptroller
 - Agency: n/a
-- Date: 2020-08-18
+- Date: unknown
 - Format: html
-- URL: https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
+- URL: https://www.osc.ny.gov/reports/state-parks-growing-attraction
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 20.0
+- Heat score (7d): 16.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 20 news articles referencing the report by title
+- Rationale: 16 news articles referencing the report by title
 
 Evidence:
-- gdelt: Layoffs hit Massachusetts cities and towns in tough budget year
-- gdelt: Public safety takes center stage in Northampton budget hearings
-- gdelt: 5 takeaways from Pittsfield proposed $16 . 4 million police budget
-- gdelt: Boston weighs $3M budget cut for police , transferring funds to equity programs
-- gdelt: Vassalboro voters consider cutting lone police officer , pass $4 . 3M budget
+- gdelt: Summer Adventures Await At Illinoi Thrilling Water Parks
+- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
+- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
+- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
+- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
 
-## 11. Personal Injury Insurance Coverage
-
-- Source: NYC Rules - Adopted
-- Agency: TLC
-- Date: 2026-03-01
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/personal-injury-insurance-coverage
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 19.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 19 news articles referencing the report by title
-
-Evidence:
-- gdelt: 10 Facts Most People Dont Know About Filing a Personal Injury Claim in Florida | Searcy Denney Scarola Barnhart & Shipley
-- gdelt: Ontario auto insurance changes coming July 1 , experts say savings are modest
-- gdelt: The Caterer , the Florist , the Photographer Travelers Says Vendor Failure Is the Biggest Wedding Disaster Nobody Talks About » Live Insurance News
-- gdelt: Wisconsin Court of Appeals Addresses Potential Gap in Coverage for Delivery Driver | Robinson & Cole LLP
-- gdelt: What to know about auto insurance changes in Ontario and Alberta
-
-## 12. Business Corporation Tax Implementation Rules
+## 11. Business Corporation Tax Implementation Rules
 
 - Source: NYC Rules - Proposed
 - Agency: DOF
@@ -234,11 +214,31 @@ Evidence:
 - Rationale: 16 news articles referencing the report by title
 
 Evidence:
-- gdelt: Central Asia visit drives multi - sector collaboration , Business delegation signed 66 MoUs and agreements to seize Belt and Road opportunities – IT Business Net
-- gdelt: Nuance Investments LLC Cuts Position in Kimberly - Clark Corporation $KMB
-- gdelt: Bloom Energy Corporation $BE Stake Trimmed by Trivest Advisors Ltd
-- gdelt: Norges Bank Takes Position in Scholar Rock Holding Corporation $SRRK
-- gdelt: Fjarde AP Fonden Fourth Swedish National Pension Fund Sells 4 , 560 Shares of McKesson Corporation $MCK
+- gdelt: Central Asia visit drives multi - sector collaboration , Business delegation signed 66 MoUs and agreements to seize Belt and Road opportunities
+- gdelt: Tax - break trees : how woodland became a store of wealth for the rich
+- gdelt: The Augusta Rule : How a Small Business Owner Pays Herself $20 , 000 of Tax - Free Income for Renting Her Own Home to Her Company
+- gdelt: Gary Franks : AI replacing workers gives government less tax revenue
+- gdelt: Central Asia visit drives multi - sector collaboration , Business delegation signed 66 MoUs and agreements to seize Belt and Road opportunities
+
+## 12. Emergency Food Assistance Program
+
+- Source: NYC Rules - Proposed
+- Agency: HRA
+- Date: 2022-08-12
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/emergency-food-assistance-program
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 15.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 15 news articles referencing the report by title
+
+Evidence:
+- gdelt: New Mexico is choosing abundance in food policy
+- gdelt: Rental assistance limited as families struggle to afford rent in Palm Beach County
+- gdelt:   A lifeline : DDSB launches summer nutrition program
+- gdelt: Drive - thru food pantries scheduled across the Thumb in June
+- gdelt: Cass County resource fair features housing , legal and domestic violence assistance
 
 ## 13. Testimony of Louisa Chafee, Director, New York City Independent Budget Office on IBO’s Analysis of the January 2025 Financial Plan for 2025-2029"
 
@@ -249,9 +249,9 @@ Evidence:
 - URL: https://www.ibo.nyc.ny.us/iboreports/ibo-preliminary-budget-testimony-march-2025.pdf
 - Document URL: https://www.ibo.nyc.ny.us/iboreports/ibo-preliminary-budget-testimony-march-2025.pdf
 - Rank window: 7d
-- Heat score (7d): 15.0
+- Heat score (7d): 14.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 15 news articles referencing the report by title
+- Rationale: 14 news articles referencing the report by title
 
 Evidence:
 - gdelt: Worldwide Healthcare Trust PLC - Annual Financial Report
@@ -260,67 +260,7 @@ Evidence:
 - gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
 - gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
 
-## 14. State Parks a Growing Attraction
-
-- Source: NYS Comptroller
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://www.osc.ny.gov/reports/state-parks-growing-attraction
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 14.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
-
-Evidence:
-- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
-- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
-- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
-- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
-- gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
-
-## 15. Emergency Food Assistance Program
-
-- Source: NYC Rules - Proposed
-- Agency: HRA
-- Date: 2022-08-12
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/emergency-food-assistance-program
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 14.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 14 news articles referencing the report by title
-
-Evidence:
-- gdelt: Rental assistance limited as families struggle to afford rent in Palm Beach County
-- gdelt:   A lifeline : DDSB launches summer nutrition program
-- gdelt: Drive - thru food pantries scheduled across the Thumb in June
-- gdelt: Cass County resource fair features housing , legal and domestic violence assistance
-- gdelt: Food programs
-
-## 16. How Have City Costs for Homeless Shelters Changed With Shifts in State and Federal Support?
-
-- Source: NYC Independent Budget Office
-- Agency: n/a
-- Date: 2023-03-10
-- Format: html
-- URL: https://www.ibo.nyc.ny.us/iboreports/how-have-city-costs-changed-with-shifts-in-state-and-federal-support-for-homeless-shelters-march-2023.html
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 13.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 13 news articles referencing the report by title
-
-Evidence:
-- gdelt: Homelessness is down across the country , says new federal report - Las Vegas Sun News
-- gdelt: Homelessness is down in California and across the country , says new federal report
-- gdelt: Homelessness is down in California and across the country , says new federal report
-- gdelt: Homelessness is down in California and across the country , says new federal report
-- gdelt: Homelessness is down in California and across the country , says new federal report
-
-## 17. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
+## 14. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -340,27 +280,7 @@ Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 
-## 18. Minimum Pay for Food Delivery Workers
-
-- Source: NYC Rules - Proposed
-- Agency: DCWP
-- Date: 2022-12-16
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/minimum-pay-for-food-delivery-workers
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 12.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 12 news articles referencing the report by title
-
-Evidence:
-- gdelt: China Tightens Control Over 84 Million Gig Workers Over Rebellion Fears
-- gdelt: B . C . minimum wage rises to $18 . 25 an hour
-- gdelt: UN labour agency starts final talks on employment standards for gig workers
-- gdelt: Federal Workers Reject Proposed N100 , 000 Minimum Wage , Threaten Nationwide Action - Ben Television | Breaking
-- gdelt: Glovo Italian Arm To Pay Workers 40 % More In Deal With Prosecutors
-
-## 19. New York City Government Services: Services for the Unsheltered
+## 15. New York City Government Services: Services for the Unsheltered
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -380,7 +300,27 @@ Evidence:
 - gdelt: Charlotte - Mecklenburg Homelessness Count Reveals 12 % Increase in Unsheltered Individuals
 - gdelt: State and local governments gave failed Californians on homelessness funding
 
-## 20. Testimony to the New York City Council on the Mayor's Executive Budget for Fiscal Year 2023
+## 16. DOE Needs Additional City Funding to Continue Programs Funded with Covid Aid, For Carter Cases, & More
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: 2023-03-15
+- Format: html
+- URL: https://www.ibo.nyc.ny.us/iboreports/doe-needs-additional-city-funding-to-continue-programs-funded-with-covid-aid-for-carter-cases-and-more-slide-march-2023.html
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 11.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 11 news articles referencing the report by title
+
+Evidence:
+- gdelt: Record funding requests highlight growing pressure on community organizations - WestCentralOnline : West Central Saskatchewan latest news , sports , weather , community events . 
+- gdelt: Auburn council approves tax cap override as budget debate continues
+- gdelt: Latest San Diego budget proposal could restore some arts , homeless funding
+- gdelt: Manhattan Uranium Discovery Corp .: Manhattan Uranium and Fortune Bay Plan Fully Funded 5 , 000 Meter Drill Program to Test up to 25 Priority Targets at the Murmac and Strike Uranium Projects in Saskatchewan
+- gdelt: U . S . bishops issue wish list to Congress on funding for migration
+
+## 17. Testimony to the New York City Council on the Mayor's Executive Budget for Fiscal Year 2023
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -399,3 +339,63 @@ Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment | Cornwall Standard - Freeholder
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
+
+## 18. Child Care and Child Supervision Programs
+
+- Source: NYC Rules - Adopted
+- Agency: DOHMH
+- Date: 2025-11-20
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-child-care-and-child-supervision-programs
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 11.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 11 news articles referencing the report by title
+
+Evidence:
+- gdelt: Children Miracle Network Telethon Finale | How you can help sick and injured children
+- gdelt: Alberta orders high - risk incidents at childcare facilities be disclosed within one business day
+- gdelt: Alberta orders public notice after high - risk incidents at daycares
+- gdelt: Northwest Calgary daycare issued probationary licence
+- gdelt: Probationary licence issued to child - care program
+
+## 19. The City Record, May 22, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-22
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 11.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 11 news articles referencing the report by title
+
+Evidence:
+- gdelt: Saurabh Mishra OAM : King Birthday Honours 2026
+- gdelt: Trump Says Black Unemployment Was at a Record Low , Then Admitted He Had  No Idea Where the H * ll  the Statistic Came From
+- gdelt:   I dont know where that stat came from , but Ill take it : Trump claim of record - low Black unemployment isnt true , fact - check finds
+- gdelt: Why San Jose Mayor Matt Mahan campaign for California governor fell short
+- gdelt: Links 6 / 7 / 2026 | naked capitalism
+
+## 20. The City Record, May 20, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-20
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 11.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 11 news articles referencing the report by title
+
+Evidence:
+- gdelt: Saurabh Mishra OAM : King Birthday Honours 2026
+- gdelt: Trump Says Black Unemployment Was at a Record Low , Then Admitted He Had  No Idea Where the H * ll  the Statistic Came From
+- gdelt:   I dont know where that stat came from , but Ill take it : Trump claim of record - low Black unemployment isnt true , fact - check finds
+- gdelt: Why San Jose Mayor Matt Mahan campaign for California governor fell short
+- gdelt: Links 6 / 7 / 2026 | naked capitalism
