@@ -20,7 +20,27 @@ Evidence:
 - gdelt: Federal Budget : Investors eye regional yields over tax breaks | Glen Innes Examiner
 - gdelt: Federal Budget : Investors eye regional yields over tax breaks | Wellington Times
 
-## 2. Performance of Industrial Development Agencies in New York State – 2026 Annual Report
+## 2. Two Paramedics on an Ambulance—Only in New York
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://ibo.nyc.ny.us/cgi-park?p=77
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 27.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 27 news articles referencing the report by title
+
+Evidence:
+- gdelt: 5G , il Berec apre consultazione sul network slicing . Tutti i casi duso
+- gdelt: Groom - to - be left in coma after horror 20ft fall two hours into Lanzarote stag do
+- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
+- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
+- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
+
+## 3. Performance of Industrial Development Agencies in New York State – 2026 Annual Report
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -34,73 +54,33 @@ Evidence:
 - Rationale: 27 news articles referencing the report by title
 
 Evidence:
+- gdelt: Where to Find the Top Yields For the Rest of 2026
+- gdelt: AM Edition : Top 10 Politics Articles on LiveNews . co . nz for June 8 , 2026 – Full Text – LiveNews . co . nz
+- gdelt: Weekly Current Affairs 1 - 7 June 2026 : For UPSC , PCS , SSC , Railway Banking and Other Exams , Download PDF Here
 - gdelt: PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
 - gdelt: AM Edition : Top 10 Politics Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
-- gdelt: Orca Energy Group Inc . Announces Completion of Q1 2026 Interim Filings
-- gdelt: PM Edition : Top 10 Business Articles on LiveNews . co . nz for June 6 , 2026 – Full Text – LiveNews . co . nz
-- gdelt: Statement on the Cabinet meeting of Wednesday , 3 June 2026 | Government Communication and Information System ( GCIS ) 
 
-## 3. Sightseeing Buses
-
-- Source: NYC Rules - Proposed
-- Agency: DCWP
-- Date: 2022-06-22
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/sightseeing-buses
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 26.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 26 news articles referencing the report by title
-
-Evidence:
-- gdelt: Hamleys has launched its own London sightseeing bus tour
-- gdelt: 5 of the best London bus routes for sunny day sightseeing
-- gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | KASE 100 . 7
-- gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | 92 . 5 WPAP
-- gdelt: Tucker Wetmore on Touring Abroad With Double Decker Buses & Accents | KASH Country 107 . 5
-
-## 4. Two Paramedics on an Ambulance—Only in New York
+## 4. About Those Services You Prioritized
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
 - Date: unknown
 - Format: html
-- URL: https://ibo.nyc.ny.us/cgi-park?p=77
+- URL: https://ibo.nyc.ny.us/cgi-park?p=42
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 26.0
+- Heat score (7d): 24.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 26 news articles referencing the report by title
+- Rationale: 24 news articles referencing the report by title
 
 Evidence:
-- gdelt: Groom - to - be left in coma after horror 20ft fall two hours into Lanzarote stag do
-- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
-- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
-- gdelt: Groom - to - be left in coma after 20ft fall just two hours into Lanzarote stag trip
-- gdelt: Groom - to - be left in coma after horror 20ft fall two hours into Lanzarote stag do
+- gdelt: 5 Of The Best $50 Unlimited Phone Plans You Can Find
+- gdelt: These Common US Driving Habits Could Get You A Ticket In Europe
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
+- gdelt: How the government spends your tax dollars to manipulate votes
 
-## 5. Amendment to Rules relating to Flood Hazard Areas
-
-- Source: NYC Rules - Adopted
-- Agency: DOB
-- Date: 2026-03-21
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/amendment-to-rules-relating-to-flood-hazard-areas
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 23.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 23 news articles referencing the report by title
-
-Evidence:
-- gdelt: Flash Flood Warnings in Cass and Otoe Counties in Nebraska
-- gdelt: FEMA explains flood risk map update
-- gdelt: Flash Flood Warning
-- gdelt: Flash flood warning for Fremont , Montgomery , Page counties until 9 : 30 p . m . 
-- gdelt: New Jersey Delays Flood Construction Rules by One Year for Public Review
-
-## 6. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department?
+## 5. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department?
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -109,38 +89,18 @@ Evidence:
 - URL: https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 22.0
+- Heat score (7d): 23.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 22 news articles referencing the report by title
+- Rationale: 23 news articles referencing the report by title
 
 Evidence:
+- gdelt: Amid record - high 2026 DepEd budget , teachers warn of persistent shortages and low wages
 - gdelt: San Diego is wrapping up a uniquely tough budget season . What will it cut , and what will it save ? 
 - gdelt: National City adopts $89 . 1M budget , shrinks deficit amid ongoing reserve concerns
 - gdelt: Layoffs hit Massachusetts cities and towns in tough budget year
 - gdelt: Public safety takes center stage in Northampton budget hearings
-- gdelt: 5 takeaways from Pittsfield proposed $16 . 4 million police budget
 
-## 7. Review of the Financial Plan of the City of New York, March 2026
-
-- Source: NYS Comptroller
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
-- Document URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
-- Rank window: 7d
-- Heat score (7d): 21.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 21 news articles referencing the report by title
-
-Evidence:
-- gdelt: Longboat Key & Sarasota Letters to the Editor week of June 5 , 2026
-- gdelt: AM Edition : Top 10 Politics Articles on LiveNews . co . nz for June 7 , 2026 – Full Text – LiveNews . co . nz
-- gdelt: Chain restaurants are closing hundreds of locations across the US in 2026 . See the list . 
-- gdelt: Australia - New Zealand Leader Meeting 2026
-- gdelt: Key birthdates confirmed as 2026 state pension age change  underway  | Personal Finance | Finance
-
-## 8. Current State of Rent Stabilized Housing
+## 6. Current State of Rent Stabilized Housing
 
 - Source: NYC Government Publications Portal
 - Agency: n/a
@@ -154,13 +114,13 @@ Evidence:
 - Rationale: 21 news articles referencing the report by title
 
 Evidence:
+- gdelt: Zohran Mamdani $22 billion socialist housing plan is doomed to fail
+- gdelt: Operativos de ICE en Queens y El Bronx también reimpulsan movilizaciones para exigir congelamiento de la renta estabilizada
 - gdelt: A New York rent freeze is imminent . Bondholders still expect to be paid . 
 - gdelt: New Yorkers weigh in on rent hike freeze proposal at first public hearing
 - gdelt: Exclusive | Bronx co - op resident rip Mamdani for over 30 % rent spike despite  affordable housing  promises
-- gdelt: New Yorkers to weigh in on rent hike freeze proposal at Jamaica Performing Arts Center in Queens
-- gdelt: Zohran Mamdani capitalist plan to fix the housing crisis
 
-## 9. Promoting Growth in NYC: Leveraging NYCIDA for Economic Development
+## 7. Promoting Growth in NYC: Leveraging NYCIDA for Economic Development
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -169,9 +129,9 @@ Evidence:
 - URL: https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 20.0
+- Heat score (7d): 19.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 20 news articles referencing the report by title
+- Rationale: 19 news articles referencing the report by title
 
 Evidence:
 - gdelt: PM : trade and economic sector traditionally formed basis for Belarus - Kyrgyzstan co - operation
@@ -180,7 +140,67 @@ Evidence:
 - gdelt: Manufacturing as the Engine of Inclusive Growth : Why Zimbabwe Economic Future Depends on Industrial Revival - The Zimbabwe Mail Manufacturing as the Engine of Inclusive Growth : Why Zimbabwe Economic Future Depends on Industrial Revival | Zimbabwe N...
 - gdelt: NEC focused on identifying growth drivers for each Northeastern state : Nagaland CM
 
-## 10. State Parks a Growing Attraction
+## 8. Review of the Financial Plan of the City of New York, March 2026
+
+- Source: NYS Comptroller
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
+- Document URL: https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
+- Rank window: 7d
+- Heat score (7d): 17.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 17 news articles referencing the report by title
+
+Evidence:
+- gdelt: The women running Europe in 2026
+- gdelt: Simon Harris insists investment savings plan is aimed at  middle Ireland  – The Irish Times
+- gdelt: Where to Find the Top Yields For the Rest of 2026
+- gdelt: Gamehaus Holdings Inc . Announces Unaudited Financial Results for the Third Quarter of Fiscal 2026 Ended March 31 , 2026
+- gdelt: Interim Management Statement H1 2026 | The Manila Times
+
+## 9. The City Record, May 22, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-22
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 16.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 16 news articles referencing the report by title
+
+Evidence:
+- gdelt: CRRC Zhuzhou Institute to Showcase 6 . X Liquid - Cooled Energy Storage System at The Smarter E Europe 2026
+- gdelt: The women running Europe in 2026
+- gdelt: The best and worst moments of the 2026 French Open
+- gdelt: Automatic First - Time Penalty Abatement Arrives in 2026 - Clear Start Tax Explains Who the IRS Now Forgives Without Asking
+- gdelt: Two of the Biggest YA Franchises Ever Officially Beat At the Box Office by 2026 Hit No One Is Talking About
+
+## 10. The City Record, May 21, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-21
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 16.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 16 news articles referencing the report by title
+
+Evidence:
+- gdelt: CRRC Zhuzhou Institute to Showcase 6 . X Liquid - Cooled Energy Storage System at The Smarter E Europe 2026
+- gdelt: The women running Europe in 2026
+- gdelt: The best and worst moments of the 2026 French Open
+- gdelt: Automatic First - Time Penalty Abatement Arrives in 2026 - Clear Start Tax Explains Who the IRS Now Forgives Without Asking
+- gdelt: Two of the Biggest YA Franchises Ever Officially Beat At the Box Office by 2026 Hit No One Is Talking About
+
+## 11. State Parks a Growing Attraction
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -189,9 +209,9 @@ Evidence:
 - URL: https://www.osc.ny.gov/reports/state-parks-growing-attraction
 - Document URL: n/a
 - Rank window: 7d
-- Heat score (7d): 16.0
+- Heat score (7d): 15.0
 - Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 16 news articles referencing the report by title
+- Rationale: 15 news articles referencing the report by title
 
 Evidence:
 - gdelt: Summer Adventures Await At Illinoi Thrilling Water Parks
@@ -200,47 +220,7 @@ Evidence:
 - gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
 - gdelt: New England Parks , Attractions With Adults - Only Nights in 2026
 
-## 11. Business Corporation Tax Implementation Rules
-
-- Source: NYC Rules - Proposed
-- Agency: DOF
-- Date: 2025-11-20
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/business-corporation-tax-implementation-rules
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 16.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 16 news articles referencing the report by title
-
-Evidence:
-- gdelt: Central Asia visit drives multi - sector collaboration , Business delegation signed 66 MoUs and agreements to seize Belt and Road opportunities
-- gdelt: Tax - break trees : how woodland became a store of wealth for the rich
-- gdelt: The Augusta Rule : How a Small Business Owner Pays Herself $20 , 000 of Tax - Free Income for Renting Her Own Home to Her Company
-- gdelt: Gary Franks : AI replacing workers gives government less tax revenue
-- gdelt: Central Asia visit drives multi - sector collaboration , Business delegation signed 66 MoUs and agreements to seize Belt and Road opportunities
-
-## 12. Emergency Food Assistance Program
-
-- Source: NYC Rules - Proposed
-- Agency: HRA
-- Date: 2022-08-12
-- Format: html
-- URL: https://rules.cityofnewyork.us/rule/emergency-food-assistance-program
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 15.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 15 news articles referencing the report by title
-
-Evidence:
-- gdelt: New Mexico is choosing abundance in food policy
-- gdelt: Rental assistance limited as families struggle to afford rent in Palm Beach County
-- gdelt:   A lifeline : DDSB launches summer nutrition program
-- gdelt: Drive - thru food pantries scheduled across the Thumb in June
-- gdelt: Cass County resource fair features housing , legal and domestic violence assistance
-
-## 13. Testimony of Louisa Chafee, Director, New York City Independent Budget Office on IBO’s Analysis of the January 2025 Financial Plan for 2025-2029"
+## 12. Testimony of Louisa Chafee, Director, New York City Independent Budget Office on IBO’s Analysis of the January 2025 Financial Plan for 2025-2029"
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -260,7 +240,47 @@ Evidence:
 - gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
 - gdelt: Clean Air Metals Files Audited Annual Financial Statements for the Year Ended January 31 , 2026
 
-## 14. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
+## 13. The City Record, May 20, 2026
+
+- Source: NYC Government Publications Portal
+- Agency: n/a
+- Date: 2026-05-20
+- Format: html
+- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 14.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 14 news articles referencing the report by title
+
+Evidence:
+- gdelt: CRRC Zhuzhou Institute to Showcase 6 . X Liquid - Cooled Energy Storage System at The Smarter E Europe 2026
+- gdelt: The women running Europe in 2026
+- gdelt: The best and worst moments of the 2026 French Open
+- gdelt: Automatic First - Time Penalty Abatement Arrives in 2026 - Clear Start Tax Explains Who the IRS Now Forgives Without Asking
+- gdelt: Two of the Biggest YA Franchises Ever Officially Beat At the Box Office by 2026 Hit No One Is Talking About
+
+## 14. How Have City Costs for Homeless Shelters Changed With Shifts in State and Federal Support?
+
+- Source: NYC Independent Budget Office
+- Agency: n/a
+- Date: 2023-03-10
+- Format: html
+- URL: https://www.ibo.nyc.ny.us/iboreports/how-have-city-costs-changed-with-shifts-in-state-and-federal-support-for-homeless-shelters-march-2023.html
+- Document URL: n/a
+- Rank window: 7d
+- Heat score (7d): 13.0
+- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
+- Rationale: 13 news articles referencing the report by title
+
+Evidence:
+- gdelt: Homelessness is down across the country , says new federal report - Las Vegas Sun News
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
+- gdelt: Homelessness is down in California and across the country , says new federal report
+
+## 15. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -280,7 +300,7 @@ Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 
-## 15. New York City Government Services: Services for the Unsheltered
+## 16. New York City Government Services: Services for the Unsheltered
 
 - Source: NYS Comptroller
 - Agency: n/a
@@ -300,7 +320,7 @@ Evidence:
 - gdelt: Charlotte - Mecklenburg Homelessness Count Reveals 12 % Increase in Unsheltered Individuals
 - gdelt: State and local governments gave failed Californians on homelessness funding
 
-## 16. DOE Needs Additional City Funding to Continue Programs Funded with Covid Aid, For Carter Cases, & More
+## 17. DOE Needs Additional City Funding to Continue Programs Funded with Covid Aid, For Carter Cases, & More
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -320,7 +340,7 @@ Evidence:
 - gdelt: Manhattan Uranium Discovery Corp .: Manhattan Uranium and Fortune Bay Plan Fully Funded 5 , 000 Meter Drill Program to Test up to 25 Priority Targets at the Murmac and Strike Uranium Projects in Saskatchewan
 - gdelt: U . S . bishops issue wish list to Congress on funding for migration
 
-## 17. Testimony to the New York City Council on the Mayor's Executive Budget for Fiscal Year 2023
+## 18. Testimony to the New York City Council on the Mayor's Executive Budget for Fiscal Year 2023
 
 - Source: NYC Independent Budget Office
 - Agency: n/a
@@ -340,7 +360,7 @@ Evidence:
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 - gdelt: Hastings County council supports Campbellford hospital redevelopment
 
-## 18. Child Care and Child Supervision Programs
+## 19. Child Care and Child Supervision Programs
 
 - Source: NYC Rules - Adopted
 - Agency: DOHMH
@@ -360,13 +380,13 @@ Evidence:
 - gdelt: Northwest Calgary daycare issued probationary licence
 - gdelt: Probationary licence issued to child - care program
 
-## 19. The City Record, May 22, 2026
+## 20. Another Hole in the Budget Plan
 
-- Source: NYC Government Publications Portal
+- Source: NYC Independent Budget Office
 - Agency: n/a
-- Date: 2026-05-22
+- Date: unknown
 - Format: html
-- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
+- URL: https://ibo.nyc.ny.us/cgi-park?p=57
 - Document URL: n/a
 - Rank window: 7d
 - Heat score (7d): 11.0
@@ -374,28 +394,8 @@ Evidence:
 - Rationale: 11 news articles referencing the report by title
 
 Evidence:
-- gdelt: Saurabh Mishra OAM : King Birthday Honours 2026
-- gdelt: Trump Says Black Unemployment Was at a Record Low , Then Admitted He Had  No Idea Where the H * ll  the Statistic Came From
-- gdelt:   I dont know where that stat came from , but Ill take it : Trump claim of record - low Black unemployment isnt true , fact - check finds
-- gdelt: Why San Jose Mayor Matt Mahan campaign for California governor fell short
-- gdelt: Links 6 / 7 / 2026 | naked capitalism
-
-## 20. The City Record, May 20, 2026
-
-- Source: NYC Government Publications Portal
-- Agency: n/a
-- Date: 2026-05-20
-- Format: html
-- URL: https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
-- Document URL: n/a
-- Rank window: 7d
-- Heat score (7d): 11.0
-- Mentions: exact 0, canonical 0, filename 0, social exact 0, crawl 0
-- Rationale: 11 news articles referencing the report by title
-
-Evidence:
-- gdelt: Saurabh Mishra OAM : King Birthday Honours 2026
-- gdelt: Trump Says Black Unemployment Was at a Record Low , Then Admitted He Had  No Idea Where the H * ll  the Statistic Came From
-- gdelt:   I dont know where that stat came from , but Ill take it : Trump claim of record - low Black unemployment isnt true , fact - check finds
-- gdelt: Why San Jose Mayor Matt Mahan campaign for California governor fell short
-- gdelt: Links 6 / 7 / 2026 | naked capitalism
+- gdelt: Simon Harris insists investment savings plan is aimed at  middle Ireland  – The Irish Times
+- gdelt: How to Keep Your Finances Steady When Life Doesnt Go to Plan • The Western Weekender
+- gdelt: Montana Hurries To Adopt Trump Medicaid Work Rules Amid Budget Woes | News
+- gdelt: Så blev pensionen omöjlig att planera
+- gdelt: State Budget Approved Early This Morning ; Totals $55 . 9 Billion - Effingham News and Sports Leader , 979XFM and KJ Country 102 . 3
