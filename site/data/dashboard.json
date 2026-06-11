@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T21:10:11+00:00",
+  "generated_at": "2026-06-11T21:22:25+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,15 +13,15 @@
     "reddit"
   ],
   "stats": {
-    "total": 1298,
-    "with_heat": 32,
+    "total": 1293,
+    "with_heat": 27,
     "new_count": 0,
     "by_kind": {
-      "report": 1148,
+      "report": 1143,
       "rule": 150
     },
     "by_format": {
-      "html": 311,
+      "html": 306,
       "pdf": 913,
       "xlsx": 26,
       "unknown": 48
@@ -148,10 +148,6 @@
         "count": 6
       },
       {
-        "name": "nyc.gov",
-        "count": 5
-      },
-      {
         "name": "NYC Department of Environmental Protection",
         "count": 5
       },
@@ -179,22 +175,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1298,
+        "checked": 1293,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1298,
+        "checked": 1293,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1298,
+        "checked": 1293,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1298,
+        "checked": 1293,
         "errors": 0
       }
     ]
@@ -575,76 +571,6 @@
       "is_new": false
     },
     {
-      "id": "nyc.gov:37b0504bcfa6",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "MOIA Immigration Legal Support Hotline - MOIA",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
-      "document_url": null,
-      "heat_url": "https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-          "url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-          "published_at": "2026-06-09T19:44:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "dcwp:0273916fad81",
       "source": "NYC Department of Consumer & Worker Protection",
       "source_id": "dcwp",
@@ -849,146 +775,6 @@
           "title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
           "url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
           "published_at": "2026-06-10T16:29:09+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc.gov:d6256c42bfcd",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
-      "document_url": null,
-      "heat_url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
-          "url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
-          "published_at": "2026-06-10T16:29:09+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc.gov:83528910bbbc",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "Tenant Protection Cabinet",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
-      "document_url": null,
-      "heat_url": "https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Pinnacle Tenants Bargain with New Owner Over Lingering Repair Issues—With Help From City Hall",
-          "url": "https://citylimits.org/pinnacle-tenants-bargain-with-new-owner-over-lingering-repair-issues-with-help-from-city-hall/",
-          "published_at": "2026-06-09T19:17:54+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -2206,76 +1992,6 @@
       "is_new": false
     },
     {
-      "id": "nyc.gov:858a5582fb6c",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "Project Categories: Construction Equipment - Construction Fence - Buildings",
-      "agency": null,
-      "published_date": null,
-      "url": "https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page",
-      "document_url": null,
-      "heat_url": "https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.3010299956639813,
-      "rationale": [
-        "1 social post sharing the exact link with 1 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.3010299956639813,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 1,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "Viewing panels legally must be between 3 & 6 feet from the ground...but I've never seen one lower than 5 feet. If \n@nycbuildings.bsky.social @mayor.nyc.gov incentivized some at the lower height, NYC k",
-          "url": "https://bsky.app/profile/subtle116.bsky.social/post/3mnfddykdkc27",
-          "published_at": "2026-06-03T14:34:40.114000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "council:6b36ebc129af",
       "source": "NYC City Council",
       "source_id": "council",
@@ -2410,76 +2126,6 @@
           "title": "Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...",
           "url": "https://bsky.app/profile/pck.rocks/post/3mmcv2jlgc22l",
           "published_at": "2026-05-20T21:48:18.976000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc.gov:ba0bea472019",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "tgnc-rights",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/site/cchr/media/tgnc-rights.page",
-      "document_url": null,
-      "heat_url": "https://www.nyc.gov/site/cchr/media/tgnc-rights.page",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.0,
-      "rationale": [
-        "1 social post sharing the exact link"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "This #PrideMonth, we are launching a citywide campaign to raise awareness of protections for trans and gender nonconforming New Yorkers 🏳️‍⚧️ As reports of gender identity discrimination reach a 5-yea",
-          "url": "https://bsky.app/profile/nycchr.bsky.social/post/3mnaiy3xpms2e",
-          "published_at": "2026-06-01T16:32:04.837000+00:00",
           "confidence": "exact_url"
         }
       ],

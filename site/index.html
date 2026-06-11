@@ -68,14 +68,13 @@
         </div>
 
         <div class="m-section">
-          <h3 class="m-head"><span class="m-num">3</span> Score</h3>
-          <ul class="m-weights">
-            <li><span class="m-w">6×</span> news links to the exact URL</li>
-            <li><span class="m-w">2×</span> social posts sharing the link</li>
-            <li><span class="m-w">log</span> amplification of those posts <em>(likes/reposts)</em></li>
-            <li><span class="m-w">2×</span> filename pickups <em>(cap 5)</em></li>
-          </ul>
-          <p>Windows: <span class="mono">today</span> / <span class="mono">7d</span> / <span class="mono">30d</span>. Most reports score zero — that's real.</p>
+          <h3 class="m-head"><span class="m-num">3</span> Ranking</h3>
+          <p>
+            Documents are ranked by weighted pickups: a news article linking
+            the exact URL counts most, social posts next — boosted a little by
+            likes and reposts — and bare filename pickups least.
+          </p>
+          <p>Windows: <span class="mono">today</span> / <span class="mono">7d</span> / <span class="mono">30d</span>. Most documents have zero pickups — that's real.</p>
         </div>
 
         <p class="m-foot">
@@ -124,7 +123,7 @@
         <span class="bh bh-rank">#</span>
         <span class="bh bh-doc">Document</span>
         <span class="bh bh-meter">Heat · today / 7d / 30d</span>
-        <span class="bh bh-score">Score</span>
+        <span class="bh bh-score">Pickups</span>
       </div>
       <div id="board-list" class="board-list"></div>
       <button type="button" id="board-more" class="board-more" hidden></button>
@@ -148,20 +147,16 @@
   <footer class="footer">
     <div class="wrap footer-inner">
       <div class="footer-col">
-        <h3 class="footer-title">How heat is scored</h3>
+        <h3 class="footer-title">How heat is measured</h3>
         <p>
           A deliberately narrow, objective signal — no topic keywords and no
           editorial priority. It measures only whether the <em>exact</em>
-          document is being surfaced publicly.
+          document is being surfaced publicly: news articles linking the URL
+          weigh most, social posts next (amplified a little by likes and
+          reposts), bare filename pickups least.
         </p>
-        <ul class="weights">
-          <li><span class="w">6×</span> news articles linking the exact URL</li>
-          <li><span class="w">2×</span> social posts sharing the exact link</li>
-          <li><span class="w">log</span> amplification of those posts <em>(likes + reposts)</em></li>
-          <li><span class="w">2×</span> filename pickups <em>(capped at 5)</em></li>
-        </ul>
         <p>
-          Every counted mention is verifiable evidence — a real post or article
+          Every counted pickup is verifiable evidence — a real post or article
           carrying the exact link or the document's distinctive filename.
         </p>
       </div>

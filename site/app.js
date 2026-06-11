@@ -85,6 +85,14 @@ function windowLabel(key) {
   return key === "today" ? "Today" : key.toUpperCase();
 }
 
+/* Countable, human number for a window: news + social + filename pickups.
+   The weighted score still drives ranking and the thermal meters, but the
+   number people see is just "how many times was this shared". */
+function pickupsIn(w) {
+  if (!w) return 0;
+  return (w.exact_url_mentions || 0) + (w.social_exact_mentions || 0) + (w.filename_mentions || 0);
+}
+
 function hostOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); }
   catch { return url; }
@@ -255,11 +263,11 @@ function renderBoard(rows) {
     const meter = $(".row-meter", node);
     meter.appendChild(buildMeter(it, windows));
 
-    // score (active window)
-    const score = scoreFor(it);
+    // pickups (active window)
+    const pickups = pickupsIn(it.windows?.[state.rankWindow]);
     const sv = $(".row-score-value", node);
-    sv.textContent = score.toFixed(score % 1 === 0 ? 0 : 1);
-    if (score <= 0) sv.classList.add("is-zero");
+    sv.textContent = pickups > 0 ? fmtNum(pickups) : "—";
+    if (pickups <= 0) sv.classList.add("is-zero");
 
     // detail (lazy on first open)
     let built = false;
@@ -293,7 +301,8 @@ function buildMeter(it, windows) {
     const t = thermal(w.score);
     const cell = document.createElement("div");
     cell.className = "meter-cell" + (key === state.rankWindow ? " is-rank" : "");
-    cell.title = `${windowLabel(key)}: heat ${w.score}`;
+    const pickups = pickupsIn(w);
+    cell.title = `${windowLabel(key)}: ${pickups} pickup${pickups === 1 ? "" : "s"}`;
     cell.innerHTML = `
       <div class="meter-bar-track">
         <div class="meter-bar-fill" style="height:${(t.frac * 100).toFixed(0)}%;background:${t.color};box-shadow:${t.glow}"></div>
@@ -339,7 +348,7 @@ function buildDetail(it) {
   return `
     <div class="detail-grid">
       <div class="detail-block">
-        <h4>Why this score</h4>
+        <h4>Public pickup</h4>
         <ul class="detail-rationale">${rationale}</ul>
       </div>
       <div class="detail-block">

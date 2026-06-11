@@ -65,6 +65,7 @@ def test_adoption_promotes_unmatched_report_like_links() -> None:
             mention("https://www.nyc.gov/mayors-office/news/2026/06/some-presser/"),  # not report-like
             mention("https://council.nyc.gov/press/2026/05/20/3125/"),  # dated permalink: press release
             mention("https://council.nyc.gov/shahana-hanif/2026/05/19/some-member-post/"),  # member blog post
+            mention("https://www.nyc.gov/site/immigrants/legal-resources/moia-hotline.page"),  # service page
         ],
         [tracked],
         client=None,

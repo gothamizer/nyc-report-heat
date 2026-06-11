@@ -84,13 +84,24 @@ DATED_POST_PATH = re.compile(r"/20\d\d/\d\d/\d\d/")
 
 def report_like_url(canonical_url: str) -> bool:
     host = canonical_url.split("/")[2] if "//" in canonical_url else ""
-    if host.removeprefix("www.") in UNTRACKED_EXCLUDE_HOSTS:
+    host = host.removeprefix("www.")
+    if host in UNTRACKED_EXCLUDE_HOSTS:
         return False
     path = "/" + "/".join(canonical_url.split("/")[3:])
     path_lower = path.lower()
     if any(part in path_lower for part in UNTRACKED_EXCLUDE_PATH_PARTS):
         return False
     if DATED_POST_PATH.search(path_lower + "/"):
+        return False
+    # On nyc.gov, report artifacts are documents (or live under /assets/,
+    # the document store); HTML pages elsewhere (/site/, /content/, /html/)
+    # are service, program, and navigation pages (hotlines, cabinets, permit
+    # guides), however report-shaped their slugs look.
+    if (
+        host in {"nyc.gov", "home4.nyc.gov"}
+        and not path_lower.startswith("/assets/")
+        and not re.search(r"\.(pdf|docx?|xlsx?|csv)$", path_lower)
+    ):
         return False
     segments = [seg for seg in path.split("/") if seg]
     if len(segments) < 2:

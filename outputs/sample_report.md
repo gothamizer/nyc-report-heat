@@ -85,23 +85,7 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 6. MOIA Immigration Legal Support Hotline - MOIA
-
-- Source: nyc.gov
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
-
-## 7. Workersbillofrights English
+## 6. Workersbillofrights English
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -117,7 +101,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
 
-## 8. Flashreports 2026 04
+## 7. Flashreports 2026 04
 
 - Source: NYC Administration for Children's Services
 - Agency: n/a
@@ -133,7 +117,7 @@ Evidence:
 Evidence:
 - newsrss: NYC illegally took newborn from father, keeping them apart for 3 years, court says
 
-## 9. A brief history of redlining  – Environment & Health Data Portal
+## 8. A brief history of redlining  – Environment & Health Data Portal
 
 - Source: a816-dohbesp.nyc.gov
 - Agency: n/a
@@ -149,39 +133,7 @@ Evidence:
 Evidence:
 - newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
 
-## 10. Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase
-
-- Source: nyc.gov
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
-
-## 11. Tenant Protection Cabinet
-
-- Source: nyc.gov
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: Pinnacle Tenants Bargain with New Owner Over Lingering Repair Issues—With Help From City Hall
-
-## 12. Mv En Us 084Sum
+## 9. Mv En Us 084Sum
 
 - Source: NYPD
 - Agency: n/a
@@ -197,7 +149,7 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 13. Omb Exec26 Sp5 26
+## 10. Omb Exec26 Sp5 26
 
 - Source: NYC Office of Management & Budget
 - Agency: n/a
@@ -213,7 +165,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani Declares Victory As Hochul Helps City Close Budget Gap
 
-## 14. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
+## 11. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -229,7 +181,7 @@ Evidence:
 Evidence:
 - newsrss: A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'
 
-## 15. The Newest New Yorkers, 2026
+## 12. The Newest New Yorkers, 2026
 
 - Source: NYC Department of City Planning
 - Agency: n/a
@@ -245,7 +197,7 @@ Evidence:
 Evidence:
 - newsrss: Chinese immigrants overtake Dominicans as NYC's largest foreign-born group
 
-## 16. Truck Network Redesign Report
+## 13. Truck Network Redesign Report
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -261,7 +213,7 @@ Evidence:
 Evidence:
 - newsrss: Truck stop? Scenic Staten Island parkway may open to the big rigs
 
-## 17. Ao2000 4
+## 14. Ao2000 4
 
 - Source: NYC Conflicts of Interest Board
 - Agency: n/a
@@ -277,7 +229,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources
 
-## 18. Audit Report on the New York City Housing Authority’s Eviction Processes
+## 15. Audit Report on the New York City Housing Authority’s Eviction Processes
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -293,7 +245,7 @@ Evidence:
 Evidence:
 - newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
 
-## 19. Review of the City’s Animal Population Control Efforts
+## 16. Review of the City’s Animal Population Control Efforts
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -318,7 +270,7 @@ Evidence:
 👇👇👇👇👇👇 👇👇👇👇👇👇
 - bluesky: comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!
 
-## 20. City Planning Commission Rules: Affordable Housing Fast Track Methodology
+## 17. City Planning Commission Rules: Affordable Housing Fast Track Methodology
 
 - Source: NYC Rules - Adopted
 - Agency: DCP
@@ -346,3 +298,57 @@ THE ULTIMATE SCREW YOU TO COMMUNITY
 Do open it and read the comment submissions as an fyi.
 
 Rule sta
+
+## 18. Omb Exec26 Erc5 26
+
+- Source: NYC Office of Management & Budget
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
+- Document URL: https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
+- Rank window: 30d
+- Heat score (30d): 4.477121254719663
+- Mentions: news links 0, social 2 (engagement 2), filename 0
+- Rationale: 2 social posts sharing the exact link with 2 total engagement
+
+Evidence:
+- bluesky: You can download the "Expense Revenue Contract Budget" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
+- bluesky: You can download the "Expense Revenue Contract Budget" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
+
+## 19. AI and New York City’s Fiscal Future
+
+- Source: NYC Comptroller
+- Agency: n/a
+- Date: 2026-05-21
+- Format: html
+- URL: https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 4.0
+- Mentions: news links 0, social 2 (engagement 0), filename 0
+- Rationale: 2 social posts sharing the exact link
+
+Evidence:
+- bluesky: comptroller.nyc.gov/reports/ai-a...
+- bluesky: As AI advances, how can we ensure NYC's fiscal stability? Let's discuss potential strategies for a prosperous future! #NYCFinance
+
+https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
+
+## 20. Play it Safe: Mitigating Gambling Harms in New York
+
+- Source: NYC Public Advocate
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://advocate.nyc.gov/reports/gambling
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 2.845098040014257
+- Mentions: news links 0, social 1 (engagement 6), filename 0
+- Rationale: 1 social post sharing the exact link with 6 total engagement
+
+Evidence:
+- bluesky: 🏀 In MARCH the Public Advocate predicted the Knicks would win the Title—and we're so close. 🏆
+
+That's not the only chip we're watching 🎰 -- we can’t gamble on the health of our communities. advocate.n
