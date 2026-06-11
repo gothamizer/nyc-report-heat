@@ -9,8 +9,28 @@ rank_window: 7d
 request_timeout_seconds: 15
 request_sleep_seconds: 1.0
 max_workers: 2
+# Domain-first harvesters feeding the persistent mention store. Every scored
+# mention is verifiable evidence: a post or article carrying the exact link.
 providers:
-  - gdelt
+  - bluesky
+  - hackernews
+  - newsrss
+harvest_lookback_days: 30
+harvest_domains:
+  - comptroller.nyc.gov
+  - rules.cityofnewyork.us
+  - ibo.nyc.ny.us
+  - osc.ny.gov
+  - a860-gpp.nyc.gov
+  - nyc.gov
+news_feeds:
+  - https://gothamist.com/feed
+  - https://www.thecity.nyc/rss/index.xml
+  - https://www.cityandstateny.com/rss/all/
+  - https://nypost.com/metro/feed/
+  - https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml
+  - https://www.amny.com/feed/
+  - https://citylimits.org/feed/
 source_ids:
   - doi
   - nyc_comptroller
@@ -19,4 +39,3 @@ source_ids:
   - rules_proposed
   - rules_adopted
   - gpp
-expanded_gdelt_variants: false

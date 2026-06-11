@@ -108,6 +108,20 @@ function render() {
   hydrateHeader(d);
   hydrateControls(d);
   applyFilters();
+  renderUntracked(d.untracked || []);
+}
+
+/* ---------- bubbling under: shared gov links not in the inventory ---------- */
+function renderUntracked(rows) {
+  const section = $("#bubbling-section");
+  if (!section) return;
+  if (!rows.length) { section.hidden = true; return; }
+  section.hidden = false;
+  $("#bubbling-list").innerHTML = rows.slice(0, 12).map((r) => `
+    <div class="bubbling-row">
+      <a class="bubbling-link" href="${escapeHtml(r.target_url)}" target="_blank" rel="noopener">${escapeHtml(r.target_url)}</a>
+      <span class="bubbling-meta mono">${fmtNum(r.mentions)} mention${r.mentions === 1 ? "" : "s"}${r.engagement ? ` · ${fmtNum(r.engagement)} engagement` : ""} · ${escapeHtml((r.providers || []).join(", "))}</span>
+    </div>`).join("");
 }
 
 function hydrateHeader(d) {
@@ -288,10 +302,8 @@ function buildDetail(it) {
     .map((r) => `<li>${escapeHtml(r)}</li>`).join("");
 
   const confLabel = (c) => ({
-    title: "news coverage",
     exact_url: "exact link",
     filename: "filename",
-    redirect_or_canonical: "canonical link",
   }[c] || (c || "").replace(/_/g, " "));
 
   let evidence;
@@ -303,7 +315,7 @@ function buildDetail(it) {
         <span class="evidence-conf">${escapeHtml(confLabel(m.confidence))}</span>
       </a>`).join("") + `</div>`;
   } else {
-    evidence = `<p class="evidence-empty">No news coverage or public mentions captured in any window.</p>`;
+    evidence = `<p class="evidence-empty">No public link pickups captured in any window.</p>`;
   }
 
   return `

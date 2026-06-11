@@ -29,6 +29,8 @@ jobs:
           name: nyc-report-heat
           path: |
             data/candidates.jsonl
+            data/mentions.jsonl
+            data/articles_seen.txt
             outputs/
             site/data/dashboard.json
 
@@ -36,4 +38,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Update daily NYC report heat data"
-          file_pattern: "data/candidates.jsonl outputs/*.jsonl outputs/*.csv outputs/*.md site/data/dashboard.json"
+          file_pattern: "data/candidates.jsonl data/mentions.jsonl data/articles_seen.txt outputs/*.jsonl outputs/*.csv outputs/*.md site/data/dashboard.json"

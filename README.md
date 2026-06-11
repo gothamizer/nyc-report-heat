@@ -15,8 +15,8 @@ python -m http.server -d site 8000   # open http://localhost:8000
 The project intentionally separates:
 
 - **Inventory**: discovered report/rule/publication URLs from known public sources.
-- **Link heat**: high-confidence exact URL or filename pickup when available.
-- **Report heat**: distinctive PDF/report filenames when the file itself is mentioned without the full URL.
+- **Harvest**: domain-first collection of every public pickup of a tracked gov domain — providers are queried per domain (~10 queries each), not per candidate, and results accumulate in a persistent mention store ([data/mentions.jsonl](data/mentions.jsonl)).
+- **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Gov links that don't match anything become the "shared but untracked" list — a blind-spot alert and discovery hint.
 - **Daily delta**: newly discovered candidates compared with the previous inventory.
 
 ## Sources
@@ -37,6 +37,7 @@ The inventory model supports PDF and non-PDF report pages. `document_url` is pop
 
 ```bash
 uv run nyc-report-heat discover
+uv run nyc-report-heat harvest                 # pull gov-domain mentions into the store
 uv run nyc-report-heat rank --windows 1,7,30 --rank-window 7d
 uv run nyc-report-heat daily --config config/default.yml
 uv run nyc-report-heat show --limit 25
@@ -45,6 +46,8 @@ uv run nyc-report-heat show --limit 25
 ## Outputs
 
 - [data/candidates.jsonl](data/candidates.jsonl): current canonical inventory.
+- [data/mentions.jsonl](data/mentions.jsonl): persistent harvested-mention store (one gov-link pickup per line, deduped).
+- `data/articles_seen.txt`: ledger of news articles already scanned for gov links.
 - [outputs/ranked.jsonl](outputs/ranked.jsonl): ranked records with component scores and evidence.
 - [outputs/ranked.csv](outputs/ranked.csv): frontend/spreadsheet-friendly ranking.
 - [outputs/new_candidates.jsonl](outputs/new_candidates.jsonl): daily discovery delta.
@@ -71,7 +74,18 @@ Because the feed is fetched over HTTP, preview it with a static server (`python 
 3. Uploads outputs as an artifact.
 4. Commits changed data/output files back to the repo.
 
-The workflow uses only free public sources by default. The default providers are GDELT (news coverage matched on the report title) and Hacker News Algolia. Google News RSS is supported in the code path but disabled by default because it rate-limits datacenter/CI IPs aggressively (HTTP 503). The HTTP client uses a browser User-Agent, retry/backoff on 429/5xx, and a per-request cache that de-duplicates the identical provider query issued once per heat window. The runner uses bounded concurrency (`max_workers`), a bounded timeout (`request_timeout_seconds`), and a polite inter-request delay (`request_sleep_seconds`). Media Cloud and Bluesky are supported but need credentials/testing. Common Crawl is intentionally skipped for rolling-window heat because it is a historical crawl index, not a today/7d/30d attention signal.
+Every provider is free and unauthenticated. Heat collection is **domain-first**: instead of searching the world once per candidate (which is exactly the request shape that gets rate-limited and returns zeros), each provider is queried once per tracked gov domain and the results are matched against the inventory locally.
+
+- **Bluesky** (`api.bsky.app` search, no auth): posts sharing a tracked gov link, with likes/reposts/quotes/replies as engagement. This is the core "people sending it around" signal.
+- **Hacker News** (Algolia, no auth): stories whose URL is on a tracked gov domain, with points + comments as engagement.
+- **NYC press RSS** (`newsrss`): polls Gothamist, THE CITY, City & State, NY Post Metro, NYT NYRegion, amNY, and City Limits feeds, fetches each new article once (ledger: `data/articles_seen.txt`), and extracts outbound links to tracked gov domains — direct observation of journalists citing the document.
+
+Title-based news matching (GDELT) was tried and removed: matching distinctive title
+terms against a global news firehose produces confident-looking but coincidental hits
+("Waste Management stocks" for a commercial-waste rule). The board counts only
+verifiable evidence — a real post or article carrying the exact link or filename.
+
+All harvested mentions accumulate in `data/mentions.jsonl` (deduped on a stable uid, committed by the daily workflow), so rolling windows are computed from history rather than re-queried live, and a missed CI day loses nothing from backfill-capable providers. The HTTP client uses a browser User-Agent, retry/backoff on 429/5xx, and a per-request cache.
 
 ## Heat Windows
 
@@ -81,30 +95,26 @@ Discovery and heat windows are separate. The manual `discover` command is the ba
 - `7d`
 - `30d`
 
-The default ranking window is `7d`, set by `rank_window: 7d`. CSV outputs include per-window columns such as `heat_score_today`, `heat_score_7d`, `heat_score_30d`, `exact_url_mentions_7d`, and `filename_mentions_30d`.
+The default ranking window is `7d`, set by `rank_window: 7d`. CSV outputs include per-window columns such as `heat_score_today`, `heat_score_7d`, `heat_score_30d`, `exact_url_mentions_7d`, and `social_engagement_7d`.
 
-Providers only contribute to a window when they can expose or infer a timestamp. GDELT uses its `timespan` parameter; Media Cloud, Google News, Bluesky, and Hacker News results are filtered by published/created time after exact URL or filename search.
-
-Heat is recalculated for every tracked candidate on each daily run because the `today`, `7d`, and `30d` windows move forward every day. `--per-source` and `--limit` remain available for smoke runs, but the default `daily` and `rank` commands score the whole tracked inventory.
+Windows are computed from the mention store using each mention's published timestamp (harvest time as fallback), so heat is recalculated for every tracked candidate on each daily run as the `today`, `7d`, and `30d` windows move forward. Bluesky and Hacker News can backfill ~30 days on a fresh store; press-RSS citations accrue from the day harvesting starts (feeds only expose recent articles).
 
 ## Scoring Notes
 
-Heat is an objective measure of public attention to the exact report. The primary
-signal is **news coverage**: the count of news articles (via GDELT) that reference the
-report by its exact title within each window. Exact-URL / filename / social pickups are
-kept as high-confidence bonuses when they occur.
+Heat is an objective measure of public attention to the exact report. The signals are
+**exact-link pickups only**: news articles whose body links the document, and social
+posts sharing the link (weighted by engagement).
 
 Current weights:
 
-- `1.0 * coverage_mentions`, capped at 30 — news articles matching the report title
-- `6.0 * exact_url_mentions`
-- `3.0 * canonical_mentions`
-- `2.0 * filename_mentions`, capped at 5
-- `2.0 * social_exact_mentions`
+- `6.0 * exact_url_mentions` — news articles linking the exact URL
+- `2.0 * social_exact_mentions` — Bluesky/HN posts sharing the exact link
+- `0.2 * social_engagement`, capped at 100 — likes/reposts/points/comments on those posts
+- `2.0 * filename_mentions`, capped at 5 — the distinctive PDF filename seen without the full URL
 
 The metric deliberately excludes source priority, OID relevance, topic keywords, and
 human-interest heuristics. It is title/URL-anchored to the specific document, not the
-broader topic. Coverage is windowed by article date, so the chart surfaces reports drawing
-attention *now* — older reports with no recent coverage correctly read as cold. The daily
-command writes grouped CSVs so the frontend can expose “all links,” “reports,” “rules,” and
-“nonzero heat” without changing the metric.
+broader topic. Mentions are windowed by post/article date, so the chart surfaces reports
+drawing attention *now* — older reports with no recent pickups correctly read as cold. The
+daily command writes grouped CSVs so the frontend can expose “all links,” “reports,”
+“rules,” and “nonzero heat” without changing the metric.

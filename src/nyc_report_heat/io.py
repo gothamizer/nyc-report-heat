@@ -2,13 +2,13 @@ from __future__ import annotations
 
 import json
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable
 
 import pandas as pd
 
-from nyc_report_heat.models import Candidate, RankedItem
+from nyc_report_heat.models import Candidate, HarvestedMention, RankedItem
 from nyc_report_heat.heat import heat_score
 from nyc_report_heat.urltools import normalize_url
 
@@ -49,6 +49,58 @@ def merge_candidates(previous: Iterable[Candidate], discovered: Iterable[Candida
     return list(merged.values())
 
 
+def _window_days(key: str) -> int:
+    return 1 if key == "today" else int(key.removesuffix("d"))
+
+
+def summarize_untracked(
+    unmatched: list[HarvestedMention],
+    rank_window: str,
+    limit: int = 50,
+) -> list[dict[str, object]]:
+    """Gov links being shared publicly that the inventory does not track yet.
+
+    These are both a blind-spot alert and discovery hints: a report can be hot
+    before (or without) appearing on a source's recent-publications page.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=_window_days(rank_window))
+    grouped: dict[str, dict[str, object]] = {}
+    for mention in unmatched:
+        if mention.observed_at < cutoff:
+            continue
+        path_segments = [seg for seg in normalize_url(mention.target_url).split("/")[3:] if seg]
+        if len(path_segments) < 2:
+            continue  # homepages and section indexes, not documents
+        entry = grouped.setdefault(
+            mention.target_url,
+            {
+                "target_url": mention.target_url,
+                "mentions": 0,
+                "engagement": 0,
+                "providers": set(),
+                "sample_title": mention.title,
+                "sample_source_url": mention.source_url,
+                "last_seen": mention.observed_at,
+            },
+        )
+        entry["mentions"] += 1
+        entry["engagement"] += mention.engagement
+        entry["providers"].add(mention.provider)
+        if mention.observed_at > entry["last_seen"]:
+            entry["last_seen"] = mention.observed_at
+            entry["sample_title"] = mention.title or entry["sample_title"]
+            entry["sample_source_url"] = mention.source_url or entry["sample_source_url"]
+    rows = sorted(grouped.values(), key=lambda r: (r["mentions"], r["engagement"]), reverse=True)[:limit]
+    return [
+        {
+            **row,
+            "providers": sorted(row["providers"]),
+            "last_seen": row["last_seen"].isoformat(timespec="seconds"),
+        }
+        for row in rows
+    ]
+
+
 def write_ranked(path: Path, items: Iterable[RankedItem]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     items = list(items)
@@ -83,12 +135,10 @@ def ranked_rows(items: Iterable[RankedItem]) -> list[dict[str, object]]:
         for key in sorted(item.heat_windows, key=_window_sort_key):
             heat = item.heat_windows[key]
             row[f"heat_score_{key}"] = heat_score(heat)
-            row[f"coverage_mentions_{key}"] = heat.coverage_mentions
             row[f"exact_url_mentions_{key}"] = heat.exact_url_mentions
             row[f"filename_mentions_{key}"] = heat.filename_mentions
-            row[f"canonical_mentions_{key}"] = heat.canonical_mentions
             row[f"social_exact_mentions_{key}"] = heat.social_exact_mentions
-            row[f"crawl_hits_{key}"] = heat.crawl_hits
+            row[f"social_engagement_{key}"] = heat.social_engagement
             row[f"providers_checked_{key}"] = ",".join(heat.providers_checked)
             row[f"errors_{key}"] = " | ".join(heat.errors)
         rows.append(row)
@@ -126,7 +176,12 @@ def write_candidates_csv(path: Path, candidates: Iterable[Candidate]) -> None:
     pd.DataFrame(rows).to_csv(path, index=False)
 
 
-def write_daily_summary(path: Path, ranked: list[RankedItem], new_candidates: list[Candidate]) -> None:
+def write_daily_summary(
+    path: Path,
+    ranked: list[RankedItem],
+    new_candidates: list[Candidate],
+    untracked: list[dict[str, object]] | None = None,
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     generated = datetime.now(timezone.utc).isoformat(timespec="seconds")
     top_reports = [item for item in ranked if item.candidate.kind in {"report", "publication"}][:10]
@@ -167,7 +222,15 @@ def write_daily_summary(path: Path, ranked: list[RankedItem], new_candidates: li
         for idx, item in enumerate(link_heat, 1):
             c = item.candidate
             lines.append(
-                f"{idx}. {c.title} | {item.rank_window} heat {item.heat_score:.1f} | exact {item.heat.exact_url_mentions} | filename {item.heat.filename_mentions} | social {item.heat.social_exact_mentions} | crawl {item.heat.crawl_hits} | {c.heat_url}"
+                f"{idx}. {c.title} | {item.rank_window} heat {item.heat_score:.1f} | news links {item.heat.exact_url_mentions} | social {item.heat.social_exact_mentions} (engagement {item.heat.social_engagement}) | filename {item.heat.filename_mentions} | {c.heat_url}"
+            )
+    lines.extend(["", "## Shared But Untracked", ""])
+    if not untracked:
+        lines.append("No untracked gov links being shared in the ranking window.")
+    else:
+        for idx, row in enumerate(untracked[:15], 1):
+            lines.append(
+                f"{idx}. {row['target_url']} | mentions {row['mentions']} | engagement {row['engagement']} | via {', '.join(row['providers'])}"
             )
     lines.extend(["", "## New Candidates", ""])
     if not new_candidates:
@@ -193,12 +256,10 @@ def _mention_payload(mention) -> dict[str, object]:
 def _window_payload(heat) -> dict[str, object]:
     return {
         "score": heat_score(heat),
-        "coverage_mentions": heat.coverage_mentions,
         "exact_url_mentions": heat.exact_url_mentions,
-        "canonical_mentions": heat.canonical_mentions,
         "filename_mentions": heat.filename_mentions,
         "social_exact_mentions": heat.social_exact_mentions,
-        "crawl_hits": heat.crawl_hits,
+        "social_engagement": heat.social_engagement,
         "providers_checked": list(heat.providers_checked),
     }
 
@@ -249,6 +310,7 @@ def write_dashboard_json(
     path: Path,
     ranked: list[RankedItem],
     new_candidates: Iterable[Candidate] | None = None,
+    untracked: list[dict[str, object]] | None = None,
 ) -> None:
     """Write a single denormalized JSON feed consumed by the static dashboard."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -308,6 +370,7 @@ def write_dashboard_json(
             ],
             "provider_health": provider_health,
         },
+        "untracked": list(untracked or []),
         "new_candidates": [
             {
                 "title": candidate.title,
@@ -343,7 +406,7 @@ def write_sample_markdown(path: Path, items: list[RankedItem], limit: int = 20) 
                 f"- Document URL: {c.document_url or 'n/a'}",
                 f"- Rank window: {item.rank_window}",
                 f"- Heat score ({item.rank_window}): {item.heat_score}",
-                f"- Mentions: exact {item.heat.exact_url_mentions}, canonical {item.heat.canonical_mentions}, filename {item.heat.filename_mentions}, social exact {item.heat.social_exact_mentions}, crawl {item.heat.crawl_hits}",
+                f"- Mentions: news links {item.heat.exact_url_mentions}, social {item.heat.social_exact_mentions} (engagement {item.heat.social_engagement}), filename {item.heat.filename_mentions}",
                 f"- Rationale: {'; '.join(item.rationale)}",
                 "",
             ]

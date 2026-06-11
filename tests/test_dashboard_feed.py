@@ -20,11 +20,11 @@ def candidate(url: str, title: str = "Title", kind: str = "report", fmt: str = "
 def ranked(url: str, exact: int = 0, title: str = "Title", kind: str = "report"):
     windows = {}
     for key, days in [("today", 1), ("7d", 7), ("30d", 30)]:
-        heat = HeatResult(candidate_url=url, window_days=days, providers_checked=["googlenews"])
+        heat = HeatResult(candidate_url=url, window_days=days, providers_checked=["newsrss"])
         if key in ("7d", "30d") and exact:
             heat.exact_url_mentions = exact
             heat.mentions = [
-                Mention(provider="googlenews", query=url, url="https://news/story", title="Story", confidence="exact_url")
+                Mention(provider="newsrss", query=url, url="https://news/story", title="Story", confidence="exact_url")
             ]
         windows[key] = heat
     return rank_candidate(candidate(url, title, kind), windows, "7d")
@@ -44,7 +44,7 @@ def test_dashboard_feed_shape_and_stats(tmp_path) -> None:
     assert set(data) >= {"generated_at", "rank_window", "windows", "providers", "stats", "items", "new_candidates"}
     assert data["rank_window"] == "7d"
     assert data["windows"] == ["today", "7d", "30d"]
-    assert data["providers"] == ["googlenews"]
+    assert data["providers"] == ["newsrss"]
 
     stats = data["stats"]
     assert stats["total"] == 3
@@ -58,7 +58,7 @@ def test_dashboard_feed_shape_and_stats(tmp_path) -> None:
     assert hot["windows"]["7d"]["score"] == 12.0  # 6 * 2 exact mentions
     assert hot["windows"]["today"]["score"] == 0.0
     assert len(hot["mentions"]) == 1
-    assert hot["mentions"][0]["provider"] == "googlenews"
+    assert hot["mentions"][0]["provider"] == "newsrss"
 
     # source id is collapsed to its prefix for grouping
     assert hot["source_id"] == "doi"
