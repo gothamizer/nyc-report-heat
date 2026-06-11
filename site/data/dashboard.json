@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T07:27:04+00:00",
+  "generated_at": "2026-06-11T07:33:05+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -640,7 +640,7 @@
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 16.2,
+      "heat_score": 15.079181246047625,
       "rationale": [
         "2 news articles linking the exact report URL",
         "1 social post sharing the exact link with 11 total engagement"
@@ -671,7 +671,7 @@
           ]
         },
         "30d": {
-          "score": 16.2,
+          "score": 15.079181246047625,
           "exact_url_mentions": 2,
           "filename_mentions": 0,
           "social_exact_mentions": 1,
@@ -789,7 +789,7 @@
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 5.2,
+      "heat_score": 4.845098040014257,
       "rationale": [
         "2 social posts sharing the exact link with 6 total engagement"
       ],
@@ -819,7 +819,7 @@
           ]
         },
         "30d": {
-          "score": 5.2,
+          "score": 4.845098040014257,
           "exact_url_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 2,
@@ -863,7 +863,7 @@
       "format": "html",
       "source_page": "https://rules.cityofnewyork.us/recently-adopted-rules/",
       "rank_window": "30d",
-      "heat_score": 4.4,
+      "heat_score": 4.477121254719663,
       "rationale": [
         "2 social posts sharing the exact link with 2 total engagement"
       ],
@@ -893,7 +893,7 @@
           ]
         },
         "30d": {
-          "score": 4.4,
+          "score": 4.477121254719663,
           "exact_url_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 2,
@@ -1011,7 +1011,7 @@
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 2.6,
+      "heat_score": 2.6020599913279625,
       "rationale": [
         "1 social post sharing the exact link with 3 total engagement"
       ],
@@ -1029,7 +1029,7 @@
           ]
         },
         "7d": {
-          "score": 2.6,
+          "score": 2.6020599913279625,
           "exact_url_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 1,
@@ -1041,7 +1041,7 @@
           ]
         },
         "30d": {
-          "score": 2.6,
+          "score": 2.6020599913279625,
           "exact_url_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 1,

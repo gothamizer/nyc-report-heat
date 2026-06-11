@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from datetime import datetime, timedelta, timezone
 
 from nyc_report_heat.models import Candidate, HarvestedMention, HeatResult, Mention
@@ -49,13 +50,17 @@ def heat_from_store(
 def heat_score(result: HeatResult) -> float:
     """Objective attention score for the exact report within one window.
 
-    News citations dominate; social pickups count with a bounded engagement
-    bonus; filename-only pickups are lower-confidence and capped.
+    News citations dominate. Each social pickup counts, plus a log-scaled
+    bonus for how much those posts were amplified — log(1 + engagement)
+    discriminates across the range reports actually see (single digits to a
+    few dozen) without an arbitrary cap, and a single news citation (6) still
+    outweighs any realistic engagement bonus. Filename-only pickups are
+    lower-confidence and capped.
     """
     return (
         6.0 * result.exact_url_mentions
         + 2.0 * result.social_exact_mentions
-        + 0.2 * min(result.social_engagement, 100)
+        + 1.0 * math.log10(1 + result.social_engagement)
         + 2.0 * min(result.filename_mentions, 5)
     )
 

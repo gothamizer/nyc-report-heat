@@ -109,7 +109,7 @@ Current weights:
 
 - `6.0 * exact_url_mentions` — news articles linking the exact URL
 - `2.0 * social_exact_mentions` — Bluesky/HN posts sharing the exact link
-- `0.2 * social_engagement`, capped at 100 — likes/reposts/points/comments on those posts
+- `1.0 * log10(1 + social_engagement)` — amplification of those posts (likes/reposts/points/comments); log-scaled so it discriminates across the range reports actually see (single digits to dozens) without a cap, while a single news citation still outweighs any realistic engagement bonus
 - `2.0 * filename_mentions`, capped at 5 — the distinctive PDF filename seen without the full URL
 
 The metric deliberately excludes source priority, OID relevance, topic keywords, and

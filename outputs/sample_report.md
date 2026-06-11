@@ -9,7 +9,7 @@
 - URL: https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 16.2
+- Heat score (30d): 15.079181246047625
 - Mentions: news links 2, social 1 (engagement 11), filename 0
 - Rationale: 2 news articles linking the exact report URL; 1 social post sharing the exact link with 11 total engagement
 
@@ -45,7 +45,7 @@ Evidence:
 - URL: https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 5.2
+- Heat score (30d): 4.845098040014257
 - Mentions: news links 0, social 2 (engagement 6), filename 0
 - Rationale: 2 social posts sharing the exact link with 6 total engagement
 
@@ -70,7 +70,7 @@ Evidence:
 - URL: https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 4.4
+- Heat score (30d): 4.477121254719663
 - Mentions: news links 0, social 2 (engagement 2), filename 0
 - Rationale: 2 social posts sharing the exact link with 2 total engagement
 
@@ -118,7 +118,7 @@ https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
 - URL: https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 2.6
+- Heat score (30d): 2.6020599913279625
 - Mentions: news links 0, social 1 (engagement 3), filename 0
 - Rationale: 1 social post sharing the exact link with 3 total engagement
 
