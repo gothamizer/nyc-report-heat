@@ -116,6 +116,154 @@ em { font-style: italic; }
   100% { box-shadow: 0 0 0 0 rgba(225, 29, 94, 0); }
 }
 
+/* ── methodology trigger ── */
+.methodology-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px 5px 8px;
+  font-family: var(--ff-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  background: var(--paper-2);
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.18s var(--ease), border-color 0.18s var(--ease), color 0.18s var(--ease);
+}
+.methodology-btn:hover {
+  background: var(--paper-3);
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+.methodology-btn .mb-icon {
+  width: 14px; height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+}
+.methodology-btn .mb-icon circle:last-of-type { fill: currentColor; stroke: none; }
+
+/* ── methodology dialog ── */
+.methodology {
+  width: min(680px, calc(100vw - 32px));
+  max-height: min(86vh, 880px);
+  padding: 0;
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 24px 64px rgba(33, 20, 4, 0.28);
+  overflow: hidden;
+}
+.methodology::backdrop {
+  background: rgba(33, 20, 4, 0.46);
+  backdrop-filter: blur(2px);
+}
+.methodology-inner {
+  position: relative;
+  max-height: inherit;
+  overflow-y: auto;
+  padding: 34px 36px 30px;
+}
+.methodology-close {
+  position: absolute;
+  top: 18px; right: 18px;
+  width: 30px; height: 30px;
+  display: grid;
+  place-items: center;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--ink-soft);
+  transition: background 0.18s var(--ease), color 0.18s var(--ease);
+}
+.methodology-close:hover { background: var(--paper-3); color: var(--ink); }
+.methodology-close svg { width: 15px; height: 15px; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+
+.methodology-title {
+  font-family: var(--ff-display);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 48px 12px 0;
+}
+.methodology-lede {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.m-section {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.m-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 9px;
+}
+.m-num {
+  flex: none;
+  width: 22px; height: 22px;
+  display: grid;
+  place-items: center;
+  font-family: var(--ff-mono);
+  font-size: 12px;
+  color: var(--paper);
+  background: var(--ink);
+  border-radius: 50%;
+}
+.m-section p { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 10px; }
+.m-section p:last-child { margin-bottom: 0; }
+.m-list, .m-weights { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 4px 0 2px; }
+.m-list li {
+  font-size: 13px;
+  color: var(--ink-soft);
+  padding-left: 14px;
+  position: relative;
+}
+.m-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 8px;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+.m-list strong { color: var(--ink); font-weight: 600; }
+.m-weights li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.m-w {
+  flex: none;
+  min-width: 38px;
+  font-family: var(--ff-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--pink);
+}
+.m-foot {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 2px solid var(--ink);
+  font-size: 12.5px;
+  color: var(--ink-faint);
+}
+
 /* ============================================================
    CONTROLS
    ============================================================ */

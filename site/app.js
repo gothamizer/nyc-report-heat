@@ -365,6 +365,17 @@ function wireEvents() {
     state.rankWindow = e.target.value;
     applyFilters();
   });
+
+  // methodology dialog
+  const dialog = $("#methodology-dialog");
+  if (dialog) {
+    $("#methodology-open").addEventListener("click", () => dialog.showModal());
+    $("#methodology-close").addEventListener("click", () => dialog.close());
+    // click on the backdrop (outside the inner panel) closes
+    dialog.addEventListener("click", (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+  }
 }
 
 wireEvents();
