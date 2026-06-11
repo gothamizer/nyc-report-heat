@@ -39,7 +39,7 @@ def heat_from_store(
         )
         if confidence == "filename":
             result.filename_mentions += 1
-        elif mention.provider in {"bluesky", "hackernews"}:
+        elif mention.provider in {"bluesky", "hackernews", "reddit"}:
             result.social_exact_mentions += 1
             result.social_engagement += mention.engagement
         else:

@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
+import requests
 from bs4 import BeautifulSoup
 
 from nyc_report_heat.http import HttpClient
@@ -122,8 +124,12 @@ def harvest_bluesky(
     mentions: list[HarvestedMention] = []
     errors: list[str] = []
     since = (datetime.now(timezone.utc) - timedelta(days=lookback_days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    seen_hosts: set[str] = set()
     for entry in domains:
         query = entry.partition("/")[0]  # search the bare host; paths rarely tokenize
+        if query in seen_hosts:
+            continue
+        seen_hosts.add(query)
         cursor: str | None = None
         for _ in range(max_pages):
             params = {"q": query, "limit": "100", "sort": "latest", "since": since}
@@ -176,8 +182,12 @@ def harvest_hackernews(
     mentions: list[HarvestedMention] = []
     errors: list[str] = []
     cutoff = int((datetime.now(timezone.utc) - timedelta(days=lookback_days)).timestamp())
+    seen_hosts: set[str] = set()
     for entry in domains:
         query = entry.partition("/")[0]
+        if query in seen_hosts:
+            continue
+        seen_hosts.add(query)
         params = {
             "query": query,
             "tags": "story",
@@ -205,6 +215,90 @@ def harvest_hackernews(
                     author=hit.get("author"),
                     published_at=_parse_iso(hit.get("created_at")),
                     engagement=int(hit.get("points") or 0) + int(hit.get("num_comments") or 0),
+                )
+            )
+    return mentions, errors
+
+
+# ---------------------------------------------------------------------------
+# Reddit: where NYC reports actually get discussed (r/nyc, r/AskNYC, ...).
+# Unauthenticated JSON is now 403'd, but the OAuth API is free and CI-safe.
+# Register a "script" app at reddit.com/prefs/apps and set REDDIT_CLIENT_ID /
+# REDDIT_CLIENT_SECRET; without them this provider skips cleanly.
+# ---------------------------------------------------------------------------
+
+REDDIT_TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
+REDDIT_API = "https://oauth.reddit.com"
+REDDIT_UA = "nyc-report-heat/0.2 (by u/nyc-report-heat; github.com/gothamizer/nyc-report-heat)"
+
+
+def _reddit_token(client_id: str, client_secret: str) -> str:
+    resp = requests.post(
+        REDDIT_TOKEN_URL,
+        auth=(client_id, client_secret),
+        data={"grant_type": "client_credentials"},
+        headers={"User-Agent": REDDIT_UA},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    return resp.json()["access_token"]
+
+
+def harvest_reddit(
+    client: HttpClient,
+    domains: list[str],
+    lookback_days: int = 30,
+) -> tuple[list[HarvestedMention], list[str]]:
+    client_id = os.getenv("REDDIT_CLIENT_ID")
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        return [], ["reddit:skipped:REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET not set"]
+    try:
+        token = _reddit_token(client_id, client_secret)
+    except Exception as exc:
+        return [], [f"reddit:token:{exc}"]
+    headers = {"Authorization": f"bearer {token}", "User-Agent": REDDIT_UA}
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=lookback_days)).timestamp()
+    mentions: list[HarvestedMention] = []
+    errors: list[str] = []
+    seen_hosts: set[str] = set()
+    for entry in domains:
+        host = entry.partition("/")[0]  # domain listing is per host; path-filter below
+        if host in seen_hosts:
+            continue
+        seen_hosts.add(host)
+        try:
+            data = client.get(
+                f"{REDDIT_API}/domain/{host}/new",
+                params={"limit": "100"},
+                headers=headers,
+            ).json()
+        except Exception as exc:
+            errors.append(f"reddit:{host}:{exc}")
+            continue
+        for child in data.get("data", {}).get("children", []):
+            post = child.get("data", {})
+            url = post.get("url")
+            if not url or not target_matches_domains(url, domains):
+                continue
+            created = post.get("created_utc")
+            published = (
+                datetime.fromtimestamp(created, timezone.utc) if created else None
+            )
+            if published is not None and published.timestamp() < cutoff:
+                continue
+            permalink = post.get("permalink")
+            mentions.append(
+                HarvestedMention(
+                    uid=f"reddit:{post.get('id')}:{normalize_url(url)}",
+                    provider="reddit",
+                    query=host,
+                    target_url=normalize_url(url),
+                    source_url=f"https://www.reddit.com{permalink}" if permalink else None,
+                    title=post.get("title"),
+                    author=f"r/{post.get('subreddit')}" if post.get("subreddit") else None,
+                    published_at=published,
+                    engagement=int(post.get("score") or 0) + int(post.get("num_comments") or 0),
                 )
             )
     return mentions, errors

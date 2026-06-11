@@ -15,6 +15,7 @@ from nyc_report_heat.harvest import (
     harvest_bluesky,
     harvest_hackernews,
     harvest_news_feeds,
+    harvest_reddit,
     match_mention,
     read_mention_store,
 )
@@ -61,6 +62,11 @@ def _run_harvest(settings: Settings, store_path: Path = MENTIONS_STORE) -> None:
         console.print(f"hackernews: {len(mentions)} gov-link mentions ({len(errs)} errors)")
         harvested.extend(mentions)
         errors.extend(errs)
+    if "reddit" in providers:
+        mentions, errs = harvest_reddit(client, settings.harvest_domains, settings.harvest_lookback_days)
+        console.print(f"reddit: {len(mentions)} gov-link mentions ({len(errs)} errors)")
+        harvested.extend(mentions)
+        errors.extend(errs)
     if "newsrss" in providers:
         mentions, errs = harvest_news_feeds(
             client,
@@ -102,7 +108,7 @@ def _score_candidates(
 
     from nyc_report_heat.io import candidate_key
 
-    harvest_providers = sorted(providers & {"bluesky", "hackernews", "newsrss"})
+    harvest_providers = sorted(providers & {"bluesky", "hackernews", "newsrss", "reddit"})
 
     ranked = []
     for candidate in candidates:

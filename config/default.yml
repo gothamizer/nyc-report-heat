@@ -15,6 +15,9 @@ providers:
   - bluesky
   - hackernews
   - newsrss
+  # reddit needs REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET (free script app);
+  # skips cleanly if unset.
+  - reddit
 harvest_lookback_days: 30
 harvest_domains:
   - comptroller.nyc.gov
@@ -22,10 +25,14 @@ harvest_domains:
   - ibo.nyc.ny.us
   - osc.ny.gov
   - a860-gpp.nyc.gov
-  # Narrowed to /assets: tracked nyc.gov reports (DOI, OMB, agency PDFs) all
-  # live there. Bare nyc.gov caught viral civic-campaign and service URLs
+  # Narrowed to /assets: tracked nyc.gov reports (DOI, agency PDFs) all live
+  # there. Bare nyc.gov caught viral civic-campaign and service URLs
   # (beattheheat, housingconnect, 311) that are not reports.
   - nyc.gov/assets
+  - nyc.gov/html            # legacy DOT report PDFs
+  - pubadvocate.nyc.gov
+  - advocate.nyc.gov
+  - criminaljustice.cityofnewyork.us
 news_feeds:
   - https://gothamist.com/feed
   - https://www.thecity.nyc/rss/index.xml
@@ -40,6 +47,7 @@ news_feeds:
   - https://queenseagle.com/all?format=rss
   - https://www.brooklynpaper.com/feed/
 source_ids:
+  # fiscal / oversight
   - doi
   - nyc_comptroller
   - nys_comptroller
@@ -47,3 +55,30 @@ source_ids:
   - rules_proposed
   - rules_adopted
   - gpp
+  # agencies & bodies (config-driven scrapers in discovery.AGENCY_SOURCES)
+  - ccrb
+  - doc
+  - boc
+  - nypd
+  - coib
+  - mocj
+  - law
+  - hpd
+  - nycha
+  - dob
+  - lpc
+  - dep
+  - dsny
+  - dohmh
+  - acs
+  - dhs
+  - hra
+  - dfta
+  - dycd
+  - dot
+  - dcwp
+  - tlc
+  - sbs
+  - dof
+  - pubadvocate
+  - mmr

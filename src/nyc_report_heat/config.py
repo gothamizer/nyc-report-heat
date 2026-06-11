@@ -15,9 +15,10 @@ class Settings(BaseModel):
     request_timeout_seconds: int = 10
     request_sleep_seconds: float = 0.0
     max_workers: int = 8
-    providers: list[str] = Field(default_factory=lambda: ["bluesky", "hackernews", "newsrss"])
+    providers: list[str] = Field(default_factory=lambda: ["bluesky", "hackernews", "newsrss", "reddit"])
     source_ids: list[str] = Field(
         default_factory=lambda: [
+            # fiscal / oversight
             "doi",
             "nyc_comptroller",
             "nys_comptroller",
@@ -25,6 +26,11 @@ class Settings(BaseModel):
             "rules_proposed",
             "rules_adopted",
             "gpp",
+            # agencies & bodies (config-driven scrapers in discovery.AGENCY_SOURCES)
+            "ccrb", "doc", "boc", "nypd", "coib", "mocj", "law",
+            "hpd", "nycha", "dob", "lpc", "dep", "dsny",
+            "dohmh", "acs", "dhs", "hra", "dfta", "dycd",
+            "dot", "dcwp", "tlc", "sbs", "dof", "pubadvocate", "mmr",
         ]
     )
     # Domain-first harvesting: providers are queried once per entry here, and
@@ -37,10 +43,15 @@ class Settings(BaseModel):
             "ibo.nyc.ny.us",
             "osc.ny.gov",
             "a860-gpp.nyc.gov",
-            # Narrowed to /assets: tracked nyc.gov reports (DOI, OMB, agency
-            # PDFs) all live there; bare nyc.gov caught viral campaign/service
-            # URLs (beattheheat, housingconnect, 311) that are not reports.
+            # Narrowed to /assets: tracked nyc.gov reports (DOI, agency PDFs)
+            # all live there; bare nyc.gov caught viral campaign/service URLs
+            # (beattheheat, housingconnect, 311) that are not reports.
             "nyc.gov/assets",
+            "nyc.gov/html",  # legacy DOT report PDFs
+            # agencies/bodies hosted off nyc.gov
+            "pubadvocate.nyc.gov",
+            "advocate.nyc.gov",
+            "criminaljustice.cityofnewyork.us",
         ]
     )
     news_feeds: list[str] = Field(
