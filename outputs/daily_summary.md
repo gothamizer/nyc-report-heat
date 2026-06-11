@@ -1,67 +1,80 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-08T17:30:22+00:00
-Candidates ranked: 481
-New candidates: 0
+Generated: 2026-06-11T02:46:54+00:00
+Candidates ranked: 485
+New candidates: 4
 Rank window: 7d
 
 ## Top Link Heat Overall
 
-1. Understanding the Budget: A Guide to the Capital Budget | NYC Independent Budget Office | heat 30.0 | https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf
-2. Two Paramedics on an Ambulance—Only in New York | NYC Independent Budget Office | heat 27.0 | https://ibo.nyc.ny.us/cgi-park?p=77
-3. Performance of Industrial Development Agencies in New York State – 2026 Annual Report | NYS Comptroller | heat 27.0 | https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
-4. About Those Services You Prioritized | NYC Independent Budget Office | heat 24.0 | https://ibo.nyc.ny.us/cgi-park?p=42
-5. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department? | NYC Independent Budget Office | heat 23.0 | https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
-6. Current State of Rent Stabilized Housing | NYC Government Publications Portal | heat 21.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/3t945x34h?locale=en
-7. Promoting Growth in NYC: Leveraging NYCIDA for Economic Development | NYC Comptroller | heat 19.0 | https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development
-8. Review of the Financial Plan of the City of New York, March 2026 | NYS Comptroller | heat 17.0 | https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
-9. The City Record, May 22, 2026 | NYC Government Publications Portal | heat 16.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
-10. The City Record, May 21, 2026 | NYC Government Publications Portal | heat 16.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
-11. State Parks a Growing Attraction | NYS Comptroller | heat 15.0 | https://www.osc.ny.gov/reports/state-parks-growing-attraction
-12. Testimony of Louisa Chafee, Director, New York City Independent Budget Office on IBO’s Analysis of the January 2025 Financial Plan for 2025-2029" | NYC Independent Budget Office | heat 14.0 | https://www.ibo.nyc.ny.us/iboreports/ibo-preliminary-budget-testimony-march-2025.pdf
-13. The City Record, May 20, 2026 | NYC Government Publications Portal | heat 14.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/s7526j657?locale=en
-14. How Have City Costs for Homeless Shelters Changed With Shifts in State and Federal Support? | NYC Independent Budget Office | heat 13.0 | https://www.ibo.nyc.ny.us/iboreports/how-have-city-costs-changed-with-shifts-in-state-and-federal-support-for-homeless-shelters-march-2023.html
-15. Testimony to the New York City Council on The Mayor's May 2024 Executive Budget | NYC Independent Budget Office | heat 12.0 | https://ibo.nyc.ny.us/iboreports/executive-budget-testimony-may-2024.pdf
+1. The Pied-à-Terre Tax and Its Potential Revenues | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
+2. Who's Minding the Storefronts? | NYC Comptroller | heat 2.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
+3. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
+4. OIG-NYPD Twelfth Annual Report | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
+5. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
+6. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
+7. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/49NYPD.SancLawsRelease.Rpt.12.03.2025.pdf
+8. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/41CGDRelease.Rpt.10.15.2025.pdf
+9. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/38DOC.Release.Rpt.09.25.2025.pdf
+10. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/36NYCERS.Release.Rpt.09.17.2025.pdf
+11. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/34SkimmingRelease.Rpt.09.04.2025.pdf
+12. DOI's 2024 Annual Anti-Corruption Report | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/33AntiCorruption.Release.Rpt.09.03.2025.pdf
+13. DOI's Investigation of Excessive Workers' Compensation Claims by City Department of Correction Employees | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/25Rpt.Release.WorkersComp05.19.2025.pdf
+14. Eleventh Annual Report of DOI's Office of the Inspector General for the NYPD | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/17OIGNYPDARRelease.Rpt.04.01.2025.pdf
+15. Safeguarding NYCHA Residents: A Review of Select Safety Measures at Senior Buildings & Compliance with Fire Guard Requirements | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/14NYCHASecurityFireReleaseRpt03.26.2025.pdf
 
 ## Top Reports/Publications
 
-1. Understanding the Budget: A Guide to the Capital Budget | NYC Independent Budget Office | heat 30.0 | https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf
-2. Two Paramedics on an Ambulance—Only in New York | NYC Independent Budget Office | heat 27.0 | https://ibo.nyc.ny.us/cgi-park?p=77
-3. Performance of Industrial Development Agencies in New York State – 2026 Annual Report | NYS Comptroller | heat 27.0 | https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
-4. About Those Services You Prioritized | NYC Independent Budget Office | heat 24.0 | https://ibo.nyc.ny.us/cgi-park?p=42
-5. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department? | NYC Independent Budget Office | heat 23.0 | https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
-6. Current State of Rent Stabilized Housing | NYC Government Publications Portal | heat 21.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/3t945x34h?locale=en
-7. Promoting Growth in NYC: Leveraging NYCIDA for Economic Development | NYC Comptroller | heat 19.0 | https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development
-8. Review of the Financial Plan of the City of New York, March 2026 | NYS Comptroller | heat 17.0 | https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
-9. The City Record, May 22, 2026 | NYC Government Publications Portal | heat 16.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
-10. The City Record, May 21, 2026 | NYC Government Publications Portal | heat 16.0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
+1. The Pied-à-Terre Tax and Its Potential Revenues | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
+2. Who's Minding the Storefronts? | NYC Comptroller | heat 2.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
+3. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
+4. OIG-NYPD Twelfth Annual Report | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
+5. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
+6. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
+7. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/49NYPD.SancLawsRelease.Rpt.12.03.2025.pdf
+8. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/41CGDRelease.Rpt.10.15.2025.pdf
+9. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/38DOC.Release.Rpt.09.25.2025.pdf
+10. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/36NYCERS.Release.Rpt.09.17.2025.pdf
 
 ## Top Rules
 
-1. Child Care and Child Supervision Programs | NYC Rules - Adopted | heat 11.0 | https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-child-care-and-child-supervision-programs
-2. Mental Health and Health Care Standards in NYC Correctional Facilities | NYC Rules - Proposed | heat 9.0 | https://rules.cityofnewyork.us/rule/mental-health-and-health-care-standards-in-nyc-correctional-facilities
-3. Amendment of Rules Relating to Collection of Commercial Waste | NYC Rules - Adopted | heat 7.0 | https://rules.cityofnewyork.us/rule/dsny-proposed-amendment-of-rules-relating-to-collection-of-commercial-waste
-4. Business Corporation Tax Implementation Rules | NYC Rules - Proposed | heat 6.0 | https://rules.cityofnewyork.us/rule/business-corporation-tax-implementation-rules
-5. Restaurant Surcharges | NYC Rules - Adopted | heat 6.0 | https://rules.cityofnewyork.us/rule/restaurant-surcharges
-6. Car Wash Records | NYC Rules - Adopted | heat 5.0 | https://rules.cityofnewyork.us/rule/car-wash-records
-7. Further Amendment of Rules Relating to Vital Records | NYC Rules - Proposed | heat 4.0 | https://rules.cityofnewyork.us/rule/further-amendment-of-rules-relating-to-vital-records
-8. Cancellation of Subscriptions | NYC Rules - Proposed | heat 4.0 | https://rules.cityofnewyork.us/rule/cancellation-of-subscriptions
-9. Debt Collectors | NYC Rules - Proposed | heat 4.0 | https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-debt-collectors
-10. Debt Collectors | NYC Rules - Proposed | heat 4.0 | https://rules.cityofnewyork.us/rule/debt-collectors
+1. Further Amendment of Rules Relating to Vital Records | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/further-amendment-of-rules-relating-to-vital-records
+2. Amendment of Rules Relating to Lead Dust | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-lead-dust
+3. PACE Financing Program | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rule-relating-to-pace-financing-program
+4. Special Event Permits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/dpr-proposed-amendment-of-rules-relating-to-special-event-permits
+5. Containerization Requirements for Buildings Containing 10 or More Dwelling Units | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/relating-to-containerization-requirements-for-buildings-containing-10-or-more-dwelling-units
+6. Applications Pursuant to RPTL §485-x - ANNY Program Benefits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/proposed-amendment-of-rules-relating-to-applications-pursuant-to-rptl-%c2%a7485-x
+7. Rent Guidelines for October 1, 2026 to September 30, 2027 | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/rent-guidelines-for-october-1-2026-to-september-30-2027
+8. Citywide Truck Routes | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
+9. Debt Collector Penalty Schedule | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/debt-collector-penalty-schedule
+10. Donations and Gifts to the City - extension of public comment period | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/donations-and-gifts-to-the-city-extension-of-public-comment-period
 
 ## Link Heat Signals
 
-1. Understanding the Budget: A Guide to the Capital Budget | 7d heat 30.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://www.ibo.nyc.ny.us/iboreports/IBOCBG.pdf
-2. Two Paramedics on an Ambulance—Only in New York | 7d heat 27.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://ibo.nyc.ny.us/cgi-park?p=77
-3. Performance of Industrial Development Agencies in New York State – 2026 Annual Report | 7d heat 27.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://www.osc.ny.gov/files/local-government/publications/pdf/ida-performance-report-2026.pdf
-4. About Those Services You Prioritized | 7d heat 24.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://ibo.nyc.ny.us/cgi-park?p=42
-5. How Much Did the 2021 Adopted Budget Reduce Spending For the New York City Police Department? | 7d heat 23.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://ibo.nyc.ny.us/cgi-park2/2020/08/how-much-did-the-2021-adopted-budget-reduce-spending-for-the-new-york-city-police-department
-6. Current State of Rent Stabilized Housing | 7d heat 21.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/3t945x34h?locale=en
-7. Promoting Growth in NYC: Leveraging NYCIDA for Economic Development | 7d heat 19.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development
-8. Review of the Financial Plan of the City of New York, March 2026 | 7d heat 17.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://www.osc.ny.gov/files/reports/osdc/pdf/report-23-2026.pdf
-9. The City Record, May 22, 2026 | 7d heat 16.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/x346d9786?locale=en
-10. The City Record, May 21, 2026 | 7d heat 16.0 | exact 0 | filename 0 | social 0 | crawl 0 | https://a860-gpp.nyc.gov/concern/nyc_government_publications/jm214v795?locale=en
+1. The Pied-à-Terre Tax and Its Potential Revenues | 7d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
+2. Who's Minding the Storefronts? | 7d heat 2.6 | news links 0 | social 1 (engagement 3) | filename 0 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
+
+## Shared But Untracked
+
+1. https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement | mentions 2 | engagement 0 | via newsrss
+2. https://a858-nycnotify.nyc.gov/notifynyc/Home | mentions 1 | engagement 5 | via bluesky
+3. https://comptroller.nyc.gov/newsroom/statement-from-city-comptroller-brad-lander-on-the-new-york-city-teachers-retirement-systems-divestment-from-russian-securities | mentions 1 | engagement 4 | via bluesky
+4. https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf | mentions 1 | engagement 1 | via bluesky
+5. https://access.nyc.gov/programs/cooling-assistance-benefit | mentions 1 | engagement 0 | via newsrss
+6. https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page | mentions 1 | engagement 0 | via newsrss
+7. https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf | mentions 1 | engagement 0 | via newsrss
+8. https://www.nyc.gov/content/nychope/pages | mentions 1 | engagement 0 | via newsrss
+9. https://access.nyc.gov/programs/one-shot-deal | mentions 1 | engagement 0 | via newsrss
+10. https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf | mentions 1 | engagement 0 | via newsrss
+11. https://www.nyc.gov/site/acs/news/p05-26/mayor-mamdani-appoints-rebecca-jones-gaston-commissioner-the-administration-children-s | mentions 1 | engagement 0 | via newsrss
+12. https://www.nyc.gov/main/knicksgame3 | mentions 1 | engagement 0 | via newsrss
+13. https://www.nyc.gov/mayors-office/news/2026/06/transcript--mayor-mamdani-appears-on-wnyc-s-the-brian-lehrer-sho | mentions 1 | engagement 0 | via newsrss
+14. https://www.nyc.gov/mayors-office/news/2026/06/mayor-mamdani-and-commissioner-clarke-launch--trans-rights-are-h | mentions 1 | engagement 0 | via newsrss
+15. https://www.nyc.gov/mayors-office/news/2026/05/mayor-mamdani-announces-midtown-transportation-plan-to-keep-new- | mentions 1 | engagement 0 | via newsrss
 
 ## New Candidates
 
-No new candidates found.
+- New York City Cash Balance Projection | NYC Comptroller | 2026-06-01 | https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026
+- Comments on New York City’s Executive Budget for Fiscal Year 2027 an... | NYC Comptroller | 2026-06-09 | https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030
+- Waiting for the Bus: Upstate Transportation Systems’ On-Time Bus Performance | NYS Comptroller | unknown date | https://www.osc.ny.gov/files/reports/pdf/upstate-transportation-systems-on-time-bus-performance.pdf
+- Establishment of Unclaimed Restitution Fund | NYC Rules - Proposed | 2026-07-09 | https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund

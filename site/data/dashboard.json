@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T02:44:53+00:00",
+  "generated_at": "2026-06-11T02:46:54+00:00",
   "rank_window": "7d",
   "windows": [
     "today",
@@ -12,17 +12,17 @@
     "newsrss"
   ],
   "stats": {
-    "total": 481,
+    "total": 485,
     "with_heat": 2,
-    "new_count": 0,
+    "new_count": 4,
     "by_kind": {
-      "report": 345,
-      "rule": 126,
+      "report": 348,
+      "rule": 127,
       "publication": 10
     },
     "by_format": {
-      "html": 255,
-      "pdf": 226
+      "html": 258,
+      "pdf": 227
     },
     "by_source": [
       {
@@ -35,19 +35,19 @@
       },
       {
         "name": "NYC Rules - Proposed",
-        "count": 61
+        "count": 62
       },
       {
         "name": "NYC Department of Investigation",
         "count": 44
       },
       {
-        "name": "NYS Comptroller",
-        "count": 21
+        "name": "NYC Comptroller",
+        "count": 22
       },
       {
-        "name": "NYC Comptroller",
-        "count": 20
+        "name": "NYS Comptroller",
+        "count": 22
       },
       {
         "name": "NYC Government Publications Portal",
@@ -57,17 +57,17 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 481,
+        "checked": 485,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 481,
+        "checked": 485,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 481,
+        "checked": 485,
         "errors": 0
       }
     ]
@@ -536,7 +536,40 @@
       "last_seen": "2026-06-08T15:27:49+00:00"
     }
   ],
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "title": "New York City Cash Balance Projection",
+      "source": "NYC Comptroller",
+      "kind": "report",
+      "published_date": "2026-06-01",
+      "heat_url": "https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026",
+      "format": "html"
+    },
+    {
+      "title": "Comments on New York City’s Executive Budget for Fiscal Year 2027 an...",
+      "source": "NYC Comptroller",
+      "kind": "report",
+      "published_date": "2026-06-09",
+      "heat_url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
+      "format": "html"
+    },
+    {
+      "title": "Waiting for the Bus: Upstate Transportation Systems’ On-Time Bus Performance",
+      "source": "NYS Comptroller",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.osc.ny.gov/files/reports/pdf/upstate-transportation-systems-on-time-bus-performance.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Establishment of Unclaimed Restitution Fund",
+      "source": "NYC Rules - Proposed",
+      "kind": "rule",
+      "published_date": "2026-07-09",
+      "heat_url": "https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund",
+      "format": "html"
+    }
+  ],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -28992,6 +29025,242 @@
       },
       "mentions": [],
       "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:51cf41b14572",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "New York City Cash Balance Projection",
+      "agency": null,
+      "published_date": "2026-06-01",
+      "url": "https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "7d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nyc_comptroller:5fe3134dab8a",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Comments on New York City’s Executive Budget for Fiscal Year 2027 an...",
+      "agency": null,
+      "published_date": "2026-06-09",
+      "url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "7d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nys_comptroller:614893b949bc",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "Waiting for the Bus: Upstate Transportation Systems’ On-Time Bus Performance",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/files/reports/pdf/upstate-transportation-systems-on-time-bus-performance.pdf",
+      "document_url": "https://www.osc.ny.gov/files/reports/pdf/upstate-transportation-systems-on-time-bus-performance.pdf",
+      "heat_url": "https://www.osc.ny.gov/files/reports/pdf/upstate-transportation-systems-on-time-bus-performance.pdf",
+      "format": "pdf",
+      "source_page": "https://www.osc.ny.gov/reports",
+      "rank_window": "7d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "rules_proposed:7497a0b7ae6d",
+      "source": "NYC Rules - Proposed",
+      "source_id": "rules_proposed",
+      "kind": "rule",
+      "title": "Establishment of Unclaimed Restitution Fund",
+      "agency": "DCWP",
+      "published_date": "2026-07-09",
+      "url": "https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund",
+      "document_url": null,
+      "heat_url": "https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund",
+      "format": "html",
+      "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
+      "rank_window": "7d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
     }
   ]
 }
