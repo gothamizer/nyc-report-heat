@@ -37,7 +37,10 @@ class Settings(BaseModel):
             "ibo.nyc.ny.us",
             "osc.ny.gov",
             "a860-gpp.nyc.gov",
-            "nyc.gov",
+            # Narrowed to /assets: tracked nyc.gov reports (DOI, OMB, agency
+            # PDFs) all live there; bare nyc.gov caught viral campaign/service
+            # URLs (beattheheat, housingconnect, 311) that are not reports.
+            "nyc.gov/assets",
         ]
     )
     news_feeds: list[str] = Field(

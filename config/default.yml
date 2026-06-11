@@ -22,7 +22,10 @@ harvest_domains:
   - ibo.nyc.ny.us
   - osc.ny.gov
   - a860-gpp.nyc.gov
-  - nyc.gov
+  # Narrowed to /assets: tracked nyc.gov reports (DOI, OMB, agency PDFs) all
+  # live there. Bare nyc.gov caught viral civic-campaign and service URLs
+  # (beattheheat, housingconnect, 311) that are not reports.
+  - nyc.gov/assets
 news_feeds:
   - https://gothamist.com/feed
   - https://www.thecity.nyc/rss/index.xml
