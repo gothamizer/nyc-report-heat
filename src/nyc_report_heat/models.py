@@ -36,7 +36,7 @@ class Mention(BaseModel):
     url: str | None = None
     title: str | None = None
     published_at: datetime | None = None
-    confidence: Literal["exact_url", "filename"] = "exact_url"
+    confidence: Literal["exact_url", "filename", "named"] = "exact_url"
 
 
 class HarvestedMention(BaseModel):
@@ -57,6 +57,9 @@ class HarvestedMention(BaseModel):
     author: str | None = None
     published_at: datetime | None = None
     engagement: int = 0  # likes+reposts+quotes+replies / points+comments
+    # how the document was identified: a link in the content, or its exact
+    # distinctive title named in a tracked newsroom's article text
+    via: Literal["link", "title"] = "link"
     harvested_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     @property
@@ -69,6 +72,7 @@ class HeatResult(BaseModel):
     window_days: int
     exact_url_mentions: int = 0
     filename_mentions: int = 0
+    named_mentions: int = 0
     social_exact_mentions: int = 0
     social_engagement: int = 0
     providers_checked: list[str] = Field(default_factory=list)

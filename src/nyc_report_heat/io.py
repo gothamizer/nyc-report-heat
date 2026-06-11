@@ -199,6 +199,7 @@ def ranked_rows(items: Iterable[RankedItem]) -> list[dict[str, object]]:
             heat = item.heat_windows[key]
             row[f"heat_score_{key}"] = heat_score(heat)
             row[f"exact_url_mentions_{key}"] = heat.exact_url_mentions
+            row[f"named_mentions_{key}"] = heat.named_mentions
             row[f"filename_mentions_{key}"] = heat.filename_mentions
             row[f"social_exact_mentions_{key}"] = heat.social_exact_mentions
             row[f"social_engagement_{key}"] = heat.social_engagement
@@ -320,6 +321,7 @@ def _window_payload(heat) -> dict[str, object]:
     return {
         "score": heat_score(heat),
         "exact_url_mentions": heat.exact_url_mentions,
+        "named_mentions": heat.named_mentions,
         "filename_mentions": heat.filename_mentions,
         "social_exact_mentions": heat.social_exact_mentions,
         "social_engagement": heat.social_engagement,

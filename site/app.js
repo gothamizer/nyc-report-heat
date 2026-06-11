@@ -85,12 +85,13 @@ function windowLabel(key) {
   return key === "today" ? "Today" : key.toUpperCase();
 }
 
-/* Countable, human number for a window: news + social + filename pickups.
-   The weighted score still drives ranking and the thermal meters, but the
-   number people see is just "how many times was this shared". */
+/* Countable, human number for a window: news links, named-in-print articles,
+   social shares, and filename pickups. The weighted score still drives
+   ranking and the thermal meters, but the number people see is just "how
+   many times was this surfaced". */
 function pickupsIn(w) {
   if (!w) return 0;
-  return (w.exact_url_mentions || 0) + (w.social_exact_mentions || 0) + (w.filename_mentions || 0);
+  return (w.exact_url_mentions || 0) + (w.named_mentions || 0) + (w.social_exact_mentions || 0) + (w.filename_mentions || 0);
 }
 
 function hostOf(url) {
@@ -330,6 +331,7 @@ function buildDetail(it) {
 
   const confLabel = (c) => ({
     exact_url: "exact link",
+    named: "named in print",
     filename: "filename",
   }[c] || (c || "").replace(/_/g, " "));
 

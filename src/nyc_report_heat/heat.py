@@ -34,10 +34,12 @@ def heat_from_store(
                 url=mention.source_url or mention.target_url,
                 title=mention.title,
                 published_at=mention.published_at,
-                confidence="exact_url" if confidence == "exact_url" else "filename",
+                confidence=confidence if confidence in {"exact_url", "named"} else "filename",
             )
         )
-        if confidence == "filename":
+        if confidence == "named":
+            result.named_mentions += 1
+        elif confidence == "filename":
             result.filename_mentions += 1
         elif mention.provider in {"bluesky", "hackernews", "reddit"}:
             result.social_exact_mentions += 1
@@ -59,6 +61,7 @@ def heat_score(result: HeatResult) -> float:
     """
     return (
         6.0 * result.exact_url_mentions
+        + 3.0 * min(result.named_mentions, 5)
         + 2.0 * result.social_exact_mentions
         + 1.0 * math.log10(1 + result.social_engagement)
         + 2.0 * min(result.filename_mentions, 5)

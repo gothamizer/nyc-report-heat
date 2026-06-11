@@ -371,18 +371,97 @@ def _extract_gov_links(html: str, domains: list[str]) -> set[str]:
     return links
 
 
+# TV and tabloid newsrooms regularly cover a report by its exact title without
+# linking it. Matching is deliberately narrow — a distinctive multi-word title
+# AND the publishing body named in the same article — so an idiom or a generic
+# label ("Daily Report") can't produce coincidental hits. The evidence stays
+# verifiable: a real article a reader can open and see the report named.
+_GENERIC_SOURCE_WORDS = {
+    "nyc", "nys", "new", "york", "city", "state", "of", "the", "for",
+    "department", "office", "mayor's", "administration",
+}
+
+
+def build_title_index(candidates: list[Candidate]) -> list[tuple[re.Pattern, re.Pattern, str]]:
+    """(title pattern, source-name pattern, normalized heat url) for every
+    candidate whose title is distinctive enough to match in article text."""
+    index: list[tuple[re.Pattern, re.Pattern, str]] = []
+    for candidate in candidates:
+        source_words = [
+            w for w in re.split(r"[^\w']+", candidate.source_name.lower())
+            if w and w not in _GENERIC_SOURCE_WORDS
+        ]
+        if not source_words:
+            continue
+        source_pattern = re.compile(r"\b(?:" + "|".join(re.escape(w) for w in source_words) + r")\b", re.I)
+        target = _fold_www(normalize_url(candidate.heat_url))
+        for phrase in _candidate_phrases(candidate):
+            # words joined by any punctuation/whitespace, so "Lots, Big" matches
+            title_pattern = re.compile(r"\b" + r"\W+".join(re.escape(w) for w in phrase) + r"\b", re.I)
+            index.append((title_pattern, source_pattern, target))
+    return index
+
+
+# trailing tokens that are part of a document's filename but not its title
+_FILENAME_NOISE = re.compile(
+    r"^(?:(?:19|20)?\d{2,8}|v\d+|final|draft|digital|web|print|en|english"
+    r"|jan\w*|feb\w*|mar\w*|apr\w*|may|jun\w*|jul\w*|aug\w*|sep\w*|oct\w*|nov\w*|dec\w*)$",
+    re.I,
+)
+
+
+def _candidate_phrases(candidate: Candidate) -> list[list[str]]:
+    """Distinctive word sequences that identify this document in prose: its
+    title, and — for documents — the filename with trailing date/version
+    noise stripped ("taken-for-a-ride_june-2026.pdf" -> Taken for a Ride)."""
+    phrases: list[list[str]] = []
+    seen: set[str] = set()
+    sources = [candidate.title]
+    if candidate.document_url:
+        name = filename_from_url(candidate.document_url) or ""
+        sources.append(re.sub(r"\.(pdf|docx?|xlsx?|csv)$", "", name, flags=re.I))
+    for source in sources:
+        words = re.findall(r"[\w'’]+", source.replace("_", " "))
+        while words and _FILENAME_NOISE.match(words[-1]):
+            words.pop()
+        if len(words) < 4 or sum(len(w) for w in words) < 12:
+            continue
+        key = " ".join(w.lower() for w in words)
+        if key in seen:
+            continue
+        seen.add(key)
+        phrases.append(words)
+    return phrases
+
+
+def _fold_www(url: str) -> str:
+    return url.replace("://www.", "://", 1)
+
+
+def named_in_article(text: str, title_index: list[tuple[re.Pattern, re.Pattern, str]], linked_targets: set[str]) -> list[str]:
+    targets = []
+    for title_pattern, source_pattern, target in title_index:
+        if target in linked_targets:
+            continue  # the article links the document; that already counts
+        if title_pattern.search(text) and source_pattern.search(text):
+            targets.append(target)
+    return targets
+
+
 def harvest_news_feeds(
     client: HttpClient,
     feeds: list[str],
     domains: list[str],
     ledger_path: Path,
     lookback_days: int = 14,
+    candidates: list[Candidate] | None = None,
 ) -> tuple[list[HarvestedMention], list[str]]:
     mentions: list[HarvestedMention] = []
     errors: list[str] = []
     seen_articles = read_article_ledger(ledger_path)
     checked: list[str] = []
     cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
+    title_index = build_title_index(candidates) if candidates else []
     for feed_url in feeds:
         try:
             feed_text = client.get(feed_url).text
@@ -407,22 +486,59 @@ def harvest_news_feeds(
                 # Feed-inline content may still carry the links; fall through.
             seen_articles.add(article_key)
             checked.append(article_key)
-            for link in _extract_gov_links(html, domains):
-                target = normalize_url(link)
-                mentions.append(
-                    HarvestedMention(
-                        uid=f"newsrss:{article_key}:{target}",
-                        provider="newsrss",
-                        query=feed_url,
-                        target_url=target,
-                        source_url=article_url,
-                        title=item["title"],
-                        author=outlet,
-                        published_at=item["published_at"],
-                    )
-                )
+            mentions.extend(
+                _article_mentions(html, item, article_key, article_url, feed_url, outlet, domains, title_index)
+            )
     append_article_ledger(ledger_path, checked)
     return mentions, errors
+
+
+def _article_mentions(
+    html: str,
+    item: dict,
+    article_key: str,
+    article_url: str,
+    feed_url: str,
+    outlet: str,
+    domains: list[str],
+    title_index: list[tuple[re.Pattern, re.Pattern, str]],
+) -> list[HarvestedMention]:
+    """All mentions one article yields: gov links in its content, plus tracked
+    reports it names by exact title without linking."""
+    mentions = []
+    linked_targets: set[str] = set()
+    for link in _extract_gov_links(html, domains):
+        target = normalize_url(link)
+        linked_targets.add(_fold_www(target))
+        mentions.append(
+            HarvestedMention(
+                uid=f"newsrss:{article_key}:{target}",
+                provider="newsrss",
+                query=feed_url,
+                target_url=target,
+                source_url=article_url,
+                title=item["title"],
+                author=outlet,
+                published_at=item["published_at"],
+            )
+        )
+    if title_index:
+        text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+        for target in named_in_article(text, title_index, linked_targets):
+            mentions.append(
+                HarvestedMention(
+                    uid=f"newsrss:named:{article_key}:{target}",
+                    provider="newsrss",
+                    query=feed_url,
+                    target_url=target,
+                    source_url=article_url,
+                    title=item["title"],
+                    author=outlet,
+                    published_at=item["published_at"],
+                    via="title",
+                )
+            )
+    return mentions
 
 
 # ---------------------------------------------------------------------------
@@ -454,8 +570,11 @@ def match_mention(
     by_url: dict[str, str],
     by_filename: dict[str, str],
 ) -> tuple[str | None, str]:
-    """Returns (candidate key, confidence) — confidence is exact_url | filename | none."""
+    """Returns (candidate key, confidence) — confidence is exact_url | named | filename | none."""
     target = normalize_url(mention.target_url)
+    if mention.via == "title":
+        # the harvester set target_url to the named candidate's heat url
+        return by_url.get(target), "named"
     if target in by_url:
         return by_url[target], "exact_url"
     stripped = target.split("?", 1)[0]

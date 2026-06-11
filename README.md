@@ -75,10 +75,15 @@ Every provider is free and unauthenticated. Heat collection is **domain-first**:
 - **Hacker News** (Algolia, no auth): stories whose URL is on a tracked gov domain, with points + comments as engagement.
 - **NYC press RSS** (`newsrss`): polls Gothamist, THE CITY, City & State, NY Post Metro, NYT NYRegion, amNY, and City Limits feeds, fetches each new article once (ledger: `data/articles_seen.txt`), and extracts outbound links to tracked gov domains — direct observation of journalists citing the document.
 
-Title-based news matching (GDELT) was tried and removed: matching distinctive title
-terms against a global news firehose produces confident-looking but coincidental hits
-("Waste Management stocks" for a commercial-waste rule). The board counts only
-verifiable evidence — a real post or article carrying the exact link or filename.
+Articles from these curated feeds also count a **named-in-print** pickup: the article
+text contains a tracked report's distinctive multi-word title verbatim *and* names the
+publishing body (TV and tabloid newsrooms regularly cover a report without linking it —
+"a 26-page City Council report titled 'Taken for a Ride'"). This is different from the
+title-based GDELT matching that was tried and removed: that matched loose title terms
+against a global news firehose and produced confident-looking coincidences ("Waste
+Management stocks" for a commercial-waste rule). Named-in-print matches only whole
+distinctive titles, only within the hand-picked NYC outlets, and every match stays
+clickable evidence — open the article and the report is named in it.
 
 All harvested mentions accumulate in `data/mentions.jsonl` (deduped on a stable uid, committed by the daily workflow), so rolling windows are computed from history rather than re-queried live, and a missed CI day loses nothing from backfill-capable providers. The HTTP client uses a browser User-Agent, retry/backoff on 429/5xx, and a per-request cache.
 
@@ -103,6 +108,7 @@ posts sharing the link (weighted by engagement).
 Current weights:
 
 - `6.0 * exact_url_mentions` — news articles linking the exact URL
+- `3.0 * named_mentions`, capped at 5 — news articles naming the report's exact title without linking it
 - `2.0 * social_exact_mentions` — Bluesky/HN posts sharing the exact link
 - `1.0 * log10(1 + social_engagement)` — amplification of those posts (likes/reposts/points/comments); log-scaled so it discriminates across the range reports actually see (single digits to dozens) without a cap, while a single news citation still outweighs any realistic engagement bonus
 - `2.0 * filename_mentions`, capped at 5 — the distinctive PDF filename seen without the full URL

@@ -11,6 +11,9 @@ def rank_candidate(candidate: Candidate, heat_windows: dict[str, HeatResult], ra
     if heat.exact_url_mentions:
         plural = "s" if heat.exact_url_mentions != 1 else ""
         reasons.append(f"{heat.exact_url_mentions} news article{plural} linking the exact report URL")
+    if heat.named_mentions:
+        plural = "s" if heat.named_mentions != 1 else ""
+        reasons.append(f"{heat.named_mentions} news article{plural} naming the report by its exact title (no link)")
     if heat.social_exact_mentions:
         plural = "s" if heat.social_exact_mentions != 1 else ""
         engagement = f" with {heat.social_engagement} total engagement" if heat.social_engagement else ""

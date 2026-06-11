@@ -47,6 +47,10 @@ news_feeds:
   - https://nyc.streetsblog.org/feed
   - https://queenseagle.com/all?format=rss
   - https://www.brooklynpaper.com/feed/
+  # TV/tabloid outlets that name reports in coverage without linking them
+  # (counted via the named-in-print tier).
+  - https://pix11.com/feed/
+  - https://nypost.com/us-news/feed/
 source_ids:
   # fiscal / oversight
   - doi

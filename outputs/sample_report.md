@@ -149,23 +149,7 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 10. Omb Exec26 Sp5 26
-
-- Source: NYC Office of Management & Budget
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
-- Document URL: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: Mamdani Declares Victory As Hochul Helps City Close Budget Gap
-
-## 11. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
+## 10. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -181,7 +165,7 @@ Evidence:
 Evidence:
 - newsrss: A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'
 
-## 12. The Newest New Yorkers, 2026
+## 11. The Newest New Yorkers, 2026
 
 - Source: NYC Department of City Planning
 - Agency: n/a
@@ -197,7 +181,7 @@ Evidence:
 Evidence:
 - newsrss: Chinese immigrants overtake Dominicans as NYC's largest foreign-born group
 
-## 13. Truck Network Redesign Report
+## 12. Truck Network Redesign Report
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -213,7 +197,7 @@ Evidence:
 Evidence:
 - newsrss: Truck stop? Scenic Staten Island parkway may open to the big rigs
 
-## 14. Ao2000 4
+## 13. Ao2000 4
 
 - Source: NYC Conflicts of Interest Board
 - Agency: n/a
@@ -229,7 +213,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources
 
-## 15. Audit Report on the New York City Housing Authority’s Eviction Processes
+## 14. Audit Report on the New York City Housing Authority’s Eviction Processes
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -245,7 +229,7 @@ Evidence:
 Evidence:
 - newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
 
-## 16. Review of the City’s Animal Population Control Efforts
+## 15. Review of the City’s Animal Population Control Efforts
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -270,7 +254,7 @@ Evidence:
 👇👇👇👇👇👇 👇👇👇👇👇👇
 - bluesky: comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!
 
-## 17. City Planning Commission Rules: Affordable Housing Fast Track Methodology
+## 16. City Planning Commission Rules: Affordable Housing Fast Track Methodology
 
 - Source: NYC Rules - Adopted
 - Agency: DCP
@@ -299,7 +283,7 @@ Do open it and read the comment submissions as an fyi.
 
 Rule sta
 
-## 18. Omb Exec26 Erc5 26
+## 17. Omb Exec26 Erc5 26
 
 - Source: NYC Office of Management & Budget
 - Agency: n/a
@@ -316,7 +300,7 @@ Evidence:
 - bluesky: You can download the "Expense Revenue Contract Budget" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
 - bluesky: You can download the "Expense Revenue Contract Budget" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
 
-## 19. AI and New York City’s Fiscal Future
+## 18. AI and New York City’s Fiscal Future
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -334,6 +318,22 @@ Evidence:
 - bluesky: As AI advances, how can we ensure NYC's fiscal stability? Let's discuss potential strategies for a prosperous future! #NYCFinance
 
 https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
+
+## 19. Ahead of FIFA World Cup, NYC Council Calls for Public Education and Enforcement Against Tourism Scams Following Investigation into Unlicensed Taxis, Pedicabs, and Ferry-Ticket Vendors
+
+- Source: NYC City Council
+- Agency: n/a
+- Date: 2026-06-08
+- Format: pdf
+- URL: https://council.nyc.gov/press/2026/06/08/3129
+- Document URL: https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/taken-for-a-ride_june-2026.pdf
+- Rank window: 30d
+- Heat score (30d): 3.0
+- Mentions: news links 0, social 0 (engagement 0), filename 0
+- Rationale: 1 news article naming the report by its exact title (no link)
+
+Evidence:
+- newsrss: NYC warns tourists headed to big local events about scams
 
 ## 20. Play it Safe: Mitigating Gambling Harms in New York
 

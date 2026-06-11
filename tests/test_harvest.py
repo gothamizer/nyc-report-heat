@@ -83,3 +83,63 @@ def test_match_mention_exact_and_filename_and_none() -> None:
     # Unrelated gov link -> no match.
     key4, conf4 = match_mention(mention("https://comptroller.nyc.gov/reports/other-report"), by_url, by_filename)
     assert (key4, conf4) == (None, "none")
+
+
+def test_named_in_print_tier() -> None:
+    from nyc_report_heat.harvest import build_title_index, match_mention, named_in_article
+    from nyc_report_heat.heat import heat_from_store, heat_score
+    from nyc_report_heat.models import Candidate, HarvestedMention
+
+    fifa = Candidate(
+        source_id="council:abc",
+        source_name="NYC City Council",
+        kind="report",
+        title="Taken for a Ride",
+        url="https://council.nyc.gov/press/2026/06/08/3129",
+        document_url="https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/taken-for-a-ride_june-2026.pdf",
+        format="pdf",
+    )
+    generic = Candidate(
+        source_id="dhs:xyz",
+        source_name="NYC Department of Homeless Services",
+        kind="report",
+        title="Daily Report",  # too generic: excluded from the title index
+        url="https://nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf",
+        format="pdf",
+    )
+    index = build_title_index([fifa, generic])
+    assert len(index) == 1  # only the distinctive multi-word title qualifies
+
+    article = (
+        "A new 26-page City Council report titled “Taken for a Ride” says "
+        "tourists should beware of scalpers and unlicensed cabbies."
+    )
+    assert named_in_article(article, index, set()) == [
+        "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/taken-for-a-ride_june-2026.pdf"
+    ]
+    # idiom without the publishing body named -> no match
+    assert named_in_article("They were taken for a ride by the dealer.", index, set()) == []
+    # article already links the document -> no double count
+    assert named_in_article(article, index, {index[0][2]}) == []
+
+    mention = HarvestedMention(
+        uid="newsrss:named:article:target",
+        provider="newsrss",
+        query="https://pix11.com/feed/",
+        target_url=index[0][2],
+        source_url="https://pix11.com/news/local-news/nyc-council-calls-for-education-on-fifa-tourist-schemes/",
+        title="NYC Council calls for education on FIFA tourist schemes",
+        via="title",
+    )
+    from nyc_report_heat.harvest import build_candidate_index
+
+    by_url, by_filename = build_candidate_index([fifa, generic])
+    key, confidence = match_mention(mention, by_url, by_filename)
+    assert confidence == "named"
+    assert key is not None
+
+    heat = heat_from_store(fifa, [(mention, confidence)], days=30)
+    assert heat.named_mentions == 1
+    assert heat.exact_url_mentions == 0
+    assert heat_score(heat) == 3.0
+    assert heat.mentions[0].confidence == "named"
