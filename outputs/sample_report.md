@@ -20,7 +20,23 @@ Evidence:
 Please no “what about” isms here. It’s good.
 - newsrss: What’s in the 2026 State Budget? Here’s What To Know.
 
-## 2. Citywide Truck Routes
+## 2. Daily Report
+
+- Source: NYC Department of Homeless Services
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+- Document URL: https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: State Lawmakers Pass Bill Requiring Every Homeless Shelter in New York to Have Wi-Fi
+
+## 3. Citywide Truck Routes
 
 - Source: NYC Rules - Proposed
 - Agency: DOT
@@ -36,7 +52,7 @@ Please no “what about” isms here. It’s good.
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 3. Review of the City’s Animal Population Control Efforts
+## 4. Review of the City’s Animal Population Control Efforts
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -61,7 +77,7 @@ Evidence:
 👇👇👇👇👇👇 👇👇👇👇👇👇
 - bluesky: comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!
 
-## 4. City Planning Commission Rules: Affordable Housing Fast Track Methodology
+## 5. City Planning Commission Rules: Affordable Housing Fast Track Methodology
 
 - Source: NYC Rules - Adopted
 - Agency: DCP
@@ -90,7 +106,7 @@ Do open it and read the comment submissions as an fyi.
 
 Rule sta
 
-## 5. AI and New York City’s Fiscal Future
+## 6. AI and New York City’s Fiscal Future
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -109,7 +125,7 @@ Evidence:
 
 https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
 
-## 6. Who's Minding the Storefronts?
+## 7. Who's Minding the Storefronts?
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -127,7 +143,7 @@ Evidence:
 
 "Who’s Minding the Storefronts? An Analysis of Storefro
 
-## 7. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller DiNapoli, and CalPERS CEO Frost
+## 8. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ...
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -143,7 +159,7 @@ Evidence:
 Evidence:
 - bluesky: Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...
 
-## 8. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System
+## 9. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -156,7 +172,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 9. OIG-NYPD Twelfth Annual Report
+## 10. OIG-NYPD Twelfth Annual Report
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -169,7 +185,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 10. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments
+## 11. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -182,7 +198,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 11. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices
+## 12. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -195,7 +211,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 12. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement
+## 13. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -208,7 +224,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 13. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations
+## 14. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -221,7 +237,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 14. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement
+## 15. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -234,7 +250,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 15. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations
+## 16. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -247,7 +263,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 16. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations
+## 17. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -260,7 +276,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 17. DOI's 2024 Annual Anti-Corruption Report
+## 18. DOI's 2024 Annual Anti-Corruption Report
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -273,40 +289,27 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 18. DOI's Investigation of Excessive Workers' Compensation Claims by City Department of Correction Employees
+## 19. New York City Cash Balance Projection
 
-- Source: NYC Department of Investigation
+- Source: NYC Comptroller
 - Agency: n/a
-- Date: 2025-05-19
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/25Rpt.Release.WorkersComp05.19.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/25Rpt.Release.WorkersComp05.19.2025.pdf
+- Date: 2026-06-01
+- Format: html
+- URL: https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026
+- Document URL: n/a
 - Rank window: 30d
 - Heat score (30d): 0.0
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 19. Eleventh Annual Report of DOI's Office of the Inspector General for the NYPD
+## 20. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
 
-- Source: NYC Department of Investigation
+- Source: NYC Comptroller
 - Agency: n/a
-- Date: 2025-04-01
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/17OIGNYPDARRelease.Rpt.04.01.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/17OIGNYPDARRelease.Rpt.04.01.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 20. Safeguarding NYCHA Residents: A Review of Select Safety Measures at Senior Buildings & Compliance with Fire Guard Requirements
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-03-26
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/14NYCHASecurityFireReleaseRpt03.26.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/14NYCHASecurityFireReleaseRpt03.26.2025.pdf
+- Date: 2026-06-09
+- Format: html
+- URL: https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030
+- Document URL: n/a
 - Rank window: 30d
 - Heat score (30d): 0.0
 - Mentions: news links 0, social 0 (engagement 0), filename 0

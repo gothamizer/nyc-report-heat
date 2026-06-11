@@ -22,6 +22,11 @@ jobs:
 
       - name: Refresh report heat data
         run: uv run nyc-report-heat daily --config config/default.yml
+        env:
+          # Optional: Reddit harvesting. Skips cleanly if these repo secrets
+          # are not set. Create a "script" app at reddit.com/prefs/apps.
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
 
       - name: Upload outputs
         uses: actions/upload-artifact@v4

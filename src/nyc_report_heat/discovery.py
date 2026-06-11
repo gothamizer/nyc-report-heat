@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup, Tag
 from nyc_report_heat.dates import extract_date
 from nyc_report_heat.http import HttpClient
 from nyc_report_heat.models import Candidate
-from nyc_report_heat.urltools import absolutize, detect_format, normalize_url
+from nyc_report_heat.urltools import absolutize, detect_format, filename_from_url, normalize_url
 
 
 SOURCE_PAGES = {
@@ -44,6 +44,9 @@ NAV_TITLES = {
     "311",
     "search",
     "search all nyc.gov websites",
+    "skip to main content",
+    "skip to content",
+    "back to top",
     "menu",
     "text-size",
     "home",
@@ -339,6 +342,173 @@ def discover_gpp_recent(client: HttpClient, limit: int = 100, discovered_after: 
     return candidates
 
 
+# Config-driven agency/oversight-body report scrapers. Every entry was verified
+# to serve static HTML whose report links carry a distinguishing url_filter
+# substring. `limit` caps deep archive pages so the board stays recent-weighted.
+AGENCY_SOURCES: list[dict] = [
+    # — law enforcement, corrections & oversight —
+    {"id": "ccrb", "name": "NYC Civilian Complaint Review Board", "kind": "report",
+     "url_filter": "/assets/ccrb/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/ccrb/policy/annual-bi-annual-reports.page",
+               "https://www.nyc.gov/site/ccrb/policy/issue-based-reports.page"]},
+    {"id": "doc", "name": "NYC Department of Correction", "kind": "report",
+     "url_filter": "/assets/doc/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/doc/data/statistics-and-compliance.page"]},
+    {"id": "boc", "name": "NYC Board of Correction", "kind": "report",
+     "url_filter": "/assets/boc/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/boc/reports/board-of-correction-reports.page"]},
+    {"id": "nypd", "name": "NYPD", "kind": "report",
+     "url_filter": "/assets/nypd/downloads/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/nypd/stats/reports-analysis/use-of-force.page",
+               "https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page",
+               "https://www.nyc.gov/site/nypd/stats/reports-analysis/firearms-discharge.page"]},
+    {"id": "coib", "name": "NYC Conflicts of Interest Board", "kind": "report",
+     "url_filter": "/assets/coib/downloads/", "limit": 30,
+     "pages": ["https://www.nyc.gov/site/coib/public-documents/annual-reports.page",
+               "https://www.nyc.gov/site/coib/public-documents/public-documents.page"]},
+    {"id": "mocj", "name": "NYC Mayor's Office of Criminal Justice", "kind": "report",
+     "url_filter": "/wp-content/uploads/", "limit": 40,
+     "pages": ["https://criminaljustice.cityofnewyork.us/briefs/"]},
+    {"id": "law", "name": "NYC Law Department", "kind": "report",
+     "url_filter": "/assets/law/downloads/", "limit": 20,
+     "pages": ["https://www.nyc.gov/site/law/news/annual-reports-archives.page"]},
+    # — housing, buildings, land use, environment —
+    {"id": "hpd", "name": "NYC Housing Preservation & Development", "kind": "report",
+     "url_filter": "/assets/hpd/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/hpd/about/research.page"]},
+    {"id": "nycha", "name": "NYC Housing Authority", "kind": "report",
+     "url_filter": "/assets/nycha/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/nycha/about/reports.page"]},
+    {"id": "dob", "name": "NYC Department of Buildings", "kind": "report",
+     "url_filter": "/assets/buildings/html/", "limit": 30,
+     "pages": ["https://www.nyc.gov/site/buildings/dob/analytics-reports.page"]},
+    {"id": "lpc", "name": "NYC Landmarks Preservation Commission", "kind": "report",
+     "url_filter": "/assets/lpc/", "limit": 25,
+     "pages": ["https://www.nyc.gov/site/lpc/about/archaeology-reports-full-list.page"]},
+    {"id": "dep", "name": "NYC Department of Environmental Protection", "kind": "report",
+     "url_filter": "/assets/dep/downloads/pdf/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/dep/about/drinking-water-supply-quality-report.page",
+               "https://www.nyc.gov/site/dep/water/harbor-water-quality.page"]},
+    {"id": "dsny", "name": "NYC Department of Sanitation", "kind": "report",
+     "url_filter": "/assets/dsny/downloads/", "limit": 30,
+     "pages": ["https://www.nyc.gov/site/dsny/resources/reports/archive.page"]},
+    # — health & human services —
+    {"id": "dohmh", "name": "NYC Department of Health & Mental Hygiene", "kind": "report",
+     "url_filter": "/assets/doh/downloads/pdf/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/doh/data/data-publications/epi-data-briefs-and-data-tables.page",
+               "https://www.nyc.gov/site/doh/data/data-publications/epi-research-reports.page"]},
+    {"id": "acs", "name": "NYC Administration for Children's Services", "kind": "report",
+     "url_filter": "/assets/acs/pdf/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/acs/about/reports-archive.page",
+               "https://www.nyc.gov/site/acs/about/data-analysis.page"]},
+    {"id": "dhs", "name": "NYC Department of Homeless Services", "kind": "report",
+     "url_filter": "/assets/dhs/downloads/pdf/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/dhs/about/stats-and-reports.page"]},
+    {"id": "hra", "name": "NYC Human Resources Administration", "kind": "report",
+     "url_filter": "/assets/hra/downloads/pdf/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/hra/about/facts.page",
+               "https://www.nyc.gov/site/hra/about/dss-research-corner.page"]},
+    {"id": "dfta", "name": "NYC Department for the Aging", "kind": "report",
+     "url_filter": "/assets/dfta/downloads/pdf/", "limit": 30,
+     "pages": ["https://www.nyc.gov/site/dfta/news-reports/reports.page",
+               "https://www.nyc.gov/site/dfta/news-reports/publications.page"]},
+    {"id": "dycd", "name": "NYC Department of Youth & Community Development", "kind": "report",
+     "url_filter": "/assets/dycd/downloads/pdf/", "limit": 20,
+     "pages": ["https://www.nyc.gov/site/dycd/about/news-and-media/annual-report.page"]},
+    # — economy, infrastructure, services & citywide oversight —
+    {"id": "dot", "name": "NYC Department of Transportation", "kind": "report",
+     "url_filter": "/html/dot/downloads/", "limit": 50,
+     "pages": ["https://www.nyc.gov/html/dot/html/about/dotlibrary.shtml"]},
+    {"id": "dcwp", "name": "NYC Department of Consumer & Worker Protection", "kind": "report",
+     "url_filter": "/assets/dca/", "limit": 50,
+     "pages": ["https://www.nyc.gov/site/dca/media/research.page"]},
+    {"id": "tlc", "name": "NYC Taxi & Limousine Commission", "kind": "report",
+     "url_filter": "/assets/tlc/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/tlc/about/industry-reports.page"]},
+    {"id": "sbs", "name": "NYC Department of Small Business Services", "kind": "report",
+     "url_filter": "/assets/sbs/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/sbs/about/publications-reports.page"]},
+    {"id": "dof", "name": "NYC Department of Finance", "kind": "report",
+     "url_filter": "/assets/finance/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/finance/property/property-reports.page"]},
+    {"id": "pubadvocate", "name": "NYC Public Advocate", "kind": "report",
+     "url_filter": "/reports/", "limit": 40,
+     "pages": ["https://www.pubadvocate.nyc.gov/reports/"]},
+    {"id": "mmr", "name": "NYC Mayor's Management Report", "kind": "report",
+     "url_filter": "/assets/operations/downloads/", "limit": 40,
+     "pages": ["https://www.nyc.gov/site/operations/reports/mmr.page"]},
+]
+
+AGENCY_BY_ID = {source["id"]: source for source in AGENCY_SOURCES}
+
+
+_TITLE_JUNK = {"", "pdf", "html", "download", "read more", "report", "link", "here", "view", "open", "more"}
+
+
+def _agency_title(anchor: Tag, url: str) -> str:
+    title = _text(anchor)
+    if title.lower() in _TITLE_JUNK or len(title) < 6:
+        name = filename_from_url(url) or ""
+        name = re.sub(r"\.(pdf|docx?|xlsx?|csv)$", "", name, flags=re.I)
+        name = re.sub(r"[_\-]+", " ", name)
+        name = re.sub(r"%20", " ", name).strip()
+        if name:
+            title = name.title()
+    return title
+
+
+def discover_agency(
+    client: HttpClient,
+    source: dict,
+    limit: int = 50,
+    discovered_after: date | None = None,
+) -> list[Candidate]:
+    """Generic scraper for an agency report page: keep links whose URL carries
+    the source's distinguishing filter substring. Title falls back to a cleaned
+    filename when the link text is generic ("PDF", "Download")."""
+    flt = source["url_filter"].lower()
+    cap = min(source.get("limit", 50), limit) if limit else source.get("limit", 50)
+    candidates: list[Candidate] = []
+    seen: set[str] = set()
+    for page in source["pages"]:
+        if _limit_reached(candidates, cap):
+            break
+        try:
+            soup = client.soup(page)
+        except Exception as exc:
+            print(f"warning: failed discovery for {source['id']} ({page}): {exc}")
+            continue
+        for anchor in soup.find_all("a", href=True):
+            if _limit_reached(candidates, cap):
+                break
+            href = absolutize(anchor["href"], page)
+            if flt not in href.lower():
+                continue
+            url = normalize_url(href)
+            if not url.startswith("http"):
+                continue
+            title = _agency_title(anchor, url)
+            if not title or title.strip().lower() in NAV_TITLES:
+                continue
+            fmt = detect_format(url)
+            surrounding = _text(anchor.parent) if isinstance(anchor.parent, Tag) else title
+            published = extract_date(surrounding) or extract_date(filename_from_url(url) or "")
+            candidate = Candidate(
+                source_id=_id_for(source["id"], url),
+                source_name=source["name"],
+                kind=source["kind"],  # type: ignore[arg-type]
+                title=title[:300],
+                url=url,
+                document_url=url if fmt in {"pdf", "docx", "xlsx"} else None,
+                published_date=published,
+                summary=surrounding if surrounding != title else None,
+                format=fmt,  # type: ignore[arg-type]
+                source_page=page,
+            )
+            _append_candidate(candidates, candidate, seen, discovered_after)
+    return candidates
+
+
 def discover_all(
     client: HttpClient | None = None,
     per_source: int = 50,
@@ -368,6 +538,14 @@ def discover_all(
         func = source_funcs[source_id]
         try:
             all_candidates.extend(func(client, per_source, discovered_after))
+        except Exception as exc:
+            print(f"warning: failed discovery for {source_id}: {exc}")
+    for source_id in wanted:
+        source = AGENCY_BY_ID.get(source_id)
+        if source is None:
+            continue
+        try:
+            all_candidates.extend(discover_agency(client, source, per_source, discovered_after))
         except Exception as exc:
             print(f"warning: failed discovery for {source_id}: {exc}")
     for source_id in ("rules_proposed", "rules_adopted"):

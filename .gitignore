@@ -18,3 +18,6 @@ wheels/
 
 # Claude Code local runtime state (keep launch.json, drop runtime locks)
 .claude/scheduled_tasks.lock
+
+# Local secrets (Reddit API creds for local testing; CI uses repo secrets)
+.env
