@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T07:59:05+00:00",
+  "generated_at": "2026-06-11T15:05:41+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1260,
+    "total": 1263,
     "with_heat": 8,
-    "new_count": 0,
+    "new_count": 3,
     "by_kind": {
-      "report": 1110,
+      "report": 1113,
       "rule": 150
     },
     "by_format": {
       "html": 290,
-      "pdf": 896,
+      "pdf": 899,
       "xlsx": 26,
       "unknown": 48
     },
@@ -36,15 +36,15 @@
         "count": 108
       },
       {
+        "name": "NYC Housing Authority",
+        "count": 53
+      },
+      {
         "name": "NYPD",
         "count": 50
       },
       {
         "name": "NYC Housing Preservation & Development",
-        "count": 50
-      },
-      {
-        "name": "NYC Housing Authority",
         "count": 50
       },
       {
@@ -155,22 +155,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1260,
+        "checked": 1263,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1260,
+        "checked": 1263,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1260,
+        "checked": 1263,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1260,
+        "checked": 1263,
         "errors": 0
       }
     ]
@@ -727,7 +727,32 @@
       "last_seen": "2026-06-08T15:27:49+00:00"
     }
   ],
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "title": "Bi-Annual Compliance Report January 2021 (PDF)",
+      "source": "NYC Housing Authority",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "EHS Lead Compliance Inspection Report Jan–June 2021 (PDF)",
+      "source": "NYC Housing Authority",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Bi-Annual Compliance Report July 2021 (PDF)",
+      "source": "NYC Housing Authority",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
+      "format": "pdf"
+    }
+  ],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -1218,11 +1243,11 @@
           ]
         },
         "7d": {
-          "score": 2.6020599913279625,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 3,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -78948,6 +78973,192 @@
       },
       "mentions": [],
       "is_new": false
+    },
+    {
+      "id": "nycha:b37205d095e8",
+      "source": "NYC Housing Authority",
+      "source_id": "nycha",
+      "kind": "report",
+      "title": "Bi-Annual Compliance Report January 2021 (PDF)",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf",
+      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nycha:0326c79a197f",
+      "source": "NYC Housing Authority",
+      "source_id": "nycha",
+      "kind": "report",
+      "title": "EHS Lead Compliance Inspection Report Jan–June 2021 (PDF)",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf",
+      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nycha:97718d90285a",
+      "source": "NYC Housing Authority",
+      "source_id": "nycha",
+      "kind": "report",
+      "title": "Bi-Annual Compliance Report July 2021 (PDF)",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
+      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
     }
   ]
 }
