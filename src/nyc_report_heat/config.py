@@ -11,7 +11,7 @@ class Settings(BaseModel):
     discovery_lookback_days: int = 90
     daily_discovery_lookback_days: int = 14
     windows: list[int] = Field(default_factory=lambda: [1, 7, 30])
-    rank_window: str = "7d"
+    rank_window: str = "30d"
     request_timeout_seconds: int = 10
     request_sleep_seconds: float = 0.0
     max_workers: int = 8

@@ -38,7 +38,7 @@ The inventory model supports PDF and non-PDF report pages. `document_url` is pop
 ```bash
 uv run nyc-report-heat discover
 uv run nyc-report-heat harvest                 # pull gov-domain mentions into the store
-uv run nyc-report-heat rank --windows 1,7,30 --rank-window 7d
+uv run nyc-report-heat rank --windows 1,7,30 --rank-window 30d
 uv run nyc-report-heat daily --config config/default.yml
 uv run nyc-report-heat show --limit 25
 ```
@@ -95,7 +95,7 @@ Discovery and heat windows are separate. The manual `discover` command is the ba
 - `7d`
 - `30d`
 
-The default ranking window is `7d`, set by `rank_window: 7d`. CSV outputs include per-window columns such as `heat_score_today`, `heat_score_7d`, `heat_score_30d`, `exact_url_mentions_7d`, and `social_engagement_7d`.
+The default ranking window is `30d`, set by `rank_window: 30d`. CSV outputs include per-window columns such as `heat_score_today`, `heat_score_7d`, `heat_score_30d`, `exact_url_mentions_7d`, and `social_engagement_7d`.
 
 Windows are computed from the mention store using each mention's published timestamp (harvest time as fallback), so heat is recalculated for every tracked candidate on each daily run as the `today`, `7d`, and `30d` windows move forward. Bluesky and Hacker News can backfill ~30 days on a fresh store; press-RSS citations accrue from the day harvesting starts (feeds only expose recent articles).
 
