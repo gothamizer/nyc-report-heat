@@ -7,6 +7,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
+from nyc_report_heat.adoption import adopt_from_mentions
 from nyc_report_heat.config import Settings, load_settings
 from nyc_report_heat.discovery import discover_all, lookback_date
 from nyc_report_heat.harvest import (
@@ -221,11 +222,20 @@ def daily(
     )
     new_candidates = diff_candidates(previous, discovered)
     current = merge_candidates(previous, discovered)
+
+    _run_harvest(settings)
+
+    # Adoption closes the discovery gap from the other side: report-like gov
+    # links people are sharing that no listing scrape surfaced get promoted
+    # into the inventory instead of sitting in the untracked list.
+    adopted = adopt_from_mentions(read_mention_store(MENTIONS_STORE), current, client)
+    if adopted:
+        current = merge_candidates(current, adopted)
+        new_candidates = new_candidates + adopted
+
     write_candidates(candidates_path, current)
     write_candidates(new_path, new_candidates)
     write_candidates_csv(new_path.with_suffix(".csv"), new_candidates)
-
-    _run_harvest(settings)
 
     provider_set = {provider.lower() for provider in settings.providers}
     ranked, untracked = _score_candidates(

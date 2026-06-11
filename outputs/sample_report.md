@@ -20,7 +20,40 @@ Evidence:
 Please no “what about” isms here. It’s good.
 - newsrss: What’s in the 2026 State Budget? Here’s What To Know.
 
-## 2. Daily Report
+## 2. Protocols for NonLocal Law Enforcement
+
+- Source: schools.nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 12.0
+- Mentions: news links 2, social 0 (engagement 0), filename 0
+- Rationale: 2 news articles linking the exact report URL
+
+Evidence:
+- newsrss: ‘La gente sigue muy inquieta’: activistas piden a la alcaldía protocolos   ante presencia de agentes de ICE alrededor de escuelas
+- newsrss: ‘People Are Still Very Unnerved’: Advocates Ask City to Establish Protocols for ICE Sightings Near Schools
+
+## 3. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
+
+- Source: NYC Housing Authority
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+- Document URL: https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
+
+## 4. Daily Report
 
 - Source: NYC Department of Homeless Services
 - Agency: n/a
@@ -36,7 +69,7 @@ Please no “what about” isms here. It’s good.
 Evidence:
 - newsrss: State Lawmakers Pass Bill Requiring Every Homeless Shelter in New York to Have Wi-Fi
 
-## 3. Citywide Truck Routes
+## 5. Citywide Truck Routes
 
 - Source: NYC Rules - Proposed
 - Agency: DOT
@@ -52,7 +85,215 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 4. Review of the City’s Animal Population Control Efforts
+## 6. MOIA Immigration Legal Support Hotline - MOIA
+
+- Source: nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
+
+## 7. Workersbillofrights English
+
+- Source: NYC Department of Consumer & Worker Protection
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+- Document URL: https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
+
+## 8. Flashreports 2026 04
+
+- Source: NYC Administration for Children's Services
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+- Document URL: https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: NYC illegally took newborn from father, keeping them apart for 3 years, court says
+
+## 9. A brief history of redlining  – Environment & Health Data Portal
+
+- Source: a816-dohbesp.nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
+
+## 10. Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase
+
+- Source: nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
+
+## 11. Tenant Protection Cabinet
+
+- Source: nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Pinnacle Tenants Bargain with New Owner Over Lingering Repair Issues—With Help From City Hall
+
+## 12. Mv En Us 084Sum
+
+- Source: NYPD
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+- Document URL: https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
+
+## 13. Omb Exec26 Sp5 26
+
+- Source: NYC Office of Management & Budget
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
+- Document URL: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Mamdani Declares Victory As Hochul Helps City Close Budget Gap
+
+## 14. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
+
+- Source: NYC Department of Consumer & Worker Protection
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+- Document URL: https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'
+
+## 15. The Newest New Yorkers, 2026
+
+- Source: NYC Department of City Planning
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Chinese immigrants overtake Dominicans as NYC's largest foreign-born group
+
+## 16. Truck Network Redesign Report
+
+- Source: NYC Department of Transportation
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
+- Document URL: https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Truck stop? Scenic Staten Island parkway may open to the big rigs
+
+## 17. Ao2000 4
+
+- Source: NYC Conflicts of Interest Board
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
+- Document URL: https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources
+
+## 18. Audit Report on the New York City Housing Authority’s Eviction Processes
+
+- Source: NYC Comptroller
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
+
+## 19. Review of the City’s Animal Population Control Efforts
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -77,7 +318,7 @@ Evidence:
 👇👇👇👇👇👇 👇👇👇👇👇👇
 - bluesky: comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!
 
-## 5. City Planning Commission Rules: Affordable Housing Fast Track Methodology
+## 20. City Planning Commission Rules: Affordable Housing Fast Track Methodology
 
 - Source: NYC Rules - Adopted
 - Agency: DCP
@@ -105,212 +346,3 @@ THE ULTIMATE SCREW YOU TO COMMUNITY
 Do open it and read the comment submissions as an fyi.
 
 Rule sta
-
-## 6. AI and New York City’s Fiscal Future
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-05-21
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 4.0
-- Mentions: news links 0, social 2 (engagement 0), filename 0
-- Rationale: 2 social posts sharing the exact link
-
-Evidence:
-- bluesky: comptroller.nyc.gov/reports/ai-a...
-- bluesky: As AI advances, how can we ensure NYC's fiscal stability? Let's discuss potential strategies for a prosperous future! #NYCFinance
-
-https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
-
-## 7. Who's Minding the Storefronts?
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-06-04
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 2.6020599913279625
-- Mentions: news links 0, social 1 (engagement 3), filename 0
-- Rationale: 1 social post sharing the exact link with 3 total engagement
-
-Evidence:
-- bluesky: PS—The map I screenshot comes from the report by the Office of the NYC Comptroller that was the subject of the news article in the quoted post:
-
-"Who’s Minding the Storefronts? An Analysis of Storefro
-
-## 8. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ...
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-05-14
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 2.0
-- Mentions: news links 0, social 1 (engagement 0), filename 0
-- Rationale: 1 social post sharing the exact link
-
-Evidence:
-- bluesky: Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...
-
-## 9. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2026-05-05
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 10. OIG-NYPD Twelfth Annual Report
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2026-04-15
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 11. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2026-03-03
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 12. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-12-18
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 13. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-12-03
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/49NYPD.SancLawsRelease.Rpt.12.03.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/49NYPD.SancLawsRelease.Rpt.12.03.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 14. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-10-15
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/41CGDRelease.Rpt.10.15.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/41CGDRelease.Rpt.10.15.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 15. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-09-25
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/38DOC.Release.Rpt.09.25.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/38DOC.Release.Rpt.09.25.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 16. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-09-17
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/36NYCERS.Release.Rpt.09.17.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/36NYCERS.Release.Rpt.09.17.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 17. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-09-04
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/34SkimmingRelease.Rpt.09.04.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/34SkimmingRelease.Rpt.09.04.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 18. DOI's 2024 Annual Anti-Corruption Report
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-09-03
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/33AntiCorruption.Release.Rpt.09.03.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/33AntiCorruption.Release.Rpt.09.03.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 19. New York City Cash Balance Projection
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-06-01
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/new-york-city-cash-balance-projection-june-1-2026
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 20. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-06-09
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources

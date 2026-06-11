@@ -21,6 +21,7 @@ SOURCE_PAGES = {
     "rules_proposed": "https://rules.cityofnewyork.us/proposed-rules/",
     "rules_adopted": "https://rules.cityofnewyork.us/recently-adopted-rules/",
     "gpp": "https://a860-gpp.nyc.gov",
+    "council": "https://council.nyc.gov/press/",
 }
 
 
@@ -32,6 +33,7 @@ SOURCE_NAMES = {
     "rules_proposed": "NYC Rules - Proposed",
     "rules_adopted": "NYC Rules - Adopted",
     "gpp": "NYC Government Publications Portal",
+    "council": "NYC City Council",
 }
 
 
@@ -190,34 +192,54 @@ def discover_doi(client: HttpClient, limit: int = 100, discovered_after: date | 
     return candidates
 
 
-def discover_nyc_comptroller(client: HttpClient, limit: int = 100, discovered_after: date | None = None) -> list[Candidate]:
-    page = SOURCE_PAGES["nyc_comptroller"]
-    soup = client.soup(page)
-    main = soup.select_one("main") or soup
+def discover_nyc_comptroller(
+    client: HttpClient,
+    limit: int = 100,
+    discovered_after: date | None = None,
+    max_pages: int = 30,
+) -> list[Candidate]:
+    """The /reports/ listing shows only 16 items per page, so walk the
+    paginated archive (/reports/page/N/) until the lookback window, the limit,
+    or the archive runs out. Pages are reverse-chronological: a page that
+    contributes nothing means everything further back is out of window."""
+    base = SOURCE_PAGES["nyc_comptroller"]
     candidates: list[Candidate] = []
     seen: set[str] = set()
-    for anchor in main.find_all("a", href=True):
+    for page_num in range(1, max_pages + 1):
         if _limit_reached(candidates, limit):
             break
-        href = absolutize(anchor["href"], page)
-        if "comptroller.nyc.gov/reports/" not in href:
-            continue
-        if href.rstrip("/") in {"https://comptroller.nyc.gov/reports", "https://comptroller.nyc.gov/reports/"}:
-            continue
-        surrounding = _text(anchor.parent) if isinstance(anchor.parent, Tag) else _text(anchor)
-        if not DATE_WORDS.search(surrounding):
-            continue
-        candidate = _candidate_from_anchor("nyc_comptroller", SOURCE_NAMES["nyc_comptroller"], "report", anchor, page, page)
-        if candidate:
-            candidate.title = re.sub(r"^(?:[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}\s+)", "", candidate.title).strip()
-            candidate.title = DATE_WORDS.sub("", candidate.title).strip()
-            if not _in_lookback(candidate, discovered_after):
+        page = base if page_num == 1 else f"{base}page/{page_num}/"
+        try:
+            soup = client.soup(page)
+        except Exception:
+            break  # past the last archive page
+        main = soup.select_one("main") or soup
+        added = 0
+        for anchor in main.find_all("a", href=True):
+            if _limit_reached(candidates, limit):
+                break
+            href = absolutize(anchor["href"], page)
+            if "comptroller.nyc.gov/reports/" not in href or "/reports/page/" in href:
                 continue
-            key = normalize_url(candidate.heat_url)
-            if key in seen:
+            if href.rstrip("/") in {"https://comptroller.nyc.gov/reports", "https://comptroller.nyc.gov/reports/"}:
                 continue
-            seen.add(key)
-            candidates.append(candidate)
+            surrounding = _text(anchor.parent) if isinstance(anchor.parent, Tag) else _text(anchor)
+            if not DATE_WORDS.search(surrounding):
+                continue
+            candidate = _candidate_from_anchor("nyc_comptroller", SOURCE_NAMES["nyc_comptroller"], "report", anchor, page, page)
+            if candidate:
+                candidate.title = re.sub(r"^(?:[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}\s+)", "", candidate.title).strip()
+                candidate.title = DATE_WORDS.sub("", candidate.title).strip()
+                if not _in_lookback(candidate, discovered_after):
+                    continue
+                key = normalize_url(candidate.heat_url)
+                if key in seen:
+                    continue
+                seen.add(key)
+                candidates.append(candidate)
+                added += 1
+        if added == 0:
+            break
     return candidates
 
 
@@ -269,6 +291,91 @@ def discover_ibo(client: HttpClient, limit: int = 100, discovered_after: date | 
             candidate = _candidate_from_anchor("ibo", SOURCE_NAMES["ibo"], "report", anchor, page, page)
             if candidate:
                 _append_candidate(candidates, candidate, seen, discovered_after)
+    return candidates
+
+
+COUNCIL_PRESS_API = "https://council.nyc.gov/press/wp-json/wp/v2/posts"
+# A press release often back-references older reports; only PDFs uploaded near
+# the release date are the documents the release is actually publishing.
+COUNCIL_FRESH_UPLOAD_DAYS = 120
+
+
+def _council_post_candidates(post: dict, seen: set[str]) -> list[Candidate]:
+    """Candidates from one Council press post: each report PDF uploaded close
+    to the release date, titled by the release (or the filename when a post
+    publishes several documents)."""
+    post_date = date.fromisoformat(post["date"][:10])
+    post_url = normalize_url(post["link"])
+    post_title = _text(BeautifulSoup(post["title"]["rendered"], "html.parser"))
+    fresh: list[str] = []
+    for href in re.findall(r'href="([^"]+\.pdf[^"]*)"', post["content"]["rendered"], re.I):
+        url = normalize_url(href)
+        if "council.nyc.gov" not in url:
+            continue
+        upload = re.search(r"/uploads/(?:sites/\d+/)?(\d{4})/(\d{2})/", url)
+        if not upload:
+            continue
+        uploaded = date(int(upload.group(1)), int(upload.group(2)), 1)
+        if not (-31 <= (post_date - uploaded).days <= COUNCIL_FRESH_UPLOAD_DAYS):
+            continue
+        if url not in fresh:
+            fresh.append(url)
+    candidates = []
+    for url in fresh:
+        if url in seen:
+            continue
+        seen.add(url)
+        title = post_title if len(fresh) == 1 else _filename_title(url) or post_title
+        candidates.append(
+            Candidate(
+                source_id=_id_for("council", url),
+                source_name=SOURCE_NAMES["council"],
+                kind="report",
+                title=title[:300],
+                url=post_url,
+                document_url=url,
+                published_date=post_date,
+                summary=post_title if title != post_title else None,
+                format="pdf",
+                source_page=SOURCE_PAGES["council"],
+            )
+        )
+    return candidates
+
+
+def discover_council(
+    client: HttpClient,
+    limit: int = 100,
+    discovered_after: date | None = None,
+    max_pages: int = 10,
+) -> list[Candidate]:
+    """NYC City Council reports and investigations. The Council publishes its
+    report PDFs through press releases on a WordPress site; the REST API is the
+    stable, paginated, date-ordered index of those releases."""
+    candidates: list[Candidate] = []
+    seen: set[str] = set()
+    for page_num in range(1, max_pages + 1):
+        if _limit_reached(candidates, limit):
+            break
+        response = client.get(
+            COUNCIL_PRESS_API,
+            params={"per_page": 50, "page": page_num, "_fields": "link,date,title,content"},
+        )
+        if response.status_code != 200:
+            break
+        posts = response.json()
+        if not posts:
+            break
+        out_of_window = False
+        for post in posts:
+            if _limit_reached(candidates, limit):
+                break
+            if discovered_after and date.fromisoformat(post["date"][:10]) < discovered_after:
+                out_of_window = True
+                break
+            candidates.extend(_council_post_candidates(post, seen))
+        if out_of_window:
+            break
     return candidates
 
 
@@ -445,15 +552,18 @@ AGENCY_BY_ID = {source["id"]: source for source in AGENCY_SOURCES}
 _TITLE_JUNK = {"", "pdf", "html", "download", "read more", "report", "link", "here", "view", "open", "more"}
 
 
+def _filename_title(url: str) -> str:
+    name = filename_from_url(url) or ""
+    name = re.sub(r"\.(pdf|docx?|xlsx?|csv)$", "", name, flags=re.I)
+    name = re.sub(r"[_\-]+", " ", name)
+    name = re.sub(r"%20", " ", name).strip()
+    return name.title()
+
+
 def _agency_title(anchor: Tag, url: str) -> str:
     title = _text(anchor)
     if title.lower() in _TITLE_JUNK or len(title) < 6:
-        name = filename_from_url(url) or ""
-        name = re.sub(r"\.(pdf|docx?|xlsx?|csv)$", "", name, flags=re.I)
-        name = re.sub(r"[_\-]+", " ", name)
-        name = re.sub(r"%20", " ", name).strip()
-        if name:
-            title = name.title()
+        title = _filename_title(url) or title
     return title
 
 
@@ -522,12 +632,14 @@ def discover_all(
         "nyc_comptroller": discover_nyc_comptroller,
         "nys_comptroller": discover_nys_comptroller,
         "ibo": discover_ibo,
+        "council": discover_council,
     }
     wanted = source_ids or [
         "doi",
         "nyc_comptroller",
         "nys_comptroller",
         "ibo",
+        "council",
         "rules_proposed",
         "rules_adopted",
         "gpp",

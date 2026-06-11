@@ -16,12 +16,14 @@ The project intentionally separates:
 
 - **Inventory**: discovered report/rule/publication URLs from known public sources.
 - **Harvest**: domain-first collection of every public pickup of a tracked gov domain — providers are queried per domain (~10 queries each), not per candidate, and results accumulate in a persistent mention store ([data/mentions.jsonl](data/mentions.jsonl)).
-- **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Gov links that don't match anything become the "shared but untracked" list — a blind-spot alert and discovery hint.
+- **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Report-like gov links that don't match anything are adopted into the inventory on the next daily run; whatever remains is the "shared but untracked" list — an anomaly alert, not a backlog.
 - **Daily delta**: newly discovered candidates compared with the previous inventory.
 
 ## Sources
 
-Configured in [config/default.yml](config/default.yml): 30+ NYC & NYS agencies and bodies — city & state watchdogs (DOI, both comptrollers, IBO), agency report libraries, NYC Rules (proposed & adopted), and the Government Publications Portal. The config file is the canonical list.
+Configured in [config/default.yml](config/default.yml): 30+ NYC & NYS agencies and bodies — city & state watchdogs (DOI, both comptrollers, IBO), the City Council, agency report libraries, NYC Rules (proposed & adopted), and the Government Publications Portal. The config file is the canonical list.
+
+Discovery is two-sided. Listing scrapers walk each source's publications pages forward (the NYC Comptroller scraper paginates the full `/reports/` archive; the City Council scraper reads report PDFs out of press releases via the WordPress API). **Adoption** closes the gap from the other side: any report-like gov link that shows up in the harvested mention store without matching the inventory is promoted into a tracked candidate on the next daily run, attributed to its source when the host is a known one. Old reports that suddenly start circulating get tracked the day they surface instead of sitting in the untracked list.
 
 The inventory model supports PDF and non-PDF report pages. `document_url` is populated when the actual artifact is a PDF/DOCX/XLSX; otherwise the HTML page URL is the canonical heat URL.
 

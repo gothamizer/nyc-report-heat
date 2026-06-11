@@ -1,40 +1,40 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-11T15:05:41+00:00
-Candidates ranked: 1263
-New candidates: 3
+Generated: 2026-06-11T21:06:43+00:00
+Candidates ranked: 1304
+New candidates: 29
 Rank window: 30d
 
 ## Top Link Heat Overall
 
 1. The Pied-à-Terre Tax and Its Potential Revenues | NYC Comptroller | heat 15.1 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
-2. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-3. Citywide Truck Routes | NYC Rules - Proposed | heat 6.0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
-4. Review of the City’s Animal Population Control Efforts | NYC Comptroller | heat 4.8 | https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts
-5. City Planning Commission Rules: Affordable Housing Fast Track Methodology | NYC Rules - Adopted | heat 4.5 | https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology
-6. AI and New York City’s Fiscal Future | NYC Comptroller | heat 4.0 | https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future
-7. Who's Minding the Storefronts? | NYC Comptroller | heat 2.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
-8. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ... | NYC Comptroller | heat 2.0 | https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost
-9. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
-10. OIG-NYPD Twelfth Annual Report | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
-11. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
-12. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
-13. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/49NYPD.SancLawsRelease.Rpt.12.03.2025.pdf
-14. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/41CGDRelease.Rpt.10.15.2025.pdf
-15. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/38DOC.Release.Rpt.09.25.2025.pdf
+2. Protocols for NonLocal Law Enforcement | schools.nyc.gov | heat 12.0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
+3. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+4. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+5. Citywide Truck Routes | NYC Rules - Proposed | heat 6.0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
+6. MOIA Immigration Legal Support Hotline - MOIA | nyc.gov | heat 6.0 | https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
+7. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+8. 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+9. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+10. Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase | nyc.gov | heat 6.0 | https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
+11. Tenant Protection Cabinet | nyc.gov | heat 6.0 | https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants
+12. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+13. Sp5 26 | nyc.gov | heat 6.0 | https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
+14. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+15. The Newest New Yorkers, 2026 | nyc.gov | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
 
 ## Top Reports/Publications
 
 1. The Pied-à-Terre Tax and Its Potential Revenues | NYC Comptroller | heat 15.1 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
-2. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-3. Review of the City’s Animal Population Control Efforts | NYC Comptroller | heat 4.8 | https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts
-4. AI and New York City’s Fiscal Future | NYC Comptroller | heat 4.0 | https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future
-5. Who's Minding the Storefronts? | NYC Comptroller | heat 2.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
-6. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ... | NYC Comptroller | heat 2.0 | https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost
-7. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/10ACSReport.Release05.05.2026FINAL.pdf
-8. OIG-NYPD Twelfth Annual Report | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/08OIGNYPD.AR.Release.Rpt.04.15.2026.pdf
-9. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2026/05NYCHAReclaim.Release.Rpt.03.03.2026.pdf
-10. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices | NYC Department of Investigation | heat 0.0 | https://www.nyc.gov/assets/doi/reports/pdf/2025/50COIBRelease.Rpt.12.18.2025.pdf
+2. Protocols for NonLocal Law Enforcement | schools.nyc.gov | heat 12.0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
+3. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+4. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+5. MOIA Immigration Legal Support Hotline - MOIA | nyc.gov | heat 6.0 | https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
+6. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+7. 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+8. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+9. Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase | nyc.gov | heat 6.0 | https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
+10. Tenant Protection Cabinet | nyc.gov | heat 6.0 | https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants
 
 ## Top Rules
 
@@ -52,34 +52,48 @@ Rank window: 30d
 ## Link Heat Signals
 
 1. The Pied-à-Terre Tax and Its Potential Revenues | 30d heat 15.1 | news links 2 | social 1 (engagement 11) | filename 0 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
-2. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-3. Citywide Truck Routes | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
-4. Review of the City’s Animal Population Control Efforts | 30d heat 4.8 | news links 0 | social 2 (engagement 6) | filename 0 | https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts
-5. City Planning Commission Rules: Affordable Housing Fast Track Methodology | 30d heat 4.5 | news links 0 | social 2 (engagement 2) | filename 0 | https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology
-6. AI and New York City’s Fiscal Future | 30d heat 4.0 | news links 0 | social 2 (engagement 0) | filename 0 | https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future
-7. Who's Minding the Storefronts? | 30d heat 2.6 | news links 0 | social 1 (engagement 3) | filename 0 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
-8. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ... | 30d heat 2.0 | news links 0 | social 1 (engagement 0) | filename 0 | https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost
+2. Protocols for NonLocal Law Enforcement | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
+3. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+4. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+5. Citywide Truck Routes | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
+6. MOIA Immigration Legal Support Hotline - MOIA | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
+7. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+8. 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+9. A brief history of redlining  – Environment & Health Data Portal | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+10. Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
 
 ## Shared But Untracked
 
-1. https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement | mentions 2 | engagement 0 | via newsrss
-2. https://nyc.gov/content/omb/pages | mentions 1 | engagement 6 | via bluesky
-3. https://advocate.nyc.gov/reports/gambling | mentions 1 | engagement 6 | via bluesky
-4. https://comptroller.nyc.gov/reports/latine-fact-sheet | mentions 1 | engagement 5 | via bluesky
-5. https://a858-nycnotify.nyc.gov/notifynyc/Home | mentions 1 | engagement 5 | via bluesky
-6. https://comptroller.nyc.gov/newsroom/statement-from-city-comptroller-brad-lander-on-the-new-york-city-teachers-retirement-systems-divestment-from-russian-securities | mentions 1 | engagement 4 | via bluesky
-7. https://ibo.nyc.ny.us/RevenueSpending/nypd.html | mentions 1 | engagement 4 | via bluesky
-8. https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities | mentions 1 | engagement 2 | via bluesky
-9. https://osc.ny.gov/jobs/events | mentions 1 | engagement 1 | via bluesky
-10. https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf | mentions 1 | engagement 1 | via bluesky
-11. https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page | mentions 1 | engagement 1 | via bluesky
-12. https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf | mentions 1 | engagement 1 | via bluesky
-13. https://www.nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf | mentions 1 | engagement 1 | via bluesky
-14. https://access.nyc.gov/programs/cooling-assistance-benefit | mentions 1 | engagement 0 | via newsrss
-15. https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page | mentions 1 | engagement 0 | via newsrss
+No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Bi-Annual Compliance Report January 2021 (PDF) | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf
-- EHS Lead Compliance Inspection Report Jan–June 2021 (PDF) | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf
-- Bi-Annual Compliance Report July 2021 (PDF) | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf
+- MOIA Immigration Legal Support Hotline - MOIA | nyc.gov | unknown date | https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page
+- Workersbillofrights English | NYC Department of Consumer & Worker Protection | unknown date | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+- 04 | NYC Administration for Children's Services | unknown date | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+- A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | unknown date | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+- Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase | nyc.gov | unknown date | https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml
+- Protocols for NonLocal Law Enforcement | schools.nyc.gov | unknown date | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
+- Tenant Protection Cabinet | nyc.gov | unknown date | https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants
+- Latine Fact Sheet | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/latine-fact-sheet
+- New York City Fiscal History-Police Department | NYC Independent Budget Office | unknown date | https://ibo.nyc.ny.us/RevenueSpending/nypd.html
+- Broadway Vision Update May2025 | NYC Department of Transportation | unknown date | https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf
+- Project Categories: Construction Equipment - Construction Fence - Buildings | nyc.gov | unknown date | https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page
+- tgnc-rights | nyc.gov | unknown date | https://www.nyc.gov/site/cchr/media/tgnc-rights.page
+- Erc5 26 | nyc.gov | unknown date | https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf
+- Mv En Us 084Sum | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+- Sp5 26 | nyc.gov | unknown date | https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf
+- Resources to Protect & Defend Immigrant Communities | NYC Public Advocate | unknown date | https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities
+- Play it Safe: Mitigating Gambling Harms in New York | NYC Public Advocate | unknown date | https://advocate.nyc.gov/reports/gambling
+- Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | unknown date | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+- The Newest New Yorkers, 2026 | nyc.gov | unknown date | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
+- Truck Network Redesign Report | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
+- MSG kingpin James Dolan and associates gave generously to Mayor Adams amid NYC business interests | NYC City Council | unknown date | https://council.nyc.gov/shahana-hanif/2024/10/17/msg-kingpin-james-dolan-and-associates-gave-generously-to-mayor-adams-amid-nyc-business-interests
+- Following Passage of Bill to Improve NYPD’s Crime Reporting Data, NYC Council Releases Analysis Finding Limitations and Flaws in Existing Practices Used to Report Clearance Rates | NYC City Council | unknown date | https://council.nyc.gov/press/2025/12/22/3035
+- Ossé and Hanif officially join DSA’s City Council bloc | NYC City Council | unknown date | https://council.nyc.gov/shahana-hanif/2026/05/19/osse-and-hanif-officially-join-dsas-city-council-bloc
+- Statement from Council Member Pierina Sanchez, Chair of the NYC Council Committee on Housing and Buildings, on Mayor Mamdani’s Housing Plan | NYC City Council | unknown date | https://council.nyc.gov/pierina-ana-sanchez/2026/05/26/statement-from-council-member-pierina-sanchez-chair-of-the-nyc-council-committee-on-housing-and-buildings-on-mayor-mamdanis-housing-plan
+- NYC Council Passes Legislation Establishing Outreach and Education Program to Help New Yorkers Avoid Scams Related to Hajj and Umrah | NYC City Council | unknown date | https://council.nyc.gov/press/2026/05/20/3125
+- The Budget Process | NYC City Council | unknown date | https://council.nyc.gov/budget/process
+- COUNCIL MEMBER PIERINA SANCHEZ RELEASES STATEMENT IN RESPONSE TO THE MAYOR’S FY27 EXECUTIVE BUDGET PROPOSAL | NYC City Council | unknown date | https://council.nyc.gov/pierina-ana-sanchez/2026/05/12/council-member-pierina-sanchez-releases-statement-in-response-to-the-mayors-fy27-executive-budget-proposal
+- Ao2000 4 | NYC Conflicts of Interest Board | unknown date | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
+- Audit Report on the New York City Housing Authority’s Eviction Processes | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes

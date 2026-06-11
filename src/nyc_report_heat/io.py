@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -75,15 +76,21 @@ UNTRACKED_EXCLUDE_LAST_SEGMENTS = {
     "pages",  # nyc.gov /content/<agency>/pages section homes
     "index.page",  # nyc.gov agency homepages
 }
+# /2026/05/20/... is the WordPress dated-permalink pattern: press releases and
+# blog posts (Council press site, member sites), not documents. Report PDFs in
+# uploads directories only carry /YYYY/MM/, so they are unaffected.
+DATED_POST_PATH = re.compile(r"/20\d\d/\d\d/\d\d/")
 
 
-def _untracked_report_like(canonical_url: str) -> bool:
+def report_like_url(canonical_url: str) -> bool:
     host = canonical_url.split("/")[2] if "//" in canonical_url else ""
     if host.removeprefix("www.") in UNTRACKED_EXCLUDE_HOSTS:
         return False
     path = "/" + "/".join(canonical_url.split("/")[3:])
     path_lower = path.lower()
     if any(part in path_lower for part in UNTRACKED_EXCLUDE_PATH_PARTS):
+        return False
+    if DATED_POST_PATH.search(path_lower + "/"):
         return False
     segments = [seg for seg in path.split("/") if seg]
     if len(segments) < 2:
@@ -109,7 +116,7 @@ def summarize_untracked(
         if mention.observed_at < cutoff:
             continue
         canonical = normalize_url(mention.target_url)
-        if not _untracked_report_like(canonical):
+        if not report_like_url(canonical):
             continue
         key = canonical.replace("://www.", "://", 1)
         entry = grouped.setdefault(

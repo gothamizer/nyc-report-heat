@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T20:25:34+00:00",
+  "generated_at": "2026-06-11T21:10:11+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,23 +13,23 @@
     "reddit"
   ],
   "stats": {
-    "total": 1263,
-    "with_heat": 8,
+    "total": 1298,
+    "with_heat": 32,
     "new_count": 0,
     "by_kind": {
-      "report": 1113,
+      "report": 1148,
       "rule": 150
     },
     "by_format": {
-      "html": 290,
-      "pdf": 899,
+      "html": 311,
+      "pdf": 913,
       "xlsx": 26,
       "unknown": 48
     },
     "by_source": [
       {
         "name": "NYC Independent Budget Office",
-        "count": 205
+        "count": 206
       },
       {
         "name": "NYC Rules - Adopted",
@@ -40,8 +40,20 @@
         "count": 53
       },
       {
+        "name": "NYC Department of Consumer & Worker Protection",
+        "count": 52
+      },
+      {
+        "name": "NYC Department of Transportation",
+        "count": 52
+      },
+      {
+        "name": "NYC Administration for Children's Services",
+        "count": 51
+      },
+      {
         "name": "NYPD",
-        "count": 50
+        "count": 51
       },
       {
         "name": "NYC Housing Preservation & Development",
@@ -52,19 +64,7 @@
         "count": 50
       },
       {
-        "name": "NYC Administration for Children's Services",
-        "count": 50
-      },
-      {
         "name": "NYC Human Resources Administration",
-        "count": 50
-      },
-      {
-        "name": "NYC Department of Transportation",
-        "count": 50
-      },
-      {
-        "name": "NYC Department of Consumer & Worker Protection",
         "count": 50
       },
       {
@@ -105,6 +105,10 @@
       },
       {
         "name": "NYC Conflicts of Interest Board",
+        "count": 31
+      },
+      {
+        "name": "NYC Public Advocate",
         "count": 30
       },
       {
@@ -112,16 +116,12 @@
         "count": 30
       },
       {
-        "name": "NYC Public Advocate",
-        "count": 28
+        "name": "NYC Comptroller",
+        "count": 25
       },
       {
         "name": "NYS Comptroller",
         "count": 17
-      },
-      {
-        "name": "NYC Comptroller",
-        "count": 16
       },
       {
         "name": "NYC Department of Correction",
@@ -144,259 +144,62 @@
         "count": 10
       },
       {
+        "name": "NYC City Council",
+        "count": 6
+      },
+      {
+        "name": "nyc.gov",
+        "count": 5
+      },
+      {
         "name": "NYC Department of Environmental Protection",
         "count": 5
       },
       {
         "name": "NYC Department of Youth & Community Development",
         "count": 4
+      },
+      {
+        "name": "NYC Office of Management & Budget",
+        "count": 2
+      },
+      {
+        "name": "schools.nyc.gov",
+        "count": 1
+      },
+      {
+        "name": "a816-dohbesp.nyc.gov",
+        "count": 1
+      },
+      {
+        "name": "NYC Department of City Planning",
+        "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1263,
+        "checked": 1298,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1263,
+        "checked": 1298,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1263,
+        "checked": 1298,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1263,
+        "checked": 1298,
         "errors": 0
       }
     ]
   },
-  "untracked": [
-    {
-      "target_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "mentions": 2,
-      "engagement": 2,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "You can download the \"Expense Revenue Contract Budget\" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "sample_source_url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mloxw7c7qc2j",
-      "last_seen": "2026-05-12T23:46:20+00:00"
-    },
-    {
-      "target_url": "https://schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement",
-      "mentions": 2,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "‘La gente sigue muy inquieta’: activistas piden a la alcaldía protocolos   ante presencia de agentes de ICE alrededor de escuelas",
-      "sample_source_url": "https://citylimits.org/la-gente-sigue-muy-inquieta-activistas-piden-a-la-alcaldia-protocolos-ante-presencia-de-agentes-de-ice-alrededor-de-escuelas/",
-      "last_seen": "2026-06-10T15:12:42+00:00"
-    },
-    {
-      "target_url": "https://advocate.nyc.gov/reports/gambling",
-      "mentions": 1,
-      "engagement": 6,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "🏀 In MARCH the Public Advocate predicted the Knicks would win the Title—and we're so close. 🏆\n\nThat's not the only chip we're watching 🎰 -- we can’t gamble on the health of our communities. advocate.n",
-      "sample_source_url": "https://bsky.app/profile/advocate.nyc.gov/post/3mninnnse2s2n",
-      "last_seen": "2026-06-04T22:17:01+00:00"
-    },
-    {
-      "target_url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
-      "mentions": 1,
-      "engagement": 5,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "93% while the Latino population of NYC is 29%\n\ncomptroller.nyc.gov/reports/lati...",
-      "sample_source_url": "https://bsky.app/profile/zneeley25.bsky.social/post/3mmu2uoc2yc2y",
-      "last_seen": "2026-05-27T17:47:40+00:00"
-    },
-    {
-      "target_url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
-      "mentions": 1,
-      "engagement": 4,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "So you and @botmatrix.myatproto.social have both mentioned 9/11 as a departure point but I am really seeing the 90’s as MUCH more of a growth period, or even the past two years \n\nWith 2001-2005 being ",
-      "sample_source_url": "https://bsky.app/profile/alice-j-grimm.bsky.social/post/3mnayrwv7tc2k",
-      "last_seen": "2026-06-01T21:14:58+00:00"
-    },
-    {
-      "target_url": "https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities",
-      "mentions": 1,
-      "engagement": 2,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "🔥KNOW YOUR RIGHTS: IMMIGRANTS & American CITIZENS‼️\n🔺 ICE  is NOT DEPORTING, ICE IS KIDNAPPING & HUMAN TRAFFICKING\nto FILL🖕MAGAT PRIVATE CONCENTRATION CAMPS🔺\n&\n🚩 ICE GETS PAID BY The SCALP Regardless ",
-      "sample_source_url": "https://bsky.app/profile/teeshasmom2.bsky.social/post/3mnjhfdbujc2x",
-      "last_seen": "2026-06-05T05:57:38+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
-      "mentions": 1,
-      "engagement": 1,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "🤔Hmm... no idea, but does Gotham Hall ring a bell? \n\n🧐 p.20 onwards  \nnyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
-      "sample_source_url": "https://bsky.app/profile/nidia.bsky.social/post/3mnrqmyw6gs2j",
-      "last_seen": "2026-06-08T13:04:18+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page",
-      "mentions": 1,
-      "engagement": 1,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "Viewing panels legally must be between 3 & 6 feet from the ground...but I've never seen one lower than 5 feet. If \n@nycbuildings.bsky.social @mayor.nyc.gov incentivized some at the lower height, NYC k",
-      "sample_source_url": "https://bsky.app/profile/subtle116.bsky.social/post/3mnfddykdkc27",
-      "last_seen": "2026-06-03T14:34:40+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'",
-      "sample_source_url": "https://gothamist.com/news/a-year-since-nyc-banned-most-broker-fees-a-modicum-of-fines-and-the-bait-and-switch",
-      "last_seen": "2026-06-11T15:01:00+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Truck stop? Scenic Staten Island parkway may open to the big rigs",
-      "sample_source_url": "https://www.amny.com/nyc-transit/scenic-staten-island-parkway-may-open-to-trucks/",
-      "last_seen": "2026-06-11T12:30:05+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/planning/newest-new-yorkers-2026",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Chinese immigrants overtake Dominicans as NYC's largest foreign-born group",
-      "sample_source_url": "https://gothamist.com/news/chinese-immigrants-overtake-dominicans-as-nycs-largest-foreign-born-group",
-      "last_seen": "2026-06-11T10:31:00+00:00"
-    },
-    {
-      "target_url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
-      "sample_source_url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
-      "last_seen": "2026-06-10T16:29:09+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
-      "sample_source_url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
-      "last_seen": "2026-06-10T16:29:09+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-      "last_seen": "2026-06-09T19:44:00+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-      "last_seen": "2026-06-09T19:44:00+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Pinnacle Tenants Bargain with New Owner Over Lingering Repair Issues—With Help From City Hall",
-      "sample_source_url": "https://citylimits.org/pinnacle-tenants-bargain-with-new-owner-over-lingering-repair-issues-with-help-from-city-hall/",
-      "last_seen": "2026-06-09T19:17:54+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC illegally took newborn from father, keeping them apart for 3 years, court says",
-      "sample_source_url": "https://gothamist.com/news/nyc-illegally-took-newborn-from-father-keeping-them-apart-for-3-years-court-says",
-      "last_seen": "2026-06-09T10:01:00+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp",
-      "sample_source_url": "https://nyc.streetsblog.org/2026/06/09/state-street-truck-route-map",
-      "last_seen": "2026-06-09T04:05:00+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/site/cchr/media/tgnc-rights.page",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "This #PrideMonth, we are launching a citywide campaign to raise awareness of protections for trans and gender nonconforming New Yorkers 🏳️‍⚧️ As reports of gender identity discrimination reach a 5-yea",
-      "sample_source_url": "https://bsky.app/profile/nycchr.bsky.social/post/3mnaiy3xpms2e",
-      "last_seen": "2026-06-01T16:32:04+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani Declares Victory As Hochul Helps City Close Budget Gap",
-      "sample_source_url": "https://nysfocus.com/2026/05/12/mamdani-hochul-nyc-budget-deal",
-      "last_seen": "2026-05-12T17:35:00-04:00"
-    }
-  ],
+  "untracked": [],
   "new_candidates": [],
   "items": [
     {
@@ -479,6 +282,153 @@
           "title": "What’s in the 2026 State Budget? Here’s What To Know.",
           "url": "https://nysfocus.com/2026/05/29/new-york-final-state-budget-2026-funding-guide-hochul",
           "published_at": "2026-05-29T05:00:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "schools.nyc.gov:49843b4ddfbf",
+      "source": "schools.nyc.gov",
+      "source_id": "schools.nyc.gov",
+      "kind": "report",
+      "title": "Protocols for NonLocal Law Enforcement",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement",
+      "document_url": null,
+      "heat_url": "https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 12.0,
+      "rationale": [
+        "2 news articles linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "‘La gente sigue muy inquieta’: activistas piden a la alcaldía protocolos   ante presencia de agentes de ICE alrededor de escuelas",
+          "url": "https://citylimits.org/la-gente-sigue-muy-inquieta-activistas-piden-a-la-alcaldia-protocolos-ante-presencia-de-agentes-de-ice-alrededor-de-escuelas/",
+          "published_at": "2026-06-10T15:12:42+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "‘People Are Still Very Unnerved’: Advocates Ask City to Establish Protocols for ICE Sightings Near Schools",
+          "url": "https://citylimits.org/people-are-still-very-unnerved-advocates-ask-city-to-establish-protocols-for-ice-sightings-near-schools/",
+          "published_at": "2026-06-09T13:35:03+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nycha:35ac81622008",
+      "source": "NYC Housing Authority",
+      "source_id": "nycha",
+      "kind": "report",
+      "title": "2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
+      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays",
+          "url": "https://citylimits.org/for-nycha-tenants-fighting-for-repairs-in-court-one-missed-phone-call-can-mean-months-long-delays/",
+          "published_at": "2026-06-11T17:13:56+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -619,6 +569,916 @@
           "title": "Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp",
           "url": "https://nyc.streetsblog.org/2026/06/09/state-street-truck-route-map",
           "published_at": "2026-06-09T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:37b0504bcfa6",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "MOIA Immigration Legal Support Hotline - MOIA",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
+          "url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
+          "published_at": "2026-06-09T19:44:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dcwp:0273916fad81",
+      "source": "NYC Department of Consumer & Worker Protection",
+      "source_id": "dcwp",
+      "kind": "report",
+      "title": "Workersbillofrights English",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
+      "document_url": "https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
+          "url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
+          "published_at": "2026-06-09T19:44:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "acs:bb17b8edbcc0",
+      "source": "NYC Administration for Children's Services",
+      "source_id": "acs",
+      "kind": "report",
+      "title": "Flashreports 2026 04",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
+      "document_url": "https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
+      "heat_url": "https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "NYC illegally took newborn from father, keeping them apart for 3 years, court says",
+          "url": "https://gothamist.com/news/nyc-illegally-took-newborn-from-father-keeping-them-apart-for-3-years-court-says",
+          "published_at": "2026-06-09T10:01:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "a816-dohbesp.nyc.gov:b1b998a7d936",
+      "source": "a816-dohbesp.nyc.gov",
+      "source_id": "a816-dohbesp.nyc.gov",
+      "kind": "report",
+      "title": "A brief history of redlining  – Environment & Health Data Portal",
+      "agency": null,
+      "published_date": null,
+      "url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining",
+      "document_url": null,
+      "heat_url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
+          "url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
+          "published_at": "2026-06-10T16:29:09+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:d6256c42bfcd",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Microhubs Reduced More Than 3,000 Truck Trips on New York City Streets, Applications Open for Pilot's Second Phase",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds",
+          "url": "https://citylimits.org/delivery-warehouse-boom-impacts-nycs-low-income-neighborhoods-most-reports-finds/",
+          "published_at": "2026-06-10T16:29:09+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:83528910bbbc",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Tenant Protection Cabinet",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Pinnacle Tenants Bargain with New Owner Over Lingering Repair Issues—With Help From City Hall",
+          "url": "https://citylimits.org/pinnacle-tenants-bargain-with-new-owner-over-lingering-repair-issues-with-help-from-city-hall/",
+          "published_at": "2026-06-09T19:17:54+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nypd:06b8df3806f7",
+      "source": "NYPD",
+      "source_id": "nypd",
+      "kind": "report",
+      "title": "Mv En Us 084Sum",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf",
+      "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp",
+          "url": "https://nyc.streetsblog.org/2026/06/09/state-street-truck-route-map",
+          "published_at": "2026-06-09T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "omb:6536e8903f84",
+      "source": "NYC Office of Management & Budget",
+      "source_id": "omb",
+      "kind": "report",
+      "title": "Omb Exec26 Sp5 26",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "document_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "heat_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani Declares Victory As Hochul Helps City Close Budget Gap",
+          "url": "https://nysfocus.com/2026/05/12/mamdani-hochul-nyc-budget-deal",
+          "published_at": "2026-05-12T17:35:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dcwp:5d2bd8acb517",
+      "source": "NYC Department of Consumer & Worker Protection",
+      "source_id": "dcwp",
+      "kind": "report",
+      "title": "Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf",
+      "document_url": "https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'",
+          "url": "https://gothamist.com/news/a-year-since-nyc-banned-most-broker-fees-a-modicum-of-fines-and-the-bait-and-switch",
+          "published_at": "2026-06-11T15:01:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dcp:f0bb3cc5ee0b",
+      "source": "NYC Department of City Planning",
+      "source_id": "dcp",
+      "kind": "report",
+      "title": "The Newest New Yorkers, 2026",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/planning/newest-new-yorkers-2026",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/assets/planning/newest-new-yorkers-2026",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Chinese immigrants overtake Dominicans as NYC's largest foreign-born group",
+          "url": "https://gothamist.com/news/chinese-immigrants-overtake-dominicans-as-nycs-largest-foreign-born-group",
+          "published_at": "2026-06-11T10:31:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:ffc3c22e953d",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Truck Network Redesign Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Truck stop? Scenic Staten Island parkway may open to the big rigs",
+          "url": "https://www.amny.com/nyc-transit/scenic-staten-island-parkway-may-open-to-trucks/",
+          "published_at": "2026-06-11T12:30:05+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "coib:23a7c1f8acbe",
+      "source": "NYC Conflicts of Interest Board",
+      "source_id": "coib",
+      "kind": "report",
+      "title": "Ao2000 4",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf",
+      "document_url": "https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf",
+      "heat_url": "https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources",
+          "url": "https://nypost.com/2026/06/11/us-news/mamdani-cashed-in-on-mayoral-perks-for-knicks-tickets-and-downplayed-the-price-sources/",
+          "published_at": "2026-06-11T17:04:22-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:55e1bdb3d166",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Audit Report on the New York City Housing Authority’s Eviction Processes",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays",
+          "url": "https://citylimits.org/for-nycha-tenants-fighting-for-repairs-in-court-one-missed-phone-call-can-mean-months-long-delays/",
+          "published_at": "2026-06-11T17:13:56+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -779,6 +1639,76 @@
       "is_new": false
     },
     {
+      "id": "omb:fa07bf92943a",
+      "source": "NYC Office of Management & Budget",
+      "source_id": "omb",
+      "kind": "report",
+      "title": "Omb Exec26 Erc5 26",
+      "agency": null,
+      "published_date": null,
+      "url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "document_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "heat_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 4.477121254719663,
+      "rationale": [
+        "2 social posts sharing the exact link with 2 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 4.477121254719663,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 2,
+          "social_engagement": 2,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "You can download the \"Expense Revenue Contract Budget\" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+          "url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mloxw7c7qc2j",
+          "published_at": "2026-05-12T23:46:20.429000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
       "id": "nyc_comptroller:9733543203e1",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -856,6 +1786,216 @@
       "is_new": false
     },
     {
+      "id": "pubadvocate:bae748c420a4",
+      "source": "NYC Public Advocate",
+      "source_id": "pubadvocate",
+      "kind": "report",
+      "title": "Play it Safe: Mitigating Gambling Harms in New York",
+      "agency": null,
+      "published_date": null,
+      "url": "https://advocate.nyc.gov/reports/gambling",
+      "document_url": null,
+      "heat_url": "https://advocate.nyc.gov/reports/gambling",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.845098040014257,
+      "rationale": [
+        "1 social post sharing the exact link with 6 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.845098040014257,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 6,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.845098040014257,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 6,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "🏀 In MARCH the Public Advocate predicted the Knicks would win the Title—and we're so close. 🏆\n\nThat's not the only chip we're watching 🎰 -- we can’t gamble on the health of our communities. advocate.n",
+          "url": "https://bsky.app/profile/advocate.nyc.gov/post/3mninnnse2s2n",
+          "published_at": "2026-06-04T22:17:01.055000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:4243edf0db66",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Latine Fact Sheet",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.778151250383644,
+      "rationale": [
+        "1 social post sharing the exact link with 5 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.778151250383644,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 5,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "93% while the Latino population of NYC is 29%\n\ncomptroller.nyc.gov/reports/lati...",
+          "url": "https://bsky.app/profile/zneeley25.bsky.social/post/3mmu2uoc2yc2y",
+          "published_at": "2026-05-27T17:47:40.590000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "ibo:6dae6cd02e7a",
+      "source": "NYC Independent Budget Office",
+      "source_id": "ibo",
+      "kind": "report",
+      "title": "New York City Fiscal History-Police Department",
+      "agency": null,
+      "published_date": null,
+      "url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
+      "document_url": null,
+      "heat_url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.6989700043360187,
+      "rationale": [
+        "1 social post sharing the exact link with 4 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.6989700043360187,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 4,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "So you and @botmatrix.myatproto.social have both mentioned 9/11 as a departure point but I am really seeing the 90’s as MUCH more of a growth period, or even the past two years \n\nWith 2001-2005 being ",
+          "url": "https://bsky.app/profile/alice-j-grimm.bsky.social/post/3mnayrwv7tc2k",
+          "published_at": "2026-06-01T21:14:58.043000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
       "id": "nyc_comptroller:d244910f4d37",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -926,6 +2066,286 @@
       "is_new": false
     },
     {
+      "id": "pubadvocate:21f76b515d71",
+      "source": "NYC Public Advocate",
+      "source_id": "pubadvocate",
+      "kind": "report",
+      "title": "Resources to Protect & Defend Immigrant Communities",
+      "agency": null,
+      "published_date": null,
+      "url": "https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities",
+      "document_url": null,
+      "heat_url": "https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.4771212547196626,
+      "rationale": [
+        "1 social post sharing the exact link with 2 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.4771212547196626,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 2,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.4771212547196626,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 2,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "🔥KNOW YOUR RIGHTS: IMMIGRANTS & American CITIZENS‼️\n🔺 ICE  is NOT DEPORTING, ICE IS KIDNAPPING & HUMAN TRAFFICKING\nto FILL🖕MAGAT PRIVATE CONCENTRATION CAMPS🔺\n&\n🚩 ICE GETS PAID BY The SCALP Regardless ",
+          "url": "https://bsky.app/profile/teeshasmom2.bsky.social/post/3mnjhfdbujc2x",
+          "published_at": "2026-06-05T05:57:38.874000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:d550b1389cc7",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Broadway Vision Update May2025",
+      "agency": null,
+      "published_date": null,
+      "url": "https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
+      "document_url": "https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
+      "heat_url": "https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.3010299956639813,
+      "rationale": [
+        "1 social post sharing the exact link with 1 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.3010299956639813,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 1,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.3010299956639813,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 1,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "🤔Hmm... no idea, but does Gotham Hall ring a bell? \n\n🧐 p.20 onwards  \nnyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
+          "url": "https://bsky.app/profile/nidia.bsky.social/post/3mnrqmyw6gs2j",
+          "published_at": "2026-06-08T13:04:18.029000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:858a5582fb6c",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Project Categories: Construction Equipment - Construction Fence - Buildings",
+      "agency": null,
+      "published_date": null,
+      "url": "https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page",
+      "document_url": null,
+      "heat_url": "https://nyc.gov/site/buildings/dob/project-categories-cons-fence.page",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.3010299956639813,
+      "rationale": [
+        "1 social post sharing the exact link with 1 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.3010299956639813,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 1,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "Viewing panels legally must be between 3 & 6 feet from the ground...but I've never seen one lower than 5 feet. If \n@nycbuildings.bsky.social @mayor.nyc.gov incentivized some at the lower height, NYC k",
+          "url": "https://bsky.app/profile/subtle116.bsky.social/post/3mnfddykdkc27",
+          "published_at": "2026-06-03T14:34:40.114000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "council:6b36ebc129af",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "The Budget Process",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/budget/process",
+      "document_url": null,
+      "heat_url": "https://council.nyc.gov/budget/process",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.3010299956639813,
+      "rationale": [
+        "1 social post sharing the exact link with 1 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.3010299956639813,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 1,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "As far the budget is concerned, it seems that is a local matter between mayor and council council.nyc.gov/budget/proce... The NYS Comptroller can make recommendations that, AFAIK, are not binding. See",
+          "url": "https://bsky.app/profile/frankd7.bsky.social/post/3mm5tjllusc2v",
+          "published_at": "2026-05-18T21:37:38.229000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
       "id": "nyc_comptroller:5d7a530d1de4",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -990,6 +2410,76 @@
           "title": "Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...",
           "url": "https://bsky.app/profile/pck.rocks/post/3mmcv2jlgc22l",
           "published_at": "2026-05-20T21:48:18.976000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:ba0bea472019",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "tgnc-rights",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/site/cchr/media/tgnc-rights.page",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/site/cchr/media/tgnc-rights.page",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.0,
+      "rationale": [
+        "1 social post sharing the exact link"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "This #PrideMonth, we are launching a citywide campaign to raise awareness of protections for trans and gender nonconforming New Yorkers 🏳️‍⚧️ As reports of gender identity discrimination reach a 5-yea",
+          "url": "https://bsky.app/profile/nycchr.bsky.social/post/3mnaiy3xpms2e",
+          "published_at": "2026-06-01T16:32:04.837000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -33061,68 +34551,6 @@
       "document_url": "https://www.nyc.gov/assets/nycha/downloads/excel/pna-development-results-20260316.xlsx",
       "heat_url": "https://www.nyc.gov/assets/nycha/downloads/excel/pna-development-results-20260316.xlsx",
       "format": "xlsx",
-      "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
-      "id": "nycha:35ac81622008",
-      "source": "NYC Housing Authority",
-      "source_id": "nycha",
-      "kind": "report",
-      "title": "2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
-      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf",
-      "format": "pdf",
       "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
       "rank_window": "30d",
       "heat_score": 0.0,
@@ -78756,6 +80184,750 @@
       "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
       "format": "pdf",
       "source_page": "https://www.nyc.gov/site/nycha/about/reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:3ed6828d83fe",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027",
+      "agency": null,
+      "published_date": "2026-06-09",
+      "url": "https://council.nyc.gov/press/2026/06/09/3134",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:38f250d3a91a",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "Ahead of FIFA World Cup, NYC Council Calls for Public Education and Enforcement Against Tourism Scams Following Investigation into Unlicensed Taxis, Pedicabs, and Ferry-Ticket Vendors",
+      "agency": null,
+      "published_date": "2026-06-08",
+      "url": "https://council.nyc.gov/press/2026/06/08/3129",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/taken-for-a-ride_june-2026.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/taken-for-a-ride_june-2026.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:a64859378874",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "Small Lots, Big Impact: Speaker Menin Proposes Reforms To Unlock Up To 35,000 Units Of Housing On Small Lots Across New York City",
+      "agency": null,
+      "published_date": "2026-04-24",
+      "url": "https://council.nyc.gov/press/2026/04/24/3113",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/04/04-24-2026-AIA-Awards-Luncheon-v2.docx.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/04/04-24-2026-AIA-Awards-Luncheon-v2.docx.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:432affbe0b3c",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "New York City Council Releases Preliminary Budget Response, Identifying $6 Billion in Resources as Alternative Path to Closing Funding Shortfall",
+      "agency": null,
+      "published_date": "2026-04-01",
+      "url": "https://council.nyc.gov/press/2026/04/01/3097",
+      "document_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/04/Fiscal-Year-2027-Preliminary-Budget-Response-2.pdf",
+      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/04/Fiscal-Year-2027-Preliminary-Budget-Response-2.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:6196ec89abc1",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "On National Census Day, Speaker Menin, Council Members, and Civic Engagement Organizations Rallied to Protect Accurate 2030 Census Count Against Potential Citizenship Question",
+      "agency": null,
+      "published_date": "2026-04-01",
+      "url": "https://council.nyc.gov/press/2026/04/01/3096",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/04/Joint-letter-from-Speaker-Menin-and-AG-James-re-2030-US-Census.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/04/Joint-letter-from-Speaker-Menin-and-AG-James-re-2030-US-Census.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:a484acbf1212",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Letter to the London Stock Exchange Group and FTSE Russell Re: SpaceX",
+      "agency": null,
+      "published_date": "2026-06-11",
+      "url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:8179dcda2336",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Review of Schools’ Food Donation and Composting Efforts",
+      "agency": null,
+      "published_date": "2026-04-21",
+      "url": "https://comptroller.nyc.gov/reports/review-of-schools-food-donation-and-composting-efforts",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/review-of-schools-food-donation-and-composting-efforts",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:c9475ad4f046",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Sunlight in the City: A Practical Blueprint for FOIL Operations and Go...",
+      "agency": null,
+      "published_date": "2026-04-10",
+      "url": "https://comptroller.nyc.gov/reports/sunlight-in-the-city-a-practical-blueprint-for-foil-operations-and-government-transparency",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/sunlight-in-the-city-a-practical-blueprint-for-foil-operations-and-government-transparency",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:94331dcc07f1",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Strengthening the City’s Rainy Day Fund",
+      "agency": null,
+      "published_date": "2026-04-09",
+      "url": "https://comptroller.nyc.gov/reports/strengthening-the-citys-rainy-day-fund",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/strengthening-the-citys-rainy-day-fund",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:635c30d0430f",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Review of the Small Business Forward Initiative and Its Impact on Viol...",
+      "agency": null,
+      "published_date": "2026-04-07",
+      "url": "https://comptroller.nyc.gov/reports/review-of-the-small-business-forward-initiative-and-its-impact-on-violations-enforcement",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/review-of-the-small-business-forward-initiative-and-its-impact-on-violations-enforcement",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:08cdac2ac1a3",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Promoting Growth in NYC: Leveraging NYCIDA for Economic Development",
+      "agency": null,
+      "published_date": "2026-03-31",
+      "url": "https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/promoting-growth-in-nyc-leveraging-nycida-for-economic-development",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:aa0884cd9206",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "The Risks to the City’s Credit Ratings",
+      "agency": null,
+      "published_date": "2026-03-27",
+      "url": "https://comptroller.nyc.gov/reports/the-risks-to-the-citys-credit-ratings",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/the-risks-to-the-citys-credit-ratings",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/page/2/",
       "rank_window": "30d",
       "heat_score": 0.0,
       "rationale": [

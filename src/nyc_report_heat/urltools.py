@@ -49,11 +49,17 @@ def detect_format(url: str) -> str:
 def canonical_variants(url: str) -> list[str]:
     norm = normalize_url(url)
     parsed = urlparse(norm)
-    variants = {norm}
-    if parsed.netloc == "home4.nyc.gov":
-        variants.add(urlunparse((parsed.scheme, "www.nyc.gov", parsed.path, "", parsed.query, "")))
-    if parsed.netloc == "www.nyc.gov":
-        variants.add(urlunparse((parsed.scheme, "home4.nyc.gov", parsed.path, "", parsed.query, "")))
-    if parsed.scheme == "https":
-        variants.add(urlunparse(("http", parsed.netloc, parsed.path, "", parsed.query, "")))
+    hosts = {parsed.netloc}
+    # the same document gets shared with and without www
+    if parsed.netloc.startswith("www."):
+        hosts.add(parsed.netloc[4:])
+    else:
+        hosts.add("www." + parsed.netloc)
+    if parsed.netloc in {"home4.nyc.gov", "www.nyc.gov", "nyc.gov"}:
+        hosts.update({"home4.nyc.gov", "www.nyc.gov", "nyc.gov"})
+    variants = set()
+    for host in hosts:
+        variants.add(urlunparse((parsed.scheme, host, parsed.path, "", parsed.query, "")))
+        if parsed.scheme == "https":
+            variants.add(urlunparse(("http", host, parsed.path, "", parsed.query, "")))
     return sorted(variants)
