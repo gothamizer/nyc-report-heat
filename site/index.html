@@ -39,80 +39,47 @@
 
         <h2 class="methodology-title" id="methodology-title">How The Hot 100 works</h2>
         <p class="methodology-lede">
-          An objective, automatically-updated chart of which NYC government
-          reports, rules, and publications are actually being shared and cited
-          in public — not which ones we think matter. No editorial weighting, no
-          topic keywords, no human picks.
+          Ranks NYC government reports by how much the exact document is being
+          shared in public. No editorial picks, no topic keywords.
         </p>
 
         <div class="m-section">
-          <h3 class="m-head"><span class="m-num">1</span> What we watch</h3>
-          <p>
-            Every run, we scan the publication pages of seven official sources
-            and track each report, rule, and publication as it appears —
-            building a standing inventory. A document stays on the board even
-            after it scrolls off a source's "recent" page.
-          </p>
+          <h3 class="m-head"><span class="m-num">1</span> Sources tracked</h3>
           <ul class="m-list">
-            <li><strong>NYC Department of Investigation</strong> — investigation reports</li>
-            <li><strong>NYC Comptroller</strong> — audits, fiscal reports, letters</li>
-            <li><strong>NYS Comptroller</strong> — state oversight of city finances</li>
-            <li><strong>NYC Independent Budget Office</strong> — fiscal analysis &amp; testimony</li>
-            <li><strong>NYC Rules — Proposed</strong> — rules open for comment</li>
-            <li><strong>NYC Rules — Adopted</strong> — finalized rule changes</li>
-            <li><strong>NYC Government Publications Portal</strong> — the City Record &amp; agency publications</li>
+            <li><strong>NYC Dept. of Investigation</strong></li>
+            <li><strong>NYC Comptroller</strong></li>
+            <li><strong>NYS Comptroller</strong></li>
+            <li><strong>NYC Independent Budget Office</strong></li>
+            <li><strong>NYC Rules</strong> — proposed &amp; adopted</li>
+            <li><strong>NYC Government Publications Portal</strong></li>
           </ul>
         </div>
 
         <div class="m-section">
-          <h3 class="m-head"><span class="m-num">2</span> How we measure heat</h3>
-          <p>
-            Heat is <em>pickup of the exact document</em>. Rather than searching
-            the web once per report (slow, and prone to false matches), we sweep
-            a handful of free public sources for every link to a tracked
-            government domain, then match those links back to the inventory. We
-            only ever count a verifiable mention — a real post or article you can
-            click through to.
-          </p>
+          <h3 class="m-head"><span class="m-num">2</span> Where we count pickup</h3>
+          <p>Every link to a tracked report shared on:</p>
           <ul class="m-list">
-            <li><strong>Bluesky</strong> — public posts sharing a report's link, weighted by likes, reposts, and replies. The core "people are passing this around" signal.</li>
-            <li><strong>Hacker News</strong> — stories linking a tracked government page, weighted by points and comments.</li>
-            <li><strong>NYC newsrooms</strong> — we read the RSS feeds of Gothamist, THE CITY, City &amp; State, the NY Post Metro desk, NYT's New York section, amNY, and City Limits, then check each new article for a direct link to a tracked report. This catches journalists citing the actual document.</li>
+            <li><strong>Bluesky</strong> — posts, weighted by likes/reposts/replies</li>
+            <li><strong>Hacker News</strong> — stories, weighted by points/comments</li>
+            <li><strong>NYC newsrooms</strong> — Gothamist, THE CITY, City &amp; State, NY Post, NYT Metro, amNY, City Limits</li>
           </ul>
+          <p>Only real, clickable mentions count.</p>
         </div>
 
         <div class="m-section">
-          <h3 class="m-head"><span class="m-num">3</span> How the score is built</h3>
-          <p>The score for each window is a simple, fixed weighting of verified mentions:</p>
+          <h3 class="m-head"><span class="m-num">3</span> Score</h3>
           <ul class="m-weights">
-            <li><span class="m-w">6×</span> news articles linking the exact URL</li>
-            <li><span class="m-w">2×</span> social posts sharing the exact link</li>
-            <li><span class="m-w">0.2×</span> social engagement on those posts <em>(capped at 100)</em></li>
-            <li><span class="m-w">2×</span> pickups of the report's distinctive filename <em>(capped at 5)</em></li>
+            <li><span class="m-w">6×</span> news links to the exact URL</li>
+            <li><span class="m-w">2×</span> social posts sharing the link</li>
+            <li><span class="m-w">0.2×</span> social engagement <em>(cap 100)</em></li>
+            <li><span class="m-w">2×</span> filename pickups <em>(cap 5)</em></li>
           </ul>
-          <p>
-            Scores are computed over three rolling windows — <span class="mono">today</span>,
-            <span class="mono">7d</span>, and <span class="mono">30d</span> — and the chart
-            defaults to 30 days. Most documents score zero, and that's correct:
-            sparsity reflects reality. A genuinely quiet rule change <em>should</em>
-            read as cold.
-          </p>
-        </div>
-
-        <div class="m-section">
-          <h3 class="m-head"><span class="m-num">4</span> Bubbling under</h3>
-          <p>
-            When we see a government link being shared that <em>isn't</em> in our
-            inventory yet, it lands in the "Bubbling under" list at the bottom of
-            the chart — both a blind-spot alert and a hint about what to start
-            tracking next.
-          </p>
+          <p>Windows: <span class="mono">today</span> / <span class="mono">7d</span> / <span class="mono">30d</span>. Most reports score zero — that's real.</p>
         </div>
 
         <p class="m-foot">
-          Fully automated and open: the pipeline re-runs every day, recomputes
-          the whole board, and commits the data publicly. Built only on free,
-          unauthenticated public sources.
+          Re-runs daily on free public sources. <em>Bubbling under</em> lists
+          shared gov links not yet tracked.
         </p>
       </div>
     </dialog>
