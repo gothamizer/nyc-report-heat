@@ -21,15 +21,7 @@ The project intentionally separates:
 
 ## Sources
 
-Configured in [config/default.yml](config/default.yml):
-
-- NYC Department of Investigation
-- NYC Comptroller
-- NYS Comptroller
-- NYC Independent Budget Office
-- NYC Rules: proposed rules
-- NYC Rules: adopted rules
-- NYC Government Publications Portal
+Configured in [config/default.yml](config/default.yml): 30+ NYC & NYS agencies and bodies — city & state watchdogs (DOI, both comptrollers, IBO), agency report libraries, NYC Rules (proposed & adopted), and the Government Publications Portal. The config file is the canonical list.
 
 The inventory model supports PDF and non-PDF report pages. `document_url` is populated when the actual artifact is a PDF/DOCX/XLSX; otherwise the HTML page URL is the canonical heat URL.
 
@@ -77,6 +69,7 @@ Because the feed is fetched over HTTP, preview it with a static server (`python 
 Every provider is free and unauthenticated. Heat collection is **domain-first**: instead of searching the world once per candidate (which is exactly the request shape that gets rate-limited and returns zeros), each provider is queried once per tracked gov domain and the results are matched against the inventory locally.
 
 - **Bluesky** (`api.bsky.app` search, no auth): posts sharing a tracked gov link, with likes/reposts/quotes/replies as engagement. This is the core "people sending it around" signal.
+- **Reddit** (OAuth script app, skips cleanly without credentials): posts linking a tracked gov domain, with score + comments as engagement.
 - **Hacker News** (Algolia, no auth): stories whose URL is on a tracked gov domain, with points + comments as engagement.
 - **NYC press RSS** (`newsrss`): polls Gothamist, THE CITY, City & State, NY Post Metro, NYT NYRegion, amNY, and City Limits feeds, fetches each new article once (ledger: `data/articles_seen.txt`), and extracts outbound links to tracked gov domains — direct observation of journalists citing the document.
 

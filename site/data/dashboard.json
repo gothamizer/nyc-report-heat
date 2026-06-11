@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:05:41+00:00",
+  "generated_at": "2026-06-11T20:25:34+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -15,7 +15,7 @@
   "stats": {
     "total": 1263,
     "with_heat": 8,
-    "new_count": 3,
+    "new_count": 0,
     "by_kind": {
       "report": 1113,
       "rule": 150
@@ -177,7 +177,18 @@
   },
   "untracked": [
     {
-      "target_url": "https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement",
+      "target_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "mentions": 2,
+      "engagement": 2,
+      "providers": [
+        "bluesky"
+      ],
+      "sample_title": "You can download the \"Expense Revenue Contract Budget\" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "sample_source_url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mloxw7c7qc2j",
+      "last_seen": "2026-05-12T23:46:20+00:00"
+    },
+    {
+      "target_url": "https://schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement",
       "mentions": 2,
       "engagement": 0,
       "providers": [
@@ -186,17 +197,6 @@
       "sample_title": "‘La gente sigue muy inquieta’: activistas piden a la alcaldía protocolos   ante presencia de agentes de ICE alrededor de escuelas",
       "sample_source_url": "https://citylimits.org/la-gente-sigue-muy-inquieta-activistas-piden-a-la-alcaldia-protocolos-ante-presencia-de-agentes-de-ice-alrededor-de-escuelas/",
       "last_seen": "2026-06-10T15:12:42+00:00"
-    },
-    {
-      "target_url": "https://nyc.gov/content/omb/pages",
-      "mentions": 1,
-      "engagement": 6,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "Nyc.gov/content/omb/pages\n\nNot satisfied go ahead and message them, the records are public\n\nGurl......",
-      "sample_source_url": "https://bsky.app/profile/lukemj.bsky.social/post/3mlokhqvuzs2u",
-      "last_seen": "2026-05-12T19:45:36+00:00"
     },
     {
       "target_url": "https://advocate.nyc.gov/reports/gambling",
@@ -221,28 +221,6 @@
       "last_seen": "2026-05-27T17:47:40+00:00"
     },
     {
-      "target_url": "https://a858-nycnotify.nyc.gov/notifynyc/Home",
-      "mentions": 1,
-      "engagement": 5,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "I really like that NYC has notifications like this. I get reports of accidents and all kinds of activity going on in the city.\n\na858-nycnotify.nyc.gov/notifynyc/Ho...",
-      "sample_source_url": "https://bsky.app/profile/billieo2.bsky.social/post/3mnux4gv2pc2n",
-      "last_seen": "2026-06-09T19:38:17+00:00"
-    },
-    {
-      "target_url": "https://comptroller.nyc.gov/newsroom/statement-from-city-comptroller-brad-lander-on-the-new-york-city-teachers-retirement-systems-divestment-from-russian-securities",
-      "mentions": 1,
-      "engagement": 4,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "it's still relevant e.g. regarding things like this, which were done by NYC Comptroller under previous mayor:\n\ncomptroller.nyc.gov/newsroom/sta...",
-      "sample_source_url": "https://bsky.app/profile/ausir.bsky.social/post/3mnwx7uk32c23",
-      "last_seen": "2026-06-10T14:45:32+00:00"
-    },
-    {
       "target_url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
       "mentions": 1,
       "engagement": 4,
@@ -263,17 +241,6 @@
       "sample_title": "🔥KNOW YOUR RIGHTS: IMMIGRANTS & American CITIZENS‼️\n🔺 ICE  is NOT DEPORTING, ICE IS KIDNAPPING & HUMAN TRAFFICKING\nto FILL🖕MAGAT PRIVATE CONCENTRATION CAMPS🔺\n&\n🚩 ICE GETS PAID BY The SCALP Regardless ",
       "sample_source_url": "https://bsky.app/profile/teeshasmom2.bsky.social/post/3mnjhfdbujc2x",
       "last_seen": "2026-06-05T05:57:38+00:00"
-    },
-    {
-      "target_url": "https://osc.ny.gov/jobs/events",
-      "mentions": 1,
-      "engagement": 1,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "Are you ready for a career with purpose? \n\nMeet our recruiters at a job fair this month to learn about how you can make a difference for New Yorkers. Join the State Comptroller's team.  \n\nOsc.ny.gov/j",
-      "sample_source_url": "https://bsky.app/profile/nyscomptroller.bsky.social/post/3mnga7cqtby2c",
-      "last_seen": "2026-06-03T23:11:01+00:00"
     },
     {
       "target_url": "https://nyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
@@ -298,202 +265,37 @@
       "last_seen": "2026-06-03T14:34:40+00:00"
     },
     {
-      "target_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "mentions": 1,
-      "engagement": 1,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "You can download the \"Expense Revenue Contract Budget\" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "sample_source_url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mloxw7c7qc2j",
-      "last_seen": "2026-05-12T23:46:20+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "mentions": 1,
-      "engagement": 1,
-      "providers": [
-        "bluesky"
-      ],
-      "sample_title": "You can download the \"Expense Revenue Contract Budget\" here: nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "sample_source_url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mloxw7c7qc2j",
-      "last_seen": "2026-05-12T23:46:20+00:00"
-    },
-    {
-      "target_url": "https://access.nyc.gov/programs/cooling-assistance-benefit",
+      "target_url": "https://nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "Brutal heat, wild storms and maybe tornadoes in NY, NJ possible starting Thursday",
-      "sample_source_url": "https://gothamist.com/news/brutal-heat-wild-storms-and-maybe-tornadoes-in-ny-nj-forecast-starting-thursday",
-      "last_seen": "2026-06-10T14:23:00+00:00"
+      "sample_title": "A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'",
+      "sample_source_url": "https://gothamist.com/news/a-year-since-nyc-banned-most-broker-fees-a-modicum-of-fines-and-the-bait-and-switch",
+      "last_seen": "2026-06-11T15:01:00+00:00"
     },
     {
-      "target_url": "https://www.nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
+      "target_url": "https://nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-      "last_seen": "2026-06-09T19:44:00+00:00"
+      "sample_title": "Truck stop? Scenic Staten Island parkway may open to the big rigs",
+      "sample_source_url": "https://www.amny.com/nyc-transit/scenic-staten-island-parkway-may-open-to-trucks/",
+      "last_seen": "2026-06-11T12:30:05+00:00"
     },
     {
-      "target_url": "https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
+      "target_url": "https://nyc.gov/assets/planning/newest-new-yorkers-2026",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-      "last_seen": "2026-06-09T19:44:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/content/nychope/pages",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
-      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
-      "last_seen": "2026-06-09T19:44:00+00:00"
-    },
-    {
-      "target_url": "https://access.nyc.gov/programs/one-shot-deal",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "New Yorkers entering homeless shelters surged 27% under Adams, report says",
-      "sample_source_url": "https://gothamist.com/news/new-yorkers-entering-homeless-shelters-surged-27-under-adams-report-says",
-      "last_seen": "2026-06-09T15:21:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC illegally took newborn from father, keeping them apart for 3 years, court says",
-      "sample_source_url": "https://gothamist.com/news/nyc-illegally-took-newborn-from-father-keeping-them-apart-for-3-years-court-says",
-      "last_seen": "2026-06-09T10:01:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/site/acs/news/p05-26/mayor-mamdani-appoints-rebecca-jones-gaston-commissioner-the-administration-children-s",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC illegally took newborn from father, keeping them apart for 3 years, court says",
-      "sample_source_url": "https://gothamist.com/news/nyc-illegally-took-newborn-from-father-keeping-them-apart-for-3-years-court-says",
-      "last_seen": "2026-06-09T10:01:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/main/knicksgame3",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "'I hope he gets a big boo': Trump's Knicks visit jams up Midtown for fans and commuters",
-      "sample_source_url": "https://gothamist.com/news/i-hope-he-gets-a-big-boo-new-yorkers-watch-trumps-knicks-visit-jam-up-midtown",
-      "last_seen": "2026-06-08T22:37:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/06/transcript--mayor-mamdani-appears-on-wnyc-s-the-brian-lehrer-sho",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani admin weighs how to provide care for NYC trans kids amid Trump backlash",
-      "sample_source_url": "https://gothamist.com/news/mamdani-admin-weighs-how-to-provide-care-for-nyc-trans-kids-amid-trump-backlash",
-      "last_seen": "2026-06-08T21:06:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/06/mayor-mamdani-and-commissioner-clarke-launch--trans-rights-are-h",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Mamdani admin weighs how to provide care for NYC trans kids amid Trump backlash",
-      "sample_source_url": "https://gothamist.com/news/mamdani-admin-weighs-how-to-provide-care-for-nyc-trans-kids-amid-trump-backlash",
-      "last_seen": "2026-06-08T21:06:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/05/mayor-mamdani-announces-midtown-transportation-plan-to-keep-new-",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "World Cup Chaos: Your Guide to Getting Around Midtown and Penn Station During the Games",
-      "sample_source_url": "https://www.thecityreporter.nyc/2026/06/09/world-cup-schedule-mta-lirr-new-jersey-transit-service/",
-      "last_seen": "2026-06-09T09:02:00+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2025/09/mayor-adams-calls-on-city-council-to-ban-horse-drawn-carriages--",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "The City Council’s trying again to ban horse carriages",
-      "sample_source_url": "https://www.cityandstateny.com/policy/2026/06/city-councils-trying-again-ban-horse-carriages/414107/",
-      "last_seen": "2026-06-10T17:59:15-04:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani--governor-hochul-and-fifa-world-cup-2026-nynj-host",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Is Zohran Mamdani ready for the World Cup?",
-      "sample_source_url": "https://www.cityandstateny.com/politics/2026/06/zohran-mamdani-ready-world-cup/414020/",
-      "last_seen": "2026-06-08T05:00:00-04:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/content/visionzero/pages",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "EXCLUSIVE: DOT proposes installing bus lanes along Brooklyn’s Bay Parkway and Cropsey Avenue",
-      "sample_source_url": "https://www.amny.com/news/dot-bus-lanes-brooklyn-bay-parkway-cropsey-avenue/",
-      "last_seen": "2026-06-10T22:30:53+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/site/fdny/index.page",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Heartbreaking testimony from EMS leaders at City Council hearing as union pushes for better pay, end to staffing crisis",
-      "sample_source_url": "https://www.amny.com/news/ems-leaders-testify-city-council-hearing-pay-staffing/",
-      "last_seen": "2026-06-10T22:15:47+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/04/mayor-mamdani-releases-preliminary-citywide-racial-equity-plan-a",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "Opinion: More Than Half of New Yorkers Can’t Afford New York. That Should Alarm All of Us.",
-      "sample_source_url": "https://citylimits.org/opinion-more-than-half-of-new-yorkers-cant-afford-new-york-that-should-alarm-all-of-us/",
-      "last_seen": "2026-06-10T20:27:59+00:00"
+      "sample_title": "Chinese immigrants overtake Dominicans as NYC's largest foreign-born group",
+      "sample_source_url": "https://gothamist.com/news/chinese-immigrants-overtake-dominicans-as-nycs-largest-foreign-born-group",
+      "last_seen": "2026-06-11T10:31:00+00:00"
     },
     {
       "target_url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining",
@@ -507,7 +309,7 @@
       "last_seen": "2026-06-10T16:29:09+00:00"
     },
     {
-      "target_url": "https://www.nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
+      "target_url": "https://nyc.gov/html/dot/html/pr2026/microhubs-reduced-truck-trips.shtml",
       "mentions": 1,
       "engagement": 0,
       "providers": [
@@ -518,7 +320,29 @@
       "last_seen": "2026-06-10T16:29:09+00:00"
     },
     {
-      "target_url": "https://www.nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
+      "target_url": "https://nyc.gov/site/immigrants/legal-resources/moia-immigration-legal-support-hotline.page",
+      "mentions": 1,
+      "engagement": 0,
+      "providers": [
+        "newsrss"
+      ],
+      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
+      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
+      "last_seen": "2026-06-09T19:44:00+00:00"
+    },
+    {
+      "target_url": "https://nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf",
+      "mentions": 1,
+      "engagement": 0,
+      "providers": [
+        "newsrss"
+      ],
+      "sample_title": "Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants",
+      "sample_source_url": "https://gothamist.com/news/mamdani-plans-world-cup-know-your-rights-blitz-for-nyc-workers-immigrants",
+      "last_seen": "2026-06-09T19:44:00+00:00"
+    },
+    {
+      "target_url": "https://nyc.gov/content/tenantprotection/pages/pinnacle-tenants",
       "mentions": 1,
       "engagement": 0,
       "providers": [
@@ -529,230 +353,51 @@
       "last_seen": "2026-06-09T19:17:54+00:00"
     },
     {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7554",
+      "target_url": "https://nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
+      "sample_title": "NYC illegally took newborn from father, keeping them apart for 3 years, court says",
+      "sample_source_url": "https://gothamist.com/news/nyc-illegally-took-newborn-from-father-keeping-them-apart-for-3-years-court-says",
+      "last_seen": "2026-06-09T10:01:00+00:00"
     },
     {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7463",
+      "target_url": "https://nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
+      "sample_title": "Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp",
+      "sample_source_url": "https://nyc.streetsblog.org/2026/06/09/state-street-truck-route-map",
+      "last_seen": "2026-06-09T04:05:00+00:00"
     },
     {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7469",
+      "target_url": "https://nyc.gov/site/cchr/media/tgnc-rights.page",
       "mentions": 1,
       "engagement": 0,
       "providers": [
-        "newsrss"
+        "bluesky"
       ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
+      "sample_title": "This #PrideMonth, we are launching a citywide campaign to raise awareness of protections for trans and gender nonconforming New Yorkers 🏳️‍⚧️ As reports of gender identity discrimination reach a 5-yea",
+      "sample_source_url": "https://bsky.app/profile/nycchr.bsky.social/post/3mnaiy3xpms2e",
+      "last_seen": "2026-06-01T16:32:04+00:00"
     },
     {
-      "target_url": "https://www.nyc.gov/main/events?permalinkName=commission-on-government-efficiency-citywide-public-input-sessions-bronx&id=996616&sequence=1",
+      "target_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
       "mentions": 1,
       "engagement": 0,
       "providers": [
         "newsrss"
       ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7527",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7537",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/assets/lpc/downloads/pdf/calendar/06_09_26.pdf",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7564",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7495",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/main/events?permalinkName=commission-on-government-efficiency-citywide-public-input-sessions-brooklyn&id=996636&sequence=1",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7517",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7570",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/content/planning/pages/calendar",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7550",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://www.nyc.gov/mayors-office/news/2026/05/mayor-mamdani-announces-commission-on-government-efficiency-to-m",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7462",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://housingconnect.nyc.gov/PublicWeb/details/7540",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
-    },
-    {
-      "target_url": "https://zap.planning.nyc.gov/projects/2024K0299",
-      "mentions": 1,
-      "engagement": 0,
-      "providers": [
-        "newsrss"
-      ],
-      "sample_title": "NYC Housing Calendar, June 8-15",
-      "sample_source_url": "https://citylimits.org/nyc-housing-calendar-june-8-15/",
-      "last_seen": "2026-06-08T15:27:49+00:00"
+      "sample_title": "Mamdani Declares Victory As Hochul Helps City Close Budget Gap",
+      "sample_source_url": "https://nysfocus.com/2026/05/12/mamdani-hochul-nyc-budget-deal",
+      "last_seen": "2026-05-12T17:35:00-04:00"
     }
   ],
-  "new_candidates": [
-    {
-      "title": "Bi-Annual Compliance Report January 2021 (PDF)",
-      "source": "NYC Housing Authority",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/4B_Bi-Annual%20Certification%2001-31-2021.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "EHS Lead Compliance Inspection Report Jan–June 2021 (PDF)",
-      "source": "NYC Housing Authority",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/EHS-Lead-Compliance-Inspection-Report-Jan-June-2021.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Bi-Annual Compliance Report July 2021 (PDF)",
-      "source": "NYC Housing Authority",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Bi-Annual-Compliance-Report-July-2021.pdf",
-      "format": "pdf"
-    }
-  ],
+  "new_candidates": [],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -79034,7 +78679,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nycha:0326c79a197f",
@@ -79096,7 +78741,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nycha:97718d90285a",
@@ -79158,7 +78803,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }

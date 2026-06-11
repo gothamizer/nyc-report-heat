@@ -53,6 +53,46 @@ def _window_days(key: str) -> int:
     return 1 if key == "today" else int(key.removesuffix("d"))
 
 
+# The board tracks reports and report-like documents. Shared gov links that are
+# service portals, listings, press releases, or event/calendar pages are not
+# discovery hints, so the untracked summary drops them outright.
+UNTRACKED_EXCLUDE_HOSTS = {
+    "housingconnect.nyc.gov",  # housing-lottery listings
+    "access.nyc.gov",  # benefits/service portal
+    "a858-nycnotify.nyc.gov",  # NotifyNYC alert portal
+    "zap.planning.nyc.gov",  # land-use application records
+}
+UNTRACKED_EXCLUDE_PATH_PARTS = (
+    "/news/",  # press releases and statements
+    "/newsroom/",  # press releases and statements
+    "/events",  # event listings
+    "/calendar",  # hearing/meeting calendars
+    "/jobs",  # job boards
+    "/main/",  # nyc.gov campaign/landing pages
+    "/home/",  # agency homepages (e.g. /html/dot/html/home/home.shtml)
+)
+UNTRACKED_EXCLUDE_LAST_SEGMENTS = {
+    "pages",  # nyc.gov /content/<agency>/pages section homes
+    "index.page",  # nyc.gov agency homepages
+}
+
+
+def _untracked_report_like(canonical_url: str) -> bool:
+    host = canonical_url.split("/")[2] if "//" in canonical_url else ""
+    if host.removeprefix("www.") in UNTRACKED_EXCLUDE_HOSTS:
+        return False
+    path = "/" + "/".join(canonical_url.split("/")[3:])
+    path_lower = path.lower()
+    if any(part in path_lower for part in UNTRACKED_EXCLUDE_PATH_PARTS):
+        return False
+    segments = [seg for seg in path.split("/") if seg]
+    if len(segments) < 2:
+        return False  # homepages and section indexes, not documents
+    if segments[-1].lower() in UNTRACKED_EXCLUDE_LAST_SEGMENTS:
+        return False
+    return True
+
+
 def summarize_untracked(
     unmatched: list[HarvestedMention],
     rank_window: str,
@@ -68,13 +108,14 @@ def summarize_untracked(
     for mention in unmatched:
         if mention.observed_at < cutoff:
             continue
-        path_segments = [seg for seg in normalize_url(mention.target_url).split("/")[3:] if seg]
-        if len(path_segments) < 2:
-            continue  # homepages and section indexes, not documents
+        canonical = normalize_url(mention.target_url)
+        if not _untracked_report_like(canonical):
+            continue
+        key = canonical.replace("://www.", "://", 1)
         entry = grouped.setdefault(
-            mention.target_url,
+            key,
             {
-                "target_url": mention.target_url,
+                "target_url": key,
                 "mentions": 0,
                 "engagement": 0,
                 "providers": set(),
@@ -90,7 +131,11 @@ def summarize_untracked(
             entry["last_seen"] = mention.observed_at
             entry["sample_title"] = mention.title or entry["sample_title"]
             entry["sample_source_url"] = mention.source_url or entry["sample_source_url"]
-    rows = sorted(grouped.values(), key=lambda r: (r["mentions"], r["engagement"]), reverse=True)[:limit]
+    rows = sorted(
+        grouped.values(),
+        key=lambda r: (r["mentions"], r["engagement"], r["last_seen"]),
+        reverse=True,
+    )[:limit]
     return [
         {
             **row,

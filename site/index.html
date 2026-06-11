@@ -45,14 +45,12 @@
 
         <div class="m-section">
           <h3 class="m-head"><span class="m-num">1</span> Sources tracked</h3>
-          <ul class="m-list">
-            <li><strong>NYC Dept. of Investigation</strong></li>
-            <li><strong>NYC Comptroller</strong></li>
-            <li><strong>NYS Comptroller</strong></li>
-            <li><strong>NYC Independent Budget Office</strong></li>
-            <li><strong>NYC Rules</strong> — proposed &amp; adopted</li>
-            <li><strong>NYC Government Publications Portal</strong></li>
-          </ul>
+          <p>
+            <strong id="m-source-count">—</strong> — city &amp; state watchdogs
+            (DOI, the comptrollers, IBO), agency report libraries, NYC Rules
+            (proposed &amp; adopted), and the Government Publications Portal.
+            The full list, with document counts, is in the footer.
+          </p>
         </div>
 
         <div class="m-section">
@@ -60,6 +58,7 @@
           <p>Every link to a tracked report shared on:</p>
           <ul class="m-list">
             <li><strong>Bluesky</strong> — posts, weighted by likes/reposts/replies</li>
+            <li><strong>Reddit</strong> — posts, weighted by score/comments</li>
             <li><strong>Hacker News</strong> — stories, weighted by points/comments</li>
             <li><strong>NYC newsrooms</strong> — Gothamist, THE CITY, City &amp; State, NY Post, NYT Metro, amNY, City Limits</li>
           </ul>
@@ -126,6 +125,7 @@
         <span class="bh bh-score">Score</span>
       </div>
       <div id="board-list" class="board-list"></div>
+      <button type="button" id="board-more" class="board-more" hidden></button>
       <div id="board-empty" class="board-empty" hidden>
         <p>No documents match these filters.</p>
       </div>

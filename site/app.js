@@ -7,10 +7,15 @@
 
 const DATA_URL = "data/dashboard.json";
 
+/* It's the Hot 100: the chart shows the top 100 by default and the rest of
+   the inventory sits behind an expander. */
+const BOARD_LIMIT = 100;
+
 const state = {
   data: null,
   items: [],
   rankWindow: "7d",
+  showAll: false,
   filters: { kind: "all", source: "all", query: "", onlyHeat: false },
 };
 
@@ -127,6 +132,8 @@ function renderUntracked(rows) {
 function hydrateHeader(d) {
   $("#meta-generated").textContent = relativeTime(d.generated_at);
   $("#meta-generated").title = d.generated_at;
+  $("#m-source-count").textContent =
+    `${(d.stats.by_source || []).length} sources · ${fmtNum(d.stats.total)} documents`;
   $("#footer-generated").textContent =
     `Generated ${new Date(d.generated_at).toLocaleString("en-US")} · ${(d.providers || []).join(" · ")}`;
   $("#footer-sources").innerHTML = (d.stats.by_source || [])
@@ -170,7 +177,7 @@ function applyFilters() {
     if (source !== "all" && it.source !== source) return false;
     if (onlyHeat && scoreFor(it) <= 0) return false;
     if (q) {
-      const hay = `${it.title} ${it.source} ${it.agency || ""}`.toLowerCase();
+      const hay = `${it.title} ${it.source} ${it.agency || ""} ${it.url || ""}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -195,14 +202,25 @@ function renderBoard(rows) {
   const list = $("#board-list");
   const empty = $("#board-empty");
   const status = $("#board-status");
+  const more = $("#board-more");
   status.hidden = true;
   list.innerHTML = "";
 
   if (rows.length === 0) {
     empty.hidden = false;
+    more.hidden = true;
     return;
   }
   empty.hidden = true;
+
+  const overflow = state.showAll ? 0 : rows.length - BOARD_LIMIT;
+  if (overflow > 0) {
+    rows = rows.slice(0, BOARD_LIMIT);
+    more.textContent = `Show the full inventory — ${fmtNum(overflow)} more`;
+    more.hidden = false;
+  } else {
+    more.hidden = true;
+  }
 
   const tpl = $("#row-template");
   const windows = state.data.windows || ["today", "7d", "30d"];
@@ -349,6 +367,11 @@ function wireEvents() {
       state.filters.kind = chip.dataset.value;
       applyFilters();
     });
+  });
+
+  $("#board-more").addEventListener("click", () => {
+    state.showAll = true;
+    applyFilters();
   });
 
   $("#only-heat").addEventListener("change", (e) => {

@@ -62,3 +62,47 @@ def test_dashboard_feed_shape_and_stats(tmp_path) -> None:
 
     # source id is collapsed to its prefix for grouping
     assert hot["source_id"] == "doi"
+
+
+def test_untracked_is_report_like_and_deduped() -> None:
+    from datetime import datetime, timezone
+
+    from nyc_report_heat.io import summarize_untracked
+    from nyc_report_heat.models import HarvestedMention
+
+    def mention(url: str, provider: str = "bluesky", engagement: int = 0) -> HarvestedMention:
+        return HarvestedMention(
+            uid=f"{provider}:{url}:{engagement}",
+            provider=provider,
+            query="nyc.gov",
+            target_url=url,
+            engagement=engagement,
+            published_at=datetime.now(timezone.utc),
+        )
+
+    rows = summarize_untracked(
+        [
+            # report-like: kept, and the www/non-www pair collapses to one row
+            mention("https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf"),
+            mention("https://www.nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf", "newsrss"),
+            mention("https://comptroller.nyc.gov/reports/latine-fact-sheet", engagement=5),
+            # not report-like: dropped
+            mention("https://housingconnect.nyc.gov/PublicWeb/details/7554"),  # lottery listing
+            mention("https://www.nyc.gov/mayors-office/news/2026/06/some-presser"),  # press release
+            mention("https://www.nyc.gov/main/events?permalinkName=x&id=1"),  # event listing
+            mention("https://www.nyc.gov/content/visionzero/pages"),  # section home
+            mention("https://www.nyc.gov/site/fdny/index.page"),  # agency homepage
+            mention("https://osc.ny.gov/jobs/events"),  # job board
+            mention("https://access.nyc.gov/programs/one-shot-deal"),  # service portal
+        ],
+        rank_window="30d",
+    )
+
+    urls = [row["target_url"] for row in rows]
+    assert urls == [
+        "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+        "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+    ]
+    merged = rows[0]
+    assert merged["mentions"] == 2
+    assert merged["providers"] == ["bluesky", "newsrss"]

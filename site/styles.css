@@ -606,6 +606,21 @@ select:focus { border-color: var(--orange); }
   color: var(--ink-soft); letter-spacing: 0.03em;
 }
 .board-status.is-error { color: var(--pink); }
+.board-more {
+  display: block;
+  width: 100%;
+  padding: 13px 16px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  font-family: var(--ff-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.board-more:hover { color: var(--ink); background: rgba(0, 0, 0, 0.03); }
 .result-count {
   padding: 16px 16px 4px;
   font-family: var(--ff-mono);
@@ -664,6 +679,7 @@ select:focus { border-color: var(--orange); }
    BUBBLING UNDER — shared gov links not yet in the inventory
    ============================================================ */
 .bubbling { margin-top: 34px; }
+.bubbling .board-head { display: block; }
 .bubbling-row {
   display: flex;
   justify-content: space-between;
