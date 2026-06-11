@@ -67,6 +67,7 @@ def _run_harvest(settings: Settings, store_path: Path = MENTIONS_STORE) -> None:
             settings.news_feeds,
             settings.harvest_domains,
             ledger_path=ARTICLE_LEDGER,
+            lookback_days=settings.harvest_lookback_days,
         )
         console.print(f"newsrss: {len(mentions)} gov-link mentions ({len(errs)} errors)")
         harvested.extend(mentions)

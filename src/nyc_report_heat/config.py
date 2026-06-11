@@ -52,6 +52,11 @@ class Settings(BaseModel):
             "https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml",
             "https://www.amny.com/feed/",
             "https://citylimits.org/feed/",
+            # Policy/investigative outlets that cite reports by exact URL.
+            "https://nyfocus.com/feed",
+            "https://nyc.streetsblog.org/feed",
+            "https://queenseagle.com/all?format=rss",
+            "https://www.brooklynpaper.com/feed/",
         ]
     )
     harvest_lookback_days: int = 30

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T07:19:59+00:00",
+  "generated_at": "2026-06-11T07:27:04+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,7 +13,7 @@
   ],
   "stats": {
     "total": 485,
-    "with_heat": 6,
+    "with_heat": 7,
     "new_count": 0,
     "by_kind": {
       "report": 348,
@@ -640,9 +640,9 @@
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 10.2,
+      "heat_score": 16.2,
       "rationale": [
-        "1 news article linking the exact report URL",
+        "2 news articles linking the exact report URL",
         "1 social post sharing the exact link with 11 total engagement"
       ],
       "windows": {
@@ -671,8 +671,8 @@
           ]
         },
         "30d": {
-          "score": 10.2,
-          "exact_url_mentions": 1,
+          "score": 16.2,
+          "exact_url_mentions": 2,
           "filename_mentions": 0,
           "social_exact_mentions": 1,
           "social_engagement": 11,
@@ -696,6 +696,80 @@
           "title": "It’s beyond reasonable. It begins at >.5%, and scales to 4% of value of $5M. comptroller.nyc.gov/reports/the-...\n\nPlease no “what about” isms here. It’s good.",
           "url": "https://bsky.app/profile/mee-ny.bsky.social/post/3mmmv2tjyws2j",
           "published_at": "2026-05-24T21:15:06.800000+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "What’s in the 2026 State Budget? Here’s What To Know.",
+          "url": "https://nysfocus.com/2026/05/29/new-york-final-state-budget-2026-funding-guide-hochul",
+          "published_at": "2026-05-29T05:00:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "rules_proposed:a5168bef34f5",
+      "source": "NYC Rules - Proposed",
+      "source_id": "rules_proposed",
+      "kind": "rule",
+      "title": "Citywide Truck Routes",
+      "agency": "DOT",
+      "published_date": "2026-06-09",
+      "url": "https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes",
+      "document_url": null,
+      "heat_url": "https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes",
+      "format": "html",
+      "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp",
+          "url": "https://nyc.streetsblog.org/2026/06/09/state-street-truck-route-map",
+          "published_at": "2026-06-09T04:05:00+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -9328,65 +9402,6 @@
       "url": "https://rules.cityofnewyork.us/rule/rent-guidelines-for-october-1-2026-to-september-30-2027",
       "document_url": null,
       "heat_url": "https://rules.cityofnewyork.us/rule/rent-guidelines-for-october-1-2026-to-september-30-2027",
-      "format": "html",
-      "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
-      "id": "rules_proposed:a5168bef34f5",
-      "source": "NYC Rules - Proposed",
-      "source_id": "rules_proposed",
-      "kind": "rule",
-      "title": "Citywide Truck Routes",
-      "agency": "DOT",
-      "published_date": "2026-06-09",
-      "url": "https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes",
-      "document_url": null,
-      "heat_url": "https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes",
       "format": "html",
       "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
       "rank_window": "30d",

@@ -9,17 +9,34 @@
 - URL: https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 10.2
-- Mentions: news links 1, social 1 (engagement 11), filename 0
-- Rationale: 1 news article linking the exact report URL; 1 social post sharing the exact link with 11 total engagement
+- Heat score (30d): 16.2
+- Mentions: news links 2, social 1 (engagement 11), filename 0
+- Rationale: 2 news articles linking the exact report URL; 1 social post sharing the exact link with 11 total engagement
 
 Evidence:
 - newsrss: What Mamdani got – and didn’t get – from Albany this year
 - bluesky: It’s beyond reasonable. It begins at >.5%, and scales to 4% of value of $5M. comptroller.nyc.gov/reports/the-...
 
 Please no “what about” isms here. It’s good.
+- newsrss: What’s in the 2026 State Budget? Here’s What To Know.
 
-## 2. Review of the City’s Animal Population Control Efforts
+## 2. Citywide Truck Routes
+
+- Source: NYC Rules - Proposed
+- Agency: DOT
+- Date: 2026-06-09
+- Format: html
+- URL: https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
+
+## 3. Review of the City’s Animal Population Control Efforts
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -44,7 +61,7 @@ Evidence:
 👇👇👇👇👇👇 👇👇👇👇👇👇
 - bluesky: comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!
 
-## 3. City Planning Commission Rules: Affordable Housing Fast Track Methodology
+## 4. City Planning Commission Rules: Affordable Housing Fast Track Methodology
 
 - Source: NYC Rules - Adopted
 - Agency: DCP
@@ -73,7 +90,7 @@ Do open it and read the comment submissions as an fyi.
 
 Rule sta
 
-## 4. AI and New York City’s Fiscal Future
+## 5. AI and New York City’s Fiscal Future
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -92,7 +109,7 @@ Evidence:
 
 https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu
 
-## 5. Who's Minding the Storefronts?
+## 6. Who's Minding the Storefronts?
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -110,7 +127,7 @@ Evidence:
 
 "Who’s Minding the Storefronts? An Analysis of Storefro
 
-## 6. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller DiNapoli, and CalPERS CEO Frost
+## 7. Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller DiNapoli, and CalPERS CEO Frost
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -126,7 +143,7 @@ Evidence:
 Evidence:
 - bluesky: Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...
 
-## 7. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System
+## 8. Access Denied: Challenges to DOI's Oversight of the City's Child Welfare System
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -139,7 +156,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 8. OIG-NYPD Twelfth Annual Report
+## 9. OIG-NYPD Twelfth Annual Report
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -152,7 +169,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 9. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments
+## 10. DOI's Investigation into the Reclamation of Vacant NYCHA Apartments
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -165,7 +182,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 10. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices
+## 11. Report on the New York City Conflicts of Interest Board's Advisory Opinion and Moonlighting Waiver Practices
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -178,7 +195,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 11. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement
+## 12. DOI Investigation into the NYPD's Compliance with Local Laws Restricting City Assistance with Immigration Enforcement
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -191,7 +208,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 12. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations
+## 13. Update on NYPD's Implementation of DOI's 2023 Criminal Group Database Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -204,7 +221,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 13. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement
+## 14. DOI Investigation into DOC Correction Intelligence Bureau Investigator Assisting Federal Agents with Immigration Enforcement
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -217,7 +234,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 14. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations
+## 15. DOI Investigation into Theft Involving Pension Funds Managed by the NYC Employees' Retirement System (NYCERS) and Related Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -230,7 +247,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 15. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations
+## 16. DOI's Findings Regarding "Skimming" of Electronic Benefit Transfer Cards that Provide Vital Funds to Low-Income New Yorkers and Related Recommendations
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -243,7 +260,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 16. DOI's 2024 Annual Anti-Corruption Report
+## 17. DOI's 2024 Annual Anti-Corruption Report
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -256,7 +273,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 17. DOI's Investigation of Excessive Workers' Compensation Claims by City Department of Correction Employees
+## 18. DOI's Investigation of Excessive Workers' Compensation Claims by City Department of Correction Employees
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -269,7 +286,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 18. Eleventh Annual Report of DOI's Office of the Inspector General for the NYPD
+## 19. Eleventh Annual Report of DOI's Office of the Inspector General for the NYPD
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -282,7 +299,7 @@ Evidence:
 - Mentions: news links 0, social 0 (engagement 0), filename 0
 - Rationale: no public link pickups found in checked sources
 
-## 19. Safeguarding NYCHA Residents: A Review of Select Safety Measures at Senior Buildings & Compliance with Fire Guard Requirements
+## 20. Safeguarding NYCHA Residents: A Review of Select Safety Measures at Senior Buildings & Compliance with Fire Guard Requirements
 
 - Source: NYC Department of Investigation
 - Agency: n/a
@@ -290,19 +307,6 @@ Evidence:
 - Format: pdf
 - URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/14NYCHASecurityFireReleaseRpt03.26.2025.pdf
 - Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/14NYCHASecurityFireReleaseRpt03.26.2025.pdf
-- Rank window: 30d
-- Heat score (30d): 0.0
-- Mentions: news links 0, social 0 (engagement 0), filename 0
-- Rationale: no public link pickups found in checked sources
-
-## 20. Investigation into the October 2023 Physical Altercation Involving Former Senior Advisor to the Mayor for Public Safety Timothy Pearson
-
-- Source: NYC Department of Investigation
-- Agency: n/a
-- Date: 2025-02-20
-- Format: pdf
-- URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/10TouroRpt.Release.02.20.2025.pdf
-- Document URL: https://www.nyc.gov/assets/doi/reports/pdf/2025/10TouroRpt.Release.02.20.2025.pdf
 - Rank window: 30d
 - Heat score (30d): 0.0
 - Mentions: news links 0, social 0 (engagement 0), filename 0
