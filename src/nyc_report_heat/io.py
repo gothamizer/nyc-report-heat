@@ -93,10 +93,9 @@ def report_like_url(canonical_url: str) -> bool:
         return False
     if DATED_POST_PATH.search(path_lower + "/"):
         return False
-    # On nyc.gov, report artifacts are documents (or live under /assets/,
-    # the document store); HTML pages elsewhere (/site/, /content/, /html/)
-    # are service, program, and navigation pages (hotlines, cabinets, permit
-    # guides), however report-shaped their slugs look.
+    # On nyc.gov, report artifacts are documents or live under /assets/,
+    # the document store; HTML pages elsewhere (/site/, /content/, /html/)
+    # are service, program, and navigation pages, not reports.
     if (
         host in {"nyc.gov", "home4.nyc.gov"}
         and not path_lower.startswith("/assets/")

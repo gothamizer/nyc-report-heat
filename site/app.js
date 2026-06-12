@@ -1,5 +1,5 @@
 /* ============================================================
-   REPORT HEAT — dashboard logic
+   REPORT HEAT: dashboard logic
    Fetches the denormalized feed written by the Python pipeline
    (site/data/dashboard.json) and renders a filterable,
    thermal-scored monitoring board.
@@ -225,7 +225,7 @@ function renderBoard(rows) {
   const overflow = state.showAll ? 0 : rows.length - BOARD_LIMIT;
   if (overflow > 0) {
     rows = rows.slice(0, BOARD_LIMIT);
-    more.textContent = `Show the full inventory — ${fmtNum(overflow)} more`;
+    more.textContent = `Show the full inventory (${fmtNum(overflow)} more)`;
     more.hidden = false;
   } else {
     more.hidden = true;
@@ -260,7 +260,7 @@ function renderBoard(rows) {
       fmtDate(it.published_date),
     ].filter(Boolean).join(' <span class="sep">/</span> ');
 
-    // thermal meter — one cell per window
+    // thermal meter: one cell per window
     const meter = $(".row-meter", node);
     meter.appendChild(buildMeter(it, windows));
 

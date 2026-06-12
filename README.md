@@ -16,7 +16,7 @@ The project intentionally separates:
 
 - **Inventory**: discovered report/rule/publication URLs from known public sources.
 - **Harvest**: domain-first collection of every public pickup of a tracked gov domain — providers are queried per domain (~10 queries each), not per candidate, and results accumulate in a persistent mention store ([data/mentions.jsonl](data/mentions.jsonl)).
-- **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Report-like gov links that don't match anything are adopted into the inventory on the next daily run; whatever remains is the "shared but untracked" list — an anomaly alert, not a backlog.
+- **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Report-like gov links that don't match anything are adopted into the inventory on the next daily run; whatever remains is the "shared but untracked" list, which should normally be empty.
 - **Daily delta**: newly discovered candidates compared with the previous inventory.
 
 ## Sources
