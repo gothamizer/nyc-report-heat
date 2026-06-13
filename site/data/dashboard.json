@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:24:14+00:00",
+  "generated_at": "2026-06-13T13:08:59+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1302,
-    "with_heat": 34,
-    "new_count": 9,
+    "total": 1305,
+    "with_heat": 37,
+    "new_count": 3,
     "by_kind": {
-      "report": 1152,
+      "report": 1155,
       "rule": 150
     },
     "by_format": {
-      "html": 308,
-      "pdf": 920,
+      "html": 309,
+      "pdf": 922,
       "xlsx": 26,
       "unknown": 48
     },
@@ -121,7 +121,7 @@
       },
       {
         "name": "NYS Comptroller",
-        "count": 17
+        "count": 18
       },
       {
         "name": "NYC Department of Correction",
@@ -156,6 +156,10 @@
         "count": 4
       },
       {
+        "name": "NYC Department of City Planning",
+        "count": 2
+      },
+      {
         "name": "NYC Office of Management & Budget",
         "count": 2
       },
@@ -168,29 +172,29 @@
         "count": 1
       },
       {
-        "name": "NYC Department of City Planning",
+        "name": "ibo.nyc.gov",
         "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1302,
+        "checked": 1305,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1302,
+        "checked": 1305,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1302,
+        "checked": 1305,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1302,
+        "checked": 1305,
         "errors": 0
       }
     ]
@@ -198,75 +202,27 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "2025 Annual Report",
-      "source": "NYC Conflicts of Interest Board",
+      "title": "Biography of the New York State Comptroller Thomas P. DiNapoli",
+      "source": "NYS Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/coib/downloads/pdf2/annual_reports/2025-nyc-coib-annual-report.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Audit Report on the Adherence of the Department of Education and the Department of Health and Mental Hygiene to Student Vision and Hearing Screening Program Regulations",
-      "source": "NYC Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/audit-report-on-the-adherence-of-the-department-of-education-and-the-department-of-health-and-mental-hygiene-to-student-vision-and-hearing-screening-program-regulations",
+      "heat_url": "https://www.osc.ny.gov/about/comptroller-biography",
       "format": "html"
     },
     {
-      "title": "Fast Shipping. Slow Justice: Traffic, Worker, and Climate Hazards in Last Mile Delivery",
-      "source": "NYC Comptroller",
+      "title": "2026 June Expanding Fair Fares",
+      "source": "ibo.nyc.gov",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/fast-shipping-slow-justice-traffic-worker-and-climate-hazards-in-last-mile-delivery",
-      "format": "html"
-    },
-    {
-      "title": "Match Day Truck Delivery Restrictions 2026",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf",
       "format": "pdf"
     },
     {
-      "title": "Cs En Us 109Pct",
-      "source": "NYPD",
+      "title": "Guide Universal Affordability Preference",
+      "source": "NYC Department of City Planning",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "3Rd Ave Prospect Ave 62Nd St Nov2023",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Brooklyn Waterfront Greenway Dec2014",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Third Ave Wakeman Pl 86 St May2026",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "2022 Truck Map",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
+      "heat_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
       "format": "pdf"
     }
   ],
@@ -306,8 +262,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -379,8 +335,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -539,8 +495,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -619,8 +575,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1057,8 +1013,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1203,8 +1159,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1276,8 +1232,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1349,8 +1305,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1400,7 +1356,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:068574ec01ff",
@@ -1413,6 +1369,517 @@
       "url": "https://comptroller.nyc.gov/reports/fast-shipping-slow-justice-traffic-worker-and-climate-hazards-in-last-mile-delivery",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/fast-shipping-slow-justice-traffic-worker-and-climate-hazards-in-last-mile-delivery",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.",
+          "url": "https://www.thecityreporter.nyc/2026/06/12/midtown-delivery-ban-world-cup/",
+          "published_at": "2026-06-12T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:48dc78f2710e",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Match Day Truck Delivery Restrictions 2026",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.",
+          "url": "https://www.thecityreporter.nyc/2026/06/12/midtown-delivery-ban-world-cup/",
+          "published_at": "2026-06-12T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nypd:96a160cd3fa3",
+      "source": "NYPD",
+      "source_id": "nypd",
+      "kind": "report",
+      "title": "Cs En Us 109Pct",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
+      "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Young man stabbed to death in Queens park following melee; suspects flee on mopeds",
+          "url": "https://www.amny.com/news/man-stabbed-to-death-in-little-bay-park-queens/",
+          "published_at": "2026-06-12T13:08:01+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:6ff5b9ef4c75",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "3Rd Ave Prospect Ave 62Nd St Nov2023",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
+          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
+          "published_at": "2026-06-12T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:76acede50ddf",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Brooklyn Waterfront Greenway Dec2014",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
+          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
+          "published_at": "2026-06-12T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:7ceeaf861617",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Third Ave Wakeman Pl 86 St May2026",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
+          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
+          "published_at": "2026-06-12T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:96c27f7976b7",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "2022 Truck Map",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
+          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
+          "published_at": "2026-06-12T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nys_comptroller:65f6a57ec4d1",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "Biography of the New York State Comptroller Thomas P. DiNapoli",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/about/comptroller-biography",
+      "document_url": null,
+      "heat_url": "https://www.osc.ny.gov/about/comptroller-biography",
       "format": "html",
       "source_page": null,
       "rank_window": "30d",
@@ -1467,25 +1934,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.",
-          "url": "https://www.thecityreporter.nyc/2026/06/12/midtown-delivery-ban-world-cup/",
-          "published_at": "2026-06-12T09:00:00+00:00",
+          "title": "Your guide to voting in NYC congressional and state comptroller primaries",
+          "url": "https://gothamist.com/news/your-guide-to-voting-in-nyc-congressional-and-state-comptroller-primaries",
+          "published_at": "2026-06-13T12:01:06+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "dot:48dc78f2710e",
-      "source": "NYC Department of Transportation",
-      "source_id": "dot",
+      "id": "ibo.nyc.gov:cbc2fbc2b3d0",
+      "source": "ibo.nyc.gov",
+      "source_id": "ibo.nyc.gov",
       "kind": "report",
-      "title": "Match Day Truck Delivery Restrictions 2026",
+      "title": "2026 June Expanding Fair Fares",
       "agency": null,
       "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
-      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf",
+      "url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf",
+      "document_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf",
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -1540,25 +2007,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.",
-          "url": "https://www.thecityreporter.nyc/2026/06/12/midtown-delivery-ban-world-cup/",
-          "published_at": "2026-06-12T09:00:00+00:00",
+          "title": "Here’s what the City Council is pushing for in the NYC budget",
+          "url": "https://www.cityandstateny.com/policy/2026/06/heres-what-city-council-pushing-nyc-budget/414169/",
+          "published_at": "2026-06-12T17:04:42-04:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nypd:96a160cd3fa3",
-      "source": "NYPD",
-      "source_id": "nypd",
+      "id": "dcp:de840cd9890c",
+      "source": "NYC Department of City Planning",
+      "source_id": "dcp",
       "kind": "report",
-      "title": "Cs En Us 109Pct",
+      "title": "Guide Universal Affordability Preference",
       "agency": null,
       "published_date": null,
-      "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
-      "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf",
+      "url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
+      "document_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
+      "heat_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -1613,40 +2080,40 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Young man stabbed to death in Queens park following melee; suspects flee on mopeds",
-          "url": "https://www.amny.com/news/man-stabbed-to-death-in-little-bay-park-queens/",
-          "published_at": "2026-06-12T13:08:01+00:00",
+          "title": "Opinion: New York’s Affordable Housing Divide",
+          "url": "https://citylimits.org/opinion-new-yorks-affordable-housing-divide/",
+          "published_at": "2026-06-12T14:32:14+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "dot:6ff5b9ef4c75",
-      "source": "NYC Department of Transportation",
-      "source_id": "dot",
+      "id": "nyc_comptroller:a484acbf1212",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
       "kind": "report",
-      "title": "3Rd Ave Prospect Ave 62Nd St Nov2023",
+      "title": "Letter to the London Stock Exchange Group and FTSE Russell Re: SpaceX",
       "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
-      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf",
-      "format": "pdf",
-      "source_page": null,
+      "published_date": "2026-06-11",
+      "url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 6.0,
+      "heat_score": 5.0,
       "rationale": [
-        "1 news article linking the exact report URL"
+        "2 social posts sharing the exact link with 9 total engagement"
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 5.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
+          "social_exact_mentions": 2,
+          "social_engagement": 9,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -1655,12 +2122,12 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 5.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
+          "social_exact_mentions": 2,
+          "social_engagement": 9,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -1669,12 +2136,12 @@
           ]
         },
         "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 5.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
+          "social_exact_mentions": 2,
+          "social_engagement": 9,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -1685,233 +2152,21 @@
       },
       "mentions": [
         {
-          "provider": "newsrss",
-          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
-          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
-          "published_at": "2026-06-12T04:05:00+00:00",
+          "provider": "bluesky",
+          "title": "comptroller.nyc.gov/reports/lett...",
+          "url": "https://bsky.app/profile/pewtergod.bsky.social/post/3mo54pj4kjk2o",
+          "published_at": "2026-06-13T01:39:44.150000+00:00",
           "confidence": "exact_url"
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "id": "dot:76acede50ddf",
-      "source": "NYC Department of Transportation",
-      "source_id": "dot",
-      "kind": "report",
-      "title": "Brooklyn Waterfront Greenway Dec2014",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
-      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
         },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
         {
-          "provider": "newsrss",
-          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
-          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
-          "published_at": "2026-06-12T04:05:00+00:00",
+          "provider": "bluesky",
+          "title": "A lot of investors a not happy about having SpaceX forced upon them.\ncomptroller.nyc.gov/reports/lett...",
+          "url": "https://bsky.app/profile/pewtergod.bsky.social/post/3mo544hnsn22w",
+          "published_at": "2026-06-13T01:29:05.084000+00:00",
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
-    },
-    {
-      "id": "dot:7ceeaf861617",
-      "source": "NYC Department of Transportation",
-      "source_id": "dot",
-      "kind": "report",
-      "title": "Third Ave Wakeman Pl 86 St May2026",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
-      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
-          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
-          "published_at": "2026-06-12T04:05:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": true
-    },
-    {
-      "id": "dot:96c27f7976b7",
-      "source": "NYC Department of Transportation",
-      "source_id": "dot",
-      "kind": "report",
-      "title": "2022 Truck Map",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
-      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
-          "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
-          "published_at": "2026-06-12T04:05:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:b9d24ab457b9",
@@ -1988,86 +2243,6 @@
           "title": "comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!",
           "url": "https://bsky.app/profile/tammyfeabakker.bsky.social/post/3mm5fgj7gds2l",
           "published_at": "2026-05-18T17:25:22.675000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "rules_adopted:1026ff96bb86",
-      "source": "NYC Rules - Adopted",
-      "source_id": "rules_adopted",
-      "kind": "rule",
-      "title": "City Planning Commission Rules: Affordable Housing Fast Track Methodology",
-      "agency": "DCP",
-      "published_date": "2026-05-20",
-      "url": "https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology",
-      "document_url": null,
-      "heat_url": "https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology",
-      "format": "html",
-      "source_page": "https://rules.cityofnewyork.us/recently-adopted-rules/",
-      "rank_window": "30d",
-      "heat_score": 4.477121254719663,
-      "rationale": [
-        "2 social posts sharing the exact link with 2 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 4.477121254719663,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 2,
-          "social_engagement": 2,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "City Planning Commission Rules: \nAffordable Housing Fast Track Methodology   \nREGULATORY CAPTURE! \nTHE ULTIMATE SCREW YOU TO COMMUNITY \nDo open it and read the comment submissions as an fyi.\n\nRule sta",
-          "url": "https://bsky.app/profile/infopobn.bsky.social/post/3mlrmmojtjk2z",
-          "published_at": "2026-05-14T01:02:08.918000+00:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "bluesky",
-          "title": "City Planning Commission Rules: \nAffordable Housing Fast Track Methodology   \nREGULATORY CAPTURE! \nTHE ULTIMATE SCREW YOU TO COMMUNITY \nDo open it and read the comment submissions as an fyi.\n\nRule sta",
-          "url": "https://bsky.app/profile/infopobn.bsky.social/post/3mlrmlfen522z",
-          "published_at": "2026-05-14T01:01:25.756000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -77886,6 +78061,71 @@
       "is_new": false
     },
     {
+      "id": "rules_adopted:1026ff96bb86",
+      "source": "NYC Rules - Adopted",
+      "source_id": "rules_adopted",
+      "kind": "rule",
+      "title": "City Planning Commission Rules: Affordable Housing Fast Track Methodology",
+      "agency": "DCP",
+      "published_date": "2026-05-20",
+      "url": "https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology",
+      "document_url": null,
+      "heat_url": "https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology",
+      "format": "html",
+      "source_page": "https://rules.cityofnewyork.us/recently-adopted-rules/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
       "id": "rules_adopted:7f0457b21a24",
       "source": "NYC Rules - Adopted",
       "source_id": "rules_adopted",
@@ -84581,71 +84821,6 @@
       "is_new": false
     },
     {
-      "id": "nyc_comptroller:a484acbf1212",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Letter to the London Stock Exchange Group and FTSE Russell Re: SpaceX",
-      "agency": null,
-      "published_date": "2026-06-11",
-      "url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/letter-to-the-london-stock-exchange-group-and-ftse-russell-re-spacex",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
       "id": "nyc_comptroller:8179dcda2336",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -85228,7 +85403,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }

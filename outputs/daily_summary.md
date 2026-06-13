@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-12T14:24:14+00:00
-Candidates ranked: 1302
-New candidates: 9
+Generated: 2026-06-13T13:08:59+00:00
+Candidates ranked: 1305
+New candidates: 3
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -39,15 +39,15 @@ Rank window: 30d
 ## Top Rules
 
 1. Citywide Truck Routes | NYC Rules - Proposed | heat 12.0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
-2. City Planning Commission Rules: Affordable Housing Fast Track Methodology | NYC Rules - Adopted | heat 4.5 | https://rules.cityofnewyork.us/rule/proposed-city-planning-commission-rules-affordable-housing-fast-track-methodology
-3. Establishment of Unclaimed Restitution Fund | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund
-4. Rule Relating to Surcharge on Certain Non-Primary Residences | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/rule-relating-to-surcharge-on-certain-non-primary-residences
-5. Further Amendment of Rules Relating to Vital Records | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/further-amendment-of-rules-relating-to-vital-records
-6. Amendment of Rules Relating to Lead Dust | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-lead-dust
-7. PACE Financing Program | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rule-relating-to-pace-financing-program
-8. Special Event Permits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/dpr-proposed-amendment-of-rules-relating-to-special-event-permits
-9. Containerization Requirements for Buildings Containing 10 or More Dwelling Units | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/relating-to-containerization-requirements-for-buildings-containing-10-or-more-dwelling-units
-10. Applications Pursuant to RPTL §485-x - ANNY Program Benefits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/proposed-amendment-of-rules-relating-to-applications-pursuant-to-rptl-%c2%a7485-x
+2. Establishment of Unclaimed Restitution Fund | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund
+3. Rule Relating to Surcharge on Certain Non-Primary Residences | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/rule-relating-to-surcharge-on-certain-non-primary-residences
+4. Further Amendment of Rules Relating to Vital Records | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/further-amendment-of-rules-relating-to-vital-records
+5. Amendment of Rules Relating to Lead Dust | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rules-relating-to-lead-dust
+6. PACE Financing Program | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/amendment-of-rule-relating-to-pace-financing-program
+7. Special Event Permits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/dpr-proposed-amendment-of-rules-relating-to-special-event-permits
+8. Containerization Requirements for Buildings Containing 10 or More Dwelling Units | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/relating-to-containerization-requirements-for-buildings-containing-10-or-more-dwelling-units
+9. Applications Pursuant to RPTL §485-x - ANNY Program Benefits | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/proposed-amendment-of-rules-relating-to-applications-pursuant-to-rptl-%c2%a7485-x
+10. Rent Guidelines for October 1, 2026 to September 30, 2027 | NYC Rules - Proposed | heat 0.0 | https://rules.cityofnewyork.us/rule/rent-guidelines-for-october-1-2026-to-september-30-2027
 
 ## Link Heat Signals
 
@@ -68,12 +68,6 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- 2025 Annual Report | NYC Conflicts of Interest Board | unknown date | https://www.nyc.gov/assets/coib/downloads/pdf2/annual_reports/2025-nyc-coib-annual-report.pdf
-- Audit Report on the Adherence of the Department of Education and the Department of Health and Mental Hygiene to Student Vision and Hearing Screening Program Regulations | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/audit-report-on-the-adherence-of-the-department-of-education-and-the-department-of-health-and-mental-hygiene-to-student-vision-and-hearing-screening-program-regulations
-- Fast Shipping. Slow Justice: Traffic, Worker, and Climate Hazards in Last Mile Delivery | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/fast-shipping-slow-justice-traffic-worker-and-climate-hazards-in-last-mile-delivery
-- Match Day Truck Delivery Restrictions 2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/match-day-truck-delivery-restrictions-2026.pdf
-- Cs En Us 109Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-109pct.pdf
-- 3Rd Ave Prospect Ave 62Nd St Nov2023 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf
-- Brooklyn Waterfront Greenway Dec2014 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/brooklyn-waterfront-greenway-dec2014.pdf
-- Third Ave Wakeman Pl 86 St May2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/third-ave-wakeman-pl-86-st-may2026.pdf
-- 2022 Truck Map | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/2022-truck-map.pdf
+- Biography of the New York State Comptroller Thomas P. DiNapoli | NYS Comptroller | unknown date | https://www.osc.ny.gov/about/comptroller-biography
+- 2026 June Expanding Fair Fares | ibo.nyc.gov | unknown date | https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf
+- Guide Universal Affordability Preference | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf
