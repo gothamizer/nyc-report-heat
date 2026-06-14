@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T13:08:59+00:00",
+  "generated_at": "2026-06-14T13:17:23+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1305,
-    "with_heat": 37,
-    "new_count": 3,
+    "total": 1307,
+    "with_heat": 39,
+    "new_count": 2,
     "by_kind": {
-      "report": 1155,
+      "report": 1157,
       "rule": 150
     },
     "by_format": {
-      "html": 309,
-      "pdf": 922,
+      "html": 310,
+      "pdf": 923,
       "xlsx": 26,
       "unknown": 48
     },
@@ -44,11 +44,11 @@
         "count": 53
       },
       {
-        "name": "NYC Department of Consumer & Worker Protection",
-        "count": 52
+        "name": "NYPD",
+        "count": 53
       },
       {
-        "name": "NYPD",
+        "name": "NYC Department of Consumer & Worker Protection",
         "count": 52
       },
       {
@@ -117,7 +117,7 @@
       },
       {
         "name": "NYC Comptroller",
-        "count": 27
+        "count": 28
       },
       {
         "name": "NYS Comptroller",
@@ -179,22 +179,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1305,
+        "checked": 1307,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1305,
+        "checked": 1307,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1305,
+        "checked": 1307,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1305,
+        "checked": 1307,
         "errors": 0
       }
     ]
@@ -202,27 +202,19 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Biography of the New York State Comptroller Thomas P. DiNapoli",
-      "source": "NYS Comptroller",
+      "title": "Audit on Animal Care & Control of New York City, Inc.’s Operating Practices",
+      "source": "NYC Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/about/comptroller-biography",
+      "heat_url": "https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices",
       "format": "html"
     },
     {
-      "title": "2026 June Expanding Fair Fares",
-      "source": "ibo.nyc.gov",
+      "title": "Cs En Us 067Pct",
+      "source": "NYPD",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Guide Universal Affordability Preference",
-      "source": "NYC Department of City Planning",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf",
       "format": "pdf"
     }
   ],
@@ -1889,8 +1881,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1940,7 +1932,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "ibo.nyc.gov:cbc2fbc2b3d0",
@@ -1962,8 +1954,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2013,7 +2005,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dcp:de840cd9890c",
@@ -2026,6 +2018,79 @@
       "url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
       "document_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
       "heat_url": "https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Opinion: New York’s Affordable Housing Divide",
+          "url": "https://citylimits.org/opinion-new-yorks-affordable-housing-divide/",
+          "published_at": "2026-06-12T14:32:14+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nypd:295ad580969f",
+      "source": "NYPD",
+      "source_id": "nypd",
+      "kind": "report",
+      "title": "Cs En Us 067Pct",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf",
+      "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -2080,9 +2145,9 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Opinion: New York’s Affordable Housing Divide",
-          "url": "https://citylimits.org/opinion-new-yorks-affordable-housing-divide/",
-          "published_at": "2026-06-12T14:32:14+00:00",
+          "title": "Brooklyn shooting: Person of interest questioned after man shot dead outside apartment building",
+          "url": "https://www.amny.com/police-fire/brooklyn-shooting-person-of-interest-06132026/",
+          "published_at": "2026-06-13T14:34:03+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -2108,12 +2173,12 @@
       ],
       "windows": {
         "today": {
-          "score": 5.0,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 2,
-          "social_engagement": 9,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -2619,6 +2684,79 @@
         }
       ],
       "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:4be27be8a7ae",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Audit on Animal Care & Control of New York City, Inc.’s Operating Practices",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.6989700043360187,
+      "rationale": [
+        "1 social post sharing the exact link with 4 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 2.6989700043360187,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 4,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.6989700043360187,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 4,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.6989700043360187,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 4,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "Link to audit:\n\ncomptroller.nyc.gov/reports/audi...",
+          "url": "https://bsky.app/profile/jennired83.bsky.social/post/3mo6uorogi22b",
+          "published_at": "2026-06-13T18:21:29.113000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
     },
     {
       "id": "nyc_comptroller:d244910f4d37",

@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-13T13:08:59+00:00
-Candidates ranked: 1305
-New candidates: 3
+Generated: 2026-06-14T13:17:23+00:00
+Candidates ranked: 1307
+New candidates: 2
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,6 +68,5 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Biography of the New York State Comptroller Thomas P. DiNapoli | NYS Comptroller | unknown date | https://www.osc.ny.gov/about/comptroller-biography
-- 2026 June Expanding Fair Fares | ibo.nyc.gov | unknown date | https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/infrastructure/2026/2026-june-expanding-fair-fares.pdf
-- Guide Universal Affordability Preference | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/downloads/pdf/our-work/plans/citywide/city-of-yes-housing-opportunity/guide-universal-affordability-preference.pdf
+- Audit on Animal Care & Control of New York City, Inc.’s Operating Practices | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices
+- Cs En Us 067Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf
