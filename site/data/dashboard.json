@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T13:17:23+00:00",
+  "generated_at": "2026-06-15T16:30:07+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1307,
-    "with_heat": 39,
-    "new_count": 2,
+    "total": 1308,
+    "with_heat": 40,
+    "new_count": 1,
     "by_kind": {
-      "report": 1157,
+      "report": 1158,
       "rule": 150
     },
     "by_format": {
       "html": 310,
-      "pdf": 923,
+      "pdf": 924,
       "xlsx": 26,
       "unknown": 48
     },
@@ -37,7 +37,7 @@
       },
       {
         "name": "NYC Department of Transportation",
-        "count": 57
+        "count": 58
       },
       {
         "name": "NYC Housing Authority",
@@ -179,22 +179,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1307,
+        "checked": 1308,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1307,
+        "checked": 1308,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1307,
+        "checked": 1308,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1307,
+        "checked": 1308,
         "errors": 0
       }
     ]
@@ -202,19 +202,11 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Audit on Animal Care & Control of New York City, Inc.’s Operating Practices",
-      "source": "NYC Comptroller",
+      "title": "Queensboro Br South Outer Roadway Apr2024",
+      "source": "NYC Department of Transportation",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices",
-      "format": "html"
-    },
-    {
-      "title": "Cs En Us 067Pct",
-      "source": "NYPD",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf",
       "format": "pdf"
     }
   ],
@@ -2100,8 +2092,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2148,6 +2140,79 @@
           "title": "Brooklyn shooting: Person of interest questioned after man shot dead outside apartment building",
           "url": "https://www.amny.com/police-fire/brooklyn-shooting-person-of-interest-06132026/",
           "published_at": "2026-06-13T14:34:03+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dot:4739bbffda9b",
+      "source": "NYC Department of Transportation",
+      "source_id": "dot",
+      "kind": "report",
+      "title": "Queensboro Br South Outer Roadway Apr2024",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf",
+      "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf",
+      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Dead Cyclist’s Best Friend Demands Action Against Illegal Vehicles on City Streets",
+          "url": "https://nyc.streetsblog.org/2026/06/15/dead-cyclists-best-friend-demands-action-against-illegal-vehicles-on-city-streets",
+          "published_at": "2026-06-15T04:04:00+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -2705,12 +2770,12 @@
       ],
       "windows": {
         "today": {
-          "score": 2.6989700043360187,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 4,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -2756,7 +2821,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:d244910f4d37",
@@ -2938,12 +3003,12 @@
           ]
         },
         "7d": {
-          "score": 2.3010299956639813,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 1,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",

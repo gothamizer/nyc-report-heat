@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-14T13:17:23+00:00
-Candidates ranked: 1307
-New candidates: 2
+Generated: 2026-06-15T16:30:07+00:00
+Candidates ranked: 1308
+New candidates: 1
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,5 +68,4 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Audit on Animal Care & Control of New York City, Inc.’s Operating Practices | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices
-- Cs En Us 067Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-067pct.pdf
+- Queensboro Br South Outer Roadway Apr2024 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf
