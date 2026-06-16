@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-15T16:30:07+00:00
-Candidates ranked: 1308
-New candidates: 1
+Generated: 2026-06-16T16:14:32+00:00
+Candidates ranked: 1315
+New candidates: 7
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,4 +68,10 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Queensboro Br South Outer Roadway Apr2024 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/queensboro-br-south-outer-roadway-apr2024.pdf
+- Resident Data Summary (PDF) | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/ddb/2026ddb-summary.pdf
+- Recordkeeping Requirements for Third-Party Food Delivery Services | NYC Rules - Proposed | 2026-07-16 | https://rules.cityofnewyork.us/rule/recordkeeping-requirements-for-third-party-food-delivery-services
+- Adams St Boerum Pl Jun2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/adams-st-boerum-pl-jun2026.pdf
+- Mn06 Cd Map | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/download/pdf/community/community-portal/cd_map/mn06_cd_map.pdf
+- Public Pguide1 | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf
+- Claims Filed & Settled | NYC Comptroller | unknown date | https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled
+- Annual Claims Report | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/annual-claims-report
