@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:14:32+00:00",
+  "generated_at": "2026-06-17T14:41:22+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,23 +13,23 @@
     "reddit"
   ],
   "stats": {
-    "total": 1315,
-    "with_heat": 45,
-    "new_count": 7,
+    "total": 1324,
+    "with_heat": 53,
+    "new_count": 9,
     "by_kind": {
-      "report": 1164,
+      "report": 1173,
       "rule": 151
     },
     "by_format": {
-      "html": 313,
-      "pdf": 928,
+      "html": 315,
+      "pdf": 935,
       "xlsx": 26,
       "unknown": 48
     },
     "by_source": [
       {
         "name": "NYC Independent Budget Office",
-        "count": 206
+        "count": 207
       },
       {
         "name": "NYC Rules - Adopted",
@@ -57,7 +57,7 @@
       },
       {
         "name": "NYC Housing Preservation & Development",
-        "count": 50
+        "count": 51
       },
       {
         "name": "NYC Department of Health & Mental Hygiene",
@@ -109,7 +109,7 @@
       },
       {
         "name": "NYC Comptroller",
-        "count": 30
+        "count": 31
       },
       {
         "name": "NYC Public Advocate",
@@ -121,7 +121,7 @@
       },
       {
         "name": "NYS Comptroller",
-        "count": 18
+        "count": 19
       },
       {
         "name": "NYC Department of Correction",
@@ -136,16 +136,16 @@
         "count": 12
       },
       {
+        "name": "NYC Department of Investigation",
+        "count": 11
+      },
+      {
         "name": "NYC Department of Buildings",
         "count": 11
       },
       {
-        "name": "NYC Department of Investigation",
-        "count": 10
-      },
-      {
         "name": "NYC City Council",
-        "count": 6
+        "count": 7
       },
       {
         "name": "NYC Department of Environmental Protection",
@@ -174,27 +174,39 @@
       {
         "name": "ibo.nyc.gov",
         "count": 1
+      },
+      {
+        "name": "bronxda.nyc.gov",
+        "count": 1
+      },
+      {
+        "name": "nyc.gov",
+        "count": 1
+      },
+      {
+        "name": "NYC Mayor's Office of Operations",
+        "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1315,
+        "checked": 1324,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1315,
+        "checked": 1324,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1315,
+        "checked": 1324,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1315,
+        "checked": 1324,
         "errors": 0
       }
     ]
@@ -202,60 +214,76 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Resident Data Summary (PDF)",
-      "source": "NYC Housing Authority",
+      "title": "2025 Annual Anti-Corruption Report",
+      "source": "NYC Department of Investigation",
       "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/ddb/2026ddb-summary.pdf",
+      "published_date": "2026-06-17",
+      "heat_url": "https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf",
       "format": "pdf"
     },
     {
-      "title": "Recordkeeping Requirements for Third-Party Food Delivery Services",
-      "source": "NYC Rules - Proposed",
-      "kind": "rule",
-      "published_date": "2026-07-16",
-      "heat_url": "https://rules.cityofnewyork.us/rule/recordkeeping-requirements-for-third-party-food-delivery-services",
+      "title": "Review of the Financial Plan of the City of New York, June 2026",
+      "source": "NYS Comptroller",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Investigations Division",
+      "source": "bronxda.nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
       "format": "html"
     },
     {
-      "title": "Adams St Boerum Pl Jun2026",
-      "source": "NYC Department of Transportation",
+      "title": "Asylum Seekers Report April 2026",
+      "source": "NYC City Council",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/adams-st-boerum-pl-jun2026.pdf",
+      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
       "format": "pdf"
     },
     {
-      "title": "Mn06 Cd Map",
-      "source": "NYC Department of City Planning",
+      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
+      "source": "nyc.gov",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/community/community-portal/cd_map/mn06_cd_map.pdf",
+      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
+      "format": "html"
+    },
+    {
+      "title": "Operations Pmmr2026 Fdny",
+      "source": "NYC Mayor's Office of Operations",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
       "format": "pdf"
     },
     {
-      "title": "Public Pguide1",
-      "source": "NYPD",
+      "title": "Intro0994 2024 Testimony November 2024",
+      "source": "NYC Independent Budget Office",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf",
+      "heat_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
       "format": "pdf"
     },
     {
-      "title": "Claims Filed & Settled",
+      "title": "2023 Nychvs Selected Initial Findings",
+      "source": "NYC Housing Preservation & Development",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "011625 Budget Briefing",
       "source": "NYC Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
-      "format": "html"
-    },
-    {
-      "title": "Annual Claims Report",
-      "source": "NYC Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/annual-claims-report",
-      "format": "html"
+      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "format": "pdf"
     }
   ],
   "items": [
@@ -694,8 +722,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -728,6 +756,79 @@
           "title": "State Lawmakers Pass Bill Requiring Every Homeless Shelter in New York to Have Wi-Fi",
           "url": "https://citylimits.org/state-lawmakers-pass-bill-requiring-every-homeless-shelter-in-new-york-to-have-wi-fi/",
           "published_at": "2026-06-09T17:36:09+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "council:3ed6828d83fe",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027",
+      "agency": null,
+      "published_date": "2026-06-09",
+      "url": "https://council.nyc.gov/press/2026/06/09/3134",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
+          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
+          "published_at": "2026-06-16T21:25:34+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -767,8 +868,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2286,8 +2387,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2337,7 +2438,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dcp:49810b374ea9",
@@ -2359,8 +2460,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2410,7 +2511,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nypd:276bd25649dd",
@@ -2423,6 +2524,298 @@
       "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf",
       "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf",
       "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
+          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
+          "published_at": "2026-06-16T04:03:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:d6fd31512a17",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Claims Filed & Settled",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
+          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
+          "published_at": "2026-06-16T04:03:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:7109f49c18a4",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Annual Claims Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/annual-claims-report",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/annual-claims-report",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
+          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
+          "published_at": "2026-06-16T04:03:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "bronxda.nyc.gov:139cf6cc1139",
+      "source": "bronxda.nyc.gov",
+      "source_id": "bronxda.nyc.gov",
+      "kind": "report",
+      "title": "Investigations Division",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
+      "document_url": null,
+      "heat_url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "How to avoid rental scams in NYC, and what to do if you become the victim of one",
+          "url": "https://gothamist.com/news/how-to-avoid-rental-scams-in-nyc-and-what-to-do-if-you-become-the-victim-of-one",
+          "published_at": "2026-06-17T10:01:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "council:8d740bf13d80",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "Asylum Seekers Report April 2026",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
+      "document_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
+      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -2477,25 +2870,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
-          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
-          "published_at": "2026-06-16T04:03:00+00:00",
+          "title": "Mamdani Makes World-Cup Stop at Shelter Plagued by Complaints About Bed Bugs, Poor Food",
+          "url": "https://www.thecityreporter.nyc/2026/06/16/mamdani-world-cup-bruckner-shelter/",
+          "published_at": "2026-06-17T02:21:54+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nyc_comptroller:d6fd31512a17",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
+      "id": "nyc.gov:412d4c9756a9",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
       "kind": "report",
-      "title": "Claims Filed & Settled",
+      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
       "agency": null,
       "published_date": null,
-      "url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
+      "url": "https://www.nyc.gov/assets/mwbe?page=about",
       "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
+      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
       "format": "html",
       "source_page": null,
       "rank_window": "30d",
@@ -2550,26 +2943,26 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
-          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
-          "published_at": "2026-06-16T04:03:00+00:00",
+          "title": "Who’s who in Zohran Mamdani’s administration?",
+          "url": "https://www.cityandstateny.com/politics/2026/06/whos-who-zohran-mamdanis-administration/409701/",
+          "published_at": "2026-06-16T17:28:25-04:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nyc_comptroller:7109f49c18a4",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
+      "id": "mmr:9e78e3a60b87",
+      "source": "NYC Mayor's Office of Operations",
+      "source_id": "mmr",
       "kind": "report",
-      "title": "Annual Claims Report",
+      "title": "Operations Pmmr2026 Fdny",
       "agency": null,
       "published_date": null,
-      "url": "https://comptroller.nyc.gov/reports/annual-claims-report",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/annual-claims-report",
-      "format": "html",
+      "url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "document_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
       "heat_score": 6.0,
@@ -2623,9 +3016,228 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
-          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
-          "published_at": "2026-06-16T04:03:00+00:00",
+          "title": "Op-ed | FDNY EMS needs a 911 lifeline",
+          "url": "https://www.amny.com/oped/op-ed-fdny-ems-needs-a-911-lifeline/",
+          "published_at": "2026-06-17T12:00:54+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "ibo:17df4e233e10",
+      "source": "NYC Independent Budget Office",
+      "source_id": "ibo",
+      "kind": "report",
+      "title": "Intro0994 2024 Testimony November 2024",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "document_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "heat_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "At Least 21 New Yorkers Died From Heat Stress Last Year, City Health Dept. Says",
+          "url": "https://citylimits.org/at-least-21-new-yorkers-died-from-heat-stress-last-year-city-health-dept-says/",
+          "published_at": "2026-06-16T22:33:03+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "hpd:7fde6a98cdc7",
+      "source": "NYC Housing Preservation & Development",
+      "source_id": "hpd",
+      "kind": "report",
+      "title": "2023 Nychvs Selected Initial Findings",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "document_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Opinion: The Economic Case for a Rent Freeze",
+          "url": "https://citylimits.org/opinion-the-economic-case-for-a-rent-freeze/",
+          "published_at": "2026-06-16T22:02:52+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc_comptroller:e57e8395804f",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "011625 Budget Briefing",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "document_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
+          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
+          "published_at": "2026-06-16T21:25:34+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -85177,71 +85789,6 @@
       "is_new": false
     },
     {
-      "id": "council:3ed6828d83fe",
-      "source": "NYC City Council",
-      "source_id": "council",
-      "kind": "report",
-      "title": "NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027",
-      "agency": null,
-      "published_date": "2026-06-09",
-      "url": "https://council.nyc.gov/press/2026/06/09/3134",
-      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
-      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
-      "format": "pdf",
-      "source_page": "https://council.nyc.gov/press/",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
       "id": "council:a64859378874",
       "source": "NYC City Council",
       "source_id": "council",
@@ -86084,7 +86631,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "rules_proposed:db3c604611b5",
@@ -86099,6 +86646,136 @@
       "heat_url": "https://rules.cityofnewyork.us/rule/recordkeeping-requirements-for-third-party-food-delivery-services",
       "format": "html",
       "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "doi:5b381188fb85",
+      "source": "NYC Department of Investigation",
+      "source_id": "doi",
+      "kind": "report",
+      "title": "2025 Annual Anti-Corruption Report",
+      "agency": null,
+      "published_date": "2026-06-17",
+      "url": "https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf",
+      "document_url": "https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf",
+      "heat_url": "https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/doi/newsroom/public-reports-current.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nys_comptroller:24a6e265b836",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "Review of the Financial Plan of the City of New York, June 2026",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
+      "document_url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
+      "heat_url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
+      "format": "pdf",
+      "source_page": "https://www.osc.ny.gov/reports",
       "rank_window": "30d",
       "heat_score": 0.0,
       "rationale": [

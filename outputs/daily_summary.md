@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-16T16:14:32+00:00
-Candidates ranked: 1315
-New candidates: 7
+Generated: 2026-06-17T14:41:22+00:00
+Candidates ranked: 1324
+New candidates: 9
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -13,15 +13,15 @@ Rank window: 30d
 4. Truck Network Redesign Report | NYC Department of Transportation | heat 12.0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
 5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 6. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-7. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-8. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-9. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-10. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
-11. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
-12. The Newest New Yorkers, 2026 | NYC Department of City Planning | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
-13. Ao2000 4 | NYC Conflicts of Interest Board | heat 6.0 | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
-14. Audit Report on the New York City Housing Authority’s Eviction Processes | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes
-15. Audit Report on the Adherence of the Department of Education and the Department of Health and Mental Hygiene to Student Vision and Hearing Screening Program Regulations | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/audit-report-on-the-adherence-of-the-department-of-education-and-the-department-of-health-and-mental-hygiene-to-student-vision-and-hearing-screening-program-regulations
+7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+8. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+9. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+10. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+11. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+12. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+13. The Newest New Yorkers, 2026 | NYC Department of City Planning | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
+14. Ao2000 4 | NYC Conflicts of Interest Board | heat 6.0 | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
+15. Audit Report on the New York City Housing Authority’s Eviction Processes | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes
 
 ## Top Reports/Publications
 
@@ -30,11 +30,11 @@ Rank window: 30d
 3. Truck Network Redesign Report | NYC Department of Transportation | heat 12.0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
 4. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 5. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-6. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-7. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-8. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-9. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
-10. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+6. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+7. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+8. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+9. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+10. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
 
 ## Top Rules
 
@@ -57,10 +57,10 @@ Rank window: 30d
 4. Truck Network Redesign Report | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
 5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 6. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-7. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-8. Flashreports 2026 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-9. A brief history of redlining  – Environment & Health Data Portal | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-10. Mv En Us 084Sum | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+8. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+9. Flashreports 2026 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+10. A brief history of redlining  – Environment & Health Data Portal | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
 
 ## Shared But Untracked
 
@@ -68,10 +68,12 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Resident Data Summary (PDF) | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/ddb/2026ddb-summary.pdf
-- Recordkeeping Requirements for Third-Party Food Delivery Services | NYC Rules - Proposed | 2026-07-16 | https://rules.cityofnewyork.us/rule/recordkeeping-requirements-for-third-party-food-delivery-services
-- Adams St Boerum Pl Jun2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/adams-st-boerum-pl-jun2026.pdf
-- Mn06 Cd Map | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/download/pdf/community/community-portal/cd_map/mn06_cd_map.pdf
-- Public Pguide1 | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/public-pguide1.pdf
-- Claims Filed & Settled | NYC Comptroller | unknown date | https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled
-- Annual Claims Report | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/annual-claims-report
+- 2025 Annual Anti-Corruption Report | NYC Department of Investigation | 2026-06-17 | https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf
+- Review of the Financial Plan of the City of New York, June 2026 | NYS Comptroller | unknown date | https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf
+- Investigations Division | bronxda.nyc.gov | unknown date | https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml
+- Asylum Seekers Report April 2026 | NYC City Council | unknown date | https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf
+- Mayor's Office of Minority and Women-owned Business Enterprises | nyc.gov | unknown date | https://www.nyc.gov/assets/mwbe?page=about
+- Operations Pmmr2026 Fdny | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf
+- Intro0994 2024 Testimony November 2024 | NYC Independent Budget Office | unknown date | https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf
+- 2023 Nychvs Selected Initial Findings | NYC Housing Preservation & Development | unknown date | https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf
+- 011625 Budget Briefing | NYC Comptroller | unknown date | https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf
