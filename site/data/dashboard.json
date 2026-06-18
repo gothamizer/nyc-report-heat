@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T14:41:22+00:00",
+  "generated_at": "2026-06-18T14:33:08+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1324,
-    "with_heat": 53,
-    "new_count": 9,
+    "total": 1336,
+    "with_heat": 60,
+    "new_count": 12,
     "by_kind": {
-      "report": 1173,
+      "report": 1185,
       "rule": 151
     },
     "by_format": {
-      "html": 315,
-      "pdf": 935,
+      "html": 319,
+      "pdf": 943,
       "xlsx": 26,
       "unknown": 48
     },
@@ -52,11 +52,11 @@
         "count": 52
       },
       {
-        "name": "NYC Administration for Children's Services",
-        "count": 51
+        "name": "NYC Housing Preservation & Development",
+        "count": 52
       },
       {
-        "name": "NYC Housing Preservation & Development",
+        "name": "NYC Administration for Children's Services",
         "count": 51
       },
       {
@@ -73,14 +73,14 @@
       },
       {
         "name": "NYC Department of Homeless Services",
-        "count": 40
-      },
-      {
-        "name": "NYC Civilian Complaint Review Board",
-        "count": 40
+        "count": 42
       },
       {
         "name": "NYC Board of Correction",
+        "count": 41
+      },
+      {
+        "name": "NYC Civilian Complaint Review Board",
         "count": 40
       },
       {
@@ -121,7 +121,7 @@
       },
       {
         "name": "NYS Comptroller",
-        "count": 19
+        "count": 23
       },
       {
         "name": "NYC Department of Correction",
@@ -145,7 +145,7 @@
       },
       {
         "name": "NYC City Council",
-        "count": 7
+        "count": 8
       },
       {
         "name": "NYC Department of Environmental Protection",
@@ -158,6 +158,14 @@
       {
         "name": "NYC Department of City Planning",
         "count": 3
+      },
+      {
+        "name": "NYC Mayor's Office of Operations",
+        "count": 3
+      },
+      {
+        "name": "nyc.gov",
+        "count": 2
       },
       {
         "name": "NYC Office of Management & Budget",
@@ -178,35 +186,27 @@
       {
         "name": "bronxda.nyc.gov",
         "count": 1
-      },
-      {
-        "name": "nyc.gov",
-        "count": 1
-      },
-      {
-        "name": "NYC Mayor's Office of Operations",
-        "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1324,
+        "checked": 1336,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1324,
+        "checked": 1336,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1324,
+        "checked": 1336,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1324,
+        "checked": 1336,
         "errors": 0
       }
     ]
@@ -214,76 +214,100 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "2025 Annual Anti-Corruption Report",
-      "source": "NYC Department of Investigation",
+      "title": "Download the March 2026 Observation Aide Assessment Report",
+      "source": "NYC Board of Correction",
       "kind": "report",
-      "published_date": "2026-06-17",
-      "heat_url": "https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf",
       "format": "pdf"
     },
     {
-      "title": "Review of the Financial Plan of the City of New York, June 2026",
+      "title": "FY25Q2",
+      "source": "NYC Department of Homeless Services",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "FY25Q3",
+      "source": "NYC Department of Homeless Services",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "2025 Year In Review",
       "source": "NYS Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
+      "heat_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
       "format": "pdf"
     },
     {
-      "title": "Investigations Division",
-      "source": "bronxda.nyc.gov",
+      "title": "DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds",
+      "source": "NYS Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
+      "heat_url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
       "format": "html"
     },
     {
-      "title": "Asylum Seekers Report April 2026",
-      "source": "NYC City Council",
+      "title": "DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion",
+      "source": "NYS Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
-      "format": "pdf"
+      "heat_url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
+      "format": "html"
     },
     {
-      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
+      "title": "New York State Financial Reporting",
+      "source": "NYS Comptroller",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.osc.ny.gov/reports/finance",
+      "format": "html"
+    },
+    {
+      "title": "20220606 Shazia Bibi",
       "source": "nyc.gov",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
-      "format": "html"
+      "heat_url": "https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf",
+      "format": "pdf"
     },
     {
-      "title": "Operations Pmmr2026 Fdny",
+      "title": "Operations Pmmr2026 Hra",
       "source": "NYC Mayor's Office of Operations",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf",
       "format": "pdf"
     },
     {
-      "title": "Intro0994 2024 Testimony November 2024",
-      "source": "NYC Independent Budget Office",
+      "title": "Operations Pmmr2026 Dhs",
+      "source": "NYC Mayor's Office of Operations",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf",
       "format": "pdf"
     },
     {
-      "title": "2023 Nychvs Selected Initial Findings",
+      "title": "Mih Fact Sheet",
       "source": "NYC Housing Preservation & Development",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf",
       "format": "pdf"
     },
     {
-      "title": "011625 Budget Briefing",
-      "source": "NYC Comptroller",
+      "title": "Atlantic Avenue Mixed Use Plan (AAMUP)",
+      "source": "NYC City Council",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "format": "pdf"
+      "heat_url": "https://council.nyc.gov/crystal-hudson/aamup",
+      "format": "html"
     }
   ],
   "items": [
@@ -489,8 +513,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -569,8 +593,8 @@
           ]
         },
         "7d": {
-          "score": 12.0,
-          "exact_url_mentions": 2,
+          "score": 6.0,
+          "exact_url_mentions": 1,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -614,6 +638,86 @@
         }
       ],
       "is_new": false
+    },
+    {
+      "id": "nys_comptroller:843924818e07",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
+      "document_url": null,
+      "heat_url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 12.0,
+      "rationale": [
+        "2 news articles linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat",
+          "url": "https://gothamist.com/news/ny-comptroller-dinapoli-says-hes-running-on-his-record-as-progressives-vie-for-seat",
+          "published_at": "2026-06-18T10:31:02+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "Who is running for New York comptroller?",
+          "url": "https://www.cityandstateny.com/politics/2026/06/who-running-new-york-comptroller/414261/",
+          "published_at": "2026-06-17T17:56:48-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
     },
     {
       "id": "nycha:35ac81622008",
@@ -781,8 +885,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1014,8 +1118,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1233,8 +1337,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2752,8 +2856,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2803,7 +2907,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "council:8d740bf13d80",
@@ -2816,6 +2920,444 @@
       "url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
       "document_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
       "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani Makes World-Cup Stop at Shelter Plagued by Complaints About Bed Bugs, Poor Food",
+          "url": "https://www.thecityreporter.nyc/2026/06/16/mamdani-world-cup-bruckner-shelter/",
+          "published_at": "2026-06-17T02:21:54+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc.gov:412d4c9756a9",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/mwbe?page=about",
+      "document_url": null,
+      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Who’s who in Zohran Mamdani’s administration?",
+          "url": "https://www.cityandstateny.com/politics/2026/06/whos-who-zohran-mamdanis-administration/409701/",
+          "published_at": "2026-06-16T17:28:25-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "mmr:9e78e3a60b87",
+      "source": "NYC Mayor's Office of Operations",
+      "source_id": "mmr",
+      "kind": "report",
+      "title": "Operations Pmmr2026 Fdny",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "document_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Op-ed | FDNY EMS needs a 911 lifeline",
+          "url": "https://www.amny.com/oped/op-ed-fdny-ems-needs-a-911-lifeline/",
+          "published_at": "2026-06-17T12:00:54+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "ibo:17df4e233e10",
+      "source": "NYC Independent Budget Office",
+      "source_id": "ibo",
+      "kind": "report",
+      "title": "Intro0994 2024 Testimony November 2024",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "document_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "heat_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "At Least 21 New Yorkers Died From Heat Stress Last Year, City Health Dept. Says",
+          "url": "https://citylimits.org/at-least-21-new-yorkers-died-from-heat-stress-last-year-city-health-dept-says/",
+          "published_at": "2026-06-16T22:33:03+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "hpd:7fde6a98cdc7",
+      "source": "NYC Housing Preservation & Development",
+      "source_id": "hpd",
+      "kind": "report",
+      "title": "2023 Nychvs Selected Initial Findings",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "document_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Opinion: The Economic Case for a Rent Freeze",
+          "url": "https://citylimits.org/opinion-the-economic-case-for-a-rent-freeze/",
+          "published_at": "2026-06-16T22:02:52+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:e57e8395804f",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "011625 Budget Briefing",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "document_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
+          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
+          "published_at": "2026-06-16T21:25:34+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nys_comptroller:c95afaa9a662",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "2025 Year In Review",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
+      "document_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
+      "heat_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -2870,25 +3412,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Mamdani Makes World-Cup Stop at Shelter Plagued by Complaints About Bed Bugs, Poor Food",
-          "url": "https://www.thecityreporter.nyc/2026/06/16/mamdani-world-cup-bruckner-shelter/",
-          "published_at": "2026-06-17T02:21:54+00:00",
+          "title": "NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat",
+          "url": "https://gothamist.com/news/ny-comptroller-dinapoli-says-hes-running-on-his-record-as-progressives-vie-for-seat",
+          "published_at": "2026-06-18T10:31:02+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nyc.gov:412d4c9756a9",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
+      "id": "nys_comptroller:92d49cecd8e6",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
       "kind": "report",
-      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
+      "title": "DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds",
       "agency": null,
       "published_date": null,
-      "url": "https://www.nyc.gov/assets/mwbe?page=about",
+      "url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
       "document_url": null,
-      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
+      "heat_url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
       "format": "html",
       "source_page": null,
       "rank_window": "30d",
@@ -2943,25 +3485,171 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Who’s who in Zohran Mamdani’s administration?",
-          "url": "https://www.cityandstateny.com/politics/2026/06/whos-who-zohran-mamdanis-administration/409701/",
-          "published_at": "2026-06-16T17:28:25-04:00",
+          "title": "NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat",
+          "url": "https://gothamist.com/news/ny-comptroller-dinapoli-says-hes-running-on-his-record-as-progressives-vie-for-seat",
+          "published_at": "2026-06-18T10:31:02+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "mmr:9e78e3a60b87",
+      "id": "nys_comptroller:6b9505024474",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "New York State Financial Reporting",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/reports/finance",
+      "document_url": null,
+      "heat_url": "https://www.osc.ny.gov/reports/finance",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Who is running for New York comptroller?",
+          "url": "https://www.cityandstateny.com/politics/2026/06/who-running-new-york-comptroller/414261/",
+          "published_at": "2026-06-17T17:56:48-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:b2b68cfdbe24",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "20220606 Shazia Bibi",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf",
+      "document_url": "https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf",
+      "heat_url": "https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Alleged $38M adult day care scam busted in Brooklyn — snaring Pakistani community leaders who cozied up to Dems",
+          "url": "https://nypost.com/2026/06/18/us-news/alleged-38m-adult-daycare-scam-busted-in-brooklyn-snaring-pakistani-community-leaders-who-cozied-up-to-dems/",
+          "published_at": "2026-06-18T07:00:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "mmr:34d60f66728d",
       "source": "NYC Mayor's Office of Operations",
       "source_id": "mmr",
       "kind": "report",
-      "title": "Operations Pmmr2026 Fdny",
+      "title": "Operations Pmmr2026 Hra",
       "agency": null,
       "published_date": null,
-      "url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
-      "document_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
-      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf",
+      "url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf",
+      "document_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -3016,25 +3704,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Op-ed | FDNY EMS needs a 911 lifeline",
-          "url": "https://www.amny.com/oped/op-ed-fdny-ems-needs-a-911-lifeline/",
-          "published_at": "2026-06-17T12:00:54+00:00",
+          "title": "Op-Ed | We can’t improve education without housing",
+          "url": "https://www.amny.com/opinion/cant-improve-education-without-housing/",
+          "published_at": "2026-06-18T11:30:40+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "ibo:17df4e233e10",
-      "source": "NYC Independent Budget Office",
-      "source_id": "ibo",
+      "id": "mmr:c4131ef46cdc",
+      "source": "NYC Mayor's Office of Operations",
+      "source_id": "mmr",
       "kind": "report",
-      "title": "Intro0994 2024 Testimony November 2024",
+      "title": "Operations Pmmr2026 Dhs",
       "agency": null,
       "published_date": null,
-      "url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
-      "document_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
-      "heat_url": "https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf",
+      "url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf",
+      "document_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf",
+      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -3089,25 +3777,25 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "At Least 21 New Yorkers Died From Heat Stress Last Year, City Health Dept. Says",
-          "url": "https://citylimits.org/at-least-21-new-yorkers-died-from-heat-stress-last-year-city-health-dept-says/",
-          "published_at": "2026-06-16T22:33:03+00:00",
+          "title": "Op-Ed | We can’t improve education without housing",
+          "url": "https://www.amny.com/opinion/cant-improve-education-without-housing/",
+          "published_at": "2026-06-18T11:30:40+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "hpd:7fde6a98cdc7",
+      "id": "hpd:85b99af24659",
       "source": "NYC Housing Preservation & Development",
       "source_id": "hpd",
       "kind": "report",
-      "title": "2023 Nychvs Selected Initial Findings",
+      "title": "Mih Fact Sheet",
       "agency": null,
       "published_date": null,
-      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
-      "document_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
-      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf",
+      "url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf",
+      "document_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf",
+      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -3162,26 +3850,26 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Opinion: The Economic Case for a Rent Freeze",
-          "url": "https://citylimits.org/opinion-the-economic-case-for-a-rent-freeze/",
-          "published_at": "2026-06-16T22:02:52+00:00",
+          "title": "How a 35% Affordable Housing Pledge in Brooklyn Was Torpedoed",
+          "url": "https://citylimits.org/how-a-35-affordable-housing-pledge-in-brooklyn-was-torpedoed/",
+          "published_at": "2026-06-17T19:20:19+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nyc_comptroller:e57e8395804f",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
+      "id": "council:72113c1c8d40",
+      "source": "NYC City Council",
+      "source_id": "council",
       "kind": "report",
-      "title": "011625 Budget Briefing",
+      "title": "Atlantic Avenue Mixed Use Plan (AAMUP)",
       "agency": null,
       "published_date": null,
-      "url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "document_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "format": "pdf",
+      "url": "https://council.nyc.gov/crystal-hudson/aamup",
+      "document_url": null,
+      "heat_url": "https://council.nyc.gov/crystal-hudson/aamup",
+      "format": "html",
       "source_page": null,
       "rank_window": "30d",
       "heat_score": 6.0,
@@ -3235,9 +3923,9 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
-          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
-          "published_at": "2026-06-16T21:25:34+00:00",
+          "title": "How a 35% Affordable Housing Pledge in Brooklyn Was Torpedoed",
+          "url": "https://citylimits.org/how-a-35-affordable-housing-pledge-in-brooklyn-was-torpedoed/",
+          "published_at": "2026-06-17T19:20:19+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -3318,86 +4006,6 @@
           "title": "A lot of investors a not happy about having SpaceX forced upon them.\ncomptroller.nyc.gov/reports/lett...",
           "url": "https://bsky.app/profile/pewtergod.bsky.social/post/3mo544hnsn22w",
           "published_at": "2026-06-13T01:29:05.084000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc_comptroller:b9d24ab457b9",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Review of the City’s Animal Population Control Efforts",
-      "agency": null,
-      "published_date": "2026-05-08",
-      "url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 4.845098040014257,
-      "rationale": [
-        "2 social posts sharing the exact link with 6 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 4.845098040014257,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 2,
-          "social_engagement": 6,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "comptroller.nyc.gov/reports/revi...\n\n#InvestigateNYCACC\n\n#ReformNYCACC\n\n#NYCACCKillsPuppies \n\n👇👇👇👇👇👇 👇👇👇👇👇👇",
-          "url": "https://bsky.app/profile/traceytaylor.bsky.social/post/3mm5lou5lz22m",
-          "published_at": "2026-05-18T19:17:25.037000+00:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "bluesky",
-          "title": "comptroller.nyc.gov/reports/revi... THANK YOU #SCOOP MARK LEVINE REPORT WE ALL BEEN WAITING FOR!!",
-          "url": "https://bsky.app/profile/tammyfeabakker.bsky.social/post/3mm5fgj7gds2l",
-          "published_at": "2026-05-18T17:25:22.675000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -4062,79 +4670,6 @@
           "title": "🤔Hmm... no idea, but does Gotham Hall ring a bell? \n\n🧐 p.20 onwards  \nnyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
           "url": "https://bsky.app/profile/nidia.bsky.social/post/3mnrqmyw6gs2j",
           "published_at": "2026-06-08T13:04:18.029000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "council:6b36ebc129af",
-      "source": "NYC City Council",
-      "source_id": "council",
-      "kind": "report",
-      "title": "The Budget Process",
-      "agency": null,
-      "published_date": null,
-      "url": "https://council.nyc.gov/budget/process",
-      "document_url": null,
-      "heat_url": "https://council.nyc.gov/budget/process",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.3010299956639813,
-      "rationale": [
-        "1 social post sharing the exact link with 1 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.3010299956639813,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 1,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "As far the budget is concerned, it seems that is a local matter between mayor and council council.nyc.gov/budget/proce... The NYS Comptroller can make recommendations that, AFAIK, are not binding. See",
-          "url": "https://bsky.app/profile/frankd7.bsky.social/post/3mm5tjllusc2v",
-          "published_at": "2026-05-18T21:37:38.229000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -5069,6 +5604,71 @@
       "url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:b9d24ab457b9",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Review of the City’s Animal Population Control Efforts",
+      "agency": null,
+      "published_date": "2026-05-08",
+      "url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
@@ -86504,6 +87104,71 @@
       "is_new": false
     },
     {
+      "id": "council:6b36ebc129af",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "The Budget Process",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/budget/process",
+      "document_url": null,
+      "heat_url": "https://council.nyc.gov/budget/process",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
       "id": "coib:d6aabe9df215",
       "source": "NYC Conflicts of Interest Board",
       "source_id": "coib",
@@ -86761,7 +87426,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nys_comptroller:24a6e265b836",
@@ -86776,6 +87441,201 @@
       "heat_url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf",
       "format": "pdf",
       "source_page": "https://www.osc.ny.gov/reports",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "boc:60de88e40a76",
+      "source": "NYC Board of Correction",
+      "source_id": "boc",
+      "kind": "report",
+      "title": "Download the March 2026 Observation Aide Assessment Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf",
+      "document_url": "https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf",
+      "heat_url": "https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/boc/reports/board-of-correction-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "dhs:7aedc147b3e8",
+      "source": "NYC Department of Homeless Services",
+      "source_id": "dhs",
+      "kind": "report",
+      "title": "FY25Q2",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf",
+      "document_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "dhs:31a573eccebc",
+      "source": "NYC Department of Homeless Services",
+      "source_id": "dhs",
+      "kind": "report",
+      "title": "FY25Q3",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "document_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
       "rank_window": "30d",
       "heat_score": 0.0,
       "rationale": [

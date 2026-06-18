@@ -71,7 +71,24 @@ Evidence:
 - newsrss: Truck stop? Scenic Staten Island parkway may open to the big rigs
 - newsrss: Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls
 
-## 5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
+## 5. DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion
+
+- Source: NYS Comptroller
+- Agency: n/a
+- Date: unknown
+- Format: html
+- URL: https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 12.0
+- Mentions: news links 2, social 0 (engagement 0), filename 0
+- Rationale: 2 news articles linking the exact report URL
+
+Evidence:
+- newsrss: NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat
+- newsrss: Who is running for New York comptroller?
+
+## 6. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
 
 - Source: NYC Housing Authority
 - Agency: n/a
@@ -87,7 +104,7 @@ Evidence:
 Evidence:
 - newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
 
-## 6. Daily Report
+## 7. Daily Report
 
 - Source: NYC Department of Homeless Services
 - Agency: n/a
@@ -103,7 +120,7 @@ Evidence:
 Evidence:
 - newsrss: State Lawmakers Pass Bill Requiring Every Homeless Shelter in New York to Have Wi-Fi
 
-## 7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027
+## 8. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027
 
 - Source: NYC City Council
 - Agency: n/a
@@ -119,7 +136,7 @@ Evidence:
 Evidence:
 - newsrss: In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion
 
-## 8. Workersbillofrights English
+## 9. Workersbillofrights English
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -135,7 +152,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
 
-## 9. Flashreports 2026 04
+## 10. Flashreports 2026 04
 
 - Source: NYC Administration for Children's Services
 - Agency: n/a
@@ -151,7 +168,7 @@ Evidence:
 Evidence:
 - newsrss: NYC illegally took newborn from father, keeping them apart for 3 years, court says
 
-## 10. A brief history of redlining  – Environment & Health Data Portal
+## 11. A brief history of redlining  – Environment & Health Data Portal
 
 - Source: a816-dohbesp.nyc.gov
 - Agency: n/a
@@ -167,7 +184,7 @@ Evidence:
 Evidence:
 - newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
 
-## 11. Mv En Us 084Sum
+## 12. Mv En Us 084Sum
 
 - Source: NYPD
 - Agency: n/a
@@ -183,7 +200,7 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 12. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
+## 13. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -199,7 +216,7 @@ Evidence:
 Evidence:
 - newsrss: A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'
 
-## 13. The Newest New Yorkers, 2026
+## 14. The Newest New Yorkers, 2026
 
 - Source: NYC Department of City Planning
 - Agency: n/a
@@ -215,7 +232,7 @@ Evidence:
 Evidence:
 - newsrss: Chinese immigrants overtake Dominicans as NYC's largest foreign-born group
 
-## 14. Ao2000 4
+## 15. Ao2000 4
 
 - Source: NYC Conflicts of Interest Board
 - Agency: n/a
@@ -231,7 +248,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources
 
-## 15. Audit Report on the New York City Housing Authority’s Eviction Processes
+## 16. Audit Report on the New York City Housing Authority’s Eviction Processes
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -247,7 +264,7 @@ Evidence:
 Evidence:
 - newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
 
-## 16. Audit Report on the Adherence of the Department of Education and the Department of Health and Mental Hygiene to Student Vision and Hearing Screening Program Regulations
+## 17. Audit Report on the Adherence of the Department of Education and the Department of Health and Mental Hygiene to Student Vision and Hearing Screening Program Regulations
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -263,7 +280,7 @@ Evidence:
 Evidence:
 - newsrss: Hearing-impaired students push for NYC schools to resume auditory screening
 
-## 17. Fast Shipping. Slow Justice: Traffic, Worker, and Climate Hazards in Last Mile Delivery
+## 18. Fast Shipping. Slow Justice: Traffic, Worker, and Climate Hazards in Last Mile Delivery
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -279,7 +296,7 @@ Evidence:
 Evidence:
 - newsrss: City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.
 
-## 18. Match Day Truck Delivery Restrictions 2026
+## 19. Match Day Truck Delivery Restrictions 2026
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -295,7 +312,7 @@ Evidence:
 Evidence:
 - newsrss: City To Restrict Midtown Deliveries During the World Cup. That’s News To Local Businesses.
 
-## 19. Cs En Us 109Pct
+## 20. Cs En Us 109Pct
 
 - Source: NYPD
 - Agency: n/a
@@ -310,19 +327,3 @@ Evidence:
 
 Evidence:
 - newsrss: Young man stabbed to death in Queens park following melee; suspects flee on mopeds
-
-## 20. 3Rd Ave Prospect Ave 62Nd St Nov2023
-
-- Source: NYC Department of Transportation
-- Agency: n/a
-- Date: unknown
-- Format: pdf
-- URL: https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf
-- Document URL: https://www.nyc.gov/html/dot/downloads/pdf/3rd-ave-prospect-ave-62nd-st-nov2023.pdf
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls

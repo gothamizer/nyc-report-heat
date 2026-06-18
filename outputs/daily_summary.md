@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-17T14:41:22+00:00
-Candidates ranked: 1324
-New candidates: 9
+Generated: 2026-06-18T14:33:08+00:00
+Candidates ranked: 1336
+New candidates: 12
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -11,30 +11,30 @@ Rank window: 30d
 2. Citywide Truck Routes | NYC Rules - Proposed | heat 12.0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
 3. Protocols for NonLocal Law Enforcement | schools.nyc.gov | heat 12.0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
 4. Truck Network Redesign Report | NYC Department of Transportation | heat 12.0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
-5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
-6. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-8. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-9. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-10. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-11. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
-12. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
-13. The Newest New Yorkers, 2026 | NYC Department of City Planning | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
-14. Ao2000 4 | NYC Conflicts of Interest Board | heat 6.0 | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
-15. Audit Report on the New York City Housing Authority’s Eviction Processes | NYC Comptroller | heat 6.0 | https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes
+5. DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion | NYS Comptroller | heat 12.0 | https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
+6. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+7. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+8. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+9. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+10. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+11. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+12. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+13. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
+14. The Newest New Yorkers, 2026 | NYC Department of City Planning | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
+15. Ao2000 4 | NYC Conflicts of Interest Board | heat 6.0 | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
 
 ## Top Reports/Publications
 
 1. The Pied-à-Terre Tax and Its Potential Revenues | NYC Comptroller | heat 15.1 | https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
 2. Protocols for NonLocal Law Enforcement | schools.nyc.gov | heat 12.0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
 3. Truck Network Redesign Report | NYC Department of Transportation | heat 12.0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
-4. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
-5. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-6. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-7. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-8. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-9. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-10. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+4. DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion | NYS Comptroller | heat 12.0 | https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
+5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+6. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+8. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+9. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+10. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
 
 ## Top Rules
 
@@ -55,12 +55,12 @@ Rank window: 30d
 2. Citywide Truck Routes | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://rules.cityofnewyork.us/rule/dot-proposed-amendment-of-rules-relating-to-citywide-truck-routes
 3. Protocols for NonLocal Law Enforcement | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement
 4. Truck Network Redesign Report | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/html/dot/downloads/pdf/truck-network-redesign-report.pdf
-5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
-6. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-8. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-9. Flashreports 2026 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-10. A brief history of redlining  – Environment & Health Data Portal | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+5. DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion | 30d heat 12.0 | news links 2 | social 0 (engagement 0) | filename 0 | https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
+6. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
+7. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
+8. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+9. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+10. Flashreports 2026 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
 
 ## Shared But Untracked
 
@@ -68,12 +68,15 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- 2025 Annual Anti-Corruption Report | NYC Department of Investigation | 2026-06-17 | https://www.nyc.gov/assets/doi/reports/pdf/2026/13AnnualAntiCorrRpt.Release.06.17.2026.pdf
-- Review of the Financial Plan of the City of New York, June 2026 | NYS Comptroller | unknown date | https://www.osc.ny.gov/files/reports/osdc/pdf/report-4-2027.pdf
-- Investigations Division | bronxda.nyc.gov | unknown date | https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml
-- Asylum Seekers Report April 2026 | NYC City Council | unknown date | https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/05/Asylum-Seekers-Report-April-2026.pdf
-- Mayor's Office of Minority and Women-owned Business Enterprises | nyc.gov | unknown date | https://www.nyc.gov/assets/mwbe?page=about
-- Operations Pmmr2026 Fdny | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/fdny.pdf
-- Intro0994 2024 Testimony November 2024 | NYC Independent Budget Office | unknown date | https://www.ibo.nyc.ny.us/iboreports/intro0994-2024-testimony-november-2024.pdf
-- 2023 Nychvs Selected Initial Findings | NYC Housing Preservation & Development | unknown date | https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf
-- 011625 Budget Briefing | NYC Comptroller | unknown date | https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf
+- Download the March 2026 Observation Aide Assessment Report | NYC Board of Correction | unknown date | https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf
+- FY25Q2 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf
+- FY25Q3 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf
+- 2025 Year In Review | NYS Comptroller | unknown date | https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf
+- DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds | NYS Comptroller | unknown date | https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds
+- DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion | NYS Comptroller | unknown date | https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
+- New York State Financial Reporting | NYS Comptroller | unknown date | https://www.osc.ny.gov/reports/finance
+- 20220606 Shazia Bibi | nyc.gov | unknown date | https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf
+- Operations Pmmr2026 Hra | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf
+- Operations Pmmr2026 Dhs | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf
+- Mih Fact Sheet | NYC Housing Preservation & Development | unknown date | https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf
+- Atlantic Avenue Mixed Use Plan (AAMUP) | NYC City Council | unknown date | https://council.nyc.gov/crystal-hudson/aamup
