@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-18T14:33:08+00:00
-Candidates ranked: 1336
-New candidates: 12
+Generated: 2026-06-19T14:29:24+00:00
+Candidates ranked: 1343
+New candidates: 7
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,15 +68,10 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- Download the March 2026 Observation Aide Assessment Report | NYC Board of Correction | unknown date | https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf
-- FY25Q2 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf
-- FY25Q3 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf
-- 2025 Year In Review | NYS Comptroller | unknown date | https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf
-- DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds | NYS Comptroller | unknown date | https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds
-- DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion | NYS Comptroller | unknown date | https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion
-- New York State Financial Reporting | NYS Comptroller | unknown date | https://www.osc.ny.gov/reports/finance
-- 20220606 Shazia Bibi | nyc.gov | unknown date | https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf
-- Operations Pmmr2026 Hra | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf
-- Operations Pmmr2026 Dhs | NYC Mayor's Office of Operations | unknown date | https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf
-- Mih Fact Sheet | NYC Housing Preservation & Development | unknown date | https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf
-- Atlantic Avenue Mixed Use Plan (AAMUP) | NYC City Council | unknown date | https://council.nyc.gov/crystal-hudson/aamup
+- FY25Q4 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf
+- FY26Q1 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf
+- Fans for a Cooler NYC | NYC Public Advocate | unknown date | https://advocate.nyc.gov/blog/fans-cooler-nyc
+- Comptroller Lander to HPD Commissioner Carrión re Contract #20248801671 | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671
+- Testi 20260605 Health Fy27 Budget | NYC Department of Health & Mental Hygiene | unknown date | https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf
+- Cs En Us 043Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf
+- 2026 May Segments Of The Rent Stabilized Housing Stock | ibo.nyc.gov | unknown date | https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf

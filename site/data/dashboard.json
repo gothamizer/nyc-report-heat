@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T14:33:08+00:00",
+  "generated_at": "2026-06-19T14:29:24+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1336,
-    "with_heat": 60,
-    "new_count": 12,
+    "total": 1343,
+    "with_heat": 65,
+    "new_count": 7,
     "by_kind": {
-      "report": 1185,
+      "report": 1192,
       "rule": 151
     },
     "by_format": {
-      "html": 319,
-      "pdf": 943,
+      "html": 321,
+      "pdf": 948,
       "xlsx": 26,
       "unknown": 48
     },
@@ -40,11 +40,11 @@
         "count": 59
       },
       {
-        "name": "NYC Housing Authority",
-        "count": 54
+        "name": "NYPD",
+        "count": 55
       },
       {
-        "name": "NYPD",
+        "name": "NYC Housing Authority",
         "count": 54
       },
       {
@@ -61,19 +61,19 @@
       },
       {
         "name": "NYC Department of Health & Mental Hygiene",
-        "count": 50
+        "count": 51
       },
       {
         "name": "NYC Human Resources Administration",
         "count": 50
       },
       {
-        "name": "NYC Rules - Proposed",
-        "count": 43
+        "name": "NYC Department of Homeless Services",
+        "count": 44
       },
       {
-        "name": "NYC Department of Homeless Services",
-        "count": 42
+        "name": "NYC Rules - Proposed",
+        "count": 43
       },
       {
         "name": "NYC Board of Correction",
@@ -104,16 +104,16 @@
         "count": 36
       },
       {
+        "name": "NYC Comptroller",
+        "count": 32
+      },
+      {
         "name": "NYC Conflicts of Interest Board",
         "count": 32
       },
       {
-        "name": "NYC Comptroller",
-        "count": 31
-      },
-      {
         "name": "NYC Public Advocate",
-        "count": 30
+        "count": 31
       },
       {
         "name": "NYC Department for the Aging",
@@ -164,6 +164,10 @@
         "count": 3
       },
       {
+        "name": "ibo.nyc.gov",
+        "count": 2
+      },
+      {
         "name": "nyc.gov",
         "count": 2
       },
@@ -180,10 +184,6 @@
         "count": 1
       },
       {
-        "name": "ibo.nyc.gov",
-        "count": 1
-      },
-      {
         "name": "bronxda.nyc.gov",
         "count": 1
       }
@@ -191,22 +191,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1336,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1336,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1336,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1336,
+        "checked": 1343,
         "errors": 0
       }
     ]
@@ -214,100 +214,60 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Download the March 2026 Observation Aide Assessment Report",
-      "source": "NYC Board of Correction",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/boc/downloads/pdf/Reports/BOC-Reports/BOC-March-2026-Observation-Aide-Assessment.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "FY25Q2",
+      "title": "FY25Q4",
       "source": "NYC Department of Homeless Services",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q2.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf",
       "format": "pdf"
     },
     {
-      "title": "FY25Q3",
+      "title": "FY26Q1",
       "source": "NYC Department of Homeless Services",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
       "format": "pdf"
     },
     {
-      "title": "2025 Year In Review",
-      "source": "NYS Comptroller",
+      "title": "Fans for a Cooler NYC",
+      "source": "NYC Public Advocate",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds",
-      "source": "NYS Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
+      "heat_url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
       "format": "html"
     },
     {
-      "title": "DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion",
-      "source": "NYS Comptroller",
+      "title": "Comptroller Lander to HPD Commissioner Carrión re Contract #20248801671",
+      "source": "NYC Comptroller",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
+      "heat_url": "https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671",
       "format": "html"
     },
     {
-      "title": "New York State Financial Reporting",
-      "source": "NYS Comptroller",
+      "title": "Testi 20260605 Health Fy27 Budget",
+      "source": "NYC Department of Health & Mental Hygiene",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/reports/finance",
-      "format": "html"
-    },
-    {
-      "title": "20220606 Shazia Bibi",
-      "source": "nyc.gov",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/districting/downloads/pdf/20220606-Shazia-Bibi.pdf",
+      "heat_url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf",
       "format": "pdf"
     },
     {
-      "title": "Operations Pmmr2026 Hra",
-      "source": "NYC Mayor's Office of Operations",
+      "title": "Cs En Us 043Pct",
+      "source": "NYPD",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/hra.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf",
       "format": "pdf"
     },
     {
-      "title": "Operations Pmmr2026 Dhs",
-      "source": "NYC Mayor's Office of Operations",
+      "title": "2026 May Segments Of The Rent Stabilized Housing Stock",
+      "source": "ibo.nyc.gov",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/operations/downloads/pdf/pmmr2026/dhs.pdf",
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf",
       "format": "pdf"
-    },
-    {
-      "title": "Mih Fact Sheet",
-      "source": "NYC Housing Preservation & Development",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Atlantic Avenue Mixed Use Plan (AAMUP)",
-      "source": "NYC City Council",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://council.nyc.gov/crystal-hudson/aamup",
-      "format": "html"
     }
   ],
   "items": [
@@ -433,8 +393,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -593,8 +553,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -659,8 +619,8 @@
       ],
       "windows": {
         "today": {
-          "score": 12.0,
-          "exact_url_mentions": 2,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -717,7 +677,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nycha:35ac81622008",
@@ -753,8 +713,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1264,8 +1224,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1410,8 +1370,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1483,8 +1443,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1556,8 +1516,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1629,8 +1589,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1702,8 +1662,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1775,8 +1735,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1848,8 +1808,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1921,8 +1881,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1994,8 +1954,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2067,8 +2027,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3367,8 +3327,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3418,7 +3378,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nys_comptroller:92d49cecd8e6",
@@ -3440,8 +3400,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3491,7 +3451,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nys_comptroller:6b9505024474",
@@ -3513,8 +3473,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3564,7 +3524,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc.gov:b2b68cfdbe24",
@@ -3586,8 +3546,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3637,7 +3597,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "mmr:34d60f66728d",
@@ -3659,8 +3619,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3710,7 +3670,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "mmr:c4131ef46cdc",
@@ -3732,8 +3692,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3783,7 +3743,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "hpd:85b99af24659",
@@ -3805,8 +3765,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3856,7 +3816,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "council:72113c1c8d40",
@@ -3869,6 +3829,79 @@
       "url": "https://council.nyc.gov/crystal-hudson/aamup",
       "document_url": null,
       "heat_url": "https://council.nyc.gov/crystal-hudson/aamup",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "How a 35% Affordable Housing Pledge in Brooklyn Was Torpedoed",
+          "url": "https://citylimits.org/how-a-35-affordable-housing-pledge-in-brooklyn-was-torpedoed/",
+          "published_at": "2026-06-17T19:20:19+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:667bf0c7c328",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Comptroller Lander to HPD Commissioner Carrión re Contract #20248801671",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671",
       "format": "html",
       "source_page": null,
       "rank_window": "30d",
@@ -3923,9 +3956,228 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "How a 35% Affordable Housing Pledge in Brooklyn Was Torpedoed",
-          "url": "https://citylimits.org/how-a-35-affordable-housing-pledge-in-brooklyn-was-torpedoed/",
-          "published_at": "2026-06-17T19:20:19+00:00",
+          "title": "As NYC’s Watchdog, Brad Lander Missed This Shelter Scam",
+          "url": "https://www.thecityreporter.nyc/2026/06/19/brad-lander-bhrags-corruption-audit-comptroller/",
+          "published_at": "2026-06-19T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "dohmh:1e5a159f7ef4",
+      "source": "NYC Department of Health & Mental Hygiene",
+      "source_id": "dohmh",
+      "kind": "report",
+      "title": "Testi 20260605 Health Fy27 Budget",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf",
+      "document_url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf",
+      "heat_url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "How One Brooklynite Is Grappling With Her Essential Plan Health Coverage Ending",
+          "url": "https://www.thecityreporter.nyc/2026/06/18/essential-plan-ending-new-yorkers-health-insurance/",
+          "published_at": "2026-06-18T18:00:42+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nypd:24359007b2e4",
+      "source": "NYPD",
+      "source_id": "nypd",
+      "kind": "report",
+      "title": "Cs En Us 043Pct",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf",
+      "document_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Two men shot dead in the Bronx, detectives search for killers: cops",
+          "url": "https://www.amny.com/police-fire/two-men-shot-dead-bronx-06182026/",
+          "published_at": "2026-06-19T12:24:41+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "ibo.nyc.gov:81f7e6c1d07b",
+      "source": "ibo.nyc.gov",
+      "source_id": "ibo.nyc.gov",
+      "kind": "report",
+      "title": "2026 May Segments Of The Rent Stabilized Housing Stock",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf",
+      "document_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf",
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Meet Manhattan’s New Director For Tenant Organizing, And What Else Happened This Week in Housing",
+          "url": "https://citylimits.org/meet-manhattans-new-director-for-tenant-organizing-and-what-else-happened-this-week-in-housing/",
+          "published_at": "2026-06-19T13:51:56+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -4236,6 +4488,79 @@
         }
       ],
       "is_new": false
+    },
+    {
+      "id": "pubadvocate:d9b43887e3cf",
+      "source": "NYC Public Advocate",
+      "source_id": "pubadvocate",
+      "kind": "report",
+      "title": "Fans for a Cooler NYC",
+      "agency": null,
+      "published_date": null,
+      "url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
+      "document_url": null,
+      "heat_url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 2.845098040014257,
+      "rationale": [
+        "1 social post sharing the exact link with 6 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 2.845098040014257,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 6,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.845098040014257,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 6,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.845098040014257,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 6,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "New York City is HOT 🥵, and it’s not just because of the Knicks or the World Cup.\n\nAs temperatures climb this afternoon, learn how you can stay safe in extreme heat this summer, and become a fan for c",
+          "url": "https://bsky.app/profile/advocate.nyc.gov/post/3molfkzh6sl2v",
+          "published_at": "2026-06-18T17:55:33.388541+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
     },
     {
       "id": "nyc_comptroller:4243edf0db66",
@@ -87556,7 +87881,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dhs:7aedc147b3e8",
@@ -87621,7 +87946,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dhs:31a573eccebc",
@@ -87634,6 +87959,136 @@
       "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
       "document_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
       "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q3.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "dhs:ae601d1d3f7d",
+      "source": "NYC Department of Homeless Services",
+      "source_id": "dhs",
+      "kind": "report",
+      "title": "FY25Q4",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf",
+      "document_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "dhs:462b842852ed",
+      "source": "NYC Department of Homeless Services",
+      "source_id": "dhs",
+      "kind": "report",
+      "title": "FY26Q1",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
+      "document_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
       "format": "pdf",
       "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
       "rank_window": "30d",
