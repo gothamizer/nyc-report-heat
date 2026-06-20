@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-19T14:29:24+00:00
+Generated: 2026-06-20T13:08:08+00:00
 Candidates ranked: 1343
-New candidates: 7
+New candidates: 0
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,10 +68,4 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- FY25Q4 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf
-- FY26Q1 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf
-- Fans for a Cooler NYC | NYC Public Advocate | unknown date | https://advocate.nyc.gov/blog/fans-cooler-nyc
-- Comptroller Lander to HPD Commissioner Carrión re Contract #20248801671 | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671
-- Testi 20260605 Health Fy27 Budget | NYC Department of Health & Mental Hygiene | unknown date | https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf
-- Cs En Us 043Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf
-- 2026 May Segments Of The Rent Stabilized Housing Stock | ibo.nyc.gov | unknown date | https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf
+No new candidates found.

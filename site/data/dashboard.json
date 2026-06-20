@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:29:24+00:00",
+  "generated_at": "2026-06-20T13:08:08+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -14,8 +14,8 @@
   ],
   "stats": {
     "total": 1343,
-    "with_heat": 65,
-    "new_count": 7,
+    "with_heat": 64,
+    "new_count": 0,
     "by_kind": {
       "report": 1192,
       "rule": 151
@@ -212,64 +212,7 @@
     ]
   },
   "untracked": [],
-  "new_candidates": [
-    {
-      "title": "FY25Q4",
-      "source": "NYC Department of Homeless Services",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY25Q4.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "FY26Q1",
-      "source": "NYC Department of Homeless Services",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Fans for a Cooler NYC",
-      "source": "NYC Public Advocate",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
-      "format": "html"
-    },
-    {
-      "title": "Comptroller Lander to HPD Commissioner Carrión re Contract #20248801671",
-      "source": "NYC Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/comptroller-lander-to-hpd-commissioner-carrion-re-contract-20248801671",
-      "format": "html"
-    },
-    {
-      "title": "Testi 20260605 Health Fy27 Budget",
-      "source": "NYC Department of Health & Mental Hygiene",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/testi/testi-20260605-health-fy27-budget.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Cs En Us 043Pct",
-      "source": "NYPD",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-043pct.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "2026 May Segments Of The Rent Stabilized Housing Stock",
-      "source": "ibo.nyc.gov",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-segments-of-the-rent-stabilized-housing-stock.pdf",
-      "format": "pdf"
-    }
-  ],
+  "new_candidates": [],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -2100,8 +2043,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2173,8 +2116,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2246,8 +2189,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3911,8 +3854,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3962,7 +3905,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dohmh:1e5a159f7ef4",
@@ -3984,8 +3927,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4035,7 +3978,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nypd:24359007b2e4",
@@ -4057,8 +4000,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4108,7 +4051,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "ibo.nyc.gov:81f7e6c1d07b",
@@ -4181,7 +4124,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:a484acbf1212",
@@ -4217,12 +4160,12 @@
           ]
         },
         "7d": {
-          "score": 5.0,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 2,
-          "social_engagement": 9,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -4509,12 +4452,12 @@
       ],
       "windows": {
         "today": {
-          "score": 2.845098040014257,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 6,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -4560,7 +4503,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:4243edf0db66",
@@ -4995,79 +4938,6 @@
           "title": "🤔Hmm... no idea, but does Gotham Hall ring a bell? \n\n🧐 p.20 onwards  \nnyc.gov/html/dot/downloads/pdf/broadway-vision-update-may2025.pdf",
           "url": "https://bsky.app/profile/nidia.bsky.social/post/3mnrqmyw6gs2j",
           "published_at": "2026-06-08T13:04:18.029000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc_comptroller:5d7a530d1de4",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ...",
-      "agency": null,
-      "published_date": "2026-05-14",
-      "url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 2.0,
-      "rationale": [
-        "1 social post sharing the exact link"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "Oh, I guess this leaked a little earlier: comptroller.nyc.gov/reports/lett...",
-          "url": "https://bsky.app/profile/pck.rocks/post/3mmcv2jlgc22l",
-          "published_at": "2026-05-20T21:48:18.976000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -5929,6 +5799,71 @@
       "url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:5d7a530d1de4",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Letter to SpaceX re: IPO From NYC Comptroller Levine, NYS Comptroller ...",
+      "agency": null,
+      "published_date": "2026-05-14",
+      "url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
@@ -88076,7 +88011,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dhs:462b842852ed",
@@ -88141,7 +88076,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
