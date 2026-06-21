@@ -1,6 +1,6 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-20T13:08:08+00:00
+Generated: 2026-06-21T13:24:46+00:00
 Candidates ranked: 1343
 New candidates: 0
 Rank window: 30d

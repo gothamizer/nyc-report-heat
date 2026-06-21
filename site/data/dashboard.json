@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T13:08:08+00:00",
+  "generated_at": "2026-06-21T13:24:46+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -14,7 +14,7 @@
   ],
   "stats": {
     "total": 1343,
-    "with_heat": 64,
+    "with_heat": 63,
     "new_count": 0,
     "by_kind": {
       "report": 1192,
@@ -2262,8 +2262,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4073,8 +4073,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4201,86 +4201,6 @@
           "title": "A lot of investors a not happy about having SpaceX forced upon them.\ncomptroller.nyc.gov/reports/lett...",
           "url": "https://bsky.app/profile/pewtergod.bsky.social/post/3mo544hnsn22w",
           "published_at": "2026-06-13T01:29:05.084000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc_comptroller:9733543203e1",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "AI and New York City’s Fiscal Future",
-      "agency": null,
-      "published_date": "2026-05-21",
-      "url": "https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 4.0,
-      "rationale": [
-        "2 social posts sharing the exact link"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 4.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 2,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "comptroller.nyc.gov/reports/ai-a...",
-          "url": "https://bsky.app/profile/lauradwight.bsky.social/post/3mmfjjco6j22y",
-          "published_at": "2026-05-21T22:59:49.356000+00:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "bluesky",
-          "title": "As AI advances, how can we ensure NYC's fiscal stability? Let's discuss potential strategies for a prosperous future! #NYCFinance\n\nhttps://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-futu",
-          "url": "https://bsky.app/profile/ai-latestnews.bsky.social/post/3mmf3p4aefp27",
-          "published_at": "2026-05-21T18:52:31.443557+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -4685,12 +4605,12 @@
           ]
         },
         "7d": {
-          "score": 2.6989700043360187,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 4,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -5799,6 +5719,71 @@
       "url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/new-york-city-quarterly-cash-report",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:9733543203e1",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "AI and New York City’s Fiscal Future",
+      "agency": null,
+      "published_date": "2026-05-21",
+      "url": "https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/ai-and-new-york-citys-fiscal-future",
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
