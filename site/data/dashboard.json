@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T13:24:46+00:00",
+  "generated_at": "2026-06-22T16:14:10+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1343,
-    "with_heat": 63,
-    "new_count": 0,
+    "total": 1346,
+    "with_heat": 66,
+    "new_count": 3,
     "by_kind": {
-      "report": 1192,
+      "report": 1195,
       "rule": 151
     },
     "by_format": {
       "html": 321,
-      "pdf": 948,
+      "pdf": 951,
       "xlsx": 26,
       "unknown": 48
     },
@@ -145,11 +145,15 @@
       },
       {
         "name": "NYC City Council",
-        "count": 8
+        "count": 9
       },
       {
         "name": "NYC Department of Environmental Protection",
         "count": 5
+      },
+      {
+        "name": "nyc.gov",
+        "count": 4
       },
       {
         "name": "NYC Department of Youth & Community Development",
@@ -165,10 +169,6 @@
       },
       {
         "name": "ibo.nyc.gov",
-        "count": 2
-      },
-      {
-        "name": "nyc.gov",
         "count": 2
       },
       {
@@ -191,28 +191,53 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1343,
+        "checked": 1346,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1343,
+        "checked": 1346,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1343,
+        "checked": 1346,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1343,
+        "checked": 1346,
         "errors": 0
       }
     ]
   },
   "untracked": [],
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "title": "2017 Fair Share Report",
+      "source": "NYC City Council",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Ll55Of2018",
+      "source": "nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Borden Ave Updated Deck",
+      "source": "nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "format": "pdf"
+    }
+  ],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -617,6 +642,87 @@
           "title": "Who is running for New York comptroller?",
           "url": "https://www.cityandstateny.com/politics/2026/06/who-running-new-york-comptroller/414261/",
           "published_at": "2026-06-17T17:56:48-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:d244910f4d37",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Who's Minding the Storefronts?",
+      "agency": null,
+      "published_date": "2026-06-04",
+      "url": "https://comptroller.nyc.gov/reports/whos-minding-the-storefronts",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/whos-minding-the-storefronts",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 8.602059991327963,
+      "rationale": [
+        "1 news article linking the exact report URL",
+        "1 social post sharing the exact link with 3 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 8.602059991327963,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 3,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "PS—The map I screenshot comes from the report by the Office of the NYC Comptroller that was the subject of the news article in the quoted post:\n\n\"Who’s Minding the Storefronts? An Analysis of Storefro",
+          "url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mnhr7juks22c",
+          "published_at": "2026-06-04T13:48:02.401000+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "PEDESTRIANIZE NOW! Financial District Businesses Want Space for People Not Cars",
+          "url": "https://nyc.streetsblog.org/2026/06/22/financial-district-businesses-clamor-for-space-for-people-not-cars",
+          "published_at": "2026-06-22T04:05:00+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -2335,8 +2441,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4127,6 +4233,225 @@
       "is_new": false
     },
     {
+      "id": "council:9a2d4e886151",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "2017 Fair Share Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf",
+      "document_url": "https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf",
+      "heat_url": "https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Brooklynites Sue Over Shelter Burden as City Hall Vows for ‘Fair Share’ Everywhere",
+          "url": "https://www.thecityreporter.nyc/2026/06/22/greenwood-sunset-park-homeless-shelter-lawsuit/",
+          "published_at": "2026-06-22T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:90d34463abf6",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Ll55Of2018",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf",
+      "document_url": "https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf",
+      "heat_url": "https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "New York City’s Most Serious Housing Violations Stay Open for Months or Even Years",
+          "url": "https://nysfocus.com/2026/06/22/nyc-hpd-housing-violations-unresolved-complaints",
+          "published_at": "2026-06-22T05:00:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:dbc405d8eb65",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Borden Ave Updated Deck",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "document_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "heat_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Eyes on the Street: Another Review of the Review Avenue Bike Lane",
+          "url": "https://nyc.streetsblog.org/2026/06/22/eyes-on-the-street-another-review-of-the-review-avenue-bike-lane",
+          "published_at": "2026-06-22T04:02:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
       "id": "nyc_comptroller:a484acbf1212",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -4639,79 +4964,6 @@
           "title": "Link to audit:\n\ncomptroller.nyc.gov/reports/audi...",
           "url": "https://bsky.app/profile/jennired83.bsky.social/post/3mo6uorogi22b",
           "published_at": "2026-06-13T18:21:29.113000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc_comptroller:d244910f4d37",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Who's Minding the Storefronts?",
-      "agency": null,
-      "published_date": "2026-06-04",
-      "url": "https://comptroller.nyc.gov/reports/whos-minding-the-storefronts",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/whos-minding-the-storefronts",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 2.6020599913279625,
-      "rationale": [
-        "1 social post sharing the exact link with 3 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.6020599913279625,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 3,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "PS—The map I screenshot comes from the report by the Office of the NYC Comptroller that was the subject of the news article in the quoted post:\n\n\"Who’s Minding the Storefronts? An Analysis of Storefro",
-          "url": "https://bsky.app/profile/bdlimm.myatproto.social/post/3mnhr7juks22c",
-          "published_at": "2026-06-04T13:48:02.401000+00:00",
           "confidence": "exact_url"
         }
       ],
