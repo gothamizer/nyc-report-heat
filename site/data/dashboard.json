@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T16:14:10+00:00",
+  "generated_at": "2026-06-23T14:02:57+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1346,
-    "with_heat": 66,
-    "new_count": 3,
+    "total": 1348,
+    "with_heat": 68,
+    "new_count": 2,
     "by_kind": {
-      "report": 1195,
+      "report": 1197,
       "rule": 151
     },
     "by_format": {
       "html": 321,
-      "pdf": 951,
+      "pdf": 953,
       "xlsx": 26,
       "unknown": 48
     },
@@ -40,12 +40,12 @@
         "count": 59
       },
       {
-        "name": "NYPD",
+        "name": "NYC Housing Authority",
         "count": 55
       },
       {
-        "name": "NYC Housing Authority",
-        "count": 54
+        "name": "NYPD",
+        "count": 55
       },
       {
         "name": "NYC Department of Consumer & Worker Protection",
@@ -152,16 +152,16 @@
         "count": 5
       },
       {
+        "name": "NYC Department of City Planning",
+        "count": 4
+      },
+      {
         "name": "nyc.gov",
         "count": 4
       },
       {
         "name": "NYC Department of Youth & Community Development",
         "count": 4
-      },
-      {
-        "name": "NYC Department of City Planning",
-        "count": 3
       },
       {
         "name": "NYC Mayor's Office of Operations",
@@ -191,22 +191,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1346,
+        "checked": 1348,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1346,
+        "checked": 1348,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1346,
+        "checked": 1348,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1346,
+        "checked": 1348,
         "errors": 0
       }
     ]
@@ -214,27 +214,19 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "2017 Fair Share Report",
-      "source": "NYC City Council",
+      "title": "About Cpc 260062",
+      "source": "NYC Department of City Planning",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf",
+      "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf",
       "format": "pdf"
     },
     {
-      "title": "Ll55Of2018",
-      "source": "nyc.gov",
+      "title": "Nycha Chelsea",
+      "source": "NYC Housing Authority",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Borden Ave Updated Deck",
-      "source": "nyc.gov",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf",
       "format": "pdf"
     }
   ],
@@ -668,8 +660,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2514,8 +2506,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2587,8 +2579,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2660,8 +2652,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2733,8 +2725,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2806,8 +2798,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4252,8 +4244,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4303,7 +4295,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc.gov:90d34463abf6",
@@ -4325,8 +4317,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4376,7 +4368,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc.gov:dbc405d8eb65",
@@ -4389,6 +4381,79 @@
       "url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
       "document_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
       "heat_url": "https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Eyes on the Street: Another Review of the Review Avenue Bike Lane",
+          "url": "https://nyc.streetsblog.org/2026/06/22/eyes-on-the-street-another-review-of-the-review-avenue-bike-lane",
+          "published_at": "2026-06-22T04:02:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "dcp:effe204d1d50",
+      "source": "NYC Department of City Planning",
+      "source_id": "dcp",
+      "kind": "report",
+      "title": "About Cpc 260062",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf",
+      "document_url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf",
+      "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -4443,9 +4508,82 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Eyes on the Street: Another Review of the Review Avenue Bike Lane",
-          "url": "https://nyc.streetsblog.org/2026/06/22/eyes-on-the-street-another-review-of-the-review-avenue-bike-lane",
-          "published_at": "2026-06-22T04:02:00+00:00",
+          "title": "NYC Housing Calendar, June 22-29",
+          "url": "https://citylimits.org/nyc-housing-calendar-june-22-29/",
+          "published_at": "2026-06-22T22:15:02+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nycha:b2f9713b67b9",
+      "source": "NYC Housing Authority",
+      "source_id": "nycha",
+      "kind": "report",
+      "title": "Nycha Chelsea",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf",
+      "document_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf",
+      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "What NY’s Congressional Primary Candidates Have Said About NYCHA",
+          "url": "https://citylimits.org/what-nys-congressional-primary-candidates-have-said-about-nycha/",
+          "published_at": "2026-06-22T21:01:05+00:00",
           "confidence": "exact_url"
         }
       ],

@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-22T16:14:10+00:00
-Candidates ranked: 1346
-New candidates: 3
+Generated: 2026-06-23T14:02:57+00:00
+Candidates ranked: 1348
+New candidates: 2
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,6 +68,5 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- 2017 Fair Share Report | NYC City Council | unknown date | https://council.nyc.gov/wp-content/uploads/2017/02/2017-Fair-Share-Report.pdf
-- Ll55Of2018 | nyc.gov | unknown date | https://www.nyc.gov/assets/buildings/local_laws/ll55of2018.pdf
-- Borden Ave Updated Deck | nyc.gov | unknown date | https://www.nyc.gov/assets/queenscb2/downloads/pdf/2026/Borden-Ave-Updated-Deck.pdf
+- About Cpc 260062 | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf
+- Nycha Chelsea | NYC Housing Authority | unknown date | https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf
