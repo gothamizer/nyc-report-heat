@@ -106,3 +106,29 @@ def test_untracked_is_report_like_and_deduped() -> None:
     merged = rows[0]
     assert merged["mentions"] == 2
     assert merged["providers"] == ["bluesky", "newsrss"]
+
+
+def test_report_like_url_rejects_org_service_and_press_pages() -> None:
+    from nyc_report_heat.io import report_like_url
+
+    # genuine reports/documents stay in
+    assert report_like_url("https://comptroller.nyc.gov/reports/latine-fact-sheet")
+    assert report_like_url("https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf")
+    assert report_like_url("https://www.schools.nyc.gov/school-life/school-environment/immigrant-families/protocols-for-non-local-law-enforcement")
+    assert report_like_url("https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining")
+
+    # a document file passes wherever it sits, even if its directory path
+    # contains words like "about" or "services"
+    assert report_like_url("https://www.nyc.gov/assets/hpd/downloads/pdfs/services/mih-fact-sheet.pdf")
+    assert report_like_url("https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-findings.pdf")
+
+    # org / about / service / blog / press-release pages are not reports
+    assert not report_like_url("https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml")
+    assert not report_like_url("https://www.osc.ny.gov/about/comptroller-biography")
+    assert not report_like_url("https://www.nyc.gov/assets/mwbe?page=about")
+    assert not report_like_url("https://advocate.nyc.gov/blog/fans-cooler-nyc")
+    assert not report_like_url("https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled")
+    assert not report_like_url("https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong")
+
+    # a calendar/agenda PDF is dropped despite being a document: topic, not format
+    assert not report_like_url("https://www.nyc.gov/assets/lpc/downloads/pdf/calendar/06_23_26.pdf")

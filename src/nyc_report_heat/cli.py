@@ -7,7 +7,7 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from nyc_report_heat.adoption import adopt_from_mentions
+from nyc_report_heat.adoption import ADOPTED_SUMMARY, adopt_from_mentions
 from nyc_report_heat.config import Settings, load_settings
 from nyc_report_heat.discovery import discover_all, lookback_date
 from nyc_report_heat.harvest import (
@@ -221,8 +221,14 @@ def daily(
         source_ids=settings.source_ids,
         discovered_after=lookback_date(settings.daily_discovery_lookback_days),
     )
-    new_candidates = diff_candidates(previous, discovered)
-    current = merge_candidates(previous, discovered)
+    # Adoption is re-derived from the mention store each run, so the inventory
+    # base is discovered candidates only — previously adopted ones are dropped
+    # here and recomputed below, which lets a tightened report_like_url filter
+    # retroactively clean out items that no longer qualify.
+    prior_adopted_urls = {c.url for c in previous if c.summary == ADOPTED_SUMMARY}
+    discovered_base = [c for c in previous if c.summary != ADOPTED_SUMMARY]
+    new_candidates = diff_candidates(discovered_base, discovered)
+    current = merge_candidates(discovered_base, discovered)
 
     _run_harvest(settings)
 
@@ -232,7 +238,7 @@ def daily(
     adopted = adopt_from_mentions(read_mention_store(MENTIONS_STORE), current, client)
     if adopted:
         current = merge_candidates(current, adopted)
-        new_candidates = new_candidates + adopted
+        new_candidates = new_candidates + [c for c in adopted if c.url not in prior_adopted_urls]
 
     write_candidates(candidates_path, current)
     write_candidates(new_path, new_candidates)

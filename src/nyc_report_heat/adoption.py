@@ -20,6 +20,10 @@ from nyc_report_heat.io import report_like_url
 from nyc_report_heat.models import Candidate, HarvestedMention
 from nyc_report_heat.urltools import detect_format, filename_from_url, normalize_url
 
+# Marker stored on adopted candidates so the daily run can re-derive them from
+# the mention store each time, re-applying the current report_like_url filter.
+ADOPTED_SUMMARY = "Adopted from public pickups of this link."
+
 # Known hosts -> (source_id prefix, source name). nyc.gov paths are attributed
 # through AGENCY_SOURCES url_filters below; anything else keeps its host as
 # the source so attribution stays honest.
@@ -125,7 +129,7 @@ def adopt_from_mentions(
                 url=canonical,
                 document_url=canonical if fmt in {"pdf", "docx", "xlsx"} else None,
                 published_date=extract_date(filename_from_url(canonical) or ""),
-                summary="Adopted from public pickups of this link.",
+                summary=ADOPTED_SUMMARY,
                 format=fmt if fmt != "unknown" else "html",  # type: ignore[arg-type]
                 source_page=None,
             )

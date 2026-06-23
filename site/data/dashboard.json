@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T14:02:57+00:00",
+  "generated_at": "2026-06-23T16:57:31+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,15 +13,15 @@
     "reddit"
   ],
   "stats": {
-    "total": 1348,
-    "with_heat": 68,
-    "new_count": 2,
+    "total": 1340,
+    "with_heat": 60,
+    "new_count": 0,
     "by_kind": {
-      "report": 1197,
+      "report": 1189,
       "rule": 151
     },
     "by_format": {
-      "html": 321,
+      "html": 313,
       "pdf": 953,
       "xlsx": 26,
       "unknown": 48
@@ -104,15 +104,11 @@
         "count": 36
       },
       {
-        "name": "NYC Comptroller",
-        "count": 32
-      },
-      {
         "name": "NYC Conflicts of Interest Board",
         "count": 32
       },
       {
-        "name": "NYC Public Advocate",
+        "name": "NYC Comptroller",
         "count": 31
       },
       {
@@ -120,8 +116,12 @@
         "count": 30
       },
       {
+        "name": "NYC Public Advocate",
+        "count": 29
+      },
+      {
         "name": "NYS Comptroller",
-        "count": 23
+        "count": 20
       },
       {
         "name": "NYC Department of Correction",
@@ -156,15 +156,15 @@
         "count": 4
       },
       {
-        "name": "nyc.gov",
-        "count": 4
-      },
-      {
         "name": "NYC Department of Youth & Community Development",
         "count": 4
       },
       {
         "name": "NYC Mayor's Office of Operations",
+        "count": 3
+      },
+      {
+        "name": "nyc.gov",
         "count": 3
       },
       {
@@ -182,54 +182,33 @@
       {
         "name": "a816-dohbesp.nyc.gov",
         "count": 1
-      },
-      {
-        "name": "bronxda.nyc.gov",
-        "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1348,
+        "checked": 1340,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1348,
+        "checked": 1340,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1348,
+        "checked": 1340,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1348,
+        "checked": 1340,
         "errors": 0
       }
     ]
   },
   "untracked": [],
-  "new_candidates": [
-    {
-      "title": "About Cpc 260062",
-      "source": "NYC Department of City Planning",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/about/cpc/260062.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Nycha Chelsea",
-      "source": "NYC Housing Authority",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Chelsea.pdf",
-      "format": "pdf"
-    }
-  ],
+  "new_candidates": [],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -554,86 +533,6 @@
           "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
           "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
           "published_at": "2026-06-12T04:05:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nys_comptroller:843924818e07",
-      "source": "NYS Comptroller",
-      "source_id": "nys_comptroller",
-      "kind": "report",
-      "title": "DiNapoli: State Pension Fund Posts Strong 11.94% Annual Return, Closes at Record High of $295.4 Billion",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
-      "document_url": null,
-      "heat_url": "https://www.osc.ny.gov/press/releases/2026/05/dinapoli-state-pension-fund-posts-strong-11-point-94-percent-annual-return-closes-at-record-high-295-point-4-billion",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 12.0,
-      "rationale": [
-        "2 news articles linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 12.0,
-          "exact_url_mentions": 2,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 12.0,
-          "exact_url_mentions": 2,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat",
-          "url": "https://gothamist.com/news/ny-comptroller-dinapoli-says-hes-running-on-his-record-as-progressives-vie-for-seat",
-          "published_at": "2026-06-18T10:31:02+00:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "newsrss",
-          "title": "Who is running for New York comptroller?",
-          "url": "https://www.cityandstateny.com/politics/2026/06/who-running-new-york-comptroller/414261/",
-          "published_at": "2026-06-17T17:56:48-04:00",
           "confidence": "exact_url"
         }
       ],
@@ -2108,79 +2007,6 @@
       "is_new": false
     },
     {
-      "id": "nys_comptroller:65f6a57ec4d1",
-      "source": "NYS Comptroller",
-      "source_id": "nys_comptroller",
-      "kind": "report",
-      "title": "Biography of the New York State Comptroller Thomas P. DiNapoli",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.osc.ny.gov/about/comptroller-biography",
-      "document_url": null,
-      "heat_url": "https://www.osc.ny.gov/about/comptroller-biography",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Your guide to voting in NYC congressional and state comptroller primaries",
-          "url": "https://gothamist.com/news/your-guide-to-voting-in-nyc-congressional-and-state-comptroller-primaries",
-          "published_at": "2026-06-13T12:01:06+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "ibo.nyc.gov:cbc2fbc2b3d0",
       "source": "ibo.nyc.gov",
       "source_id": "ibo.nyc.gov",
@@ -2692,79 +2518,6 @@
       "is_new": false
     },
     {
-      "id": "nyc_comptroller:d6fd31512a17",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Claims Filed & Settled",
-      "agency": null,
-      "published_date": null,
-      "url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/services/for-the-public/claims-dashboard/claims-filed-settled",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "To Protect and Unnerve: Cop Hits Cyclist With Squad Car … In a Protected Bike Lane!",
-          "url": "https://nyc.streetsblog.org/2026/06/16/to-protect-and-unnerve-cop-hits-cyclist-with-squad-car-in-a-protected-bike-lane",
-          "published_at": "2026-06-16T04:03:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "nyc_comptroller:7109f49c18a4",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -2838,79 +2591,6 @@
       "is_new": false
     },
     {
-      "id": "bronxda.nyc.gov:139cf6cc1139",
-      "source": "bronxda.nyc.gov",
-      "source_id": "bronxda.nyc.gov",
-      "kind": "report",
-      "title": "Investigations Division",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
-      "document_url": null,
-      "heat_url": "https://www.bronxda.nyc.gov/html/bureaus/investigations-division.shtml",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "How to avoid rental scams in NYC, and what to do if you become the victim of one",
-          "url": "https://gothamist.com/news/how-to-avoid-rental-scams-in-nyc-and-what-to-do-if-you-become-the-victim-of-one",
-          "published_at": "2026-06-17T10:01:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "council:8d740bf13d80",
       "source": "NYC City Council",
       "source_id": "council",
@@ -2978,79 +2658,6 @@
           "title": "Mamdani Makes World-Cup Stop at Shelter Plagued by Complaints About Bed Bugs, Poor Food",
           "url": "https://www.thecityreporter.nyc/2026/06/16/mamdani-world-cup-bruckner-shelter/",
           "published_at": "2026-06-17T02:21:54+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nyc.gov:412d4c9756a9",
-      "source": "nyc.gov",
-      "source_id": "nyc.gov",
-      "kind": "report",
-      "title": "Mayor's Office of Minority and Women-owned Business Enterprises",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/assets/mwbe?page=about",
-      "document_url": null,
-      "heat_url": "https://www.nyc.gov/assets/mwbe?page=about",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "Who’s who in Zohran Mamdani’s administration?",
-          "url": "https://www.cityandstateny.com/politics/2026/06/whos-who-zohran-mamdanis-administration/409701/",
-          "published_at": "2026-06-16T17:28:25-04:00",
           "confidence": "exact_url"
         }
       ],
@@ -3360,79 +2967,6 @@
       "document_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
       "heat_url": "https://www.osc.ny.gov/files/reports/pdf/2025-year-in-review.pdf",
       "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "NY Comptroller DiNapoli says he’s running on his record, as progressives vie for seat",
-          "url": "https://gothamist.com/news/ny-comptroller-dinapoli-says-hes-running-on-his-record-as-progressives-vie-for-seat",
-          "published_at": "2026-06-18T10:31:02+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "nys_comptroller:92d49cecd8e6",
-      "source": "NYS Comptroller",
-      "source_id": "nys_comptroller",
-      "kind": "report",
-      "title": "DiNapoli: NY State Pension Fund Purchases $20 Million in State of Israel Bonds",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
-      "document_url": null,
-      "heat_url": "https://www.osc.ny.gov/press/releases/2023/10/dinapoli-ny-state-pension-fund-purchases-20-million-state-israel-bonds",
-      "format": "html",
       "source_page": null,
       "rank_window": "30d",
       "heat_score": 6.0,
@@ -4514,7 +4048,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nycha:b2f9713b67b9",
@@ -4587,7 +4121,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:a484acbf1212",
@@ -4816,79 +4350,6 @@
       "is_new": false
     },
     {
-      "id": "pubadvocate:d9b43887e3cf",
-      "source": "NYC Public Advocate",
-      "source_id": "pubadvocate",
-      "kind": "report",
-      "title": "Fans for a Cooler NYC",
-      "agency": null,
-      "published_date": null,
-      "url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
-      "document_url": null,
-      "heat_url": "https://advocate.nyc.gov/blog/fans-cooler-nyc",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.845098040014257,
-      "rationale": [
-        "1 social post sharing the exact link with 6 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 2.845098040014257,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 6,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.845098040014257,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 6,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "New York City is HOT 🥵, and it’s not just because of the Knicks or the World Cup.\n\nAs temperatures climb this afternoon, learn how you can stay safe in extreme heat this summer, and become a fan for c",
-          "url": "https://bsky.app/profile/advocate.nyc.gov/post/3molfkzh6sl2v",
-          "published_at": "2026-06-18T17:55:33.388541+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "nyc_comptroller:4243edf0db66",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -5102,79 +4563,6 @@
           "title": "Link to audit:\n\ncomptroller.nyc.gov/reports/audi...",
           "url": "https://bsky.app/profile/jennired83.bsky.social/post/3mo6uorogi22b",
           "published_at": "2026-06-13T18:21:29.113000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "pubadvocate:21f76b515d71",
-      "source": "NYC Public Advocate",
-      "source_id": "pubadvocate",
-      "kind": "report",
-      "title": "Resources to Protect & Defend Immigrant Communities",
-      "agency": null,
-      "published_date": null,
-      "url": "https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities",
-      "document_url": null,
-      "heat_url": "https://advocate.nyc.gov/blog/resources-to-protect-and-defend-immigrant-communities",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.4771212547196626,
-      "rationale": [
-        "1 social post sharing the exact link with 2 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.4771212547196626,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 2,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "🔥KNOW YOUR RIGHTS: IMMIGRANTS & American CITIZENS‼️\n🔺 ICE  is NOT DEPORTING, ICE IS KIDNAPPING & HUMAN TRAFFICKING\nto FILL🖕MAGAT PRIVATE CONCENTRATION CAMPS🔺\n&\n🚩 ICE GETS PAID BY The SCALP Regardless ",
-          "url": "https://bsky.app/profile/teeshasmom2.bsky.social/post/3mnjhfdbujc2x",
-          "published_at": "2026-06-05T05:57:38.874000+00:00",
           "confidence": "exact_url"
         }
       ],

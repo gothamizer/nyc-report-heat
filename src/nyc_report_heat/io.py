@@ -63,15 +63,31 @@ UNTRACKED_EXCLUDE_HOSTS = {
     "a858-nycnotify.nyc.gov",  # NotifyNYC alert portal
     "zap.planning.nyc.gov",  # land-use application records
 }
-UNTRACKED_EXCLUDE_PATH_PARTS = (
+# Topic exclusions: the wrong KIND of content regardless of file format, so a
+# calendar or press-release PDF is dropped just like the HTML version.
+UNTRACKED_EXCLUDE_TOPIC_PARTS = (
     "/news/",  # press releases and statements
     "/newsroom/",  # press releases and statements
+    "/press/releases/",  # press releases (e.g. osc.ny.gov/press/releases/...)
     "/events",  # event listings
-    "/calendar",  # hearing/meeting calendars
+    "/calendar",  # hearing/meeting calendars and agendas
     "/jobs",  # job boards
     "/main/",  # nyc.gov campaign/landing pages
     "/home/",  # agency homepages (e.g. /html/dot/html/home/home.shtml)
 )
+# Page-shape exclusions: navigational/org/service HTML pages. These only apply
+# to non-document URLs — a real PDF in a directory called "services" or "about"
+# is still a report, so documents bypass these.
+UNTRACKED_EXCLUDE_PAGE_PARTS = (
+    "/blog/",  # blog posts
+    "/services/",  # service tools and public-facing dashboards
+)
+# Any of these as a whole path segment marks an org/navigation/about page
+# (e.g. bronxda.nyc.gov/html/bureaus/investigations-division).
+UNTRACKED_EXCLUDE_SEGMENTS = {
+    "about", "bureaus", "bureau", "leadership", "staff", "biography",
+    "contact", "faq", "faqs", "divisions", "our-office",
+}
 UNTRACKED_EXCLUDE_LAST_SEGMENTS = {
     "pages",  # nyc.gov /content/<agency>/pages section homes
     "index.page",  # nyc.gov agency homepages
@@ -82,29 +98,45 @@ UNTRACKED_EXCLUDE_LAST_SEGMENTS = {
 DATED_POST_PATH = re.compile(r"/20\d\d/\d\d/\d\d/")
 
 
+_DOCUMENT_EXT = re.compile(r"\.(pdf|docx?|xlsx?|csv)$", re.I)
+
+
 def report_like_url(canonical_url: str) -> bool:
     host = canonical_url.split("/")[2] if "//" in canonical_url else ""
     host = host.removeprefix("www.")
     if host in UNTRACKED_EXCLUDE_HOSTS:
         return False
-    path = "/" + "/".join(canonical_url.split("/")[3:])
+    path_with_query = "/" + "/".join(canonical_url.split("/")[3:])
+    path = path_with_query.split("?", 1)[0]
     path_lower = path.lower()
-    if any(part in path_lower for part in UNTRACKED_EXCLUDE_PATH_PARTS):
-        return False
-    if DATED_POST_PATH.search(path_lower + "/"):
-        return False
-    # On nyc.gov, report artifacts are documents or live under /assets/,
-    # the document store; HTML pages elsewhere (/site/, /content/, /html/)
-    # are service, program, and navigation pages, not reports.
-    if (
-        host in {"nyc.gov", "home4.nyc.gov"}
-        and not path_lower.startswith("/assets/")
-        and not re.search(r"\.(pdf|docx?|xlsx?|csv)$", path_lower)
-    ):
-        return False
     segments = [seg for seg in path.split("/") if seg]
     if len(segments) < 2:
         return False  # homepages and section indexes, not documents
+
+    # Topic filters apply to any format: a calendar or press-release PDF is no
+    # more a report than its HTML version.
+    if any(part in path_lower for part in UNTRACKED_EXCLUDE_TOPIC_PARTS):
+        return False
+    if DATED_POST_PATH.search(path_lower + "/"):
+        return False
+
+    # A document file is a report artifact wherever it sits — words like
+    # "about" or "services" in its directory path describe the folder, not the
+    # file — so the page-shape filters below don't apply to it.
+    if _DOCUMENT_EXT.search(path_lower):
+        return True
+
+    if "page=about" in path_with_query.lower():
+        return False  # ?page=about and similar about-page query views
+    if any(part in path_lower for part in UNTRACKED_EXCLUDE_PAGE_PARTS):
+        return False
+    # On nyc.gov, report artifacts are documents or live under /assets/, the
+    # document store; HTML pages elsewhere (/site/, /content/, /html/) are
+    # service, program, and navigation pages, not reports.
+    if host in {"nyc.gov", "home4.nyc.gov"} and not path_lower.startswith("/assets/"):
+        return False
+    if any(seg.lower() in UNTRACKED_EXCLUDE_SEGMENTS for seg in segments):
+        return False  # org/navigation/about pages
     if segments[-1].lower() in UNTRACKED_EXCLUDE_LAST_SEGMENTS:
         return False
     return True
