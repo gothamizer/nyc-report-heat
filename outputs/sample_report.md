@@ -9,15 +9,12 @@
 - URL: https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 15.079181246047625
-- Mentions: news links 2, social 1 (engagement 11), filename 0
-- Rationale: 2 news articles linking the exact report URL; 1 social post sharing the exact link with 11 total engagement
+- Heat score (30d): 12.0
+- Mentions: news links 2, social 0 (engagement 0), filename 0
+- Rationale: 2 news articles linking the exact report URL
 
 Evidence:
 - newsrss: What Mamdani got – and didn’t get – from Albany this year
-- bluesky: It’s beyond reasonable. It begins at >.5%, and scales to 4% of value of $5M. comptroller.nyc.gov/reports/the-...
-
-Please no “what about” isms here. It’s good.
 - newsrss: What’s in the 2026 State Budget? Here’s What To Know.
 
 ## 2. Citywide Truck Routes

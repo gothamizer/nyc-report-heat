@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T16:57:31+00:00",
+  "generated_at": "2026-06-24T13:40:51+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -224,10 +224,9 @@
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
-      "heat_score": 15.079181246047625,
+      "heat_score": 12.0,
       "rationale": [
-        "2 news articles linking the exact report URL",
-        "1 social post sharing the exact link with 11 total engagement"
+        "2 news articles linking the exact report URL"
       ],
       "windows": {
         "today": {
@@ -259,12 +258,12 @@
           ]
         },
         "30d": {
-          "score": 15.079181246047625,
+          "score": 12.0,
           "exact_url_mentions": 2,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 11,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -279,13 +278,6 @@
           "title": "What Mamdani got – and didn’t get – from Albany this year",
           "url": "https://www.cityandstateny.com/policy/2026/06/what-mamdani-got-and-didnt-get-albany-year/414015/",
           "published_at": "2026-06-05T17:37:46-04:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "bluesky",
-          "title": "It’s beyond reasonable. It begins at >.5%, and scales to 4% of value of $5M. comptroller.nyc.gov/reports/the-...\n\nPlease no “what about” isms here. It’s good.",
-          "url": "https://bsky.app/profile/mee-ny.bsky.social/post/3mmmv2tjyws2j",
-          "published_at": "2026-05-24T21:15:06.800000+00:00",
           "confidence": "exact_url"
         },
         {
@@ -799,8 +791,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2624,8 +2616,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2697,8 +2689,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2770,8 +2762,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2843,8 +2835,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -2916,8 +2908,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3997,8 +3989,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4070,8 +4062,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4427,7 +4419,7 @@
       "source": "NYC Independent Budget Office",
       "source_id": "ibo",
       "kind": "report",
-      "title": "New York City Fiscal History-Police Department",
+      "title": "Independent Budget Office",
       "agency": null,
       "published_date": null,
       "url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
@@ -86997,201 +86989,6 @@
       "is_new": false
     },
     {
-      "id": "omb:fa07bf92943a",
-      "source": "NYC Office of Management & Budget",
-      "source_id": "omb",
-      "kind": "report",
-      "title": "Omb Exec26 Erc5 26",
-      "agency": null,
-      "published_date": null,
-      "url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "document_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "heat_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
-      "id": "omb:6536e8903f84",
-      "source": "NYC Office of Management & Budget",
-      "source_id": "omb",
-      "kind": "report",
-      "title": "Omb Exec26 Sp5 26",
-      "agency": null,
-      "published_date": null,
-      "url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
-      "document_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
-      "heat_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
-      "id": "council:6b36ebc129af",
-      "source": "NYC City Council",
-      "source_id": "council",
-      "kind": "report",
-      "title": "The Budget Process",
-      "agency": null,
-      "published_date": null,
-      "url": "https://council.nyc.gov/budget/process",
-      "document_url": null,
-      "heat_url": "https://council.nyc.gov/budget/process",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
       "id": "coib:d6aabe9df215",
       "source": "NYC Conflicts of Interest Board",
       "source_id": "coib",
@@ -87789,6 +87586,201 @@
       "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/LL-95-of-2023-FY26Q1.pdf",
       "format": "pdf",
       "source_page": "https://www.nyc.gov/site/dhs/about/stats-and-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "omb:fa07bf92943a",
+      "source": "NYC Office of Management & Budget",
+      "source_id": "omb",
+      "kind": "report",
+      "title": "Omb Exec26 Erc5 26",
+      "agency": null,
+      "published_date": null,
+      "url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "document_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "heat_url": "https://nyc.gov/assets/omb/downloads/pdf/exec26/erc5-26.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "omb:6536e8903f84",
+      "source": "NYC Office of Management & Budget",
+      "source_id": "omb",
+      "kind": "report",
+      "title": "Omb Exec26 Sp5 26",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "document_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "heat_url": "https://www.nyc.gov/assets/omb/downloads/pdf/exec26/sp5-26.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "council:6b36ebc129af",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "The Budget Process",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/budget/process",
+      "document_url": null,
+      "heat_url": "https://council.nyc.gov/budget/process",
+      "format": "html",
+      "source_page": null,
       "rank_window": "30d",
       "heat_score": 0.0,
       "rationale": [
