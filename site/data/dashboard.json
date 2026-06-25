@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T13:40:51+00:00",
+  "generated_at": "2026-06-25T13:41:22+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1340,
-    "with_heat": 60,
-    "new_count": 0,
+    "total": 1343,
+    "with_heat": 62,
+    "new_count": 3,
     "by_kind": {
-      "report": 1189,
+      "report": 1192,
       "rule": 151
     },
     "by_format": {
-      "html": 313,
-      "pdf": 953,
+      "html": 315,
+      "pdf": 954,
       "xlsx": 26,
       "unknown": 48
     },
@@ -101,15 +101,15 @@
       },
       {
         "name": "NYC Mayor's Office of Criminal Justice",
-        "count": 36
+        "count": 37
+      },
+      {
+        "name": "NYC Comptroller",
+        "count": 32
       },
       {
         "name": "NYC Conflicts of Interest Board",
         "count": 32
-      },
-      {
-        "name": "NYC Comptroller",
-        "count": 31
       },
       {
         "name": "NYC Department for the Aging",
@@ -145,7 +145,7 @@
       },
       {
         "name": "NYC City Council",
-        "count": 9
+        "count": 10
       },
       {
         "name": "NYC Department of Environmental Protection",
@@ -187,28 +187,53 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1340,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1340,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1340,
+        "checked": 1343,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1340,
+        "checked": 1343,
         "errors": 0
       }
     ]
   },
   "untracked": [],
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "title": "NYC Council Responds to Administration’s Appeal Seeking to Overturn CityFHEPS Reform Laws",
+      "source": "NYC City Council",
+      "kind": "report",
+      "published_date": "2026-06-24",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "NYC Youth Crime in Context: Arrest & Recidivism - NYC - Mayor's Office of Criminal Justice",
+      "source": "NYC Mayor's Office of Criminal Justice",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://criminaljustice.cityofnewyork.us/reports/nyc-youth-crime-in-context-arrest-recidivism",
+      "format": "html"
+    },
+    {
+      "title": "Ensuring Timely Trials",
+      "source": "NYC Comptroller",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/ensuring-timely-trials",
+      "format": "html"
+    }
+  ],
   "items": [
     {
       "id": "nyc_comptroller:6f9f48790219",
@@ -2981,8 +3006,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3054,8 +3079,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3127,8 +3152,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3200,8 +3225,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3273,8 +3298,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3346,8 +3371,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -3419,8 +3444,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4114,6 +4139,152 @@
         }
       ],
       "is_new": false
+    },
+    {
+      "id": "mocj:39d636eaf82a",
+      "source": "NYC Mayor's Office of Criminal Justice",
+      "source_id": "mocj",
+      "kind": "report",
+      "title": "NYC Youth Crime in Context: Arrest & Recidivism - NYC - Mayor's Office of Criminal Justice",
+      "agency": null,
+      "published_date": null,
+      "url": "https://criminaljustice.cityofnewyork.us/reports/nyc-youth-crime-in-context-arrest-recidivism",
+      "document_url": null,
+      "heat_url": "https://criminaljustice.cityofnewyork.us/reports/nyc-youth-crime-in-context-arrest-recidivism",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "NYC teens say jobs and mental health, not policing, would curb violence",
+          "url": "https://gothamist.com/news/nyc-teens-say-jobs-and-mental-health-not-policing-would-curb-violence",
+          "published_at": "2026-06-24T15:01:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc_comptroller:db656ee9aa22",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Ensuring Timely Trials",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/ensuring-timely-trials",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/ensuring-timely-trials",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "14 People Released From Rikers By New Jail Boss Using Little-Known Power",
+          "url": "https://www.thecityreporter.nyc/2026/06/25/rikers-early-release-stanley-richards-jail/",
+          "published_at": "2026-06-25T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
     },
     {
       "id": "nyc_comptroller:a484acbf1212",
@@ -87637,6 +87808,71 @@
       },
       "mentions": [],
       "is_new": false
+    },
+    {
+      "id": "council:bc4dcff00724",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "NYC Council Responds to Administration’s Appeal Seeking to Overturn CityFHEPS Reform Laws",
+      "agency": null,
+      "published_date": "2026-06-24",
+      "url": "https://council.nyc.gov/press/2026/06/24/3145",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
     },
     {
       "id": "omb:fa07bf92943a",

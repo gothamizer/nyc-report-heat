@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-24T13:40:51+00:00
-Candidates ranked: 1340
-New candidates: 0
+Generated: 2026-06-25T13:41:22+00:00
+Candidates ranked: 1343
+New candidates: 3
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,4 +68,6 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-No new candidates found.
+- NYC Council Responds to Administration’s Appeal Seeking to Overturn CityFHEPS Reform Laws | NYC City Council | 2026-06-24 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf
+- NYC Youth Crime in Context: Arrest & Recidivism - NYC - Mayor's Office of Criminal Justice | NYC Mayor's Office of Criminal Justice | unknown date | https://criminaljustice.cityofnewyork.us/reports/nyc-youth-crime-in-context-arrest-recidivism
+- Ensuring Timely Trials | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/ensuring-timely-trials
