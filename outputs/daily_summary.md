@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-06-25T13:41:22+00:00
-Candidates ranked: 1343
-New candidates: 3
+Generated: 2026-06-26T13:39:17+00:00
+Candidates ranked: 1347
+New candidates: 4
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -14,14 +14,14 @@ Rank window: 30d
 5. Who's Minding the Storefronts? | NYC Comptroller | heat 8.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
 6. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 7. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-8. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-9. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-10. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-11. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
-12. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
-13. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
-14. The Newest New Yorkers, 2026 | NYC Department of City Planning | heat 6.0 | https://www.nyc.gov/assets/planning/newest-new-yorkers-2026
-15. Ao2000 4 | NYC Conflicts of Interest Board | heat 6.0 | https://www.nyc.gov/assets/coib/downloads/pdf5/aos/2000-2003/AO2000_4.pdf
+8. Harlem River Greenway Implementation Plan (2025) | NYC Department of Transportation | heat 6.0 | https://www.nyc.gov/html/dot/downloads/pdf/harlem-river-greenway-implementation-plan.pdf
+9. 2023 Borough Pedestrian Safety Action Plans Update | NYC Department of Transportation | heat 6.0 | https://www.nyc.gov/html/dot/downloads/pdf/ped-safety-action-plan-update-2023.pdf
+10. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+11. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
+12. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+13. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+14. Mv En Us 084Sum | NYPD | heat 6.0 | https://www.nyc.gov/assets/nypd/downloads/pdf/traffic_data/mv-en-us-084sum.pdf
+15. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/media/Advocacy-Testimony-Fiscal-Year-2027-Executive-Budget-Hearing.pdf
 
 ## Top Reports/Publications
 
@@ -31,10 +31,10 @@ Rank window: 30d
 4. Who's Minding the Storefronts? | NYC Comptroller | heat 8.6 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
 5. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | NYC Housing Authority | heat 6.0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 6. Daily Report | NYC Department of Homeless Services | heat 6.0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-7. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-8. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-9. Flashreports 2026 04 | NYC Administration for Children's Services | heat 6.0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
-10. A brief history of redlining  – Environment & Health Data Portal | a816-dohbesp.nyc.gov | heat 6.0 | https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining
+7. Harlem River Greenway Implementation Plan (2025) | NYC Department of Transportation | heat 6.0 | https://www.nyc.gov/html/dot/downloads/pdf/harlem-river-greenway-implementation-plan.pdf
+8. 2023 Borough Pedestrian Safety Action Plans Update | NYC Department of Transportation | heat 6.0 | https://www.nyc.gov/html/dot/downloads/pdf/ped-safety-action-plan-update-2023.pdf
+9. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | NYC City Council | heat 6.0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
+10. Workersbillofrights English | NYC Department of Consumer & Worker Protection | heat 6.0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
 
 ## Top Rules
 
@@ -58,9 +58,9 @@ Rank window: 30d
 5. Who's Minding the Storefronts? | 30d heat 8.6 | news links 1 | social 1 (engagement 3) | filename 0 | https://comptroller.nyc.gov/reports/whos-minding-the-storefronts
 6. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/nycha/downloads/pdf/2023-PNA-Report-Physical-Needs-Assessment-NYCHA.pdf
 7. Daily Report | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf
-8. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
-9. Workersbillofrights English | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/dca/downloads/pdf/workers/WorkersBillOfRights-English.pdf
-10. Flashreports 2026 04 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/assets/acs/pdf/data-analysis/flashReports/2026/04.pdf
+8. Harlem River Greenway Implementation Plan (2025) | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/html/dot/downloads/pdf/harlem-river-greenway-implementation-plan.pdf
+9. 2023 Borough Pedestrian Safety Action Plans Update | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://www.nyc.gov/html/dot/downloads/pdf/ped-safety-action-plan-update-2023.pdf
+10. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027 | 30d heat 6.0 | news links 1 | social 0 (engagement 0) | filename 0 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf
 
 ## Shared But Untracked
 
@@ -68,6 +68,7 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- NYC Council Responds to Administration’s Appeal Seeking to Overturn CityFHEPS Reform Laws | NYC City Council | 2026-06-24 | https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf
-- NYC Youth Crime in Context: Arrest & Recidivism - NYC - Mayor's Office of Criminal Justice | NYC Mayor's Office of Criminal Justice | unknown date | https://criminaljustice.cityofnewyork.us/reports/nyc-youth-crime-in-context-arrest-recidivism
-- Ensuring Timely Trials | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/ensuring-timely-trials
+- Cs En Us 052Pct | NYPD | unknown date | https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-052pct.pdf
+- Bailey Sedgwick Aves W225 St Hall Of Fame Terr Apr2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/bailey-sedgwick-aves-w225-st-hall-of-fame-terr-apr2026.pdf
+- 116 St Morningside Ave Pleasant Ave Cb11 Jun2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/116-st-morningside-ave-pleasant-ave-cb11-jun2026.pdf
+- Life in the Slow Lane | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/life-in-the-slow-lane
