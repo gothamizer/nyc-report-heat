@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:39:17+00:00",
+  "generated_at": "2026-06-27T12:56:19+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1347,
-    "with_heat": 68,
-    "new_count": 4,
+    "total": 1350,
+    "with_heat": 71,
+    "new_count": 3,
     "by_kind": {
-      "report": 1196,
-      "rule": 151
+      "report": 1198,
+      "rule": 152
     },
     "by_format": {
-      "html": 316,
-      "pdf": 957,
+      "html": 317,
+      "pdf": 959,
       "xlsx": 26,
       "unknown": 48
     },
@@ -68,12 +68,12 @@
         "count": 50
       },
       {
-        "name": "NYC Department of Homeless Services",
+        "name": "NYC Rules - Proposed",
         "count": 44
       },
       {
-        "name": "NYC Rules - Proposed",
-        "count": 43
+        "name": "NYC Department of Homeless Services",
+        "count": 44
       },
       {
         "name": "NYC Board of Correction",
@@ -121,7 +121,7 @@
       },
       {
         "name": "NYS Comptroller",
-        "count": 20
+        "count": 21
       },
       {
         "name": "NYC Department of Correction",
@@ -160,16 +160,16 @@
         "count": 4
       },
       {
+        "name": "ibo.nyc.gov",
+        "count": 3
+      },
+      {
         "name": "NYC Mayor's Office of Operations",
         "count": 3
       },
       {
         "name": "nyc.gov",
         "count": 3
-      },
-      {
-        "name": "ibo.nyc.gov",
-        "count": 2
       },
       {
         "name": "NYC Office of Management & Budget",
@@ -187,22 +187,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1347,
+        "checked": 1350,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1347,
+        "checked": 1350,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1347,
+        "checked": 1350,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1347,
+        "checked": 1350,
         "errors": 0
       }
     ]
@@ -210,36 +210,28 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Cs En Us 052Pct",
-      "source": "NYPD",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/nypd/downloads/pdf/crime_statistics/cs-en-us-052pct.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Bailey Sedgwick Aves W225 St Hall Of Fame Terr Apr2026",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/bailey-sedgwick-aves-w225-st-hall-of-fame-terr-apr2026.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "116 St Morningside Ave Pleasant Ave Cb11 Jun2026",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/116-st-morningside-ave-pleasant-ave-cb11-jun2026.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Life in the Slow Lane",
-      "source": "NYC Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/life-in-the-slow-lane",
+      "title": "Amendment to Rules Governing RPTL § 421-a(16) Workbooks",
+      "source": "NYC Rules - Proposed",
+      "kind": "rule",
+      "published_date": "2026-08-04",
+      "heat_url": "https://rules.cityofnewyork.us/rule/amendment-to-rules-governing-rptl-%c2%a7-421-a16-workbooks",
       "format": "html"
+    },
+    {
+      "title": "Sga 2026 23N8",
+      "source": "NYS Comptroller",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-23n8.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "2026 May Demysifying Distress",
+      "source": "ibo.nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-demysifying-distress.pdf",
+      "format": "pdf"
     }
   ],
   "items": [
@@ -398,6 +390,86 @@
           "title": "Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls",
           "url": "https://nyc.streetsblog.org/2026/06/12/department-of-trucks-brooklynites-beg-for-relief-on-third-ave-as-safety-redesign-stalls",
           "published_at": "2026-06-12T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "council:3ed6828d83fe",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027",
+      "agency": null,
+      "published_date": "2026-06-09",
+      "url": "https://council.nyc.gov/press/2026/06/09/3134",
+      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
+      "format": "pdf",
+      "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 12.0,
+      "rationale": [
+        "2 news articles linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
+          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
+          "published_at": "2026-06-16T21:25:34+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "Menin delays budget handshake, pressing Mamdani on rental voucher expansion",
+          "url": "https://www.cityandstateny.com/policy/2026/06/menin-delays-budget-handshake-pressing-mamdani-rental-voucher-expansion/414465/",
+          "published_at": "2026-06-26T13:47:17-04:00",
           "confidence": "exact_url"
         }
       ],
@@ -564,6 +636,86 @@
       "is_new": false
     },
     {
+      "id": "nyc_comptroller:e57e8395804f",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "011625 Budget Briefing",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "document_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 12.0,
+      "rationale": [
+        "2 news articles linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
+          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
+          "published_at": "2026-06-16T21:25:34+00:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "NYC budget: City Council Speaker Menin says budget deal with Mamdani ‘stuck’ over funding for CityFHEPS rental assistance program",
+          "url": "https://www.amny.com/law/nyc-budget-menin-budget-stuck-cityfheps-mamdani/",
+          "published_at": "2026-06-26T19:00:19+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
       "id": "nyc_comptroller:d244910f4d37",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -639,6 +791,79 @@
           "title": "PEDESTRIANIZE NOW! Financial District Businesses Want Space for People Not Cars",
           "url": "https://nyc.streetsblog.org/2026/06/22/financial-district-businesses-clamor-for-space-for-people-not-cars",
           "published_at": "2026-06-22T04:05:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:5fe3134dab8a",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Comments on New York City’s Executive Budget for Fiscal Year 2027 an...",
+      "agency": null,
+      "published_date": "2026-06-09",
+      "url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Menin delays budget handshake, pressing Mamdani on rental voucher expansion",
+          "url": "https://www.cityandstateny.com/policy/2026/06/menin-delays-budget-handshake-pressing-mamdani-rental-voucher-expansion/414465/",
+          "published_at": "2026-06-26T13:47:17-04:00",
           "confidence": "exact_url"
         }
       ],
@@ -810,8 +1035,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -883,8 +1108,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -931,79 +1156,6 @@
           "title": "FDNY Brass Lobby Against Bronx Harlem River Greenway",
           "url": "https://nyc.streetsblog.org/2026/06/26/fdny-brass-lobby-against-bronx-harlem-river-greenway",
           "published_at": "2026-06-26T04:05:00+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
-      "id": "council:3ed6828d83fe",
-      "source": "NYC City Council",
-      "source_id": "council",
-      "kind": "report",
-      "title": "NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027",
-      "agency": null,
-      "published_date": "2026-06-09",
-      "url": "https://council.nyc.gov/press/2026/06/09/3134",
-      "document_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
-      "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/June-2026_Economic-and-Tax-Revenue-Forecast.pdf",
-      "format": "pdf",
-      "source_page": "https://council.nyc.gov/press/",
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
-          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
-          "published_at": "2026-06-16T21:25:34+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -3054,79 +3206,6 @@
       "is_new": false
     },
     {
-      "id": "nyc_comptroller:e57e8395804f",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "011625 Budget Briefing",
-      "agency": null,
-      "published_date": null,
-      "url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "document_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "heat_url": "https://comptroller.nyc.gov/wp-content/uploads/2026/01/011625_Budget-Briefing.pdf",
-      "format": "pdf",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 6.0,
-      "rationale": [
-        "1 news article linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion",
-          "url": "https://citylimits.org/in-budget-talks-some-council-progressives-draw-the-line-on-cityfheps-expansion/",
-          "published_at": "2026-06-16T21:25:34+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "nys_comptroller:c95afaa9a662",
       "source": "NYS Comptroller",
       "source_id": "nys_comptroller",
@@ -3890,8 +3969,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4511,7 +4590,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dot:cc2a9a34bd91",
@@ -4533,8 +4612,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4584,7 +4663,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dot:3625a13558f8",
@@ -4597,6 +4676,152 @@
       "url": "https://www.nyc.gov/html/dot/downloads/pdf/116-st-morningside-ave-pleasant-ave-cb11-jun2026.pdf",
       "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/116-st-morningside-ave-pleasant-ave-cb11-jun2026.pdf",
       "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/116-st-morningside-ave-pleasant-ave-cb11-jun2026.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani Gives Harlem Bus Riders Their Own Lane on E. 116th Street",
+          "url": "https://nyc.streetsblog.org/2026/06/26/mamdani-116th-bus-lanes",
+          "published_at": "2026-06-26T04:03:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:58b6c3b6005b",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Life in the Slow Lane",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/life-in-the-slow-lane",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/life-in-the-slow-lane",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Mamdani Gives Harlem Bus Riders Their Own Lane on E. 116th Street",
+          "url": "https://nyc.streetsblog.org/2026/06/26/mamdani-116th-bus-lanes",
+          "published_at": "2026-06-26T04:03:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nys_comptroller:cad656474512",
+      "source": "NYS Comptroller",
+      "source_id": "nys_comptroller",
+      "kind": "report",
+      "title": "Sga 2026 23N8",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-23n8.pdf",
+      "document_url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-23n8.pdf",
+      "heat_url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-23n8.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -4651,26 +4876,26 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Mamdani Gives Harlem Bus Riders Their Own Lane on E. 116th Street",
-          "url": "https://nyc.streetsblog.org/2026/06/26/mamdani-116th-bus-lanes",
-          "published_at": "2026-06-26T04:03:00+00:00",
+          "title": "NYC budget: City Council Speaker Menin says budget deal with Mamdani ‘stuck’ over funding for CityFHEPS rental assistance program",
+          "url": "https://www.amny.com/law/nyc-budget-menin-budget-stuck-cityfheps-mamdani/",
+          "published_at": "2026-06-26T19:00:19+00:00",
           "confidence": "exact_url"
         }
       ],
       "is_new": true
     },
     {
-      "id": "nyc_comptroller:58b6c3b6005b",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
+      "id": "ibo.nyc.gov:9ae4c8fdc990",
+      "source": "ibo.nyc.gov",
+      "source_id": "ibo.nyc.gov",
       "kind": "report",
-      "title": "Life in the Slow Lane",
+      "title": "2026 May Demysifying Distress",
       "agency": null,
       "published_date": null,
-      "url": "https://comptroller.nyc.gov/reports/life-in-the-slow-lane",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/life-in-the-slow-lane",
-      "format": "html",
+      "url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-demysifying-distress.pdf",
+      "document_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-demysifying-distress.pdf",
+      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-demysifying-distress.pdf",
+      "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
       "heat_score": 6.0,
@@ -4724,9 +4949,9 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "Mamdani Gives Harlem Bus Riders Their Own Lane on E. 116th Street",
-          "url": "https://nyc.streetsblog.org/2026/06/26/mamdani-116th-bus-lanes",
-          "published_at": "2026-06-26T04:03:00+00:00",
+          "title": "PHOTOS: Scenes From The Rent Guidelines Board’s Historic Vote",
+          "url": "https://citylimits.org/photos-scenes-from-the-rent-guidelines-boards-historic-vote/",
+          "published_at": "2026-06-26T14:02:30+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -4959,79 +5184,6 @@
       "is_new": false
     },
     {
-      "id": "nyc_comptroller:4243edf0db66",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Latine Fact Sheet",
-      "agency": null,
-      "published_date": null,
-      "url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.778151250383644,
-      "rationale": [
-        "1 social post sharing the exact link with 5 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.778151250383644,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 5,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "93% while the Latino population of NYC is 29%\n\ncomptroller.nyc.gov/reports/lati...",
-          "url": "https://bsky.app/profile/zneeley25.bsky.social/post/3mmu2uoc2yc2y",
-          "published_at": "2026-05-27T17:47:40.590000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "ibo:6dae6cd02e7a",
       "source": "NYC Independent Budget Office",
       "source_id": "ibo",
@@ -5172,6 +5324,79 @@
           "title": "Link to audit:\n\ncomptroller.nyc.gov/reports/audi...",
           "url": "https://bsky.app/profile/jennired83.bsky.social/post/3mo6uorogi22b",
           "published_at": "2026-06-13T18:21:29.113000+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:b9d24ab457b9",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Review of the City’s Animal Population Control Efforts",
+      "agency": null,
+      "published_date": "2026-05-08",
+      "url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 2.6020599913279625,
+      "rationale": [
+        "1 social post sharing the exact link with 3 total engagement"
+      ],
+      "windows": {
+        "today": {
+          "score": 2.6020599913279625,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 3,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 2.6020599913279625,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 3,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 2.6020599913279625,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 1,
+          "social_engagement": 3,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "bluesky",
+          "title": "This is heartbreaking 💔 \ncomptroller.nyc.gov/reports/revi...",
+          "url": "https://bsky.app/profile/felicianmitzi.bsky.social/post/3mp7h2ueoh22x",
+          "published_at": "2026-06-26T17:15:33.572000+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -5966,71 +6191,6 @@
       "is_new": false
     },
     {
-      "id": "nyc_comptroller:5fe3134dab8a",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Comments on New York City’s Executive Budget for Fiscal Year 2027 an...",
-      "agency": null,
-      "published_date": "2026-06-09",
-      "url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
       "id": "nyc_comptroller:0a15b7bcdaf4",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -6236,71 +6396,6 @@
       "url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/letter-to-spacex-re-ipo-from-nyc-comptroller-levine-nys-comptroller-dinapoli-and-calpers-ceo-frost",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 0.0,
-      "rationale": [
-        "no public link pickups found in checked sources"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [],
-      "is_new": false
-    },
-    {
-      "id": "nyc_comptroller:b9d24ab457b9",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "Review of the City’s Animal Population Control Efforts",
-      "agency": null,
-      "published_date": "2026-05-08",
-      "url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/review-of-the-citys-animal-population-control-efforts",
       "format": "html",
       "source_page": "https://comptroller.nyc.gov/reports/",
       "rank_window": "30d",
@@ -88138,6 +88233,136 @@
       "heat_url": "https://council.nyc.gov/press/wp-content/uploads/sites/56/2026/06/VincentvAdams-res-CityofNY-brf.pdf",
       "format": "pdf",
       "source_page": "https://council.nyc.gov/press/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "rules_proposed:02e235e72ed1",
+      "source": "NYC Rules - Proposed",
+      "source_id": "rules_proposed",
+      "kind": "rule",
+      "title": "Amendment to Rules Governing RPTL § 421-a(16) Workbooks",
+      "agency": "HPD",
+      "published_date": "2026-08-04",
+      "url": "https://rules.cityofnewyork.us/rule/amendment-to-rules-governing-rptl-%c2%a7-421-a16-workbooks",
+      "document_url": null,
+      "heat_url": "https://rules.cityofnewyork.us/rule/amendment-to-rules-governing-rptl-%c2%a7-421-a16-workbooks",
+      "format": "html",
+      "source_page": "https://rules.cityofnewyork.us/proposed-rules/",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "nyc_comptroller:4243edf0db66",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "Latine Fact Sheet",
+      "agency": null,
+      "published_date": null,
+      "url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+      "format": "html",
+      "source_page": null,
       "rank_window": "30d",
       "heat_score": 0.0,
       "rationale": [
