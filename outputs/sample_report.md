@@ -1,23 +1,6 @@
 # NYC Report Heat Sample
 
-## 1. The Pied-à-Terre Tax and Its Potential Revenues
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: 2026-04-30
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 12.0
-- Mentions: news links 2, social 0 (engagement 0), filename 0
-- Rationale: 2 news articles linking the exact report URL
-
-Evidence:
-- newsrss: What Mamdani got – and didn’t get – from Albany this year
-- newsrss: What’s in the 2026 State Budget? Here’s What To Know.
-
-## 2. Citywide Truck Routes
+## 1. Citywide Truck Routes
 
 - Source: NYC Rules - Proposed
 - Agency: DOT
@@ -34,7 +17,7 @@ Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 - newsrss: Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls
 
-## 3. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027
+## 2. NYC Council’s Latest Economic Forecast Projects Nearly $2 Billion More in Tax Revenue than Mayor’s Office of Management and Budget in Fiscal Years 2026 and 2027
 
 - Source: NYC City Council
 - Agency: n/a
@@ -51,7 +34,7 @@ Evidence:
 - newsrss: In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion
 - newsrss: Menin delays budget handshake, pressing Mamdani on rental voucher expansion
 
-## 4. Protocols for NonLocal Law Enforcement
+## 3. Protocols for NonLocal Law Enforcement
 
 - Source: schools.nyc.gov
 - Agency: n/a
@@ -68,7 +51,7 @@ Evidence:
 - newsrss: ‘La gente sigue muy inquieta’: activistas piden a la alcaldía protocolos   ante presencia de agentes de ICE alrededor de escuelas
 - newsrss: ‘People Are Still Very Unnerved’: Advocates Ask City to Establish Protocols for ICE Sightings Near Schools
 
-## 5. Truck Network Redesign Report
+## 4. Truck Network Redesign Report
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -85,7 +68,7 @@ Evidence:
 - newsrss: Truck stop? Scenic Staten Island parkway may open to the big rigs
 - newsrss: Department of Trucks: Brooklynites Beg for Relief on Third Ave. as Safety Redesign Stalls
 
-## 6. 011625 Budget Briefing
+## 5. 011625 Budget Briefing
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -102,7 +85,7 @@ Evidence:
 - newsrss: In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion
 - newsrss: NYC budget: City Council Speaker Menin says budget deal with Mamdani ‘stuck’ over funding for CityFHEPS rental assistance program
 
-## 7. Who's Minding the Storefronts?
+## 6. Who's Minding the Storefronts?
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -121,7 +104,7 @@ Evidence:
 "Who’s Minding the Storefronts? An Analysis of Storefro
 - newsrss: PEDESTRIANIZE NOW! Financial District Businesses Want Space for People Not Cars
 
-## 8. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
+## 7. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -136,6 +119,22 @@ Evidence:
 
 Evidence:
 - newsrss: Menin delays budget handshake, pressing Mamdani on rental voucher expansion
+
+## 8. The Pied-à-Terre Tax and Its Potential Revenues
+
+- Source: NYC Comptroller
+- Agency: n/a
+- Date: 2026-04-30
+- Format: html
+- URL: https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues
+- Document URL: n/a
+- Rank window: 30d
+- Heat score (30d): 6.0
+- Mentions: news links 1, social 0 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL
+
+Evidence:
+- newsrss: What Mamdani got – and didn’t get – from Albany this year
 
 ## 9. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
 

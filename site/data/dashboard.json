@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:56:19+00:00",
+  "generated_at": "2026-06-28T12:59:18+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -15,10 +15,10 @@
   "stats": {
     "total": 1350,
     "with_heat": 71,
-    "new_count": 3,
+    "new_count": 0,
     "by_kind": {
-      "report": 1198,
-      "rule": 152
+      "rule": 152,
+      "report": 1198
     },
     "by_format": {
       "html": 317,
@@ -208,113 +208,8 @@
     ]
   },
   "untracked": [],
-  "new_candidates": [
-    {
-      "title": "Amendment to Rules Governing RPTL § 421-a(16) Workbooks",
-      "source": "NYC Rules - Proposed",
-      "kind": "rule",
-      "published_date": "2026-08-04",
-      "heat_url": "https://rules.cityofnewyork.us/rule/amendment-to-rules-governing-rptl-%c2%a7-421-a16-workbooks",
-      "format": "html"
-    },
-    {
-      "title": "Sga 2026 23N8",
-      "source": "NYS Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-23n8.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "2026 May Demysifying Distress",
-      "source": "ibo.nyc.gov",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/housing-and-buildings/2026/2026-may-demysifying-distress.pdf",
-      "format": "pdf"
-    }
-  ],
+  "new_candidates": [],
   "items": [
-    {
-      "id": "nyc_comptroller:6f9f48790219",
-      "source": "NYC Comptroller",
-      "source_id": "nyc_comptroller",
-      "kind": "report",
-      "title": "The Pied-à-Terre Tax and Its Potential Revenues",
-      "agency": null,
-      "published_date": "2026-04-30",
-      "url": "https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues",
-      "document_url": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues",
-      "format": "html",
-      "source_page": "https://comptroller.nyc.gov/reports/",
-      "rank_window": "30d",
-      "heat_score": 12.0,
-      "rationale": [
-        "2 news articles linking the exact report URL"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 12.0,
-          "exact_url_mentions": 2,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "newsrss",
-          "title": "What Mamdani got – and didn’t get – from Albany this year",
-          "url": "https://www.cityandstateny.com/policy/2026/06/what-mamdani-got-and-didnt-get-albany-year/414015/",
-          "published_at": "2026-06-05T17:37:46-04:00",
-          "confidence": "exact_url"
-        },
-        {
-          "provider": "newsrss",
-          "title": "What’s in the 2026 State Budget? Here’s What To Know.",
-          "url": "https://nysfocus.com/2026/05/29/new-york-final-state-budget-2026-funding-guide-hochul",
-          "published_at": "2026-05-29T05:00:00-04:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
     {
       "id": "rules_proposed:a5168bef34f5",
       "source": "NYC Rules - Proposed",
@@ -415,8 +310,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -655,8 +550,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -816,8 +711,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -864,6 +759,79 @@
           "title": "Menin delays budget handshake, pressing Mamdani on rental voucher expansion",
           "url": "https://www.cityandstateny.com/policy/2026/06/menin-delays-budget-handshake-pressing-mamdani-rental-voucher-expansion/414465/",
           "published_at": "2026-06-26T13:47:17-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "nyc_comptroller:6f9f48790219",
+      "source": "NYC Comptroller",
+      "source_id": "nyc_comptroller",
+      "kind": "report",
+      "title": "The Pied-à-Terre Tax and Its Potential Revenues",
+      "agency": null,
+      "published_date": "2026-04-30",
+      "url": "https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues",
+      "document_url": null,
+      "heat_url": "https://comptroller.nyc.gov/reports/the-pied-a-terre-tax-and-its-potential-revenues",
+      "format": "html",
+      "source_page": "https://comptroller.nyc.gov/reports/",
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "What Mamdani got – and didn’t get – from Albany this year",
+          "url": "https://www.cityandstateny.com/policy/2026/06/what-mamdani-got-and-didnt-get-albany-year/414015/",
+          "published_at": "2026-06-05T17:37:46-04:00",
           "confidence": "exact_url"
         }
       ],
@@ -4539,8 +4507,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4831,8 +4799,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4882,7 +4850,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "ibo.nyc.gov:9ae4c8fdc990",
@@ -4904,8 +4872,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4955,7 +4923,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:a484acbf1212",
@@ -5349,12 +5317,12 @@
       ],
       "windows": {
         "today": {
-          "score": 2.6020599913279625,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 3,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -88348,7 +88316,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:4243edf0db66",
