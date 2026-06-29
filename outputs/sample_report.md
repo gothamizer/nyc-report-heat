@@ -113,12 +113,15 @@ Evidence:
 - URL: https://comptroller.nyc.gov/reports/comments-on-new-york-citys-executive-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030
 - Document URL: n/a
 - Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
+- Heat score (30d): 8.0
+- Mentions: news links 1, social 1 (engagement 0), filename 0
+- Rationale: 1 news article linking the exact report URL; 1 social post sharing the exact link
 
 Evidence:
 - newsrss: Menin delays budget handshake, pressing Mamdani on rental voucher expansion
+- bluesky: And the figures if you need them
+
+comptroller.nyc.gov/reports/comm...
 
 ## 8. The Pied-à-Terre Tax and Its Potential Revenues
 
