@@ -85,7 +85,24 @@ Evidence:
 - newsrss: In Budget Talks, Some Council Progressives Draw the Line on CityFHEPS Expansion
 - newsrss: NYC budget: City Council Speaker Menin says budget deal with Mamdani ‘stuck’ over funding for CityFHEPS rental assistance program
 
-## 6. Who's Minding the Storefronts?
+## 6. Quadrennial Commission Report 21
+
+- Source: nyc.gov
+- Agency: n/a
+- Date: unknown
+- Format: pdf
+- URL: https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf
+- Document URL: https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf
+- Rank window: 30d
+- Heat score (30d): 12.0
+- Mentions: news links 2, social 0 (engagement 0), filename 0
+- Rationale: 2 news articles linking the exact report URL
+
+Evidence:
+- newsrss: City Council, citywide officials could get 18% raise
+- newsrss: NYC elected officials could get nearly 20% pay raises this summer – far more than they asked for
+
+## 7. Who's Minding the Storefronts?
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -104,7 +121,7 @@ Evidence:
 "Who’s Minding the Storefronts? An Analysis of Storefro
 - newsrss: PEDESTRIANIZE NOW! Financial District Businesses Want Space for People Not Cars
 
-## 7. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
+## 8. Comments on New York City’s Executive Budget for Fiscal Year 2027 an...
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -123,7 +140,7 @@ Evidence:
 
 comptroller.nyc.gov/reports/comm...
 
-## 8. The Pied-à-Terre Tax and Its Potential Revenues
+## 9. The Pied-à-Terre Tax and Its Potential Revenues
 
 - Source: NYC Comptroller
 - Agency: n/a
@@ -139,7 +156,7 @@ comptroller.nyc.gov/reports/comm...
 Evidence:
 - newsrss: What Mamdani got – and didn’t get – from Albany this year
 
-## 9. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
+## 10. 2023 Physical Needs Assessment (PNA) Technical Report (PDF) (opens in new tab)
 
 - Source: NYC Housing Authority
 - Agency: n/a
@@ -155,7 +172,7 @@ Evidence:
 Evidence:
 - newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays
 
-## 10. Daily Report
+## 11. Daily Report
 
 - Source: NYC Department of Homeless Services
 - Agency: n/a
@@ -171,7 +188,7 @@ Evidence:
 Evidence:
 - newsrss: State Lawmakers Pass Bill Requiring Every Homeless Shelter in New York to Have Wi-Fi
 
-## 11. Harlem River Greenway Implementation Plan (2025)
+## 12. Harlem River Greenway Implementation Plan (2025)
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -187,7 +204,7 @@ Evidence:
 Evidence:
 - newsrss: FDNY Brass Lobby Against Bronx Harlem River Greenway
 
-## 12. 2023 Borough Pedestrian Safety Action Plans Update
+## 13. 2023 Borough Pedestrian Safety Action Plans Update
 
 - Source: NYC Department of Transportation
 - Agency: n/a
@@ -203,7 +220,7 @@ Evidence:
 Evidence:
 - newsrss: FDNY Brass Lobby Against Bronx Harlem River Greenway
 
-## 13. Workersbillofrights English
+## 14. Workersbillofrights English
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -219,7 +236,7 @@ Evidence:
 Evidence:
 - newsrss: Mamdani plans World Cup 'know your rights' blitz for NYC workers, immigrants
 
-## 14. Flashreports 2026 04
+## 15. Flashreports 2026 04
 
 - Source: NYC Administration for Children's Services
 - Agency: n/a
@@ -235,7 +252,7 @@ Evidence:
 Evidence:
 - newsrss: NYC illegally took newborn from father, keeping them apart for 3 years, court says
 
-## 15. A brief history of redlining  – Environment & Health Data Portal
+## 16. A brief history of redlining  – Environment & Health Data Portal
 
 - Source: a816-dohbesp.nyc.gov
 - Agency: n/a
@@ -251,7 +268,7 @@ Evidence:
 Evidence:
 - newsrss: Delivery Warehouse Boom is Impacting NYC’s Low-Income Neighborhoods Most, Reports Finds
 
-## 16. Mv En Us 084Sum
+## 17. Mv En Us 084Sum
 
 - Source: NYPD
 - Agency: n/a
@@ -267,7 +284,7 @@ Evidence:
 Evidence:
 - newsrss: Brooklynites Fight to Get Big-Rigs Off Their Block As City Preps Truck Route Revamp
 
-## 17. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
+## 18. Advocacy Testimony Fiscal Year 2027 Executive Budget Hearing
 
 - Source: NYC Department of Consumer & Worker Protection
 - Agency: n/a
@@ -283,7 +300,7 @@ Evidence:
 Evidence:
 - newsrss: A year since NYC banned most broker fees, a modicum of fines and the ‘bait and switch'
 
-## 18. The Newest New Yorkers, 2026
+## 19. The Newest New Yorkers, 2026
 
 - Source: NYC Department of City Planning
 - Agency: n/a
@@ -299,7 +316,7 @@ Evidence:
 Evidence:
 - newsrss: Chinese immigrants overtake Dominicans as NYC's largest foreign-born group
 
-## 19. Ao2000 4
+## 20. Ao2000 4
 
 - Source: NYC Conflicts of Interest Board
 - Agency: n/a
@@ -314,19 +331,3 @@ Evidence:
 
 Evidence:
 - newsrss: Mamdani cashed in on mayoral perks for Knicks tickets – and downplayed the price: sources
-
-## 20. Audit Report on the New York City Housing Authority’s Eviction Processes
-
-- Source: NYC Comptroller
-- Agency: n/a
-- Date: unknown
-- Format: html
-- URL: https://comptroller.nyc.gov/reports/audit-report-on-the-new-york-city-housing-authoritys-eviction-processes
-- Document URL: n/a
-- Rank window: 30d
-- Heat score (30d): 6.0
-- Mentions: news links 1, social 0 (engagement 0), filename 0
-- Rationale: 1 news article linking the exact report URL
-
-Evidence:
-- newsrss: For NYCHA Tenants Fighting for Repairs in Court, One Missed Phone Call Can Mean Months-Long Delays

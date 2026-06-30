@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T15:02:00+00:00",
+  "generated_at": "2026-06-30T13:26:31+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1352,
-    "with_heat": 73,
-    "new_count": 2,
+    "total": 1358,
+    "with_heat": 79,
+    "new_count": 6,
     "by_kind": {
-      "rule": 152,
-      "report": 1200
+      "rule": 153,
+      "report": 1205
     },
     "by_format": {
       "html": 318,
-      "pdf": 960,
+      "pdf": 966,
       "xlsx": 26,
       "unknown": 48
     },
@@ -76,6 +76,10 @@
         "count": 44
       },
       {
+        "name": "NYC Department of Small Business Services",
+        "count": 41
+      },
+      {
         "name": "NYC Board of Correction",
         "count": 41
       },
@@ -85,10 +89,6 @@
       },
       {
         "name": "NYC Taxi & Limousine Commission",
-        "count": 40
-      },
-      {
-        "name": "NYC Department of Small Business Services",
         "count": 40
       },
       {
@@ -136,6 +136,10 @@
         "count": 12
       },
       {
+        "name": "NYC City Council",
+        "count": 11
+      },
+      {
         "name": "NYC Department of Investigation",
         "count": 11
       },
@@ -144,8 +148,8 @@
         "count": 11
       },
       {
-        "name": "NYC City Council",
-        "count": 10
+        "name": "nyc.gov",
+        "count": 6
       },
       {
         "name": "NYC Department of Environmental Protection",
@@ -168,10 +172,6 @@
         "count": 3
       },
       {
-        "name": "nyc.gov",
-        "count": 3
-      },
-      {
         "name": "NYC Office of Management & Budget",
         "count": 2
       },
@@ -182,27 +182,31 @@
       {
         "name": "a816-dohbesp.nyc.gov",
         "count": 1
+      },
+      {
+        "name": "rules.cityofnewyork.us",
+        "count": 1
       }
     ],
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1352,
+        "checked": 1358,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1352,
+        "checked": 1358,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1352,
+        "checked": 1358,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1352,
+        "checked": 1358,
         "errors": 0
       }
     ]
@@ -210,19 +214,51 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "Comments on New York City’s Preliminary Budget",
-      "source": "NYC Comptroller",
-      "kind": "report",
+      "title": "Fact Sheet 39 06 2019",
+      "source": "rules.cityofnewyork.us",
+      "kind": "rule",
       "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/comments-on-new-york-citys-preliminary-budget-for-fiscal-year-2027-and-financial-plan-for-fiscal-years-2026-2030",
-      "format": "html"
+      "heat_url": "https://rules.cityofnewyork.us/wp-content/uploads/2025/06/fact-sheet-39-06-2019.pdf?ref=vitalcitynyc.org",
+      "format": "pdf"
     },
     {
-      "title": "Ave B Open Street Draft Design Proposal Summer2025",
-      "source": "NYC Department of Transportation",
+      "title": "E 643 21Dcp206M",
+      "source": "nyc.gov",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/ave-b-open-street-draft-design-proposal-summer2025.pdf",
+      "heat_url": "https://www.nyc.gov/assets/oer/downloads/pdf/e-des_documents/E-643_21DCP206M.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Quadrennial Commission Report 21",
+      "source": "nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Fy25 Prelim Budget Response",
+      "source": "NYC City Council",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://council.nyc.gov/wp-content/uploads/2024/04/FY25-Prelim-Budget-Response.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Ll97 Recs Policy",
+      "source": "nyc.gov",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/buildings/pdf/ll97_recs_policy.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "N360 Cdna Redhook",
+      "source": "NYC Department of Small Business Services",
+      "kind": "report",
+      "published_date": null,
+      "heat_url": "https://www.nyc.gov/assets/sbs/downloads/pdf/neighborhoods/n360-cdna-redhook.pdf",
       "format": "pdf"
     }
   ],
@@ -628,6 +664,86 @@
       "is_new": false
     },
     {
+      "id": "nyc.gov:26d244ee6a94",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Quadrennial Commission Report 21",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf",
+      "document_url": "https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf",
+      "heat_url": "https://www.nyc.gov/assets/quadrennial/downloads/pdf/Quadrennial_Commission_Report_21.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 12.0,
+      "rationale": [
+        "2 news articles linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 12.0,
+          "exact_url_mentions": 2,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "City Council, citywide officials could get 18% raise",
+          "url": "https://www.cityandstateny.com/politics/2026/06/city-council-citywide-officials-could-get-18-raise/414508/",
+          "published_at": "2026-06-29T15:28:35-04:00",
+          "confidence": "exact_url"
+        },
+        {
+          "provider": "newsrss",
+          "title": "NYC elected officials could get nearly 20% pay raises this summer – far more than they asked for",
+          "url": "https://www.amny.com/news/nyc-elected-officials-pay-raise-report/",
+          "published_at": "2026-06-29T22:25:22+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
       "id": "nyc_comptroller:d244910f4d37",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -729,11 +845,11 @@
       ],
       "windows": {
         "today": {
-          "score": 2.0,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
+          "social_exact_mentions": 0,
           "social_engagement": 0,
           "providers_checked": [
             "bluesky",
@@ -4254,8 +4370,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4327,8 +4443,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4970,8 +5086,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -5021,7 +5137,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dot:e99f8cad2944",
@@ -5034,6 +5150,79 @@
       "url": "https://www.nyc.gov/html/dot/downloads/pdf/ave-b-open-street-draft-design-proposal-summer2025.pdf",
       "document_url": "https://www.nyc.gov/html/dot/downloads/pdf/ave-b-open-street-draft-design-proposal-summer2025.pdf",
       "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/ave-b-open-street-draft-design-proposal-summer2025.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "FIRST ON amNY: DOT begins construction on pedestrian, cyclist improvements on Avenue B",
+          "url": "https://www.amny.com/nyc-transit/dot-pedestrian-cyclist-improvements-avenue-b-east-village/",
+          "published_at": "2026-06-29T04:01:15+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "rules.cityofnewyork.us:2167313dc4b7",
+      "source": "rules.cityofnewyork.us",
+      "source_id": "rules.cityofnewyork.us",
+      "kind": "rule",
+      "title": "Fact Sheet 39 06 2019",
+      "agency": null,
+      "published_date": null,
+      "url": "https://rules.cityofnewyork.us/wp-content/uploads/2025/06/fact-sheet-39-06-2019.pdf?ref=vitalcitynyc.org",
+      "document_url": "https://rules.cityofnewyork.us/wp-content/uploads/2025/06/fact-sheet-39-06-2019.pdf?ref=vitalcitynyc.org",
+      "heat_url": "https://rules.cityofnewyork.us/wp-content/uploads/2025/06/fact-sheet-39-06-2019.pdf?ref=vitalcitynyc.org",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -5088,9 +5277,301 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "FIRST ON amNY: DOT begins construction on pedestrian, cyclist improvements on Avenue B",
-          "url": "https://www.amny.com/nyc-transit/dot-pedestrian-cyclist-improvements-avenue-b-east-village/",
-          "published_at": "2026-06-29T04:01:15+00:00",
+          "title": "Gothamist’s guide to what NYC’s rent freeze means for you",
+          "url": "https://gothamist.com/news/gothamists-guide-to-what-nycs-rent-freeze-means-for-you",
+          "published_at": "2026-06-30T10:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:e9caa6a9dc51",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "E 643 21Dcp206M",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/oer/downloads/pdf/e-des_documents/E-643_21DCP206M.pdf",
+      "document_url": "https://www.nyc.gov/assets/oer/downloads/pdf/e-des_documents/E-643_21DCP206M.pdf",
+      "heat_url": "https://www.nyc.gov/assets/oer/downloads/pdf/e-des_documents/E-643_21DCP206M.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "First Subway Elevators Fully Funded by Developer to Open in Midtown",
+          "url": "https://www.thecityreporter.nyc/2026/06/30/elevator-subway-midtown-developer-build-mta/",
+          "published_at": "2026-06-30T09:00:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "council:c8d262da5b75",
+      "source": "NYC City Council",
+      "source_id": "council",
+      "kind": "report",
+      "title": "Fy25 Prelim Budget Response",
+      "agency": null,
+      "published_date": null,
+      "url": "https://council.nyc.gov/wp-content/uploads/2024/04/FY25-Prelim-Budget-Response.pdf",
+      "document_url": "https://council.nyc.gov/wp-content/uploads/2024/04/FY25-Prelim-Budget-Response.pdf",
+      "heat_url": "https://council.nyc.gov/wp-content/uploads/2024/04/FY25-Prelim-Budget-Response.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "NYC BUDGET: Still no handshake between Mamdani and Menin as CityFHEPS fight comes down to deadline wire",
+          "url": "https://www.amny.com/news/nyc-budget-cityfheps-fight-deadline-06292026/",
+          "published_at": "2026-06-29T21:30:41+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:08c0b9d937ce",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Ll97 Recs Policy",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/buildings/pdf/ll97_recs_policy.pdf",
+      "document_url": "https://www.nyc.gov/assets/buildings/pdf/ll97_recs_policy.pdf",
+      "heat_url": "https://www.nyc.gov/assets/buildings/pdf/ll97_recs_policy.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Could Hydropower Credits Undermine New York City’s Climate Law?",
+          "url": "https://nysfocus.com/2026/06/30/local-law-97-hydropower-credits",
+          "published_at": "2026-06-30T05:00:00-04:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "sbs:9870dbfe8639",
+      "source": "NYC Department of Small Business Services",
+      "source_id": "sbs",
+      "kind": "report",
+      "title": "N360 Cdna Redhook",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/sbs/downloads/pdf/neighborhoods/n360-cdna-redhook.pdf",
+      "document_url": "https://www.nyc.gov/assets/sbs/downloads/pdf/neighborhoods/n360-cdna-redhook.pdf",
+      "heat_url": "https://www.nyc.gov/assets/sbs/downloads/pdf/neighborhoods/n360-cdna-redhook.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Pool Report: Parks Dept. Leaves Red Hookers Hot And Bothered — Again!",
+          "url": "https://nyc.streetsblog.org/2026/06/29/pool-report-parks-dept-leaves-red-hookers-hot-and-bothered-again",
+          "published_at": "2026-06-29T17:41:03+00:00",
           "confidence": "exact_url"
         }
       ],
