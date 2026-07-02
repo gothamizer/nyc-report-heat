@@ -1,8 +1,8 @@
 # Daily NYC Report Heat Summary
 
-Generated: 2026-07-01T13:56:17+00:00
-Candidates ranked: 1367
-New candidates: 9
+Generated: 2026-07-02T13:21:32+00:00
+Candidates ranked: 1371
+New candidates: 4
 Rank window: 30d
 
 ## Top Link Heat Overall
@@ -68,12 +68,7 @@ No untracked gov links being shared in the ranking window.
 
 ## New Candidates
 
-- DHS Data Dashboard Charts FY 2026 Q3 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/dashboard/FY25-DHS-Data-Dashboard-Charts-Q3.pdf
-- DHS Data Dashboard Tables FY 2026 Q3 | NYC Department of Homeless Services | unknown date | https://www.nyc.gov/assets/dhs/downloads/pdf/dashboard/tables/FY26-DHS-Data-Dashboard-Data-Q3.pdf
-- Libraries 1 | NYC City Council | unknown date | https://council.nyc.gov/budget/wp-content/uploads/sites/54/2025/03/Libraries-1.pdf
-- Libraries | NYC City Council | unknown date | https://council.nyc.gov/budget/wp-content/uploads/sites/54/2024/05/Libraries.pdf
-- Progressive Caucus | NYC City Council | unknown date | https://council.nyc.gov/caucuses/progressive-caucus
-- Provisional Overdose Report Second Quarter 2024 | NYC Department of Health & Mental Hygiene | unknown date | https://www.nyc.gov/assets/doh/downloads/pdf/basas/provisional-overdose-report-second-quarter-2024.pdf
-- Paying More, Getting Less: Rising health care costs, poor outcomes, and harmful federal policy decisions are putting New Yorkers at risk | NYC Comptroller | unknown date | https://comptroller.nyc.gov/reports/paying-more-getting-less-rising-health-care-costs-poor-outcomes-and-harmful-federal-policy-decisions-are-putting-new-yorkers-at-risk
-- Flatiron Major Concession Ulurp Land Use App Feb2026 | NYC Department of Transportation | unknown date | https://www.nyc.gov/html/dot/downloads/pdf/flatiron-major-concession-ulurp-land-use-app-feb2026.pdf
-- M Pl P2 Nta | NYC Department of City Planning | unknown date | https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/m_pl_p2_nta.pdf
+- Download the July 2026 Borough-Based Jails Progress Report | NYC Board of Correction | unknown date | https://www.nyc.gov/assets/boc/downloads/pdf/BBJ-Report-July-2026.pdf
+- 2025 Integrated Sentinel Monitoring Report | NYC Department of Environmental Protection | unknown date | https://www.nyc.gov/assets/dep/downloads/pdf/water/nyc-waterways/sentinel-monitoring-program/2025-sentinel-monitoring-report.pdf
+- 02Dssrelease.Rpt.01.09.2024 | NYC Department of Investigation | unknown date | https://www.nyc.gov/assets/doi/press-releases/2024/January/02DSSRelease.Rpt.01.09.2024.pdf
+- Cityrecord 07 01 26 | nyc.gov | 2026-07-01 | https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-07-01-26.pdf

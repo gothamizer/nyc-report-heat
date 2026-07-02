@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:56:17+00:00",
+  "generated_at": "2026-07-02T13:21:32+00:00",
   "rank_window": "30d",
   "windows": [
     "today",
@@ -13,16 +13,16 @@
     "reddit"
   ],
   "stats": {
-    "total": 1367,
-    "with_heat": 88,
-    "new_count": 9,
+    "total": 1371,
+    "with_heat": 89,
+    "new_count": 4,
     "by_kind": {
       "rule": 153,
-      "report": 1214
+      "report": 1218
     },
     "by_format": {
       "html": 320,
-      "pdf": 973,
+      "pdf": 977,
       "xlsx": 26,
       "unknown": 48
     },
@@ -76,11 +76,11 @@
         "count": 44
       },
       {
-        "name": "NYC Department of Small Business Services",
-        "count": 41
+        "name": "NYC Board of Correction",
+        "count": 42
       },
       {
-        "name": "NYC Board of Correction",
+        "name": "NYC Department of Small Business Services",
         "count": 41
       },
       {
@@ -136,12 +136,12 @@
         "count": 13
       },
       {
-        "name": "NYC Law Department",
+        "name": "NYC Department of Investigation",
         "count": 12
       },
       {
-        "name": "NYC Department of Investigation",
-        "count": 11
+        "name": "NYC Law Department",
+        "count": 12
       },
       {
         "name": "NYC Department of Buildings",
@@ -149,14 +149,14 @@
       },
       {
         "name": "nyc.gov",
+        "count": 7
+      },
+      {
+        "name": "NYC Department of Environmental Protection",
         "count": 6
       },
       {
         "name": "NYC Department of City Planning",
-        "count": 5
-      },
-      {
-        "name": "NYC Department of Environmental Protection",
         "count": 5
       },
       {
@@ -191,22 +191,22 @@
     "provider_health": [
       {
         "provider": "bluesky",
-        "checked": 1367,
+        "checked": 1371,
         "errors": 0
       },
       {
         "provider": "hackernews",
-        "checked": 1367,
+        "checked": 1371,
         "errors": 0
       },
       {
         "provider": "newsrss",
-        "checked": 1367,
+        "checked": 1371,
         "errors": 0
       },
       {
         "provider": "reddit",
-        "checked": 1367,
+        "checked": 1371,
         "errors": 0
       }
     ]
@@ -214,75 +214,35 @@
   "untracked": [],
   "new_candidates": [
     {
-      "title": "DHS Data Dashboard Charts FY 2026 Q3",
-      "source": "NYC Department of Homeless Services",
+      "title": "Download the July 2026 Borough-Based Jails Progress Report",
+      "source": "NYC Board of Correction",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dashboard/FY25-DHS-Data-Dashboard-Charts-Q3.pdf",
+      "heat_url": "https://www.nyc.gov/assets/boc/downloads/pdf/BBJ-Report-July-2026.pdf",
       "format": "pdf"
     },
     {
-      "title": "DHS Data Dashboard Tables FY 2026 Q3",
-      "source": "NYC Department of Homeless Services",
+      "title": "2025 Integrated Sentinel Monitoring Report",
+      "source": "NYC Department of Environmental Protection",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dashboard/tables/FY26-DHS-Data-Dashboard-Data-Q3.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/nyc-waterways/sentinel-monitoring-program/2025-sentinel-monitoring-report.pdf",
       "format": "pdf"
     },
     {
-      "title": "Libraries 1",
-      "source": "NYC City Council",
+      "title": "02Dssrelease.Rpt.01.09.2024",
+      "source": "NYC Department of Investigation",
       "kind": "report",
       "published_date": null,
-      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2025/03/Libraries-1.pdf",
+      "heat_url": "https://www.nyc.gov/assets/doi/press-releases/2024/January/02DSSRelease.Rpt.01.09.2024.pdf",
       "format": "pdf"
     },
     {
-      "title": "Libraries",
-      "source": "NYC City Council",
+      "title": "Cityrecord 07 01 26",
+      "source": "nyc.gov",
       "kind": "report",
-      "published_date": null,
-      "heat_url": "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2024/05/Libraries.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Progressive Caucus",
-      "source": "NYC City Council",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://council.nyc.gov/caucuses/progressive-caucus",
-      "format": "html"
-    },
-    {
-      "title": "Provisional Overdose Report Second Quarter 2024",
-      "source": "NYC Department of Health & Mental Hygiene",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/doh/downloads/pdf/basas/provisional-overdose-report-second-quarter-2024.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "Paying More, Getting Less: Rising health care costs, poor outcomes, and harmful federal policy decisions are putting New Yorkers at risk",
-      "source": "NYC Comptroller",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://comptroller.nyc.gov/reports/paying-more-getting-less-rising-health-care-costs-poor-outcomes-and-harmful-federal-policy-decisions-are-putting-new-yorkers-at-risk",
-      "format": "html"
-    },
-    {
-      "title": "Flatiron Major Concession Ulurp Land Use App Feb2026",
-      "source": "NYC Department of Transportation",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/html/dot/downloads/pdf/flatiron-major-concession-ulurp-land-use-app-feb2026.pdf",
-      "format": "pdf"
-    },
-    {
-      "title": "M Pl P2 Nta",
-      "source": "NYC Department of City Planning",
-      "kind": "report",
-      "published_date": null,
-      "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/m_pl_p2_nta.pdf",
+      "published_date": "2026-07-01",
+      "heat_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-07-01-26.pdf",
       "format": "pdf"
     }
   ],
@@ -627,8 +587,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -1175,8 +1135,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4620,8 +4580,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -4693,8 +4653,8 @@
           ]
         },
         "7d": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -5701,8 +5661,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -5752,7 +5712,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "nyc_comptroller:267adc561683",
@@ -5774,8 +5734,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -5825,7 +5785,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dot:a46a919cc644",
@@ -5847,8 +5807,8 @@
       ],
       "windows": {
         "today": {
-          "score": 6.0,
-          "exact_url_mentions": 1,
+          "score": 0.0,
+          "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
           "social_exact_mentions": 0,
@@ -5898,7 +5858,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dcp:57f48987fc0e",
@@ -5911,6 +5871,79 @@
       "url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/m_pl_p2_nta.pdf",
       "document_url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/m_pl_p2_nta.pdf",
       "heat_url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/m_pl_p2_nta.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "OPINION: Clinton Street Has a Traffic Problem. So Let’s Make It A ‘Low Traffic Neighborhood’",
+          "url": "https://nyc.streetsblog.org/2026/07/01/opinion-clinton-street-has-a-traffic-problem-a-low-traffic-neighborhood-redesign-would-fix-it",
+          "published_at": "2026-07-01T04:02:00+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": false
+    },
+    {
+      "id": "doi:b98e6f7bdb80",
+      "source": "NYC Department of Investigation",
+      "source_id": "doi",
+      "kind": "report",
+      "title": "02Dssrelease.Rpt.01.09.2024",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/doi/press-releases/2024/January/02DSSRelease.Rpt.01.09.2024.pdf",
+      "document_url": "https://www.nyc.gov/assets/doi/press-releases/2024/January/02DSSRelease.Rpt.01.09.2024.pdf",
+      "heat_url": "https://www.nyc.gov/assets/doi/press-releases/2024/January/02DSSRelease.Rpt.01.09.2024.pdf",
       "format": "pdf",
       "source_page": null,
       "rank_window": "30d",
@@ -5965,9 +5998,82 @@
       "mentions": [
         {
           "provider": "newsrss",
-          "title": "OPINION: Clinton Street Has a Traffic Problem. So Let’s Make It A ‘Low Traffic Neighborhood’",
-          "url": "https://nyc.streetsblog.org/2026/07/01/opinion-clinton-street-has-a-traffic-problem-a-low-traffic-neighborhood-redesign-would-fix-it",
-          "published_at": "2026-07-01T04:02:00+00:00",
+          "title": "Big Trouble at the Microtel: Ex-Commish at Center of Frank Carone Bribe Case",
+          "url": "https://www.thecityreporter.nyc/2026/07/01/gary-jenkins-frank-carone-bribery-witness-eric-adams/",
+          "published_at": "2026-07-01T22:36:10+00:00",
+          "confidence": "exact_url"
+        }
+      ],
+      "is_new": true
+    },
+    {
+      "id": "nyc.gov:f45ce609be21",
+      "source": "nyc.gov",
+      "source_id": "nyc.gov",
+      "kind": "report",
+      "title": "Cityrecord 07 01 26",
+      "agency": null,
+      "published_date": "2026-07-01",
+      "url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-07-01-26.pdf",
+      "document_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-07-01-26.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-07-01-26.pdf",
+      "format": "pdf",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 6.0,
+      "rationale": [
+        "1 news article linking the exact report URL"
+      ],
+      "windows": {
+        "today": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 6.0,
+          "exact_url_mentions": 1,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [
+        {
+          "provider": "newsrss",
+          "title": "Sanitation Will Let Smaller Buildings Share Curbside Containers",
+          "url": "https://nyc.streetsblog.org/2026/07/02/sanitation-will-let-smaller-buildings-share-curbside-containers",
+          "published_at": "2026-07-02T04:03:00+00:00",
           "confidence": "exact_url"
         }
       ],
@@ -6200,79 +6306,6 @@
       "is_new": false
     },
     {
-      "id": "ibo:6dae6cd02e7a",
-      "source": "NYC Independent Budget Office",
-      "source_id": "ibo",
-      "kind": "report",
-      "title": "Independent Budget Office",
-      "agency": null,
-      "published_date": null,
-      "url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
-      "document_url": null,
-      "heat_url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
-      "format": "html",
-      "source_page": null,
-      "rank_window": "30d",
-      "heat_score": 2.6989700043360187,
-      "rationale": [
-        "1 social post sharing the exact link with 4 total engagement"
-      ],
-      "windows": {
-        "today": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "7d": {
-          "score": 0.0,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 0,
-          "social_engagement": 0,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        },
-        "30d": {
-          "score": 2.6989700043360187,
-          "exact_url_mentions": 0,
-          "named_mentions": 0,
-          "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 4,
-          "providers_checked": [
-            "bluesky",
-            "hackernews",
-            "newsrss",
-            "reddit"
-          ]
-        }
-      },
-      "mentions": [
-        {
-          "provider": "bluesky",
-          "title": "So you and @botmatrix.myatproto.social have both mentioned 9/11 as a departure point but I am really seeing the 90’s as MUCH more of a growth period, or even the past two years \n\nWith 2001-2005 being ",
-          "url": "https://bsky.app/profile/alice-j-grimm.bsky.social/post/3mnayrwv7tc2k",
-          "published_at": "2026-06-01T21:14:58.043000+00:00",
-          "confidence": "exact_url"
-        }
-      ],
-      "is_new": false
-    },
-    {
       "id": "nyc_comptroller:4be27be8a7ae",
       "source": "NYC Comptroller",
       "source_id": "nyc_comptroller",
@@ -6438,12 +6471,12 @@
       ],
       "windows": {
         "today": {
-          "score": 2.4771212547196626,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 2,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -6511,12 +6544,12 @@
       ],
       "windows": {
         "today": {
-          "score": 2.4771212547196626,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
-          "social_engagement": 2,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
           "providers_checked": [
             "bluesky",
             "hackernews",
@@ -6562,7 +6595,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dot:d550b1389cc7",
@@ -6708,7 +6741,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "council:b478a9fc03d6",
@@ -6730,11 +6763,11 @@
       ],
       "windows": {
         "today": {
-          "score": 2.0,
+          "score": 0.0,
           "exact_url_mentions": 0,
           "named_mentions": 0,
           "filename_mentions": 0,
-          "social_exact_mentions": 1,
+          "social_exact_mentions": 0,
           "social_engagement": 0,
           "providers_checked": [
             "bluesky",
@@ -6781,7 +6814,7 @@
           "confidence": "exact_url"
         }
       ],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "doi:bcb74d0bd7bb",
@@ -89591,7 +89624,7 @@
         }
       },
       "mentions": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "dhs:77e219536bff",
@@ -89656,6 +89689,136 @@
         }
       },
       "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "boc:4879cae16fe4",
+      "source": "NYC Board of Correction",
+      "source_id": "boc",
+      "kind": "report",
+      "title": "Download the July 2026 Borough-Based Jails Progress Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/boc/downloads/pdf/BBJ-Report-July-2026.pdf",
+      "document_url": "https://www.nyc.gov/assets/boc/downloads/pdf/BBJ-Report-July-2026.pdf",
+      "heat_url": "https://www.nyc.gov/assets/boc/downloads/pdf/BBJ-Report-July-2026.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/boc/reports/board-of-correction-reports.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": true
+    },
+    {
+      "id": "dep:7e93c919964d",
+      "source": "NYC Department of Environmental Protection",
+      "source_id": "dep",
+      "kind": "report",
+      "title": "2025 Integrated Sentinel Monitoring Report",
+      "agency": null,
+      "published_date": null,
+      "url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/nyc-waterways/sentinel-monitoring-program/2025-sentinel-monitoring-report.pdf",
+      "document_url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/nyc-waterways/sentinel-monitoring-program/2025-sentinel-monitoring-report.pdf",
+      "heat_url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/nyc-waterways/sentinel-monitoring-program/2025-sentinel-monitoring-report.pdf",
+      "format": "pdf",
+      "source_page": "https://www.nyc.gov/site/dep/water/harbor-water-quality.page",
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
       "is_new": true
     },
     {
@@ -89669,6 +89832,71 @@
       "url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
       "document_url": null,
       "heat_url": "https://comptroller.nyc.gov/reports/latine-fact-sheet",
+      "format": "html",
+      "source_page": null,
+      "rank_window": "30d",
+      "heat_score": 0.0,
+      "rationale": [
+        "no public link pickups found in checked sources"
+      ],
+      "windows": {
+        "today": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "7d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        },
+        "30d": {
+          "score": 0.0,
+          "exact_url_mentions": 0,
+          "named_mentions": 0,
+          "filename_mentions": 0,
+          "social_exact_mentions": 0,
+          "social_engagement": 0,
+          "providers_checked": [
+            "bluesky",
+            "hackernews",
+            "newsrss",
+            "reddit"
+          ]
+        }
+      },
+      "mentions": [],
+      "is_new": false
+    },
+    {
+      "id": "ibo:6dae6cd02e7a",
+      "source": "NYC Independent Budget Office",
+      "source_id": "ibo",
+      "kind": "report",
+      "title": "Independent Budget Office",
+      "agency": null,
+      "published_date": null,
+      "url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
+      "document_url": null,
+      "heat_url": "https://ibo.nyc.ny.us/RevenueSpending/nypd.html",
       "format": "html",
       "source_page": null,
       "rank_window": "30d",
