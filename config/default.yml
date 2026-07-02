@@ -51,6 +51,13 @@ news_feeds:
   # (counted via the named-in-print tier).
   - https://pix11.com/feed/
   - https://nypost.com/us-news/feed/
+  # Beat and borough outlets that cover agency reports regularly.
+  - https://www.documentedny.com/feed/
+  - https://ny.chalkbeat.org/arc/outboundfeeds/rss/
+  - https://therealdeal.com/new-york/feed/
+  - https://www.amsterdamnews.com/feed/
+  - https://www.qchron.com/search/?f=rss
+  - https://bxtimes.com/feed/
 source_ids:
   # fiscal / oversight
   - doi

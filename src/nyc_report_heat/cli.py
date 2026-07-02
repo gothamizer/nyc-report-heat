@@ -9,6 +9,15 @@ from rich.table import Table
 
 from nyc_report_heat.adoption import ADOPTED_SUMMARY, adopt_from_mentions
 from nyc_report_heat.config import Settings, load_settings
+from nyc_report_heat.curation import (
+    CURATION_STORE,
+    apply_curation_to_candidates,
+    apply_curation_to_ranked,
+    curate_candidates,
+    llm_available,
+    make_article_matcher,
+    read_curation_store,
+)
 from nyc_report_heat.discovery import discover_all, lookback_date
 from nyc_report_heat.harvest import (
     append_mentions,
@@ -69,13 +78,20 @@ def _run_harvest(settings: Settings, store_path: Path = MENTIONS_STORE) -> None:
         harvested.extend(mentions)
         errors.extend(errs)
     if "newsrss" in providers:
+        candidates = read_candidates(Path("data/candidates.jsonl"))
+        # LLM tier for coverage that names a report without linking it;
+        # None (no ANTHROPIC_API_KEY) leaves the verbatim-title tier only.
+        matcher = make_article_matcher(candidates) if candidates else None
+        if matcher is None and not llm_available():
+            console.print("[dim]newsrss: ANTHROPIC_API_KEY not set, LLM article matching off[/dim]")
         mentions, errs = harvest_news_feeds(
             client,
             settings.news_feeds,
             settings.harvest_domains,
             ledger_path=ARTICLE_LEDGER,
             lookback_days=settings.harvest_lookback_days,
-            candidates=read_candidates(Path("data/candidates.jsonl")),
+            candidates=candidates,
+            article_matcher=matcher,
         )
         console.print(f"newsrss: {len(mentions)} gov-link mentions ({len(errs)} errors)")
         harvested.extend(mentions)
@@ -190,12 +206,18 @@ def rank(
     candidates = read_candidates(candidates_path)
     if limit > 0:
         candidates = candidates[:limit]
+    new_records = curate_candidates(candidates, CURATION_STORE, mentions=read_mention_store(MENTIONS_STORE))
+    if new_records:
+        console.print(f"Curated {len(new_records)} documents ({sum(1 for r in new_records if not r.include)} excluded)")
     items, untracked = _score_candidates(
         candidates,
         windows=window_days,
         rank_window=selected_rank_window,
         providers=provider_set,
     )
+    items, excluded = apply_curation_to_ranked(items, read_curation_store(CURATION_STORE))
+    if excluded:
+        console.print(f"Curation overlay: {excluded} documents excluded from outputs")
     write_ranked(output, items)
     write_ranked_views(output.parent, items)
     write_sample_markdown(output.with_name("sample_report.md"), items)
@@ -241,16 +263,34 @@ def daily(
         new_candidates = new_candidates + [c for c in adopted if c.url not in prior_adopted_urls]
 
     write_candidates(candidates_path, current)
+
+    # LLM triage of anything not yet curated (new discoveries, adoptions, and
+    # any backlog). Skips cleanly without ANTHROPIC_API_KEY; verdicts persist
+    # in the curation store so each document is judged once.
+    new_records = curate_candidates(current, CURATION_STORE, mentions=read_mention_store(MENTIONS_STORE))
+    if new_records:
+        console.print(
+            f"Curated {len(new_records)} documents ({sum(1 for r in new_records if not r.include)} excluded)"
+        )
+    curation_store = read_curation_store(CURATION_STORE)
+
+    new_candidates = apply_curation_to_candidates(new_candidates, curation_store)
     write_candidates(new_path, new_candidates)
     write_candidates_csv(new_path.with_suffix(".csv"), new_candidates)
 
     provider_set = {provider.lower() for provider in settings.providers}
+    # Scoring and the untracked summary run on the full inventory so matching
+    # keeps working and excluded junk never resurfaces as "untracked"; the
+    # curation overlay then filters and retitles everything user-facing.
     ranked, untracked = _score_candidates(
         current,
         windows=settings.windows,
         rank_window=settings.rank_window,
         providers=provider_set,
     )
+    ranked, excluded = apply_curation_to_ranked(ranked, curation_store)
+    if excluded:
+        console.print(f"Curation overlay: {excluded} documents excluded from outputs")
     write_ranked(ranked_path, ranked)
     write_ranked_views(ranked_path.parent, ranked)
     write_sample_markdown(ranked_path.with_name("sample_report.md"), ranked)

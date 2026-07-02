@@ -27,6 +27,10 @@ jobs:
           # are not set. Create a "script" app at reddit.com/prefs/apps.
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          # Optional: LLM curation (inventory triage + article-to-report
+          # matching). Skips cleanly if unset. Production key should belong
+          # to the City Council Anthropic account.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Upload outputs
         uses: actions/upload-artifact@v4
@@ -35,6 +39,7 @@ jobs:
           path: |
             data/candidates.jsonl
             data/mentions.jsonl
+            data/curation.jsonl
             data/articles_seen.txt
             outputs/
             site/data/dashboard.json
@@ -43,4 +48,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Update daily NYC report heat data"
-          file_pattern: "data/candidates.jsonl data/mentions.jsonl data/articles_seen.txt outputs/*.jsonl outputs/*.csv outputs/*.md site/data/dashboard.json"
+          file_pattern: "data/candidates.jsonl data/mentions.jsonl data/curation.jsonl data/articles_seen.txt outputs/*.jsonl outputs/*.csv outputs/*.md site/data/dashboard.json"

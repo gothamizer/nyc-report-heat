@@ -16,7 +16,7 @@ const state = {
   items: [],
   rankWindow: "7d",
   showAll: false,
-  filters: { kind: "all", source: "all", query: "", onlyHeat: false },
+  filters: { kind: "report", source: "all", query: "", onlyHeat: false },
 };
 
 /* ---------- thermal scale ----------
@@ -182,7 +182,9 @@ function applyFilters() {
   const q = query.trim().toLowerCase();
 
   let rows = state.items.filter((it) => {
-    if (kind !== "all" && it.kind !== kind) return false;
+    // publications sit under the Reports chip; there is no separate chip
+    const itemKind = it.kind === "publication" ? "report" : it.kind;
+    if (kind !== "all" && itemKind !== kind) return false;
     if (source !== "all" && it.source !== source) return false;
     if (onlyHeat && scoreFor(it) <= 0) return false;
     if (q) {

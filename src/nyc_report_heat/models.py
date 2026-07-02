@@ -57,9 +57,12 @@ class HarvestedMention(BaseModel):
     author: str | None = None
     published_at: datetime | None = None
     engagement: int = 0  # likes+reposts+quotes+replies / points+comments
-    # how the document was identified: a link in the content, or its exact
-    # distinctive title named in a tracked newsroom's article text
+    # how the document was identified: a link in the content, or the document
+    # named in a tracked newsroom's article text (verbatim-title regex or
+    # LLM-matched; either way the article is clickable evidence)
     via: Literal["link", "title"] = "link"
+    # for LLM-matched named mentions: the article sentence naming the document
+    match_quote: str | None = None
     harvested_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     @property

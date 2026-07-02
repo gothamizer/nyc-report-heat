@@ -18,6 +18,7 @@ The project intentionally separates:
 - **Harvest**: domain-first collection of every public pickup of a tracked gov domain — providers are queried per domain (~10 queries each), not per candidate, and results accumulate in a persistent mention store ([data/mentions.jsonl](data/mentions.jsonl)).
 - **Matching**: harvested links are joined against the inventory locally (normalized exact URL, canonical variants, distinctive PDF filename). Report-like gov links that don't match anything are adopted into the inventory on the next daily run; whatever remains is the "shared but untracked" list, which should normally be empty.
 - **Daily delta**: newly discovered candidates compared with the previous inventory.
+- **Curation**: an LLM stage (Claude Haiku) that triages every tracked document once — keep or exclude, a proper display title, a corrected kind — so the board grows without daily human review. See "LLM curation" below.
 
 ## Sources
 
@@ -41,6 +42,7 @@ uv run nyc-report-heat show --limit 25
 
 - [data/candidates.jsonl](data/candidates.jsonl): current canonical inventory.
 - [data/mentions.jsonl](data/mentions.jsonl): persistent harvested-mention store (one gov-link pickup per line, deduped).
+- `data/curation.jsonl`: persistent curation overlay — one LLM verdict per canonical URL (include/exclude, display title, kind).
 - `data/articles_seen.txt`: ledger of news articles already scanned for gov links.
 - [outputs/ranked.jsonl](outputs/ranked.jsonl): ranked records with component scores and evidence.
 - [outputs/ranked.csv](outputs/ranked.csv): frontend/spreadsheet-friendly ranking.
@@ -75,15 +77,47 @@ Every provider is free and unauthenticated. Heat collection is **domain-first**:
 - **Hacker News** (Algolia, no auth): stories whose URL is on a tracked gov domain, with points + comments as engagement.
 - **NYC press RSS** (`newsrss`): polls Gothamist, THE CITY, City & State, NY Post Metro, NYT NYRegion, amNY, and City Limits feeds, fetches each new article once (ledger: `data/articles_seen.txt`), and extracts outbound links to tracked gov domains — direct observation of journalists citing the document.
 
-Articles from these curated feeds also count a **named-in-print** pickup: the article
-text contains a tracked report's distinctive multi-word title verbatim *and* names the
-publishing body (TV and tabloid newsrooms regularly cover a report without linking it —
-"a 26-page City Council report titled 'Taken for a Ride'"). This is different from the
-title-based GDELT matching that was tried and removed: that matched loose title terms
-against a global news firehose and produced confident-looking coincidences ("Waste
-Management stocks" for a commercial-waste rule). Named-in-print matches only whole
-distinctive titles, only within the hand-picked NYC outlets, and every match stays
-clickable evidence — open the article and the report is named in it.
+Articles from these curated feeds also count a **named-in-print** pickup: coverage that
+names a tracked report without linking it (TV and tabloid newsrooms regularly cover a
+report this way — "a 26-page City Council report titled 'Taken for a Ride'"). Two tiers
+feed it. A verbatim tier matches the report's distinctive multi-word title plus the
+publishing body in the article text. An LLM tier (see "LLM curation") reads articles
+that pass a cheap agency-keyword prefilter against the tracked inventory and matches
+coverage that paraphrases the title. Both are different from the title-based GDELT
+matching that was tried and removed: that matched loose title terms against a global
+news firehose and produced confident-looking coincidences ("Waste Management stocks"
+for a commercial-waste rule). Named-in-print matching runs only within the hand-picked
+NYC outlets, the LLM is instructed to match only when the article identifies the
+specific document (topic overlap is not a match) and to copy the sentence that names
+it (stored on the mention as `match_quote`), and every match stays clickable
+evidence — open the article and the report is named in it.
+
+## LLM curation
+
+Recall-oriented discovery and adoption inevitably pick up junk: translation duplicates
+("Español (Spanish)"), cryptic filename titles ("Mv En Us 084Sum"), forms, brochures,
+and navigation pages. Instead of a human reviewing edge cases daily,
+[src/nyc_report_heat/curation.py](src/nyc_report_heat/curation.py) sends every tracked
+document to Claude (`claude-haiku-4-5`) exactly once: include or exclude, a proper
+display title, and a corrected kind. Verdicts persist in `data/curation.jsonl` keyed by
+canonical URL, and the daily run only triages documents that have no verdict yet
+(capped at 400 per run, batches of 20).
+
+Scoring, matching, and the untracked summary run on the **full** inventory, so an
+excluded document keeps absorbing its mentions instead of resurfacing in the
+bubbling-under list; the overlay then filters and retitles everything user-facing
+(dashboard feed, CSVs, daily summary).
+
+The same module powers the LLM named-in-print tier during harvest: articles that
+mention a tracked agency and a report-ish word are read against a shortlist of tracked
+documents (capped at 30 articles per run, article text truncated, shortlist prompt
+cached across calls).
+
+Both stages read `ANTHROPIC_API_KEY` from the environment and **skip cleanly without
+it** — the pipeline never hard-fails on a missing or exhausted key; the backlog just
+drains on the next run that has one. At Haiku pricing the whole system costs a few
+dollars a month: triage is a fraction of a cent per document (once ever), and article
+matching is bounded by the per-run article cap.
 
 All harvested mentions accumulate in `data/mentions.jsonl` (deduped on a stable uid, committed by the daily workflow), so rolling windows are computed from history rather than re-queried live, and a missed CI day loses nothing from backfill-capable providers. The HTTP client uses a browser User-Agent, retry/backoff on 429/5xx, and a per-request cache.
 

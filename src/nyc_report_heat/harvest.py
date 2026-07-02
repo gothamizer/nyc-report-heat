@@ -455,7 +455,11 @@ def harvest_news_feeds(
     ledger_path: Path,
     lookback_days: int = 14,
     candidates: list[Candidate] | None = None,
+    article_matcher=None,
 ) -> tuple[list[HarvestedMention], list[str]]:
+    """`article_matcher` (optional, from curation.make_article_matcher) reads
+    articles that name a tracked report without linking it and returns extra
+    named mentions; None disables the tier."""
     mentions: list[HarvestedMention] = []
     errors: list[str] = []
     seen_articles = read_article_ledger(ledger_path)
@@ -486,9 +490,27 @@ def harvest_news_feeds(
                 # Feed-inline content may still carry the links; fall through.
             seen_articles.add(article_key)
             checked.append(article_key)
-            mentions.extend(
-                _article_mentions(html, item, article_key, article_url, feed_url, outlet, domains, title_index)
+            article_mentions = _article_mentions(
+                html, item, article_key, article_url, feed_url, outlet, domains, title_index
             )
+            mentions.extend(article_mentions)
+            if article_matcher is not None:
+                text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+                already = {_fold_www(m.target_url) for m in article_mentions}
+                mentions.extend(
+                    article_matcher(
+                        {
+                            "key": article_key,
+                            "url": article_url,
+                            "title": item["title"],
+                            "outlet": outlet,
+                            "feed_url": feed_url,
+                            "published_at": item["published_at"],
+                        },
+                        text,
+                        already,
+                    )
+                )
     append_article_ledger(ledger_path, checked)
     return mentions, errors
 
