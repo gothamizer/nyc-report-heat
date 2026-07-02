@@ -48,9 +48,14 @@ news_feeds:
   - https://queenseagle.com/all?format=rss
   - https://www.brooklynpaper.com/feed/
   # TV/tabloid outlets that name reports in coverage without linking them
-  # (counted via the named-in-print tier).
+  # (counted via the named-in-print tier). This is how most New Yorkers
+  # hear about a report, so TV coverage is core attention signal.
   - https://pix11.com/feed/
   - https://nypost.com/us-news/feed/
+  - https://ny1.com/services/contentfeed.nyc%7Call-boroughs%7Cnews.landing.rss
+  - https://abc7ny.com/feed/
+  - https://www.cbsnews.com/newyork/latest/rss/main
+  - https://www.nbcnewyork.com/?rss=y
   # Beat and borough outlets that cover agency reports regularly.
   - https://www.documentedny.com/feed/
   - https://ny.chalkbeat.org/arc/outboundfeeds/rss/
