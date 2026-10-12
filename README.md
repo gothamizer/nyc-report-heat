@@ -1,5 +1,7 @@
 # NYC Report Heat — "The Hot 100"
 
+**Discontinued.** This project is no longer maintained and the dashboard is no longer deployed.
+
 Pipeline + dashboard for finding NYC government reports/rule changes and ranking objective public heat for the exact report/link.
 
 The frontend is **[The Hot 100](site/index.html)** — a kitschy radio-countdown dashboard that ranks the tracked inventory by public attention. It is a static site (no build step) that reads a single JSON feed produced by the pipeline ([site/data/dashboard.json](site/data/dashboard.json)) and is deployed to GitHub Pages.
